@@ -1,0 +1,575 @@
+<link rel="stylesheet" href="/webtest/uploader_andrew/images/promos/fontawesome.min.css">
+<script src="https://unpkg.com/react@16.0.0/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@16.0.0/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+<style type="text/css">
+    .four-across {
+        float: left;
+        width: 21%;
+        margin: 1em;
+        position: relative;
+        border-collapse: separate;
+    }
+
+    .two-across {
+        float: left;
+        width: 45%;
+        margin: 1em 1.7em 3px 0;
+        position: relative;
+        border-collapse: separate;
+    }
+
+    .three-across {
+        float: left;
+        width: 30%;
+        margin: 1em 1em 3px 0;
+        position: relative;
+        border-collapse: separate;
+    }
+
+    .three-times-size {
+        float: left;
+        margin: 1em 1.8em 3px 0;
+        position: relative;
+        border-collapse: separate;
+        width: 60%;
+    }
+
+    .first-row-input {
+        clear: left;
+    }
+
+    @media all and (max-width: 768px) {
+        .four-across,
+        .two-across,
+        .three-across,
+        .three-times-size {
+            float: none;
+            width: 90%;
+            margin: 1em auto;
+        }
+    }
+
+
+    .page-header {
+        text-align: left;
+        padding-bottom: 25px;
+        height: 210px;
+    }
+
+    .page-header .fa {
+        font-size: 6em;
+        color: #034694;
+    }
+
+    .header-graphic {
+        padding-left: 12px;
+        width: 16%;
+        float: left;
+    }
+
+    .header-content {
+        width: 83%;
+        float: left;
+    }
+
+    .return-page-title {
+        font-size: 27px;
+        line-height: 34px;
+        font-weight: 700;
+        display: block;
+        padding-top: 10px;
+    }
+
+    .return-page-sub-title {
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 600;
+    }
+
+    .explain-text {
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 400;
+        display: block;
+    }
+
+    .return-home-btn {
+        border: 1px solid #FFF;
+        color: #FFF;
+        border-radius: 2px;
+        background-color: #034694;
+        height: 45px;
+        margin: 20px auto;
+        display: block;
+        font-weight: bold;
+        transition: all .4s ease-in-out;
+        width: 46%;
+    }
+
+    .return-home-btn:hover {
+        border: 1px solid #034694;
+        color: #034694;
+        background-color: #FFF;
+        cursor: pointer;
+    }
+
+    @media all and (max-width: 768px) {
+        .header-graphic {
+            display: none;
+        }
+        .page-header {
+            text-align: center;
+            height: 160px;
+        }
+        .header-content {
+            width: 100%;
+            float: none;
+        }
+    }
+
+    @media all and (max-width: 768px) {
+        .explain-text {
+            font-size: 16px;
+            line-height: 24px;
+        }
+        .page-header {
+            margin: 10px 0 5px;
+        }
+    }
+
+    @media all and (max-width: 420px) {
+        .return-page-title {
+            font-size: 24px;
+            line-height: 30px;
+            padding-top: 10px;
+        }
+        .explain-text {
+            font-size: 14px;
+            line-height: 18px;
+        }
+
+        .return-page-sub-title {
+            font-size: 15px;
+            line-height: 21px;
+            margin-bottom: 6px;
+        }
+        .page-header {
+            padding: 2px 5px;
+        }
+    }
+
+    @media all and (max-width: 375px) {
+        .return-page-title {
+            font-size: 20px;
+            line-height: 27px;
+            padding-top: 3px;
+        }
+        .explain-text {
+            font-size: 12px;
+            line-height: 17px;
+        }
+    }
+
+    @media all and (max-width: 320px) {
+        .explain-text {
+            font-size: 14px;
+            line-height: 18px;
+        }
+        .return-page-sub-title {
+            font-size: 14px;
+            line-height: 18px;
+        }
+        .page-header {
+            padding: 2px 0;
+            margin: 10px 0 0;
+        }
+    }
+
+    .form-field .form-control {
+        padding: 9px 2px;
+        height: auto;
+    }
+    /*.form-field option{
+		padding: 4px 2px;
+		border-bottom: 1px solid #CCCCCC;
+		margin-bottom: 3px;
+	}*/
+
+    .label-text {
+        padding: 5px 0 10px 4px;
+        float: left;
+        text-align: left;
+    }
+
+    label sup {
+        top: -0.1em;
+    }
+
+    .fields {
+        width: 240px;
+        height: 40px;
+        float: left;
+        margin-right: 340px
+    }
+
+    .input-group {
+        height: 60px;
+    }
+
+    .input-field {
+        border: 1px solid #CCCCCC;
+        border-radius: 2px;
+        display: inline-block;
+        padding: 9px 2px;
+        width: 100%;
+    }
+
+    .error {
+        font-style: italic;
+        color: #D41920;
+        font-size: 13px;
+        display: none;
+    }
+
+    .error:before {
+        content: "\00BB \0020";
+        color: #D41920;
+    }
+
+    .show-el {
+        display: block !important;
+    }
+
+    .big-text {
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 500;
+    }
+
+    .section-wrap {
+        min-height: 180px;
+        height: 100%;
+        width: 100%;
+        margin: 20px 0;
+        padding: 5px 10px;
+        position: relative;
+    }
+
+    .return-info-wrap {
+        height: 280px;
+    }
+
+    .section-header {
+        padding: 20px 0 20px 10px;
+    }
+
+    .section-header h2 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    #your_comments,
+    #text_remaining {
+        width: 98%;
+        margin: 4px auto 0;
+        display: block;
+    }
+
+    .success-message {
+        width: 90%;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .success-message h2 {
+        font-size: 32px;
+        line-height: 44px;
+        font-weight: 700;
+    }
+
+    .success-message p {
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 600;
+    }
+
+    form {
+        margin: 10px auto 100px;
+    }
+
+    .form-submit-btn {
+        border: 1px solid #FFF;
+        color: #FFF;
+        border-radius: 2px;
+        background-color: #D71920;
+        height: 45px;
+        margin-top: 20px;
+        margin-left: 20px;
+        font-weight: bold;
+        transition: all .4s ease-in-out;
+        position: relative;
+        bottom: 0;
+        right: 20%;
+    }
+
+    .form-submit-btn:hover {
+        border: 1px solid #D71920;
+        color: #D71920;
+        background-color: #FFF;
+        cursor: pointer;
+    }
+
+    .hours-list {
+        width: 400px;
+        height: auto;
+        padding: 10px;
+        border: 3px solid #034694;
+        border-radius: 6px;
+        margin: 10px auto 0;
+    }
+
+    .hours-list h2 {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .hours-list ul {
+        list-style-type: none;
+    }
+
+    .hours-list ul li {
+        font-size: 17px;
+        font-weight: 500;
+        margin: 5px 0;
+        text-align: left;
+        padding-left: 5%;
+    }
+
+    @media all and (max-width: 768px) {
+        #your_comments,
+        #text_remaining {
+            width: 100%;
+        }
+
+        .form-submit-btn {
+            margin-left: 0;
+            right: 0;
+            width: 100%;
+        }
+        .return-info-wrap {
+            height: 460px;
+        }
+
+        .label-text {
+            float: none;
+        }
+        .input-field {
+            display: block;
+            width: 100%;
+        }
+    }
+
+    @media all and (max-width: 460px) {
+        .hours-list {
+            width: 276px;
+        }
+        .hours-list h2 {
+            font-size: 14px;
+        }
+        .hours-list ul li {
+            font-size: 13px;
+            padding-left: 12px;
+        }
+        .success-message p {
+            font-size: 14px;
+            line-height: 19.5px;
+        }
+    }
+</style>
+
+<div id="root"></div>
+
+<script type="text/babel">
+
+    class Header extends React.Component { render() { return (
+    <header className="page-header">
+        <div className="header-graphic">
+            <i className="fa fa-history" aria-hidden="true"></i>
+        </div>
+        <div className="header-content">
+            <h1 className="return-page-title">Return or Exchange an Item</h1>
+            <p className="return-page-sub-title">Need to return an item? We’re happy to help!</p>
+            <p className="explain-text">Please complete and submit the form below, and a customer service agent will contact you soon.</p>
+            <p className="explain-text">All returns must fall within our
+                <a href="https://www.pcrichard.com/customer-service/return-policy">policy guidelines</a>.</p>
+            <p className="explain-text">For all other comments and questions, please
+                <a title="Contact Us" href="https://www.pcrichard.com/global/modals/modal-contact.jsp?modal=true"
+                    data-toggle="modal" data-target="#pcrModal">contact us here</a>.</p>
+        </div>
+    </header>
+    ) } } class Form extends React.Component { constructor() { super(); this.state= { name: '', phone: '', email: '', invoice:
+    '', model:'', reasonSelect: '', typeSelect:'', packagingSelect: '', comments: '', phoneValid: false, emailValid: false,
+    invoiceValid: false, modelValid: false, typeValid: false, reasonValid: false, packagingValid: false, formValid: false
+    } this.onChange = this.onChange.bind(this); this.handleNameChange = this.handleNameChange.bind(this); this.handlePhoneChange
+    = this.handlePhoneChange.bind(this); this.handleEmailChange = this.handleEmailChange.bind(this); this.handleModelChange
+    = this.handleModelChange.bind(this); this.handleInvoiceChange = this.handleInvoiceChange.bind(this); this.handleTypeChange
+    = this.handleTypeChange.bind(this); this.handleReasonChange = this.handleReasonChange.bind(this); this.handlePackagingChange
+    = this.handlePackagingChange.bind(this); this.handleCommentsChange = this.handleCommentsChange.bind(this); this.handlePhoneKeyUp
+    = this.handlePhoneKeyUp.bind(this); this.textCountdown = this.textCountdown.bind(this, 'textRemaining'); this.checkPhone
+    = this.checkPhone.bind(this); this.checkEmail = this.checkEmail.bind(this); this.checkModel = this.checkModel.bind(this);
+    this.checkInvoice = this.checkInvoice.bind(this); this.checkSelects = this.checkSelects.bind(this); this.checkFormValidation
+    = this.checkFormValidation.bind(this); this.checkForm = this.checkForm.bind(this); this.submitForm = this.submitForm.bind(this);
+    } static reasonOptions = [ 'Damaged', 'Defective', 'Not the right model ordered', 'Changed Mind', 'Other' ] static typeOptions
+    = [ 'return for refund', 'return for store credit', 'even exchange', 'exchange for different model' ] static packagingOptions
+    = [ 'never opened', 'opened but in original new condition', 'opened but does not have packaging' ] textCountdown(refName,
+    e){ let maxLength = 1000; let textLength = e.target.value.length; let charsRemaining = maxLength - textLength; this.refs[refName].innerHTML
+    = charsRemaining + ' characters remaining'; } handlePhoneKeyUp(e){ let str = e.target.value; let updatedStr = str.replace(/\(?(\d{3})\)?(\d{3})\-?(\d{4})/,'($1)
+    $2-$3'); this.setState({ phone: updatedStr }) } onChange(field, value) { this.setState({ ...this.state, [field]: value
+    }); } handleNameChange(e){ this.onChange('name', e.target.value) } handlePhoneChange(e){ this.onChange('phone', e.target.value)
+    } handleEmailChange(e){ this.onChange('email', e.target.value) } handleModelChange(e){ this.onChange('model', e.target.value)
+    } handleInvoiceChange(e){ this.onChange('invoice', e.target.value) } handleTypeChange(e){ this.onChange('typeSelect',
+    e.target.value) } handleReasonChange(e){ this.onChange('reasonSelect', e.target.value) } handlePackagingChange(e){ this.onChange('packagingSelect',
+    e.target.value) } handleCommentsChange(e){ this.onChange('comments', e.target.value) } checkPhone(){ let phoneState =
+    this.state.phone; let phoneStateStripped = phoneState.replace(/[\s- )(]/g,""); let phoneRegex = /^\d{10}$/; var phoneCheck
+    = phoneRegex.test(phoneStateStripped); var phoneLength = phoneStateStripped.length; if(phoneLength >= 1){ if(!phoneCheck){
+    this.setState({ phoneValid: false }) } else { phoneValid: true } } else { phoneValid: true } } checkEmail(){} checkModel(){}
+    checkInvoice(){} checkSelects(){} checkForm(){ this.checkPhone(); this.checkEmail(); this.checkModel(); this.checkInvoice();
+    this.checkSelects(); if(this.state.phoneValid === true && this.state.emailValid === true && this.state.modelValid ===
+    true && this.state.invoiceValid === true && this.state.typeValid === true && this.state.reasonValid === true && this.state.packagingValid
+    === true){ this.setState({ formValid: true }) } else { this.setState({ formValid: false }) } } checkFormValidation(e){
+    e.preventDefault(); this.checkform(); let isFormValid = this.state.formValid; if(isFormValid == false){ //fail console.log('form
+    not valid'); } else { //continue console.log('form is valid'); submitForm(); } } submitForm(){ } render() { return (
+    <form id="return_auth_form" action="">
+        <section className="cust-info-wrap row section-wrap">
+            <header className="col-xs-12 section-header">
+                <h2>Customer Information: </h2>
+            </header>
+
+            <div className="three-times-size">
+                <label htmlFor="cust_name" className="label-text">Name</label>
+                <input id="cust_name" name="cust_name" className="input-field your-name" aria-labelledby="Name" type="text" maxLength="50"
+                    value={this.state.name} onChange={this.handleNameChange} placeholder="Your Name" />
+                <p className="error name-err">Please Add a Valid Name</p>
+            </div>
+
+            <div className="three-across">
+                <label htmlFor="cust_phone" className="label-text">Phone</label>
+                <input id="cust_phone" name="cust_phone" className="input-field your-phone masked" aria-labelledby="Phone" type="tel" name="phone"
+                    pattern="\(\d{3}\) \d{3}-\d{4}?" title="Phone Number" maxLength="14" placeholder="(555) 555-5555" value={this.state.phone}
+                    onChange={this.handlePhoneChange} onKeyUp={this.handlePhoneKeyUp} />
+                <p className="error phone-err">Please Add a Valid Phone Number</p>
+            </div>
+
+            <div className="three-times-size">
+                <label htmlFor="cust_email" className="label-text">Email
+                    <sup>*</sup>
+                </label>
+                <input id="cust_email" name="cust_email" className="input-field your-email" aria-labelledby="Email" type="email" maxLength="40"
+                    placeholder="name@example.com" value={this.state.email} onChange={this.handleEmailChange} required />
+                <p className="error email-err">Please Add a Valid Email</p>
+            </div>
+
+
+
+
+        </section>
+        <section className="return-info-wrap section-wrap">
+            <header className="col-xs-12 section-header">
+                <h2>Return Information: </h2>
+            </header>
+            <div className="two-across first-row-input">
+                <label htmlFor="cust_invoice" className="label-text">Invoice
+                    <sup>*</sup>
+                </label>
+                <input id="cust_invoice" name="cust_invoice" className="input-field your-invoice" aria-labelledby="Invoice" type="text" name="Invoice"
+                    maxLength="11" placeholder="123-4567890" value={this.state.invoice} onChange={this.handleInvoiceChange} required
+                />
+                <p className="error invoice-err">Please Add a Valid Invoice Number</p>
+            </div>
+
+            <div className="two-across">
+                <label htmlFor="model_num" className="label-text">Model Number
+                    <sup>*</sup>
+                </label>
+                <input id="model_num" name="model_num" className="input-field model-number" type="text" name="Model Number" maxLength="12"
+                    placeholder="Model Number" value={this.state.model} onChange={this.handleModelChange} required />
+                <p className="error model-err">Please Add a Valid Model Number</p>
+            </div>
+
+
+
+            <div className="form-field form-group three-across return-reason first-row-input">
+                <label htmlFor="return_reason" className="label-text">Return Reason
+                    <sup>*</sup>
+                </label>
+                <select className="form-control" id="return_reason" name="return_reason" value={this.state.reasonSelect} onChange={this.handleReasonChange}
+                    required>
+                    <option value="" disabled selected>Select a Reason</option>
+                    <option name="Damaged" value="Damaged">Damaged</option>
+                    <option name="Defective" value="Defective">Defective</option>
+                    <option name="Not the right model ordered" value="Not the right model ordered">Wrong Model Ordered</option>
+                    <option name="Changed Mind" value="Changed Mind">Changed Mind</option>
+                    <option name="Other" value="Other">Other</option>
+                </select>
+                <p className="error ret-reason-err">Please make a Selection</p>
+            </div>
+
+            <div className="form-field form-group three-across return-type">
+                <label htmlFor="return_type" className="label-text">Return Type
+                    <sup>*</sup>
+                </label>
+                <select className="form-control" id="return_type" name="return_type" value={this.state.typeSelect} onChange={this.handleTypeChange}
+                    required>
+                    <option value="" disabled selected>Select a Type</option>
+                    <option name="return for refund" value="return for refund">Refund</option>
+                    <option name="return for store credit" value="return for store credit">Store credit</option>
+                    <option name="even exchange" value="even exchange">even exchange</option>
+                    <option naem="exchange for different model" value="exchange for different model">exchange for different model</option>
+                </select>
+                <p className="error ret-type-err">Please make a Selection</p>
+            </div>
+
+            <div className="form-field form-group three-across return-packaging">
+                <label htmlFor="return_packaging" className="label-text">Return Packaging
+                    <sup>*</sup>
+                </label>
+                <select className="form-control" id="return_packaging" name="return_packaging" value={this.state.packagingSelect} onChange={this.handlePackagingChange}
+                    required>
+                    <option value="" disabled selected>Select Packaging</option>
+                    <option name="never opened" value="never opened">never opened</option>
+                    <option name="opened but in original new condition" value="opened but in original new condition">opened but in original new condition</option>
+                    <option name="opened but does not have packaging" value="opened but does not have packaging">opened but does not have packaging</option>
+                </select>
+                <p className="error ret-packaging-err">Please make a Selection</p>
+            </div>
+
+        </section>
+
+        <section className="comments-wrap section-wrap">
+            <header className="col-xs-12 section-header">
+                <h2>Comments </h2>
+            </header>
+            <div className="form-field col-xs-12">
+                <textarea id="cust_comments" name="your_comments" className="form-control your-comments" cols="25" rows="7" maxLength="1000"
+                    value={this.state.comments} onChange={this.handleCommentsChange} onKeyUp={this.textCountdown}></textarea>
+
+                <p id="text_remaining" ref="textRemaining">1000 characters remaining</p>
+                <p className="error comments-err">Please add a Valid Comment</p>
+            </div>
+        </section>
+
+        <section className="submit-wrap section-wrap">
+            <button className="btn btn-primary form-submit-btn pull-right" onClick={this.checkFormValidation} type="submit">Submit</button>
+        </section>
+
+
+    </form>
+    ) } } const view = (
+    <main className="container">
+        <Header></Header>
+        <Form></Form>
+    </main>
+    ) ReactDOM.render( view, document.getElementById('root'), )
+</script>
