@@ -84,7 +84,7 @@
         </div>
         <div class="submenu_button" data="5">
             <i class="icon-icon_appliances"></i>
-            <div class="undermenu">Small Appliances</div>
+            <div class="undermenu">Small&nbsp;Appliances</div>
         </div>
         <div class="submenu_button" data="6">
             <i class="icon-icon_appliances"></i>
@@ -121,7 +121,7 @@
     <div class="fsi" id="pg2" data2="Hot Deals"></div>
     <div class="fsi" id="pg3" data2="Mattresses"></div>
     <div class="fsi" id="pg4" data2="Mattresses"></div>
-    <div class="fsi" id="pg5" data2="Small Appliances"></div>
+    <div class="fsi" id="pg5" data2="Small&nbsp;Appliances"></div>
     <div class="fsi" id="pg6" data2="Appliances"></div>
     <div class="fsi" id="pg7" data2="Appliances"></div>
     <div class="fsi" id="pg8" data2="Appliances"></div>
@@ -210,12 +210,12 @@
 
 
 
-    // FSI Gen 4.5 Beta 3
-    // Total Page Limit 30
-    // Gen 4 Page limit 30  
-    // Production Stable 0.75
+    // FSI Gen 4.8 Beta 4
+    // Total Page Limit 40
+    // Gen 4 Page limit 40  
+    // Production Stable 0.85
     // WEB APP : IOS / ANDROID / WIN 10
-    // Dominick Ricciardi 9/2017
+    // Dominick Ricciardi 12/2017
 
 
     $('head').html($('head').html() +
@@ -295,7 +295,16 @@
     var id27 = '#pg0';
     var id28 = '#pg0';
     var id29 = '#pg0';
-
+    var id30 = '#pg0';
+    var id31 = '#pg0';
+    var id32 = '#pg0';
+    var id33 = '#pg0';
+    var id34 = '#pg0';
+    var id35 = '#pg0';
+    var id36 = '#pg0';
+    var id37 = '#pg0';
+    var id38 = '#pg0';
+    var id39 = '#pg0';
     var resp = '#pg0';
     var resp1 = '#pg0';
     var resp2 = '#pg0';
@@ -326,10 +335,16 @@
     var resp27 = '#pg0';
     var resp28 = '#pg0';
     var resp29 = '#pg0';
-
-
-
-
+    var resp30 = '#pg0';
+    var resp31 = '#pg0';
+    var resp32 = '#pg0';
+    var resp33 = '#pg0';
+    var resp34 = '#pg0';
+    var resp35 = '#pg0';
+    var resp36 = '#pg0';
+    var resp37 = '#pg0';
+    var resp38 = '#pg0';
+    var resp39 = '#pg0';
     var myjax = 0,
         myjax2 = "",
         myjax3 = "#pg0",
@@ -366,6 +381,16 @@
         pg27first = 0,
         pg28first = 0,
         pg29first = 0,
+        pg30first = 0,
+        pg31first = 0,
+        pg32first = 0,
+        pg33first = 0,
+        pg34first = 0,
+        pg35first = 0,
+        pg36first = 0,
+        pg37first = 0,
+        pg38first = 0,
+        pg39first = 0,
         pg1last = 100,
         pg2last = 100,
         pg3last = 100,
@@ -395,6 +420,16 @@
         pg27last = 100,
         pg28last = 100,
         pg29last = 100,
+        pg30last = 100,
+        pg31last = 100,
+        pg32last = 100,
+        pg33last = 100,
+        pg34last = 100,
+        pg35last = 100,
+        pg36last = 100,
+        pg37last = 100,
+        pg38last = 100,
+        pg39last = 100,
         page1id = "#p0",
         page2id = "#p0",
         page3id = "#p0",
@@ -424,6 +459,16 @@
         page27id = "#p0",
         page28id = "#p0",
         page29id = "#p0",
+        page30id = "#p0",
+        page31id = "#p0",
+        page32id = "#p0",
+        page33id = "#p0",
+        page34id = "#p0",
+        page35id = "#p0",
+        page36id = "#p0",
+        page37id = "#p0",
+        page38id = "#p0",
+        page39id = "#p0",
         ajaxtype1 = "",
         ajaxtype2 = "",
         ajaxtype3 = "",
@@ -454,6 +499,16 @@
         ajaxtype27 = "",
         ajaxtype28 = "",
         ajaxtype29 = "";
+    ajaxtype30 = "";
+    ajaxtype31 = "";
+    ajaxtype32 = "";
+    ajaxtype33 = "";
+    ajaxtype34 = "";
+    ajaxtype35 = "";
+    ajaxtype36 = "";
+    ajaxtype37 = "";
+    ajaxtype38 = "";
+    ajaxtype39 = "";
 
 
     var nu = 0;
@@ -816,7 +871,6 @@
 
                     break;
 
-
                 case '#29':
                     pg29first = parseInt($("#pg" + location.hash.replace("#", "")).children(".internalflyer").children(
                             ".promo_box").first()
@@ -825,6 +879,116 @@
                             ".promo_box").last()
                         .attr("id").replace("p", ""));
                     ajaxcomplete29()
+
+                    break;
+
+                case '#30':
+                    pg30first = parseInt($("#pg" + location.hash.replace("#", "")).children(".internalflyer").children(
+                            ".promo_box").first()
+                        .attr("id").replace("p", ""));
+                    pg30last = parseInt($("#pg" + location.hash.replace("#", "")).children(".internalflyer").children(
+                            ".promo_box").last()
+                        .attr("id").replace("p", ""));
+                    ajaxcomplete30()
+
+                    break;
+
+                case '#31':
+                    pg31first = parseInt($("#pg" + location.hash.replace("#", "")).children(".internalflyer").children(
+                            ".promo_box").first()
+                        .attr("id").replace("p", ""));
+                    pg31last = parseInt($("#pg" + location.hash.replace("#", "")).children(".internalflyer").children(
+                            ".promo_box").last()
+                        .attr("id").replace("p", ""));
+                    ajaxcomplete31()
+
+                    break;
+
+                case '#32':
+                    pg32first = parseInt($("#pg" + location.hash.replace("#", "")).children(".internalflyer").children(
+                            ".promo_box").first()
+                        .attr("id").replace("p", ""));
+                    pg32last = parseInt($("#pg" + location.hash.replace("#", "")).children(".internalflyer").children(
+                            ".promo_box").last()
+                        .attr("id").replace("p", ""));
+                    ajaxcomplete32()
+
+                    break;
+                case '#33':
+                    pg33first = parseInt($("#pg" + location.hash.replace("#", "")).children(".internalflyer").children(
+                            ".promo_box").first()
+                        .attr("id").replace("p", ""));
+                    pg33last = parseInt($("#pg" + location.hash.replace("#", "")).children(".internalflyer").children(
+                            ".promo_box").last()
+                        .attr("id").replace("p", ""));
+                    ajaxcomplete33()
+
+                    break;
+
+                case '#34':
+                    pg34first = parseInt($("#pg" + location.hash.replace("#", "")).children(".internalflyer").children(
+                            ".promo_box").first()
+                        .attr("id").replace("p", ""));
+                    pg34last = parseInt($("#pg" + location.hash.replace("#", "")).children(".internalflyer").children(
+                            ".promo_box").last()
+                        .attr("id").replace("p", ""));
+                    ajaxcomplete34()
+
+                    break;
+
+                case '#35':
+                    pg35first = parseInt($("#pg" + location.hash.replace("#", "")).children(".internalflyer").children(
+                            ".promo_box").first()
+                        .attr("id").replace("p", ""));
+                    pg35last = parseInt($("#pg" + location.hash.replace("#", "")).children(".internalflyer").children(
+                            ".promo_box").last()
+                        .attr("id").replace("p", ""));
+                    ajaxcomplete35()
+
+                    break;
+
+                case '#36':
+                    pg36first = parseInt($("#pg" + location.hash.replace("#", "")).children(".internalflyer").children(
+                            ".promo_box").first()
+                        .attr("id").replace("p", ""));
+                    pg36last = parseInt($("#pg" + location.hash.replace("#", "")).children(".internalflyer").children(
+                            ".promo_box").last()
+                        .attr("id").replace("p", ""));
+                    ajaxcomplete36()
+
+                    break;
+
+                case '#37':
+                    pg37first = parseInt($("#pg" + location.hash.replace("#", "")).children(".internalflyer").children(
+                            ".promo_box").first()
+                        .attr("id").replace("p", ""));
+                    pg37last = parseInt($("#pg" + location.hash.replace("#", "")).children(".internalflyer").children(
+                            ".promo_box").last()
+                        .attr("id").replace("p", ""));
+                    ajaxcomplete37()
+
+                    break;
+
+                case '#38':
+                    pg38first = parseInt($("#pg" + location.hash.replace("#", "")).children(".internalflyer").children(
+                            ".promo_box").first()
+                        .attr("id").replace("p", ""));
+                    pg38last = parseInt($("#pg" + location.hash.replace("#", "")).children(".internalflyer").children(
+                            ".promo_box").last()
+                        .attr("id").replace("p", ""));
+                    ajaxcomplete38()
+
+                    break;
+
+
+                case '#39':
+                    pg39first = parseInt($("#pg" + location.hash.replace("#", "")).children(".internalflyer").children(
+                            ".promo_box").first()
+                        .attr("id").replace("p", ""));
+                    pg39last = parseInt($("#pg" + location.hash.replace("#", "")).children(".internalflyer").children(
+                            ".promo_box").last()
+                        .attr("id").replace("p", ""));
+                    ajaxcomplete39()
 
 
 
@@ -1030,6 +1194,95 @@
 
     }
 
+    function ajaxcomplete30() {
+        if (pg30first <= pg30last) {
+            page30id = "#p" + pg30first.toString();
+            ajaxtype30 = $(page30id).attr("data");
+            ajaxtype30.indexOf("/") > -1 ? page30() : page30a()
+        }
+
+    }
+
+    function ajaxcomplete31() {
+        if (pg31first <= pg31last) {
+            page31id = "#p" + pg31first.toString();
+            ajaxtype31 = $(page31id).attr("data");
+            ajaxtype31.indexOf("/") > -1 ? page31() : page31a()
+        }
+
+    }
+
+    function ajaxcomplete32() {
+        if (pg32first <= pg32last) {
+            page32id = "#p" + pg32first.toString();
+            ajaxtype32 = $(page32id).attr("data");
+            ajaxtype32.indexOf("/") > -1 ? page32() : page32a()
+        }
+
+    }
+
+    function ajaxcomplete33() {
+        if (pg33first <= pg33last) {
+            page33id = "#p" + pg33first.toString();
+            ajaxtype33 = $(page33id).attr("data");
+            ajaxtype33.indexOf("/") > -1 ? page33() : page33a()
+        }
+
+    }
+
+    function ajaxcomplete34() {
+        if (pg34first <= pg34last) {
+            page34id = "#p" + pg34first.toString();
+            ajaxtype34 = $(page34id).attr("data");
+            ajaxtype34.indexOf("/") > -1 ? page34() : page34a()
+        }
+
+    }
+
+    function ajaxcomplete35() {
+        if (pg35first <= pg35last) {
+            page35id = "#p" + pg35first.toString();
+            ajaxtype35 = $(page35id).attr("data");
+            ajaxtype35.indexOf("/") > -1 ? page35() : page35a()
+        }
+
+    }
+
+    function ajaxcomplete36() {
+        if (pg36first <= pg36last) {
+            page36id = "#p" + pg36first.toString();
+            ajaxtype36 = $(page36id).attr("data");
+            ajaxtype36.indexOf("/") > -1 ? page36() : page36a()
+        }
+
+    }
+
+    function ajaxcomplete37() {
+        if (pg37first <= pg37last) {
+            page37id = "#p" + pg37first.toString();
+            ajaxtype37 = $(page37id).attr("data");
+            ajaxtype37.indexOf("/") > -1 ? page37() : page37a()
+        }
+
+    }
+
+    function ajaxcomplete38() {
+        if (pg38first <= pg38last) {
+            page38id = "#p" + pg38first.toString();
+            ajaxtype38 = $(page38id).attr("data");
+            ajaxtype38.indexOf("/") > -1 ? page38() : page38a()
+        }
+
+    }
+
+    function ajaxcomplete39() {
+        if (pg39first <= pg39last) {
+            page39id = "#p" + pg39first.toString();
+            ajaxtype39 = $(page39id).attr("data");
+            ajaxtype39.indexOf("/") > -1 ? page39() : page39a()
+        }
+
+    }
 
 
     function page0() {
@@ -2001,7 +2254,367 @@
     }
 
 
+    function page30() {
 
+        "use strict";
+        pg30last >= pg30first ?
+            $.ajax({
+                url: $(page30id).attr("data"),
+                timeout: 4e3,
+                type: "GET",
+                cache: false,
+                success: function (a) {
+                    $(page30id).not('.finished').children(".dynamic").html($("#productsList", a).html()),
+                        $(".qv").remove(),
+                        $(page30id).addClass('finished'),
+                        $(".tvcallout").children(".dynamic").children(".product").each(function () {
+                            $(this).append(tvcallout);
+                        }), $(".promo_motion_data").delay(2e3).show(),
+
+                        $(".product").not(".wrapped").each(function () {
+                            $(this).wrap("<a title='Click for " + $(this).children(".product-content").children(
+                                ".description").children(
+                                "div.a").children("span.model").text() + "' href='" + $(this).children(
+                                ".product-content").children(
+                                ".image").children("div").children("a").attr("href") + "'></a>");
+                        }), pg30first++, ajaxcomplete30()
+                },
+
+                error: function () {
+                    ajaxcomplete30(), pg30first++
+                }
+            }) : (resp30 = "", id30 = "", $(".product").each(function () {
+                "" === $(this).children(".product-content").children(".shop").children(".price").children(
+                    "span.is").text() && $(
+                    this).addClass("ex-largetext")
+            }))
+    }
+
+    function page31() {
+
+        "use strict";
+        pg31last >= pg31first ?
+            $.ajax({
+                url: $(page31id).attr("data"),
+                timeout: 4e3,
+                type: "GET",
+                cache: false,
+                success: function (a) {
+                    $(page31id).not('.finished').children(".dynamic").html($("#productsList", a).html()),
+                        $(".qv").remove(),
+                        $(page31id).addClass('finished'),
+                        $(".tvcallout").children(".dynamic").children(".product").each(function () {
+                            $(this).append(tvcallout);
+                        }), $(".promo_motion_data").delay(2e3).show(),
+
+                        $(".product").not(".wrapped").each(function () {
+                            $(this).wrap("<a title='Click for " + $(this).children(".product-content").children(
+                                ".description").children(
+                                "div.a").children("span.model").text() + "' href='" + $(this).children(
+                                ".product-content").children(
+                                ".image").children("div").children("a").attr("href") + "'></a>");
+                        }), pg31first++, ajaxcomplete31()
+                },
+
+                error: function () {
+                    ajaxcomplete31(), pg31first++
+                }
+            }) : (resp31 = "", id31 = "", $(".product").each(function () {
+                "" === $(this).children(".product-content").children(".shop").children(".price").children(
+                    "span.is").text() && $(
+                    this).addClass("ex-largetext")
+            }))
+    }
+
+    function page32() {
+
+        "use strict";
+        pg32last >= pg32first ?
+            $.ajax({
+                url: $(page32id).attr("data"),
+                timeout: 4e3,
+                type: "GET",
+                cache: false,
+                success: function (a) {
+                    $(page32id).not('.finished').children(".dynamic").html($("#productsList", a).html()),
+                        $(".qv").remove(),
+                        $(page32id).addClass('finished'),
+                        $(".tvcallout").children(".dynamic").children(".product").each(function () {
+                            $(this).append(tvcallout);
+                        }), $(".promo_motion_data").delay(2e3).show(),
+
+                        $(".product").not(".wrapped").each(function () {
+                            $(this).wrap("<a title='Click for " + $(this).children(".product-content").children(
+                                ".description").children(
+                                "div.a").children("span.model").text() + "' href='" + $(this).children(
+                                ".product-content").children(
+                                ".image").children("div").children("a").attr("href") + "'></a>");
+                        }), pg32first++, ajaxcomplete32()
+                },
+
+                error: function () {
+                    ajaxcomplete32(), pg32first++
+                }
+            }) : (resp32 = "", id32 = "", $(".product").each(function () {
+                "" === $(this).children(".product-content").children(".shop").children(".price").children(
+                    "span.is").text() && $(
+                    this).addClass("ex-largetext")
+            }))
+    }
+
+    function page33() {
+
+        "use strict";
+        pg33last >= pg33first ?
+            $.ajax({
+                url: $(page33id).attr("data"),
+                timeout: 4e3,
+                type: "GET",
+                cache: false,
+                success: function (a) {
+                    $(page33id).not('.finished').children(".dynamic").html($("#productsList", a).html()),
+                        $(".qv").remove(),
+                        $(page33id).addClass('finished'),
+                        $(".tvcallout").children(".dynamic").children(".product").each(function () {
+                            $(this).append(tvcallout);
+                        }), $(".promo_motion_data").delay(2e3).show(),
+
+                        $(".product").not(".wrapped").each(function () {
+                            $(this).wrap("<a title='Click for " + $(this).children(".product-content").children(
+                                ".description").children(
+                                "div.a").children("span.model").text() + "' href='" + $(this).children(
+                                ".product-content").children(
+                                ".image").children("div").children("a").attr("href") + "'></a>");
+                        }), pg33first++, ajaxcomplete33()
+                },
+
+                error: function () {
+                    ajaxcomplete33(), pg33first++
+                }
+            }) : (resp33 = "", id33 = "", $(".product").each(function () {
+                "" === $(this).children(".product-content").children(".shop").children(".price").children(
+                    "span.is").text() && $(
+                    this).addClass("ex-largetext")
+            }))
+    }
+
+    function page34() {
+
+        "use strict";
+        pg34last >= pg34first ?
+            $.ajax({
+                url: $(page34id).attr("data"),
+                timeout: 4e3,
+                type: "GET",
+                cache: false,
+                success: function (a) {
+                    $(page34id).not('.finished').children(".dynamic").html($("#productsList", a).html()),
+                        $(".qv").remove(),
+                        $(page34id).addClass('finished'),
+                        $(".tvcallout").children(".dynamic").children(".product").each(function () {
+                            $(this).append(tvcallout);
+                        }), $(".promo_motion_data").delay(2e3).show(),
+
+                        $(".product").not(".wrapped").each(function () {
+                            $(this).wrap("<a title='Click for " + $(this).children(".product-content").children(
+                                ".description").children(
+                                "div.a").children("span.model").text() + "' href='" + $(this).children(
+                                ".product-content").children(
+                                ".image").children("div").children("a").attr("href") + "'></a>");
+                        }), pg34first++, ajaxcomplete34()
+                },
+
+                error: function () {
+                    ajaxcomplete34(), pg34first++
+                }
+            }) : (resp34 = "", id34 = "", $(".product").each(function () {
+                "" === $(this).children(".product-content").children(".shop").children(".price").children(
+                    "span.is").text() && $(
+                    this).addClass("ex-largetext")
+            }))
+    }
+
+    function page35() {
+
+        "use strict";
+        pg35last >= pg35first ?
+            $.ajax({
+                url: $(page35id).attr("data"),
+                timeout: 4e3,
+                type: "GET",
+                cache: false,
+                success: function (a) {
+                    $(page35id).not('.finished').children(".dynamic").html($("#productsList", a).html()),
+                        $(".qv").remove(),
+                        $(page35id).addClass('finished'),
+                        $(".tvcallout").children(".dynamic").children(".product").each(function () {
+                            $(this).append(tvcallout);
+                        }), $(".promo_motion_data").delay(2e3).show(),
+
+                        $(".product").not(".wrapped").each(function () {
+                            $(this).wrap("<a title='Click for " + $(this).children(".product-content").children(
+                                ".description").children(
+                                "div.a").children("span.model").text() + "' href='" + $(this).children(
+                                ".product-content").children(
+                                ".image").children("div").children("a").attr("href") + "'></a>");
+                        }), pg35first++, ajaxcomplete35()
+                },
+
+                error: function () {
+                    ajaxcomplete35(), pg35first++
+                }
+            }) : (resp35 = "", id35 = "", $(".product").each(function () {
+                "" === $(this).children(".product-content").children(".shop").children(".price").children(
+                    "span.is").text() && $(
+                    this).addClass("ex-largetext")
+            }))
+    }
+
+
+    function page36() {
+
+        "use strict";
+        pg36last >= pg36first ?
+            $.ajax({
+                url: $(page36id).attr("data"),
+                timeout: 4e3,
+                type: "GET",
+                cache: false,
+                success: function (a) {
+                    $(page36id).not('.finished').children(".dynamic").html($("#productsList", a).html()),
+                        $(".qv").remove(),
+                        $(page36id).addClass('finished'),
+                        $(".tvcallout").children(".dynamic").children(".product").each(function () {
+                            $(this).append(tvcallout);
+                        }), $(".promo_motion_data").delay(2e3).show(),
+
+                        $(".product").not(".wrapped").each(function () {
+                            $(this).wrap("<a title='Click for " + $(this).children(".product-content").children(
+                                ".description").children(
+                                "div.a").children("span.model").text() + "' href='" + $(this).children(
+                                ".product-content").children(
+                                ".image").children("div").children("a").attr("href") + "'></a>");
+                        }), pg36first++, ajaxcomplete36()
+                },
+
+                error: function () {
+                    ajaxcomplete36(), pg36first++
+                }
+            }) : (resp36 = "", id36 = "", $(".product").each(function () {
+                "" === $(this).children(".product-content").children(".shop").children(".price").children(
+                    "span.is").text() && $(
+                    this).addClass("ex-largetext")
+            }))
+    }
+
+
+    function page37() {
+
+        "use strict";
+        pg37last >= pg37first ?
+            $.ajax({
+                url: $(page37id).attr("data"),
+                timeout: 4e3,
+                type: "GET",
+                cache: false,
+                success: function (a) {
+                    $(page37id).not('.finished').children(".dynamic").html($("#productsList", a).html()),
+                        $(".qv").remove(),
+                        $(page37id).addClass('finished'),
+                        $(".tvcallout").children(".dynamic").children(".product").each(function () {
+                            $(this).append(tvcallout);
+                        }), $(".promo_motion_data").delay(2e3).show(),
+
+                        $(".product").not(".wrapped").each(function () {
+                            $(this).wrap("<a title='Click for " + $(this).children(".product-content").children(
+                                ".description").children(
+                                "div.a").children("span.model").text() + "' href='" + $(this).children(
+                                ".product-content").children(
+                                ".image").children("div").children("a").attr("href") + "'></a>");
+                        }), pg37first++, ajaxcomplete37()
+                },
+
+                error: function () {
+                    ajaxcomplete37(), pg37first++
+                }
+            }) : (resp37 = "", id37 = "", $(".product").each(function () {
+                "" === $(this).children(".product-content").children(".shop").children(".price").children(
+                    "span.is").text() && $(
+                    this).addClass("ex-largetext")
+            }))
+    }
+
+    function page38() {
+
+        "use strict";
+        pg38last >= pg38first ?
+            $.ajax({
+                url: $(page38id).attr("data"),
+                timeout: 4e3,
+                type: "GET",
+                cache: false,
+                success: function (a) {
+                    $(page38id).not('.finished').children(".dynamic").html($("#productsList", a).html()),
+                        $(".qv").remove(),
+                        $(page38id).addClass('finished'),
+                        $(".tvcallout").children(".dynamic").children(".product").each(function () {
+                            $(this).append(tvcallout);
+                        }), $(".promo_motion_data").delay(2e3).show(),
+
+                        $(".product").not(".wrapped").each(function () {
+                            $(this).wrap("<a title='Click for " + $(this).children(".product-content").children(
+                                ".description").children(
+                                "div.a").children("span.model").text() + "' href='" + $(this).children(
+                                ".product-content").children(
+                                ".image").children("div").children("a").attr("href") + "'></a>");
+                        }), pg38first++, ajaxcomplete38()
+                },
+
+                error: function () {
+                    ajaxcomplete38(), pg38first++
+                }
+            }) : (resp38 = "", id38 = "", $(".product").each(function () {
+                "" === $(this).children(".product-content").children(".shop").children(".price").children(
+                    "span.is").text() && $(
+                    this).addClass("ex-largetext")
+            }))
+    }
+
+    function page39() {
+
+        "use strict";
+        pg39last >= pg39first ?
+            $.ajax({
+                url: $(page39id).attr("data"),
+                timeout: 4e3,
+                type: "GET",
+                cache: false,
+                success: function (a) {
+                    $(page39id).not('.finished').children(".dynamic").html($("#productsList", a).html()),
+                        $(".qv").remove(),
+                        $(page39id).addClass('finished'),
+                        $(".tvcallout").children(".dynamic").children(".product").each(function () {
+                            $(this).append(tvcallout);
+                        }), $(".promo_motion_data").delay(2e3).show(),
+
+                        $(".product").not(".wrapped").each(function () {
+                            $(this).wrap("<a title='Click for " + $(this).children(".product-content").children(
+                                ".description").children(
+                                "div.a").children("span.model").text() + "' href='" + $(this).children(
+                                ".product-content").children(
+                                ".image").children("div").children("a").attr("href") + "'></a>");
+                        }), pg39first++, ajaxcomplete39()
+                },
+
+                error: function () {
+                    ajaxcomplete39(), pg39first++
+                }
+            }) : (resp39 = "", id39 = "", $(".product").each(function () {
+                "" === $(this).children(".product-content").children(".shop").children(".price").children(
+                    "span.is").text() && $(
+                    this).addClass("ex-largetext")
+            }))
+    }
 
 
 
@@ -2828,11 +3441,292 @@
             }))
     }
 
+    function page30a() {
+        "use strict";
+        pg30last >= pg30first ?
+            $.ajax({
+                url: "/global/modals/modal-pdp-qv.jsp?modal=true&prodId=" + $(page30id).attr("data"),
+                timeout: 4e3,
+                type: "GET",
+                cache: false,
+                success: function (a) {
+                    $(page30id).children(".dynamic").html($(".sidebar-price-list", a).html()), $(page30id).children(
+                        ".promo_des_price").html($("h1", a).html()), $(page30id).not(".singlepromo-multi").wrap(
+                        "<a title='Click for " +
+                        $(page30id).attr("data") + "' href='/catalog/catalog-product.jsp?prodId=" + $(
+                            page30id).attr("data") +
+                        "'></a>"), $(page30id + ".singlepromo-multi").wrap("<a title='Click for " + $(
+                            page30id).attr("data2") +
+                        "' href='" + $(page30id).attr("data2") + "'></a>"), pg30first++, ajaxcomplete30()
+                },
+                error: function () {
+                    ajaxcomplete30(), pg30first++
+                }
+            }) : (resp30 = "", id30 = "", $(".product").each(function () {
+                "" === $(this).children(".product-content").children(".shop").children(".price").children(
+                    "span.is").text() && $(
+                    this).addClass("ex-largetext")
+            }))
+    }
 
 
+    function page31a() {
+        "use strict";
+        pg31last >= pg31first ?
+            $.ajax({
+                url: "/global/modals/modal-pdp-qv.jsp?modal=true&prodId=" + $(page31id).attr("data"),
+                timeout: 4e3,
+                type: "GET",
+                cache: false,
+                success: function (a) {
+                    $(page31id).children(".dynamic").html($(".sidebar-price-list", a).html()), $(page31id).children(
+                        ".promo_des_price").html($("h1", a).html()), $(page31id).not(".singlepromo-multi").wrap(
+                        "<a title='Click for " +
+                        $(page31id).attr("data") + "' href='/catalog/catalog-product.jsp?prodId=" + $(
+                            page31id).attr("data") +
+                        "'></a>"), $(page31id + ".singlepromo-multi").wrap("<a title='Click for " + $(
+                            page31id).attr("data2") +
+                        "' href='" + $(page31id).attr("data2") + "'></a>"), pg31first++, ajaxcomplete31()
+                },
+                error: function () {
+                    ajaxcomplete31(), pg31first++
+                }
+            }) : (resp31 = "", id31 = "", $(".product").each(function () {
+                "" === $(this).children(".product-content").children(".shop").children(".price").children(
+                    "span.is").text() && $(
+                    this).addClass("ex-largetext")
+            }))
+    }
 
 
+    function page32a() {
+        "use strict";
+        pg32last >= pg32first ?
+            $.ajax({
+                url: "/global/modals/modal-pdp-qv.jsp?modal=true&prodId=" + $(page32id).attr("data"),
+                timeout: 4e3,
+                type: "GET",
+                cache: false,
+                success: function (a) {
+                    $(page32id).children(".dynamic").html($(".sidebar-price-list", a).html()), $(page32id).children(
+                        ".promo_des_price").html($("h1", a).html()), $(page32id).not(".singlepromo-multi").wrap(
+                        "<a title='Click for " +
+                        $(page32id).attr("data") + "' href='/catalog/catalog-product.jsp?prodId=" + $(
+                            page32id).attr("data") +
+                        "'></a>"), $(page32id + ".singlepromo-multi").wrap("<a title='Click for " + $(
+                            page32id).attr("data2") +
+                        "' href='" + $(page32id).attr("data2") + "'></a>"), pg32first++, ajaxcomplete32()
+                },
+                error: function () {
+                    ajaxcomplete32(), pg32first++
+                }
+            }) : (resp32 = "", id32 = "", $(".product").each(function () {
+                "" === $(this).children(".product-content").children(".shop").children(".price").children(
+                    "span.is").text() && $(
+                    this).addClass("ex-largetext")
+            }))
+    }
 
+    function page33a() {
+        "use strict";
+        pg33last >= pg33first ?
+            $.ajax({
+                url: "/global/modals/modal-pdp-qv.jsp?modal=true&prodId=" + $(page33id).attr("data"),
+                timeout: 4e3,
+                type: "GET",
+                cache: false,
+                success: function (a) {
+                    $(page33id).children(".dynamic").html($(".sidebar-price-list", a).html()), $(page33id).children(
+                        ".promo_des_price").html($("h1", a).html()), $(page33id).not(".singlepromo-multi").wrap(
+                        "<a title='Click for " +
+                        $(page33id).attr("data") + "' href='/catalog/catalog-product.jsp?prodId=" + $(
+                            page33id).attr("data") +
+                        "'></a>"), $(page33id + ".singlepromo-multi").wrap("<a title='Click for " + $(
+                            page33id).attr("data2") +
+                        "' href='" + $(page33id).attr("data2") + "'></a>"), pg33first++, ajaxcomplete33()
+                },
+                error: function () {
+                    ajaxcomplete33(), pg33first++
+                }
+            }) : (resp33 = "", id33 = "", $(".product").each(function () {
+                "" === $(this).children(".product-content").children(".shop").children(".price").children(
+                    "span.is").text() && $(
+                    this).addClass("ex-largetext")
+            }))
+    }
+
+    function page34a() {
+        "use strict";
+        pg34last >= pg34first ?
+            $.ajax({
+                url: "/global/modals/modal-pdp-qv.jsp?modal=true&prodId=" + $(page34id).attr("data"),
+                timeout: 4e3,
+                type: "GET",
+                cache: false,
+                success: function (a) {
+                    $(page34id).children(".dynamic").html($(".sidebar-price-list", a).html()), $(page34id).children(
+                        ".promo_des_price").html($("h1", a).html()), $(page34id).not(".singlepromo-multi").wrap(
+                        "<a title='Click for " +
+                        $(page34id).attr("data") + "' href='/catalog/catalog-product.jsp?prodId=" + $(
+                            page34id).attr("data") +
+                        "'></a>"), $(page34id + ".singlepromo-multi").wrap("<a title='Click for " + $(
+                            page34id).attr("data2") +
+                        "' href='" + $(page34id).attr("data2") + "'></a>"), pg34first++, ajaxcomplete34()
+                },
+                error: function () {
+                    ajaxcomplete34(), pg34first++
+                }
+            }) : (resp34 = "", id34 = "", $(".product").each(function () {
+                "" === $(this).children(".product-content").children(".shop").children(".price").children(
+                    "span.is").text() && $(
+                    this).addClass("ex-largetext")
+            }))
+    }
+
+
+    function page35a() {
+        "use strict";
+        pg35last >= pg35first ?
+            $.ajax({
+                url: "/global/modals/modal-pdp-qv.jsp?modal=true&prodId=" + $(page35id).attr("data"),
+                timeout: 4e3,
+                type: "GET",
+                cache: false,
+                success: function (a) {
+                    $(page35id).children(".dynamic").html($(".sidebar-price-list", a).html()), $(page35id).children(
+                        ".promo_des_price").html($("h1", a).html()), $(page35id).not(".singlepromo-multi").wrap(
+                        "<a title='Click for " +
+                        $(page35id).attr("data") + "' href='/catalog/catalog-product.jsp?prodId=" + $(
+                            page35id).attr("data") +
+                        "'></a>"), $(page35id + ".singlepromo-multi").wrap("<a title='Click for " + $(
+                            page35id).attr("data2") +
+                        "' href='" + $(page35id).attr("data2") + "'></a>"), pg35first++, ajaxcomplete35()
+                },
+                error: function () {
+                    ajaxcomplete35(), pg35first++
+                }
+            }) : (resp35 = "", id35 = "", $(".product").each(function () {
+                "" === $(this).children(".product-content").children(".shop").children(".price").children(
+                    "span.is").text() && $(
+                    this).addClass("ex-largetext")
+            }))
+    }
+
+
+    function page36a() {
+        "use strict";
+        pg36last >= pg36first ?
+            $.ajax({
+                url: "/global/modals/modal-pdp-qv.jsp?modal=true&prodId=" + $(page36id).attr("data"),
+                timeout: 4e3,
+                type: "GET",
+                cache: false,
+                success: function (a) {
+                    $(page36id).children(".dynamic").html($(".sidebar-price-list", a).html()), $(page36id).children(
+                        ".promo_des_price").html($("h1", a).html()), $(page36id).not(".singlepromo-multi").wrap(
+                        "<a title='Click for " +
+                        $(page36id).attr("data") + "' href='/catalog/catalog-product.jsp?prodId=" + $(
+                            page36id).attr("data") +
+                        "'></a>"), $(page36id + ".singlepromo-multi").wrap("<a title='Click for " + $(
+                            page36id).attr("data2") +
+                        "' href='" + $(page36id).attr("data2") + "'></a>"), pg36first++, ajaxcomplete36()
+                },
+                error: function () {
+                    ajaxcomplete36(), pg36first++
+                }
+            }) : (resp36 = "", id36 = "", $(".product").each(function () {
+                "" === $(this).children(".product-content").children(".shop").children(".price").children(
+                    "span.is").text() && $(
+                    this).addClass("ex-largetext")
+            }))
+    }
+
+
+    function page37a() {
+        "use strict";
+        pg37last >= pg37first ?
+            $.ajax({
+                url: "/global/modals/modal-pdp-qv.jsp?modal=true&prodId=" + $(page37id).attr("data"),
+                timeout: 4e3,
+                type: "GET",
+                cache: false,
+                success: function (a) {
+                    $(page37id).children(".dynamic").html($(".sidebar-price-list", a).html()), $(page37id).children(
+                        ".promo_des_price").html($("h1", a).html()), $(page37id).not(".singlepromo-multi").wrap(
+                        "<a title='Click for " +
+                        $(page37id).attr("data") + "' href='/catalog/catalog-product.jsp?prodId=" + $(
+                            page37id).attr("data") +
+                        "'></a>"), $(page37id + ".singlepromo-multi").wrap("<a title='Click for " + $(
+                            page37id).attr("data2") +
+                        "' href='" + $(page37id).attr("data2") + "'></a>"), pg37first++, ajaxcomplete37()
+                },
+                error: function () {
+                    ajaxcomplete37(), pg37first++
+                }
+            }) : (resp37 = "", id37 = "", $(".product").each(function () {
+                "" === $(this).children(".product-content").children(".shop").children(".price").children(
+                    "span.is").text() && $(
+                    this).addClass("ex-largetext")
+            }))
+    }
+
+
+    function page38a() {
+        "use strict";
+        pg38last >= pg38first ?
+            $.ajax({
+                url: "/global/modals/modal-pdp-qv.jsp?modal=true&prodId=" + $(page38id).attr("data"),
+                timeout: 4e3,
+                type: "GET",
+                cache: false,
+                success: function (a) {
+                    $(page38id).children(".dynamic").html($(".sidebar-price-list", a).html()), $(page38id).children(
+                        ".promo_des_price").html($("h1", a).html()), $(page38id).not(".singlepromo-multi").wrap(
+                        "<a title='Click for " +
+                        $(page38id).attr("data") + "' href='/catalog/catalog-product.jsp?prodId=" + $(
+                            page38id).attr("data") +
+                        "'></a>"), $(page38id + ".singlepromo-multi").wrap("<a title='Click for " + $(
+                            page38id).attr("data2") +
+                        "' href='" + $(page38id).attr("data2") + "'></a>"), pg38first++, ajaxcomplete38()
+                },
+                error: function () {
+                    ajaxcomplete38(), pg38first++
+                }
+            }) : (resp38 = "", id38 = "", $(".product").each(function () {
+                "" === $(this).children(".product-content").children(".shop").children(".price").children(
+                    "span.is").text() && $(
+                    this).addClass("ex-largetext")
+            }))
+    }
+
+
+    function page39a() {
+        "use strict";
+        pg39last >= pg39first ?
+            $.ajax({
+                url: "/global/modals/modal-pdp-qv.jsp?modal=true&prodId=" + $(page39id).attr("data"),
+                timeout: 4e3,
+                type: "GET",
+                cache: false,
+                success: function (a) {
+                    $(page39id).children(".dynamic").html($(".sidebar-price-list", a).html()), $(page39id).children(
+                        ".promo_des_price").html($("h1", a).html()), $(page39id).not(".singlepromo-multi").wrap(
+                        "<a title='Click for " +
+                        $(page39id).attr("data") + "' href='/catalog/catalog-product.jsp?prodId=" + $(
+                            page39id).attr("data") +
+                        "'></a>"), $(page39id + ".singlepromo-multi").wrap("<a title='Click for " + $(
+                            page39id).attr("data2") +
+                        "' href='" + $(page39id).attr("data2") + "'></a>"), pg39first++, ajaxcomplete39()
+                },
+                error: function () {
+                    ajaxcomplete39(), pg39first++
+                }
+            }) : (resp39 = "", id39 = "", $(".product").each(function () {
+                "" === $(this).children(".product-content").children(".shop").children(".price").children(
+                    "span.is").text() && $(
+                    this).addClass("ex-largetext")
+            }))
+    }
 
 
 
