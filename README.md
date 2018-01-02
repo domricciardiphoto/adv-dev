@@ -1,6 +1,7 @@
 FSI DEV 1.0
 
 Default element structure-------------------------------------------------
+
 <div class=""></div>
 .promo_box_940   100% element
 .promo_box_50     50% element
@@ -12,11 +13,22 @@ if data attribute is missing child IMG or element will not be wrapped in
 and be unclickable.
 
 
-
-"data tag" Structure: for a clickable element-----------------------------
+"data tag" Structure: for a clickable element---
 
 if only one model number  data="FE140"
 if multiple model numbers or a Landing Page data="/content/landingpage.html"
+
+<div class="promo_box_940" data="/category/Home-Furnishings/Headboards-Upholstered-Beds/Headboards/_/N-1gl4z5q">
+    <img src="/images/promos/flyer-12-31-17-pg8-hero1.jpg" alt="Headboards">
+</div>
+
+<div class="promo_box_940" data="FE140">
+    <img src="/images/promos/flyer-12-31-17-pg8-hero1.jpg" alt="Headboards">
+</div>
+
+(MODEL NUMBER MUST BE IN CAPS)    (ALL "/" AND "." NEED TO BE CONVERT TO "-")  EX CP.PT.003.000 === CP-PT-0003-000
+
+
 
 
 Video Module---------------------------------------------------
