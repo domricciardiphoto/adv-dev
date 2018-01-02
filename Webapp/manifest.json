@@ -1,0 +1,54 @@
+{
+  "dir": "ltr",
+  "lang": "en",
+  "name": "P.C. Richard & Son",
+  "short_name": "PCR Flyer",
+  "lang": "en-US",
+  "scope": "/content/weekly-ad",
+  "start_url": "https://www.pcrichard.com/content/weekly-ad",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#0054a6",
+  "description": "P.C. Richard and Son Weekly Ad",
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/images/promos/pcrwebapp482017.png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "/images/promos/pcrwebapp962017.png",
+      "sizes": "96x96"
+    },	
+    {
+      "src": "/images/promos/pcrwebapp1442017.png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "/images/promos/pcrwebapp1442017.png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "/images/promos/pcrwebapp1522017.png",
+      "sizes": "152x152"
+    },
+    {
+      "src": "/images/promos/pcrwebapp2562017.png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "/images/promos/pcrwebapp3842017.png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "/images/promos/pcrwebapp5122017.png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/images/promos/pcrwebapp1922017.png",
+      "sizes": "192x192"
+    }
+  ],
+  "background_color": "#0054a6"
+}

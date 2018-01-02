@@ -1,0 +1,9 @@
+<tile> 
+  <visual lang='en-US' version='2'>
+        <binding template="TileSquare310x310ImageAndText03" branding="logo">
+      <image id='1' src='https://www.pcrichard.com/images/promos/pcrwebapp310x1502017v7.png'/>
+      <text id="2">Save up to 35%</text>
+      <text id="3">on Advertised 4K TVs</text>
+      </binding>
+  </visual>
+</tile>

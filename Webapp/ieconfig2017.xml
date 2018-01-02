@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+  <msapplication>
+    <tile>
+      <square32x32logo src="/images/promos/pcrwebapp322017.png"/>
+      <square48x48logo src="/images/promos/pcrwebapp482017.png"/>
+      <square70x70logo src="/images/promos/pcrwebapp702017.png"/>
+      <square150x150logo src="/images/promos/pcrwebapp1502017.png"/>
+      <wide310x150logo src="/images/promos/pcrwebapp310x1502017.png"/>
+      <square310x310logo src="/images/promos/pcrwebapp3102017.png"/>
+      <square512x512logo src="/images/promos/pcrwebapp5122017.png"/>
+      <TileColor>#0054a6</TileColor>
+    </tile>
+    
+    <notification>
+      <polling-uri  src="/images/promos/notification2017.xml"/>    
+      <polling-uri2 src="/images/promos/notification2017-2.xml"/>
+      <polling-uri3 src="/images/promos/notification2017-3.xml"/>
+      <polling-uri4 src="/images/promos/notification2017-4.xml"/>
+      <frequency>5</frequency>
+      <cycle>1</cycle>
+    </notification>
+    
+    
+  </msapplication>
+</browserconfig>

@@ -1,0 +1,512 @@
+@charset "UTF-8";
+.qv2{display:none!important}
+.additionalcallout{position:absolute;top:5px;left:5px;width:20%;height:20%}
+div.shop{position:absolute;width:95%;bottom:10px}
+.customer-service{clear:left;float:left;width:100%;overflow:hidden;margin-top:15px;margin-bottom:15px;border:1px solid #ccc}
+#footer-customer-service{border:none}
+.footer .footer-outer .footer-inner .connect-with-us,.footer .footer-outer .footer-inner .customer-service,.footer .footer-outer .footer-inner .help-center,.footer .footer-outer .footer-inner .our-company{background-color:inherit}
+.footer{z-index:9}
+.spacer{width:100%;height:1px}
+#fsi_wrapper{min-height:400px;position:relative;float:left;width:94%;margin-left:3%;margin-bottom:8px!important}
+.fsi{width:100%;min-height:700px;float:left;position:relative;display:none;background-color:#fff;z-index:2}
+.menu_item_small{width:20%;height:25%;float:left;min-height:95px;min-width:50px;border:1px solid #666;text-align:center;line-height:95px;max-width:225px;max-height:200px;font-size:27px;font-weight:700;cursor:pointer}
+.mobilemenu_content{width:99%;display:none}
+#menu_box_desktop{height:50px;width:81%;padding-top:15px;overflow:hidden;position:relative;float:left;margin-left:1%}
+#menu_box_desktop_name{width:14%;float:left;height:35px;margin-top:15px;text-align:center;line-height:35px;color:#fff;background-color:#cf171f;font-size:12px;margin-left:3%}
+.page_num{width:100%;float:left;font-size:10px;font-weight:500;line-height:13px;height:25px;padding-left:1%;color:#fff}
+.menu_number_overflow{width:2150px;height:50px;float:left;position:relative}
+.menu_item{width:4%;height:35px;text-align:center;float:left;cursor:pointer;padding:0;padding-left:1px;padding-right:1px;margin:0;margin-right:7px;border:1px solid #666;color:#333;min-width:37px;max-width:37px;font-size:.9em;line-height:35px;background-color:#fff}
+.menu_item:hover{background-color:#E3E3E3}
+.menu_clicked_class{background-color:#cf171f!important;border:none!important;color:#fff!important;font-weight:700!important}
+.promo_box_33{float:left;width:33%;position:relative;cursor:pointer}
+.promo_box_33 img{width:100%}
+.promo_box_66{float:left;width:66%;position:relative;cursor:pointer}
+.promo_box_66 img{width:100%}
+.promo_box_50{float:left;width:49.5%;position:relative}
+.promo_box_50 img{width:100%;border:1px solid #ccc;cursor:pointer}
+.promo_box_940{max-width:1115px;float:left;width:100%}
+.promo_box_940 img{width:100%;float:left;cursor:pointer}
+.image-promos{width:33.3%;float:left;height:auto;position:relative}
+.image-promos img{width:100%;min-height:363px}
+.game_promos{width:50%;float:left;height:auto}
+.game_promos img{width:100%}
+table{margin-left:auto;margin-right:auto;margin-top:1px}
+table img{width:100%;display:block;float:left;border:0;margin:0;padding:0;margin-top:-1px}
+.promo_box_large{width:66.6%;float:left}
+.promo_box_large img{width:100%}
+#menu_box_mobile{display:none;width:98%;height:50px;float:left;text-align:center;line-height:50px;font-weight:500;font-size:12px;position:relative;z-index:99;background-color:#fff}
+table tr td img{cursor:pointer}
+#submenu{float:left;width:100%;height:40px;margin-top:5px;margin-bottom:7px;display:none;border-bottom:1px solid #ccc}
+.submenu_button{width:16.3%;height:40px;float:left;text-align:center;line-height:40px;margin-left:.2%;margin-right:.2%;cursor:pointer}
+.submenu_button:hover{color:#cf171f;font-weight:700}
+.menu_move_top_right{position:absolute;height:38px;background-color:#fff;right:0;background-image:url(http://www.pcrichard.com/images/promos/207541.png);background-size:105%!important;background-position:top;background-repeat:no-repeat;cursor:pointer;z-index:9;width:4%}
+.pr_snippet_product_info{position:absolute;bottom:15px}
+.menu_move_top_left{position:absolute;height:38px;background-color:#fff;left:0;background-image:url(http://www.pcrichard.com/images/promos/207540.png);background-size:101%!important;background-position:top;background-repeat:no-repeat;cursor:pointer;z-index:9;width:4%;max-height:38px!important;display:none}
+small{display:none!important}
+
+
+
+.promo_box{width:100%;height:auto;float:left;cursor:pointer;position:relative;min-height:363px;border:1px solid #ccc;background-size:contain;background-repeat:no-repeat;padding:0;max-width:1115px}
+.callout{position:absolute;top:15px;left:15px;max-width:100px;max-height:100px}
+.callout img{width:100%}
+.promo_image{width:100%}
+.promo_image img{width:60%;margin-left:20%}
+.promo_des_price{text-align:right;min-height:25px;position:absolute;bottom:57px;width:100%}
+.promo_save_note{text-align:right;font-size:12px;position:absolute;bottom:40px;width:100%}
+.promo_save_note2{text-align:right;font-size:10px;font-weight:600}
+.promo_des_price .price-value{font-size:20px;font-weight:600;color:#bd161d}
+.promo_des{min-height:35px;width:100%;font-size:16px}
+.pr-snippet-write-first-review{font-size:12px}
+.fsi .product{min-width:33.333%;max-width:33.333%;float:left;border-bottom:1px solid #ccc;border-right:1px solid #ccc;min-height:350px;max-height:350px}
+.fsi .product .product-content{min-height:348px}
+.product .product-content .shop .price span.percent,.promo-product .price .percent{text-align:right!important}
+.product .product-content .shop .price span.save{text-align:right!important;width:100%}
+.product .product-content .shop .price span{width:100%!important}
+.product .product-content .shop .price span.was{text-align:right!important}
+div.b{display:none}
+.page #breadcrumbs,.page .breadcrumbs{display:none!important}
+#arrows_containers{width:100%;height:65px;position:fixed;margin-top:25%;margin-left:-21px;margin-right:auto;z-index:1;max-width:1222px}
+.left_arrow{background-image:url(http://www.pcrichard.com/images/promos/207540.png);height:58px;position:absolute;left:0;width:57px;cursor:pointer}
+.right_arrow{background-image:url(http://www.pcrichard.com/images/promos/207541.png);height:58px;position:absolute;right:0;width:57px;cursor:pointer}
+.left_arrow:hover{top:-6px}
+.right_arrow:hover{top:-6px}
+.page_num{display:none}
+.product .product-content .shop .price span.is{font-size:22px!important}
+.product .product-content .shop .buttons{display:none}
+.promo_save_note .seedetailsincheckout{margin-top:-23px}
+.game_block .promo_des_price{position:absolute;right:10px;bottom:30px}
+.game_block .promo_des_price .price-value{font-weight:100;font-size:30px;color:#eaeaea}
+.dark_text .promo_des_price{left:10px!important;right:inherit!important}
+.right_text .promo_des_price{left:inherit;right:10px!important}
+.dark_text .promo_des_price .price-value{color:#333!important}
+.youtube{max-width:50%;float:left}
+.whitetext .promo_des_price span.gray{color:#fff!important}
+.product .product-content .image a.qv{top:55%!important}
+.singlepromo{width:49.5%;min-height:415px}
+.singlepromo .promo_image{width:80%;margin-left:10%}
+.singlepromo .promo_des{width:90%;margin-left:5%}
+.singlepromo .promo_des_price{width:95%}
+.singlepromo .pr_snippet_product_info{margin-left:5%;font-size:13px}
+.singlepromo .promo_save_note{margin-right:5%}
+.singlepromo .promo_save_note2{margin-right:5%}
+.videogame{width:49.5%;min-height:345px;max-height:345px}
+.videogame .promo_des_price{position:absolute;bottom:18px}
+.videogame .promo_des_price span.gray{color:#fff!important}
+.videogame .promo_des_price .price-value{color:#fff!important}
+.phoneview{display:none;width:33%}
+.promo_motion{position:absolute;max-height:100px;top:6.7%;margin-left:2%}
+.promo_motion:hover{position:absolute;max-height:100px;top:7%;margin-left:2%}
+.promo_motion_data{max-width:22%;position:absolute;max-height:150px;min-height:150px;border:0;z-index:9;display:none}
+.threepromos{max-width:33%}
+.pr-snippet-stars{max-width:85px!important;min-width:85px!important}
+.superbigtext .promo_des_price .price-value{font-size:40px!important;cursor:pointer}
+.blacktext .promo_des_price .price-value{color:#333!important}
+.blacktext .promo_des_price span.gray{color:#333!important}
+.ex-largetext .product-content .shop .price span.was{font-size:22px!important;margin-top:-65px!important;color:#d41920!important}
+.showonlytwo{max-width:66%!important;border:0}
+.showonlytwo .product{min-width:50%!important}
+a .promo_motion_data .promo_des{color:#333!important}
+a .promo_motion_data .promo_des_price{color:#bd161d!important}
+a .promo_motion_data .promo_save_note{color:#333!important}
+a .singlepromo .promo_des{color:#333!important}
+a .singlepromo .price-label{color:#333!important}
+@media (width:1024px) {
+#arrows_containers{display:none}
+.mobilemenu_content{display:none;float:left;background-color:#ccc;width:100%}
+.game_block{min-height:297px;max-height:297px;min-width:50%}
+.game_block .promo_des_price .price-value{font-size:25px}
+.game_block .promo_save_note{left:-5px}
+}
+@media (width:768px) {
+#fsi_wrapper{width:98%;margin-left:1%}
+.promo_des{font-size:13px}
+.mobilemenu_content{display:none;float:left;background-color:#ccc;width:100%}
+#arrows_containers{display:none}
+#menu_box_desktop_name{width:100%;text-align:left;padding-left:1%}
+#menu_box_mobile{display:block}
+#menu_box_desktop{display:none}
+.mobilemenu_content .menu_item_small{width:19%!important;float:left;max-width:inherit;margin-bottom:5px;text-align:center;font-size:16px;color:#333;height:55px;line-height:90px;margin-right:1%;cursor:pointer;border:1px solid #333}
+.fsi{border-left:3px solid #ccc;border-right:3px solid #ccc;border-top:3px solid #ccc;border-bottom:3px solid #ccc;margin-bottom:5px}
+.fsi .product{min-width:33.33%;max-width:33.33%;float:left;border-bottom:1px solid #999;border-right:1px solid #999}
+.menu_move_top_right{background-size:135%}
+.menu_move_top_left{background-size:135%}
+.product .price,.product h2.model,.product span.model,.product ul.item-desc{font-size:14px}
+.page_num{display:block!important}
+.image-promos{max-height:inherit}
+.game_block{min-height:229px;max-height:229px}
+.game_block .promo_des_price{bottom:27px}
+.game_block .promo_des_price .price-value{font-size:22px}
+.game_block .promo_save_note{left:0;font-size:13px!important}
+}
+@media (max-width:767px) {
+.threepromos{max-width:100%}
+.phoneview{display:block!important}
+.desktoponly{display:none!important}
+.youtube{max-width:100%;width:100%;float:left}
+.youtube img{width:100%}
+.mobilemenu_content{display:none;float:left;background-color:#ccc;width:100%}
+#arrows_containers{display:none}
+#menu_box_desktop_name{width:100%!important;text-align:left;padding-left:1%;height:45px}
+#menu_box_desktop_name h2{line-height:45px}
+.page_num{display:block;margin-top:-5px}
+.fsi{width:98%;margin-left:1%;min-height:400px;float:left;position:relative;border:1px solid 1px #999;display:none;border-left:5px solid #ccc;border-right:5px solid #ccc;border-top:5px solid #ccc;border-bottom:5px solid #ccc;margin-bottom:5px}
+.mobilemenu_content .menu_item_small{width:19%!important;float:left;max-width:inherit;margin-bottom:5px;text-align:center;font-size:16px;color:#333;height:55px;line-height:90px;margin-right:1%;cursor:pointer;border:1px solid #333}
+#submenu{width:98%;margin-left:1%;margin-top:-10px}
+.submenu_button{font-size:12px;line-height:25px}
+.twoword{line-height:15px!important;padding-top:5px}
+#menu_box_mobile{display:block}
+#fsi_wrapper{width:98%;margin-left:1%;background-color:#fff}
+.page_num{width:98%;margin-left:1%}
+.promo_box_large{width:100%}
+#menu_box_desktop{display:none}
+.image-promos{width:100%;float:left;height:auto}
+.game_promos{width:100%;float:left;height:auto}
+.fsi .product{min-width:100%;max-width:100%;float:left;border-bottom:1px solid #999;border-right:1px solid #999}
+.product .product-content .shop .buttons{margin-bottom:10px!important;display:none}
+.product .product-content .shop .buttons a.pickup{width:45%;text-align:center}
+.product .product-content .shop .buttons a.add{width:35%;text-align:center}
+.promo_box{width:100%}
+.promo_box_33{width:100%}
+.promo_box_66{width:100%}
+.game_block .promo_des_price{bottom:30px;font-size:20px!important;margin-left:10px}
+.game_block .promo_des_price .price-value{font-size:16px}
+.singlepromo{width:100%;min-height:415px}
+.videogame{min-height:220px;max-height:220px}
+.threepromos{min-height:310px!important}
+.showonlytwo{max-width:100%!important;min-width:100%!important}
+
+}
+@media (width:640px),(width:568px),(width:667px),(width:736px) {
+#arrows_containers{display:none}
+.fsi .product{min-width:50%;max-width:50%;float:left;border-bottom:1px solid #999;border-right:1px solid #999;min-height:400px}
+.fsi .promo_box{width:100%}
+.videogame{width:49.5%!important;min-height:185px!important}
+.videogame .promo_des_price{font-size:10px!important;bottom:0!important}
+.product .product-content .shop .buttons a.pickup{display:none}
+.product .product-content .shop .buttons a.add{width:55%!important;text-align:center!important}
+.threepromos{width:33%!important}
+.showonlytwo .product{min-width:100%!important}
+.showonlytwo{max-width:100%!important;min-width:100%!important}
+}
+@media (width:768px) {
+.game_block{min-height:220px;max-height:220px}
+.threepromos{max-width:33.333%;min-height:230px!important}
+.threepromos .promo_des_price{bottom:8px!important}
+.desktoponly{display:none!important}
+.phoneview{display:block!important}
+}
+@media (width:640px) {
+.game_block{min-height:207px;max-height:207px}
+.showonlytwo .product{min-width:100%!important}
+.showonlytwo{max-width:100%!important;min-width:100%!important}
+}
+@media (width:414px) {
+.game_block{min-height:240px;max-height:240px}
+.showonlytwo .product{min-width:100%!important}
+.showonlytwo{max-width:100%!important;min-width:100%!important}
+}
+@media (width:412px) {
+.game_block{min-height:240px;max-height:240px}
+.showonlytwo .product{min-width:100%!important}
+.showonlytwo{max-width:100%!important;min-width:100%!important}
+}
+@media (width:375px) {
+.game_block{min-height:217px;max-height:217px}
+.showonlytwo .product{min-width:100%!important}
+.showonlytwo{max-width:100%!important;min-width:100%!important}
+}
+@media (width:360px) {
+.game_block{min-height:207px;max-height:207px}
+.showonlytwo .product{min-width:100%!important}
+.showonlytwo{max-width:100%!important;min-width:100%!important}
+}
+@media (width:320px) {
+.game_block{min-height:187px;max-height:187px}
+.showonlytwo .product{min-width:100%!important}
+.showonlytwo{max-width:100%!important;min-width:100%!important}
+}
+
+
+.getlarge .product{width:50%!important;max-width:50%!important}.toppromo{max-height:670px!important}.toppromo .product{min-height:auto;max-height:auto;border:none;min-width:24%;max-width:24%;margin-left:4%;margin-right:4%;bottom:165px}.toppromo .product .product-content .image{display:none!important}.toppromo .product .product-content{background-color:transparent!important;min-height:100px!important}.toppromo .shop{bottom:-5px!important}.toppromo2 .product{min-width:24%;max-width:24%;margin-left:18%;margin-right:-4%}.promo3{max-width:33%!important}@media (width:1024px){.showonlyone{max-width:33%!important}.toppromo{max-height:578px!important}}.submenu_button{width:16%}@media (width:768px){.showonlyone{width:33%!important}.videogame{min-height:235px!important}.toppromo{max-height:480px!important}.toppromo .product{min-height:auto;max-height:auto;border:none;min-width:30%;max-width:24%;margin-left:1%;margin-right:1%;bottom:135px}}@media (width:320px){.videogame{min-height:185px!important}.videogame .promo_des_price{bottom:8px!important}.promo3{max-width:100%!important}}@media (width:360px){.videogame{min-height:205px!important}.videogame .promo_des_price{bottom:8px!important}.promo3{max-width:100%!important}}@media (width:568px){.videogame{min-height:165px!important}.promo3{max-width:100%!important}}@media (width:414px){.videogame{min-height:240px!important}.promo3{max-width:100%}}@media (width:667px){.videogame .promo_des_price{bottom:5px!important}.videogame{min-height:195px!important}.promo3{max-width:50%}}@media (width:736px){.videogame{min-height:215px!important}.videogame .promo_des_price{bottom:8px!important}.promo3{max-width:50%}}@media (width:1024px){.videogame{min-height:298px!important}.toppromo{max-height:610px}.toppromo .product{min-width:27%;max-width:27%;margin-left:3%;margin-right:3%}.feature_videogame{min-height:405px!important}.feature_prod{min-height:390px!important}}@media (min-width:1025px){.videogame{min-height:342px!important}.feature_videogame{min-height:475px!important}.feature_prod{min-height:450px!important}}@media (max-width:768px){.feature_videogame{min-height:312px!important}.feature_prod{min-height:300px!important}}@media (max-width:767px){.backgroundpromo{display:none}.toppromo .product{min-width:100%;max-width:100%;margin-left:0;margin-right:0;bottom:auto;border-bottom:1px solid #999;min-height:340px}.toppromo .product .product-content .image{display:block!important}.toppromo .shop{bottom:10px!important}.toppromo .product .product-content{background-color:transparent!important;min-height:340px!important}.feature_videogame{min-height:280px!important}.toppromo{max-height:inherit!important}.promo3{max-width:100%!important}.submenu_button{font-size:10px!important}}@media (max-width:736px){.feature_videogame{min-height:295px!important}.feature_prod{min-height:280px!important;width:100%!important}}@media (max-width:732px){.feature_videogame{min-height:295px!important;width:50%}.videogame{width:50%;min-height:215px}}@media (max-width:667px){.feature_videogame{min-height:265px!important}.feature_prod{min-height:258px!important;width:100%!important}}@media (max-width:640px){.feature_videogame{min-height:255px!important}.feature_prod{min-height:248px!important;width:100%!important}}@media (max-width:568px){.feature_videogame{min-height:225px!important}.feature_prod{min-height:218px!important;width:100%!important}}@media (max-width:414px){.feature_videogame{min-height:330px!important;width:100%}.videogame{width:100%;min-height:215px}.feature_prod{min-height:158px!important;width:100%!important}}@media (max-width:412px){.feature_videogame{min-height:325px!important;width:100%}.videogame{width:100%;min-height:240px}}@media (max-width:375px){.feature_videogame{min-height:298px!important}.videogame{width:100%;min-height:215px}.feature_prod{min-height:142px!important;width:100%!important}}@media (max-width:360px){.feature_videogame{min-height:285px!important}}@media (max-width:320px){.feature_videogame{min-height:250px!important}.feature_prod{min-height:122px!important;width:100%!important}}
+
+	
+	
+	
+			@media (min-width:320px) {
+        
+				#pageof {background-color:#fff; color: #333; text-align: center; height: 15px; width: 50px; float: left; }		
+				
+				
+				.fsi {
+				background-image: url(http://www.pcrichard.com/images/promos/LOADING_SVG-04-02-16.gif);
+					background-repeat: no-repeat;
+					background-position: left top;
+					background-size: 45px;
+					
+					
+				}
+				
+				.product {
+					background-color: #fff;
+				}
+				
+				
+				
+		.audiopromo {
+				min-height: 270px !important;
+			background-position: right bottom;
+		}
+				
+		.audiopromo .promo_des_price {
+				bottom: 17px !important;
+
+		}
+				
+		.audiopromo .promo_des_price .price-value {
+					color: #fff !important
+		}	
+				
+				
+				
+		 a .audiopromo .price-label {
+					display: none !important;
+				}	
+				
+				
+		 a .videogame .price-label {
+					display: none !important;
+				}			
+				
+			.tvpromo_bottom .shop {
+    bottom: 15px!important;
+}
+		
+				
+		.feature_prod {
+					min-height: 106px !important
+				}		
+				
+		 .submenu_button{width:90px !important; text-align: center; border-right: 1px solid #ccc; position: relative; height: 100%; margin-top: 10px;	}		
+		
+				.undermenu {margin-top: -5px; line-height: 13px;}		
+				.submenu_button i {line-height: 45px; font-size:2.5em}
+				#submenu { height: 60px; overflow: auto}
+				
+				#menu_box_desktop_name { margin-left: 0px !important}
+				#menu_box_desktop_name h2 { margin-left: 10px !important;}
+	
+				
+		}
+		
+		
+			@media (min-width:360px) {
+		.audiopromo {
+				min-height: 310px !important;
+			background-position: right bottom;
+		}
+					.audiopromo .promo_des_price {
+				bottom: 17px !important;
+
+		}
+			
+		.feature_prod {
+					min-height: 120px !important
+				}			
+				
+			.product {
+					background-color: #fff;
+				}
+						
+               .submenu_button{width:90px !important; text-align: center; border-right: 1px solid #ccc;	}
+				
+
+				
+				
+		}
+		
+		
+			@media (min-width:375px) {
+		.audiopromo {	
+				min-height: 325px !important;
+			background-position: right bottom;
+		}
+					.audiopromo .promo_des_price {
+				bottom: 17px !important;
+
+		}
+				
+		.feature_prod {
+					min-height: 125px !important
+				}	
+				
+					.product {
+					background-color: #fff;
+				}
+				
+				
+		}
+		
+		
+			@media (min-width:414px) {
+		.audiopromo {
+				min-height: 360px !important;
+			background-position: right bottom;
+		}
+					.audiopromo .promo_des_price {
+				bottom: 17px !important;
+
+		}
+				
+			.feature_prod {
+					min-height: 138px !important
+				}	
+				
+					.product {
+					background-color: #fff;
+				}
+				
+			
+
+		}
+	
+	
+	@media (min-width:640px) {
+		
+	
+	}
+		
+				@media (min-width:768px) {
+		.audiopromo {
+				min-height: 230px !important;
+			background-position: right bottom;
+		}
+						.audiopromo .promo_des_price {
+				bottom: 17px !important;
+
+		}
+					
+					
+					
+		.tvpromo_bottom .shop {
+    bottom: -35px!important;
+}			
+		
+			.feature_prod {
+					min-height: 265px !important
+				}				
+				.product {
+					background-color: transparent !important
+				}
+						
+
+					
+		.submenu_button{width: auto!important; text-align: center; border-right:none; font-size: 12px; margin-top: 0px;	}		
+			.undermenu {margin-top: -10px;}	
+			.submenu_button i {line-height: 45px; font-size: 1.5em}
+			#submenu { height: 60px;}
+					.page_num {
+						display:none !important;
+					}
+					#menu_box_desktop_name {
+						margin-left: 0px !important;
+					}
+					
+			#menu_box_desktop_name h2 { margin-left: 0px !important;}		
+		}
+		
+				@media (min-width:1024px) {
+		.audiopromo {
+				min-height: 300px !important;
+			background-position:  right bottom;
+		}
+						.audiopromo .promo_des_price {
+				bottom: 17px !important;
+
+		}
+					
+			.feature_prod {
+					min-height: 343px !important
+				}	
+					
+					
+			.submenu_button{width:auto !important; text-align: center; border-right:none;  min-width: 100px; font-size: 12px; margin-top: 0px !important;	}				
+#menu_box_desktop_name { margin-top: 0px; margin-left: 3% !important}
+		}
+	
+
+		
+	
+		
+				@media (min-width:1048px) {
+					
+						.feature_prod {
+					min-height: 390px !important
+				}				
+
+		
+					
+					
+		.audiopromo {
+				min-height: 350px !important;
+			background-position: right bottom;
+		}
+						.audiopromo .promo_des_price {
+				bottom: 17px !important;
+
+		}
+	#submenu { overflow:hidden; height: 72px !important; }
+
+	}		
+	
+	@media (max-width:767px) {
+	.showonlyone { max-width: 100% }
+	.showonlyone .product{min-width:100%!important}	
+		#submenu { margin-top:10px;}
+		#menu_box_desktop_name { 
+			display:none;
+		}
+		
+		
+	}
+	
+	
+	@media (min-width:768px) {
+	.showonlyone { max-width: 33% }
+	.showonlyone .product{min-width:100%!important}	
+		
+		
+	.menu_item {
+    width: 12px;
+    height: 12px;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+    background-color: #666;
+    color: #333;
+    max-width: 12px;
+    font-size: .7em;
+    line-height: 38px;
+	margin-right: 10px;
+	padding: 0px;
+	min-width: 12px;	
+	}
+		
+		#submenu { border-bottom: 0px; margin-top: 0px; margin-bottom: 0px;}	
+		
+		#menu_box_desktop {padding-top: 2px; height: 35px; margin-left: 0%; padding-left: 1%; width: 79.1% !important}
+	
+	
+	.page_num {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: #333;
+    font-weight: 600;
+    font-size: 0.7em;
+	display: block !important;
+}
+		
+	}
+		
+	
+	.promo_box { min-height: auto;}

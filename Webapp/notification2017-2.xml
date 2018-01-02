@@ -1,0 +1,16 @@
+<tile> 
+  <visual lang='en-US' version='2'>
+    <binding template="TileSquare310x310ImageAndText03" branding="logo">
+       <image id='1' src='https://www.pcrichard.com/images/promos/pcrwebapp310x1502017v8.png'/>
+      <text id="2">Special Financing on Yamaha</text>
+      <text id="3">Home Audio $499 and More</text>
+    </binding>
+    
+        <binding template="TileWide310x150ImageAndText01" branding="logo"> 
+      <image id="4" src="https://www.pcrichard.com/images/promos/pcrwebapp310x1502017-2.png" alt="P.C.R"/>
+      <text id="5">Special Financing on Yamaha</text>
+      <text id="6">Home Audio $499 and More</text>
+    </binding>  
+    
+  </visual>
+</tile>

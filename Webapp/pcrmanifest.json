@@ -1,0 +1,32 @@
+{
+  "short_name": "P.C. Richard & Son",
+  "name": "P.C. Richard & Son",
+  "icons": [
+    {
+      "src": "/images/promos/pcrwebapp322017.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+	  {
+      "src": "/images/promos/pcrwebapp482017.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "/images/promos/pcrwebapp962017.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/images/promos/pcrwebapp1922017.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+	  {
+      "src": "/images/promos/pcrwebapp5122017.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    } 
+  ],
+  "start_url": "/content/weekly-ad"
+}

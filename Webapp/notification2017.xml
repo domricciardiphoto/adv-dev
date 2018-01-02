@@ -1,0 +1,29 @@
+<tile> 
+  <visual lang="en-US" version="2">
+         <binding template="TileSquare310x310SmallImagesAndTextList01" branding="name">
+      <image id="1" src="https://www.pcrichard.com/images/promos/pcrwebapp1282017.png"/>
+      <image id="2" src="https://www.pcrichard.com/images/promos/pcrwebapp1282017.png"/> 
+     
+      
+      <text id="1">108th Birthday Sale</text> 
+      <text id="2">Shop Our Weekly Ad</text>
+      <text id="3">  </text>
+     
+      <text id="4">4K Smart TVs</text>
+      <text id="5">at the Lowest Prices</text>
+      <text id="6">of the Year</text>
+      
+ 
+      </binding>
+
+    <binding template="TileWide310x150ImageAndText01" branding="name"> 
+      <image id="9" src="https://www.pcrichard.com/images/promos/pcrwebapp310x1502017-2.png" alt="P.C.R"/>
+      <text id="10">108th Birthday Sale</text>
+    </binding>  
+
+   <binding template="TileSquare150x150PeekImageAndText04" branding="name">
+      <image id="11" src="/images/promos/pcrwebapp1282017.png"/>
+      <text id="12">108th Birthday Sale</text> 
+   </binding>
+ </visual>
+</tile>
