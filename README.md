@@ -3,7 +3,7 @@ FSI DEV 1.0
 Default element structure-------------------------------------------------
 
 <div class=""></div>
-.promo_box_940   100% element
+.promo_box_940    100% element
 .promo_box_50     50% element
 .promo_box_33     33% element
 
@@ -27,8 +27,6 @@ if multiple model numbers or a Landing Page data="/content/landingpage.html"
 </div>
 
 (MODEL NUMBER MUST BE IN CAPS)    (ALL "/" AND "." NEED TO BE CONVERT TO "-")  EX CP.PT.003.000 === CP-PT-0003-000
-
-
 
 
 Video Module---------------------------------------------------
@@ -62,7 +60,13 @@ icon-icon_homeAutomation
 icon-icon_tv
 icon-icon_laptop
 icon-icon_headphone
-
+icon-icon_camera
+icon-caraudio
+icon-icon_grill
+icon-icon_officeDesk
+icon-icon_bed
+icon-icon_game
+icon-icon_vacuum
 
 
 Page written in-------------------------------------------------
