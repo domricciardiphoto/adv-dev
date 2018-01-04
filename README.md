@@ -26,7 +26,8 @@ if multiple model numbers or a Landing Page data="/content/landingpage.html"
     <img src="/images/promos/flyer-12-31-17-pg8-hero1.jpg" alt="Headboards">
 </div>
 
-(MODEL NUMBER MUST BE IN CAPS)    (ALL "/" AND "." NEED TO BE CONVERT TO "-")  EX CP.PT.003.000 === CP-PT-0003-000
+(MODEL NUMBER MUST BE IN CAPS)    (ALL "/" AND "." NEED TO BE CONVERT TO "-")  
+Example CP.PT.003.000 === CP-PT-0003-000
 
 
 Video Module---------------------------------------------------
