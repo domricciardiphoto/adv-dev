@@ -1,4 +1,4 @@
-<strong>FSI DEV 1.2</strong><br>
+<strong>FSI DEV 0.8</strong><br>
 
 
 Current stable build 01-01-18<br>
@@ -27,7 +27,6 @@ Default element structure-------------------------------------------------
 
 
 URL added by adding data="FO" atrribute on .promo_box"940,50.,33" classed div.<br> 
-Example-----
 ```
 <div class="promo_box_940" data="/content/PCTECH"></div> or <div class="promo_box_940" data="FE140"></div>
 ```
@@ -85,7 +84,7 @@ IF ONLY ONE PRODUCT IS BEING USED REMOVE "singlepromo-multi" or link will come u
 
 
 
-Menu written in-------------------------------------------------<br> 
+<strong>Menu written in</strong>
 ```
 <div id="submenu">
     <div id="ae4" class="submenu_overflow">
@@ -107,7 +106,7 @@ menu goes here
         </div>
 ```
 
-Icons-----------------------------------------   
+<strong>Icons</strong>  
 ```
 <i class="icon-icon_heater"></i>
 ```
@@ -128,7 +127,7 @@ icon-icon_game
 icon-icon_vacuum  
 
 
-Pages written in-------------------------------------------------
+<strong>Pages written in</strong>
 ```
     <div class="fsi" id="pg0" data2="Appliances"></div>
     <div class="fsi" id="pg1" data2="Recliners"></div>
@@ -136,7 +135,7 @@ Pages written in-------------------------------------------------
  ```
 
 
-Pages var written in---------------------------------------------
+<strong>Pages var written in</strong>
 
 ```
     var content_page0 = '<div class=internalflyer> fo </div>';
