@@ -76,7 +76,7 @@ Graphical element with dynamic pricing-----------------------------<br>
     </div>
  ```
 
-Element takes up a 50% SLOT" and 100% on mobile<br> 
+Element takes up a 50% slot and 100% on mobile<br> 
 data = where the pricing is coming from<br> 
 data2 = used whem there the link needs to go to MORE THEN ONE PRODUCT OR LANDING PAGE<br> 
 (MUST HAVE CLASS "singlepromo-multi" TO USE DATA2)<br> 
@@ -110,10 +110,10 @@ Icons-----------------------------------------
 ```
 <i class="icon-icon_heater"></i>
 ```
-icon-icon_appliances<br>        
-icon-icon_bed<br>   
-icon-icon_healthBeauty<br>   
-icon-icon_heater<br>   
+icon-icon_appliances     
+icon-icon_bed
+icon-icon_healthBeauty   
+icon-icon_heater
 icon-icon_homeAutomation<br>   
 icon-icon_tv<br>   
 icon-icon_laptop<br>   
