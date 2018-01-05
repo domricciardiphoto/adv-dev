@@ -26,15 +26,17 @@ Default element structure-------------------------------------------------
 
 
 URL added by adding data="FO" atrribute on .promo_box"940,50.,33" classed div.<br> 
-Example-----```<div class="promo_box_940" data="/content/PCTECH"></div> or <div class="promo_box_940" data="FE140"></div>```
+Example-----
+```
+<div class="promo_box_940" data="/content/PCTECH"></div> or <div class="promo_box_940" data="FE140"></div>
+```
 
 if data attribute is missing child IMG or element will not be wrapped in<br> 
 ```
 <a href="{url in data tag or URL to Model #}" title="{model # or url in data tag}"></a>
 ```
--- (This part is automated by the JS)
+-- (This part is automated by the JS) and be unclickable.
 
-and be unclickable.
 
 if only one model number  data="FE140"<br> 
 if multiple model numbers or a Landing Page data="/content/landingpage.html"<br> 
@@ -82,8 +84,6 @@ IF ONLY ONE PRODUCT IS BEING USED REMOVE "singlepromo-multi" or link will come u
 
 
 
-
-
 Menu written in-------------------------------------------------<br> 
 ```
 <div id="submenu">
@@ -94,6 +94,7 @@ menu goes here
    </div>
 </div>
  ```       
+ ```
         <div class="submenu_button" data="9">
             <i class="icon-icon_healthBeauty"></i>
             <div class="undermenu">Fitness</div>
@@ -103,7 +104,7 @@ menu goes here
             <i class="icon-icon_heater"></i>
             <div class="undermenu">Heaters &amp; Humidifers</div>
         </div>
-
+```
 
 Icons-----------------------------------------   
 ```
@@ -141,6 +142,3 @@ Pages var written in---------------------------------------------
     var content_page1 = '<div class=internalflyer> fo </div>';
     var content_page3 = '<div class=internalflyer> fo </div>';
 ```
-
-
-
