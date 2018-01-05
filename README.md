@@ -30,21 +30,24 @@ Example-----```<div class="promo_box_940" data="/content/PCTECH"></div> or <div 
 
 if data attribute is missing child IMG or element will not be wrapped in<br> 
 ```
-<a href="{url in data tag or URL to Model #}" title="{model # or url in data tag}"></a>```
+<a href="{url in data tag or URL to Model #}" title="{model # or url in data tag}"></a>
+```
 -- (This part is automated by the JS)
 
 and be unclickable.
 
 if only one model number  data="FE140"<br> 
 if multiple model numbers or a Landing Page data="/content/landingpage.html"<br> 
+
 ```
 <div class="promo_box_940" data="/category/Home-Furnishings/Headboards-Upholstered-Beds/Headboards/_/N-1gl4z5q">
-    <img src="https://www.pcrichard.com/images/promos/flyer-12-31-17-pg8-hero1.jpg" alt="Headboards">
+    <img src="/images/promos/flyer-12-31-17-pg8-hero1.jpg" alt="Headboards">
 </div>
 ```
+or
 ```
 <div class="promo_box_940" data="FE140">
-    <img src="https://www.pcrichard.com/images/promos/flyer-12-31-17-pg8-hero1.jpg" alt="Headboards">
+    <img src="/images/promos/flyer-12-31-17-pg8-hero1.jpg" alt="Headboards">
 </div>
 ```
 
