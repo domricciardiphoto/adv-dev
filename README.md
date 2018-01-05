@@ -28,11 +28,11 @@ if only one model number  data="FE140"
 if multiple model numbers or a Landing Page data="/content/landingpage.html"
 
 <div class="promo_box_940" data="/category/Home-Furnishings/Headboards-Upholstered-Beds/Headboards/_/N-1gl4z5q">
-    <img src="/images/promos/flyer-12-31-17-pg8-hero1.jpg" alt="Headboards">
+    <img src="https://www.pcrichard.com/images/promos/flyer-12-31-17-pg8-hero1.jpg" alt="Headboards">
 </div>
 
 <div class="promo_box_940" data="FE140">
-    <img src="/images/promos/flyer-12-31-17-pg8-hero1.jpg" alt="Headboards">
+    <img src="https://www.pcrichard.com/images/promos/flyer-12-31-17-pg8-hero1.jpg" alt="Headboards">
 </div>
 
 (MODEL NUMBER MUST BE IN CAPS)    (ALL "/" AND "." NEED TO BE CONVERT TO "-")  
@@ -90,21 +90,21 @@ Icons-----------------------------------------
 
 <i class="icon-icon_heater"></i>
 
-icon-icon_appliances        
-icon-icon_bed
-icon-icon_healthBeauty
-icon-icon_heater
-icon-icon_homeAutomation
-icon-icon_tv
-icon-icon_laptop
-icon-icon_headphone
-icon-icon_camera
-icon-caraudio
-icon-icon_grill
-icon-icon_officeDesk
-icon-icon_bed
-icon-icon_game
-icon-icon_vacuum
+icon-icon_appliances<br>        
+icon-icon_bed<br>   
+icon-icon_healthBeauty<br>   
+icon-icon_heater<br>   
+icon-icon_homeAutomation<br>   
+icon-icon_tv<br>   
+icon-icon_laptop<br>   
+icon-icon_headphone<br>   
+icon-icon_camera<br>   
+icon-caraudio<br>   
+icon-icon_grill<br>   
+icon-icon_officeDesk<br>   
+icon-icon_bed<br>   
+icon-icon_game<br>   
+icon-icon_vacuum<br>   
 
 
 Pages written in-------------------------------------------------
