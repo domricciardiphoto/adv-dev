@@ -16,13 +16,13 @@ Default element structure-------------------------------------------------
 .promo_box_33     33% element<br> 
 
 
-<code>
+```
 <div class="promo_box_940"></div><br> 
 <div class="promo_box_66"></div><br> 
 <div class="promo_box_50"></div><br> 
 <div class="promo_box_33"></div><br> 
  </code>
-
+```
 
 
 
