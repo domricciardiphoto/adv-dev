@@ -1,7 +1,7 @@
 FSI DEV 1.1
 current stable build 01-01-18
-<link href="/images/promos/FSI-01-02-2018.min.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="/images/promos/FSI-01-02-2018.min.js"></script>
+<code><link href="/images/promos/FSI-01-02-2018.min.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="/images/promos/FSI-01-02-2018.min.js"></script></code>
 
 Default element structure-------------------------------------------------
 
@@ -110,14 +110,15 @@ icon-icon_vacuum<br>
 Pages written in-------------------------------------------------
 
     <div class="fsi" id="pg0" data2="Appliances"></div>
-    <div class="fsi" id="pg8" data2="Recliners"></div>
-    <div class="fsi" id="pg9" data2="Fitness"></div>
+    <div class="fsi" id="pg1" data2="Recliners"></div>
+    <div class="fsi" id="pg2" data2="Fitness"></div>
                                                                    etc.
 
 Pages var written in---------------------------------------------
 
-    var content_page0 = '<div class=internalflyer> test1 </div>';
-    var content_page1 = '<div class=internalflyer> test1 </div>';
+    var content_page0 = '<div class=internalflyer> fo </div>';
+    var content_page1 = '<div class=internalflyer> fo </div>';
+    var content_page3 = '<div class=internalflyer> fo </div>';
                                                                    etc.
 
 
