@@ -1,4 +1,7 @@
 FSI DEV 1.0
+current stable build 01-01-18
+<link href="/images/promos/FSI-01-02-2018.min.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/images/promos/FSI-01-02-2018.min.js"></script>
 
 Default element structure-------------------------------------------------
 
@@ -26,7 +29,8 @@ if multiple model numbers or a Landing Page data="/content/landingpage.html"
     <img src="/images/promos/flyer-12-31-17-pg8-hero1.jpg" alt="Headboards">
 </div>
 
-(MODEL NUMBER MUST BE IN CAPS)    (ALL "/" AND "." NEED TO BE CONVERT TO "-")  EX CP.PT.003.000 === CP-PT-0003-000
+(MODEL NUMBER MUST BE IN CAPS)    (ALL "/" AND "." NEED TO BE CONVERT TO "-")  
+Example CP.PT.003.000 === CP-PT-0003-000
 
 
 Video Module---------------------------------------------------
@@ -36,8 +40,29 @@ Video Module---------------------------------------------------
 Your browser does not support this video
 </video>
 
+Graphical element with dynamic pricing-----------------------------
+    <div class="promo_box singlepromo singlepromo-multi videogame" data="FB502SBKL" data2="/browse?Ntt=FB502S*" style="background-image:url(/images/promos/flyer-12-31-17-pg21-hero18.jpg)">
+        <div class="promo_des_price"></div>
+    </div>
+--- element takes up a 50% SLOT" and 100% on mobile
+data = where the pricing is coming from
+data2 = used whem there the link needs to go to MORE THEN ONE PRODUCT OR LANDING PAGE
+(MUST HAVE CLASS "singlepromo-multi" TO USE DATA2)
+IF ONLY ONE PRODUCT IS BEING USED REMOVE "singlepromo-multi" or link will come up "unkown"
+
+
+
+
 
 Menu written in-------------------------------------------------
+
+<div id="submenu">
+    <div id="ae4" class="submenu_overflow">
+    
+----------------------menu goes here----------------------
+
+    </div>
+</div>
         
         <div class="submenu_button" data="9">
             <i class="icon-icon_healthBeauty"></i>
@@ -69,14 +94,14 @@ icon-icon_game
 icon-icon_vacuum
 
 
-Page written in-------------------------------------------------
+Pages written in-------------------------------------------------
 
     <div class="fsi" id="pg0" data2="Appliances"></div>
     <div class="fsi" id="pg8" data2="Recliners"></div>
     <div class="fsi" id="pg9" data2="Fitness"></div>
                                                                    etc.
 
-Page var written in---------------------------------------------
+Pages var written in---------------------------------------------
 
     var content_page0 = '<div class=internalflyer> test1 </div>';
     var content_page1 = '<div class=internalflyer> test1 </div>';
