@@ -1,22 +1,28 @@
-FSI DEV 1.0
+FSI DEV 1.1
 current stable build 01-01-18
-<link href="/images/promos/FSI-01-02-2018.min.css" rel="stylesheet" type="text/css">
+<link href="/images/promos/FSI-01-02-2018.min.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="/images/promos/FSI-01-02-2018.min.js"></script>
 
 Default element structure-------------------------------------------------
 
-<div class=""></div>
 .promo_box_940    100% element
+.promo_box_66     66% element
 .promo_box_50     50% element
 .promo_box_33     33% element
 
-URL added by adding data="asdf" atrribute on .promo_box"940,50.,33" classed div.
+
+<div class="promo_box_940"></div>
+<div class="promo_box_66"></div>
+<div class="promo_box_50"></div>
+<div class="promo_box_33"></div>
+
+
+URL added by adding data="FO" atrribute on .promo_box"940,50.,33" classed div.
+Example-----<div class="promo_box_940" data="/content/PCTECH"></div> or <div class="promo_box_940" data="FE140"></div>
+
 if data attribute is missing child IMG or element will not be wrapped in
 <a href="{url in data tag or URL to Model #}" title="{model # or url in data tag}"></a> -- (This part is automated by the JS)
 and be unclickable.
-
-
-"data tag" Structure: for a clickable element---
 
 if only one model number  data="FE140"
 if multiple model numbers or a Landing Page data="/content/landingpage.html"
@@ -40,11 +46,16 @@ Video Module---------------------------------------------------
 Your browser does not support this video
 </video>
 
+This will show a video on click.
+The video module is 100% on desktop and mobile
+
+
 Graphical element with dynamic pricing-----------------------------
     <div class="promo_box singlepromo singlepromo-multi videogame" data="FB502SBKL" data2="/browse?Ntt=FB502S*" style="background-image:url(/images/promos/flyer-12-31-17-pg21-hero18.jpg)">
         <div class="promo_des_price"></div>
     </div>
---- element takes up a 50% SLOT" and 100% on mobile
+
+Element takes up a 50% SLOT" and 100% on mobile
 data = where the pricing is coming from
 data2 = used whem there the link needs to go to MORE THEN ONE PRODUCT OR LANDING PAGE
 (MUST HAVE CLASS "singlepromo-multi" TO USE DATA2)
@@ -59,9 +70,9 @@ Menu written in-------------------------------------------------
 <div id="submenu">
     <div id="ae4" class="submenu_overflow">
     
-----------------------menu goes here----------------------
+menu goes here
 
-    </div>
+   </div>
 </div>
         
         <div class="submenu_button" data="9">
@@ -76,6 +87,8 @@ Menu written in-------------------------------------------------
 
 
 Icons-----------------------------------------   
+
+<i class="icon-icon_heater"></i>
 
 icon-icon_appliances        
 icon-icon_bed
