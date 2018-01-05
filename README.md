@@ -3,10 +3,11 @@
 
 Current stable build 01-01-18<br>
 
-Included files---------------------------<br>
-CSS /images/promos/FSI-01-02-2018.min.css<br>
-JS  /images/promos/FSI-01-02-2018.min.js<br>
-
+Included files
+```
+<link href="/images/promos/FSI-01-02-2018.min.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/images/promos/FSI-01-02-2018.min.js"></script>
+```
 
 Default element structure-------------------------------------------------
 
@@ -114,17 +115,17 @@ icon-icon_appliances
 icon-icon_bed
 icon-icon_healthBeauty   
 icon-icon_heater
-icon-icon_homeAutomation<br>   
-icon-icon_tv<br>   
-icon-icon_laptop<br>   
-icon-icon_headphone<br>   
-icon-icon_camera<br>   
-icon-caraudio<br>   
-icon-icon_grill<br>   
-icon-icon_officeDesk<br>   
-icon-icon_bed<br>   
-icon-icon_game<br>   
-icon-icon_vacuum<br>   
+icon-icon_homeAutomation  
+icon-icon_tv  
+icon-icon_laptop  
+icon-icon_headphone  
+icon-icon_camera  
+icon-caraudio   
+icon-icon_grill   
+icon-icon_officeDesk  
+icon-icon_bed  
+icon-icon_game 
+icon-icon_vacuum  
 
 
 Pages written in-------------------------------------------------
