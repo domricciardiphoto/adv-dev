@@ -17,21 +17,22 @@ Default element structure-------------------------------------------------
 
 
 ```
-<div class="promo_box_940"></div><br> 
-<div class="promo_box_66"></div><br> 
-<div class="promo_box_50"></div><br> 
-<div class="promo_box_33"></div><br> 
+<div class="promo_box_940"></div> 
+<div class="promo_box_66"></div>
+<div class="promo_box_50"></div>
+<div class="promo_box_33"></div>
 ```
 
 
 
 URL added by adding data="FO" atrribute on .promo_box"940,50.,33" classed div.<br> 
-Example-----<div class="promo_box_940" data="/content/PCTECH"></div> or <div class="promo_box_940" data="FE140"></div>
+Example-----```<div class="promo_box_940" data="/content/PCTECH"></div> or <div class="promo_box_940" data="FE140"></div>```
 
 if data attribute is missing child IMG or element will not be wrapped in<br> 
 ```
-<a href="{url in data tag or URL to Model #}" title="{model # or url in data tag}"></a> -- (This part is automated by the JS)
-```
+<a href="{url in data tag or URL to Model #}" title="{model # or url in data tag}"></a>```
+-- (This part is automated by the JS)
+
 and be unclickable.
 
 if only one model number  data="FE140"<br> 
@@ -40,7 +41,8 @@ if multiple model numbers or a Landing Page data="/content/landingpage.html"<br>
 <div class="promo_box_940" data="/category/Home-Furnishings/Headboards-Upholstered-Beds/Headboards/_/N-1gl4z5q">
     <img src="https://www.pcrichard.com/images/promos/flyer-12-31-17-pg8-hero1.jpg" alt="Headboards">
 </div>
-
+```
+```
 <div class="promo_box_940" data="FE140">
     <img src="https://www.pcrichard.com/images/promos/flyer-12-31-17-pg8-hero1.jpg" alt="Headboards">
 </div>
@@ -127,7 +129,7 @@ Pages written in-------------------------------------------------
     <div class="fsi" id="pg1" data2="Recliners"></div>
     <div class="fsi" id="pg2" data2="Fitness"></div>
  ```
-                                                                   etc.
+
 
 Pages var written in---------------------------------------------
 
@@ -136,6 +138,6 @@ Pages var written in---------------------------------------------
     var content_page1 = '<div class=internalflyer> fo </div>';
     var content_page3 = '<div class=internalflyer> fo </div>';
 ```
-                                                                   etc.
+
 
 
