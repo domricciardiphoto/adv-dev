@@ -1,20 +1,23 @@
 FSI DEV 1.1
+
+
 current stable build 01-01-18
-<code><link href="/images/promos/FSI-01-02-2018.min.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="/images/promos/FSI-01-02-2018.min.js"></script></code>
+CSS /images/promos/FSI-01-02-2018.min.css
+JS  /images/promos/FSI-01-02-2018.min.js
+
 
 Default element structure-------------------------------------------------
 
-.promo_box_940    100% element
-.promo_box_66     66% element
-.promo_box_50     50% element
-.promo_box_33     33% element
+.promo_box_940    100% element<br> 
+.promo_box_66     66% element<br> 
+.promo_box_50     50% element<br> 
+.promo_box_33     33% element<br> 
 
 
-<div class="promo_box_940"></div>
-<div class="promo_box_66"></div>
-<div class="promo_box_50"></div>
-<div class="promo_box_33"></div>
+<div class="promo_box_940"></div><br> 
+<div class="promo_box_66"></div><br> 
+<div class="promo_box_50"></div><br> 
+<div class="promo_box_33"></div><br> 
 
 
 URL added by adding data="FO" atrribute on .promo_box"940,50.,33" classed div.
