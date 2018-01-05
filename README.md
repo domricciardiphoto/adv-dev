@@ -1,15 +1,15 @@
-<strong>FSI DEV 0.8</strong><br>
+<strong>FSI DEV 0.9</strong><br>
 
 
 Current stable build 01-01-18<br>
 
-Included files
+<strong>Include files</strong>
 ```
 <link href="/images/promos/FSI-01-02-2018.min.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="/images/promos/FSI-01-02-2018.min.js"></script>
 ```
 
-Default element structure-------------------------------------------------
+<strong>Default element structure</strong>
 
 .promo_box_940    100% element<br> 
 .promo_box_66     66% element<br> 
@@ -57,7 +57,7 @@ or
 Example CP.PT.003.000 === CP-PT-0003-000<br> 
 
 
-Video Module---------------------------------------------------
+<strong>Video Module</strong>
 ```
 <video poster="/images/promos/flyer-4-30-17-pg3-hero2.jpg">
 <source src="/images/promos/pureWash_Pro-HIW.mp4" type="video/mp4">
@@ -69,7 +69,7 @@ This will show a video on click.<br>
 The video module is 100% on desktop and mobile<br> 
 
 
-Graphical element with dynamic pricing-----------------------------<br> 
+<strong>Graphical element with dynamic pricing</strong>
 ```
     <div class="promo_box singlepromo singlepromo-multi videogame" data="FB502SBKL" data2="/browse?Ntt=FB502S*" style="background-image:url(/images/promos/flyer-12-31-17-pg21-hero18.jpg)">
         <div class="promo_des_price"></div>
