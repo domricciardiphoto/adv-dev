@@ -1,11 +1,15 @@
-<strong>FSI DEV 0.9</strong><br>
-
-
+<strong>FSI DEV 1.0</strong><br>
 Current stable build 01-01-18<br>
 
+
+
 <strong>Include files</strong>
+Beginning of document:
 ```
 <link href="/images/promos/FSI-01-02-2018.min.css" rel="stylesheet" type="text/css">
+```
+End of document:
+```
 <script type="text/javascript" src="/images/promos/FSI-01-02-2018.min.js"></script>
 ```
 
@@ -26,7 +30,7 @@ Current stable build 01-01-18<br>
 
 
 
-URL added by adding data="FO" atrribute on .promo_box"940,50.,33" classed div.<br> 
+URL added by adding data="foo" atrribute on .promo_box"940,50.,33" classed div.<br> 
 ```
 <div class="promo_box_940" data="/content/PCTECH"></div> or <div class="promo_box_940" data="FE140"></div>
 ```
@@ -54,7 +58,7 @@ or
 ```
 
 (MODEL NUMBER MUST BE IN CAPS)    (ALL "/" AND "." NEED TO BE CONVERT TO "-")  <br> 
-Example CP.PT.003.000 === CP-PT-0003-000<br> 
+Example CP.PT.003.000 becomes--- CP-PT-0003-000<br> 
 
 
 <strong>Video Module</strong>
@@ -68,7 +72,7 @@ Your browser does not support this video
 This will show a video on click.<br> 
 The video module is 100% on desktop and mobile<br> 
 
-<strong>Dynamic Products</strong>
+<strong>Dynamic Products</strong><br>
 Products are brought in via a search link
 
 3 Products across 100%
@@ -85,6 +89,8 @@ Products are brought in via a search link
 ```
     <div class="promo_box show get large" data="/browse/_/N-d3zn94?Ns=sku.sortPrice%7C0&Ntt=UN75MU8000+UN75MU9000+UN82MU8000&Ntx=mode+matchany"></div>
 ```
+
+
 
 
 <strong>Graphical element with dynamic pricing</strong>
