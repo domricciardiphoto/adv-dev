@@ -1,9 +1,9 @@
-FSI DEV 1.1
+<strong>FSI DEV 1.1</strong><br>
 
 
-current stable build 01-01-18
-CSS /images/promos/FSI-01-02-2018.min.css
-JS  /images/promos/FSI-01-02-2018.min.js
+current stable build 01-01-18<br>
+CSS /images/promos/FSI-01-02-2018.min.css<br>
+JS  /images/promos/FSI-01-02-2018.min.js<br>
 
 
 Default element structure-------------------------------------------------
@@ -20,15 +20,15 @@ Default element structure-------------------------------------------------
 <div class="promo_box_33"></div><br> 
 
 
-URL added by adding data="FO" atrribute on .promo_box"940,50.,33" classed div.
+URL added by adding data="FO" atrribute on .promo_box"940,50.,33" classed div.<br> 
 Example-----<div class="promo_box_940" data="/content/PCTECH"></div> or <div class="promo_box_940" data="FE140"></div>
 
-if data attribute is missing child IMG or element will not be wrapped in
+if data attribute is missing child IMG or element will not be wrapped in<br> 
 <a href="{url in data tag or URL to Model #}" title="{model # or url in data tag}"></a> -- (This part is automated by the JS)
 and be unclickable.
 
-if only one model number  data="FE140"
-if multiple model numbers or a Landing Page data="/content/landingpage.html"
+if only one model number  data="FE140"<br> 
+if multiple model numbers or a Landing Page data="/content/landingpage.html"<br> 
 
 <div class="promo_box_940" data="/category/Home-Furnishings/Headboards-Upholstered-Beds/Headboards/_/N-1gl4z5q">
     <img src="https://www.pcrichard.com/images/promos/flyer-12-31-17-pg8-hero1.jpg" alt="Headboards">
@@ -38,8 +38,8 @@ if multiple model numbers or a Landing Page data="/content/landingpage.html"
     <img src="https://www.pcrichard.com/images/promos/flyer-12-31-17-pg8-hero1.jpg" alt="Headboards">
 </div>
 
-(MODEL NUMBER MUST BE IN CAPS)    (ALL "/" AND "." NEED TO BE CONVERT TO "-")  
-Example CP.PT.003.000 === CP-PT-0003-000
+(MODEL NUMBER MUST BE IN CAPS)    (ALL "/" AND "." NEED TO BE CONVERT TO "-")  <br> 
+Example CP.PT.003.000 === CP-PT-0003-000<br> 
 
 
 Video Module---------------------------------------------------
@@ -49,26 +49,26 @@ Video Module---------------------------------------------------
 Your browser does not support this video
 </video>
 
-This will show a video on click.
-The video module is 100% on desktop and mobile
+This will show a video on click.<br> 
+The video module is 100% on desktop and mobile<br> 
 
 
-Graphical element with dynamic pricing-----------------------------
+Graphical element with dynamic pricing-----------------------------<br> 
     <div class="promo_box singlepromo singlepromo-multi videogame" data="FB502SBKL" data2="/browse?Ntt=FB502S*" style="background-image:url(/images/promos/flyer-12-31-17-pg21-hero18.jpg)">
         <div class="promo_des_price"></div>
     </div>
 
-Element takes up a 50% SLOT" and 100% on mobile
-data = where the pricing is coming from
-data2 = used whem there the link needs to go to MORE THEN ONE PRODUCT OR LANDING PAGE
-(MUST HAVE CLASS "singlepromo-multi" TO USE DATA2)
-IF ONLY ONE PRODUCT IS BEING USED REMOVE "singlepromo-multi" or link will come up "unkown"
+Element takes up a 50% SLOT" and 100% on mobile<br> 
+data = where the pricing is coming from<br> 
+data2 = used whem there the link needs to go to MORE THEN ONE PRODUCT OR LANDING PAGE<br> 
+(MUST HAVE CLASS "singlepromo-multi" TO USE DATA2)<br> 
+IF ONLY ONE PRODUCT IS BEING USED REMOVE "singlepromo-multi" or link will come up "unkown"<br> 
 
 
 
 
 
-Menu written in-------------------------------------------------
+Menu written in-------------------------------------------------<br> 
 
 <div id="submenu">
     <div id="ae4" class="submenu_overflow">
