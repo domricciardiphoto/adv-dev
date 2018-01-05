@@ -15,16 +15,14 @@ Default element structure-------------------------------------------------
 .promo_box_50     50% element<br> 
 .promo_box_33     33% element<br> 
 
-<blockquote>
-  <pre>
-    <code>
+
+<code>
 <div class="promo_box_940"></div><br> 
 <div class="promo_box_66"></div><br> 
 <div class="promo_box_50"></div><br> 
 <div class="promo_box_33"></div><br> 
-    </code>
-  </pre>
-</blockquote>
+ </code>
+
 
 
 
