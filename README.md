@@ -1,4 +1,4 @@
-<strong>FSI DEV 1.1</strong><br>
+<strong>FSI DEV 1.2</strong><br>
 
 
 Current stable build 01-01-18<br>
@@ -21,7 +21,6 @@ Default element structure-------------------------------------------------
 <div class="promo_box_66"></div><br> 
 <div class="promo_box_50"></div><br> 
 <div class="promo_box_33"></div><br> 
- </code>
 ```
 
 
@@ -30,12 +29,14 @@ URL added by adding data="FO" atrribute on .promo_box"940,50.,33" classed div.<b
 Example-----<div class="promo_box_940" data="/content/PCTECH"></div> or <div class="promo_box_940" data="FE140"></div>
 
 if data attribute is missing child IMG or element will not be wrapped in<br> 
+```
 <a href="{url in data tag or URL to Model #}" title="{model # or url in data tag}"></a> -- (This part is automated by the JS)
+```
 and be unclickable.
 
 if only one model number  data="FE140"<br> 
 if multiple model numbers or a Landing Page data="/content/landingpage.html"<br> 
-
+```
 <div class="promo_box_940" data="/category/Home-Furnishings/Headboards-Upholstered-Beds/Headboards/_/N-1gl4z5q">
     <img src="https://www.pcrichard.com/images/promos/flyer-12-31-17-pg8-hero1.jpg" alt="Headboards">
 </div>
@@ -43,26 +44,30 @@ if multiple model numbers or a Landing Page data="/content/landingpage.html"<br>
 <div class="promo_box_940" data="FE140">
     <img src="https://www.pcrichard.com/images/promos/flyer-12-31-17-pg8-hero1.jpg" alt="Headboards">
 </div>
+```
 
 (MODEL NUMBER MUST BE IN CAPS)    (ALL "/" AND "." NEED TO BE CONVERT TO "-")  <br> 
 Example CP.PT.003.000 === CP-PT-0003-000<br> 
 
 
 Video Module---------------------------------------------------
-
+```
 <video poster="/images/promos/flyer-4-30-17-pg3-hero2.jpg">
 <source src="/images/promos/pureWash_Pro-HIW.mp4" type="video/mp4">
 Your browser does not support this video
 </video>
+```
 
 This will show a video on click.<br> 
 The video module is 100% on desktop and mobile<br> 
 
 
 Graphical element with dynamic pricing-----------------------------<br> 
+```
     <div class="promo_box singlepromo singlepromo-multi videogame" data="FB502SBKL" data2="/browse?Ntt=FB502S*" style="background-image:url(/images/promos/flyer-12-31-17-pg21-hero18.jpg)">
         <div class="promo_des_price"></div>
     </div>
+ ```
 
 Element takes up a 50% SLOT" and 100% on mobile<br> 
 data = where the pricing is coming from<br> 
@@ -75,7 +80,7 @@ IF ONLY ONE PRODUCT IS BEING USED REMOVE "singlepromo-multi" or link will come u
 
 
 Menu written in-------------------------------------------------<br> 
-
+```
 <div id="submenu">
     <div id="ae4" class="submenu_overflow">
     
@@ -83,7 +88,7 @@ menu goes here
 
    </div>
 </div>
-        
+ ```       
         <div class="submenu_button" data="9">
             <i class="icon-icon_healthBeauty"></i>
             <div class="undermenu">Fitness</div>
@@ -96,9 +101,9 @@ menu goes here
 
 
 Icons-----------------------------------------   
-
+```
 <i class="icon-icon_heater"></i>
-
+```
 icon-icon_appliances<br>        
 icon-icon_bed<br>   
 icon-icon_healthBeauty<br>   
@@ -117,17 +122,20 @@ icon-icon_vacuum<br>
 
 
 Pages written in-------------------------------------------------
-
+```
     <div class="fsi" id="pg0" data2="Appliances"></div>
     <div class="fsi" id="pg1" data2="Recliners"></div>
     <div class="fsi" id="pg2" data2="Fitness"></div>
+ ```
                                                                    etc.
 
 Pages var written in---------------------------------------------
 
+```
     var content_page0 = '<div class=internalflyer> fo </div>';
     var content_page1 = '<div class=internalflyer> fo </div>';
     var content_page3 = '<div class=internalflyer> fo </div>';
+```
                                                                    etc.
 
 
