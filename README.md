@@ -94,17 +94,20 @@ Products are brought in via a search link
 
 
 <strong>Graphical element with dynamic pricing</strong>
-```
-    <div class="promo_box singlepromo singlepromo-multi videogame" data="FB502SBKL" data2="/browse?Ntt=FB502S*" style="background-image:url(/images/promos/flyer-12-31-17-pg21-hero18.jpg)">
-        <div class="promo_des_price"></div>
-    </div>
- ```
 
 Element takes up a 50% slot and 100% on mobile<br> 
 data = where the pricing is coming from<br> 
 data2 = used whem there the link needs to go to MORE THEN ONE PRODUCT OR LANDING PAGE<br> 
 (MUST HAVE CLASS "singlepromo-multi" TO USE DATA2)<br> 
 IF ONLY ONE PRODUCT IS BEING USED REMOVE "singlepromo-multi" or link will come up "unkown"<br> 
+
+```
+    <div class="promo_box singlepromo singlepromo-multi videogame" data="FB502SBKL" data2="/browse?Ntt=FB502S*" style="background-image:url(/images/promos/flyer-12-31-17-pg21-hero18.jpg)">
+        <div class="promo_des_price"></div>
+    </div>
+ ```
+
+
 
 
 
@@ -147,8 +150,9 @@ icon-caraudio
 icon-icon_grill   
 icon-icon_officeDesk  
 icon-icon_bed  
-icon-icon_game 
+icon-icon_game
 icon-icon_vacuum  
+
 
 
 <strong>Pages written in</strong>
