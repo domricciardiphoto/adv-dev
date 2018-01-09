@@ -99,7 +99,7 @@ Element takes up a 50% slot and 100% on mobile<br>
 data = where the pricing is coming from<br> 
 data2 = used whem there the link needs to go to MORE THEN ONE PRODUCT OR LANDING PAGE<br> 
 (MUST HAVE CLASS "singlepromo-multi" TO USE DATA2)<br> 
-IF ONLY ONE PRODUCT IS BEING USED REMOVE "singlepromo-multi" or link will come up "unkown"<br> 
+IF ONLY ONE PRODUCT IS BEING USED REMOVE "singlepromo-multi" or link will come up "unknown"<br> 
 
 ```
     <div class="promo_box singlepromo singlepromo-multi videogame" data="FB502SBKL" data2="/browse?Ntt=FB502S*" style="background-image:url(/images/promos/flyer-12-31-17-pg21-hero18.jpg)">
@@ -137,6 +137,9 @@ menu goes here
 ```
 <i class="icon-icon_heater"></i>
 ```
+
+Each class displays a relative icon
+```
 icon-icon_appliances     
 icon-icon_bed
 icon-icon_healthBeauty   
@@ -152,7 +155,7 @@ icon-icon_officeDesk
 icon-icon_bed  
 icon-icon_game
 icon-icon_vacuum  
-
+```
 
 
 <strong>Pages written in</strong>
