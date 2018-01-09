@@ -3,12 +3,13 @@ Current stable build 01-01-18<br>
 
 
 
-<strong>Include files</strong>
-Beginning of document:
+<strong>Include file</strong><br>
+
+Place at the beginning of document:
 ```
 <link href="/images/promos/FSI-01-02-2018.min.css" rel="stylesheet" type="text/css">
 ```
-End of document:
+Place at the end of document:
 ```
 <script type="text/javascript" src="/images/promos/FSI-01-02-2018.min.js"></script>
 ```
