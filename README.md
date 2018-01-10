@@ -102,13 +102,20 @@ data2 = used whem there the link needs to go to MORE THEN ONE PRODUCT OR LANDING
 (MUST HAVE CLASS "singlepromo-multi" TO USE DATA2)<br> 
 IF ONLY ONE PRODUCT IS BEING USED REMOVE "singlepromo-multi" or link will come up "unknown"<br> 
 
+
+add class ```videogame33```  for 33% with no border<br>
+add class ```videogame33b``` for 33% with border<br>
+add class ```videogame66```  for 66% with no border<br>
+add class ```videogame66b``` for 66% with border<br>
+
 ```
     <div class="promo_box singlepromo singlepromo-multi videogame" data="FB502SBKL" data2="/browse?Ntt=FB502S*" style="background-image:url(/images/promos/flyer-12-31-17-pg21-hero18.jpg)">
         <div class="promo_des_price"></div>
     </div>
  ```
 
-
+ 
+ 
 
 
 
