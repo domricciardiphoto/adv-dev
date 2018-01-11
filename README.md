@@ -20,7 +20,7 @@ Place at the end of document:
 ```
 
 <h2>Core system</h2><br><br>
-<strong>Pages written in</strong>
+<h2>Pages written in</h2>
 ```
     <div class="fsi" id="pg0" data2="Appliances"></div>
     <div class="fsi" id="pg1" data2="Recliners"></div>
