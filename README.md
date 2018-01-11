@@ -96,8 +96,6 @@ icon-icon_vacuum
 
 
 
-
-
 <h2>Digital FSI</h2>
 
 <strong>Default element structure</strong>
@@ -109,10 +107,10 @@ icon-icon_vacuum
 
 
 
-```<div class="promo_box_940"></div> ```<br>
-```<div class="promo_box_66"></div>```<br>
-```<div class="promo_box_50"></div>```<br>
-```<div class="promo_box_33"></div>```<br>
+```<div class="promo_box_940"> fo </div> ```<br>
+```<div class="promo_box_66"> fo </div>```<br>
+```<div class="promo_box_50"> fo </div>```<br>
+```<div class="promo_box_33"> fo </div>```<br>
 
 
 
@@ -193,10 +191,10 @@ IF ONLY ONE PRODUCT IS BEING TARGETED --- remove ```singlepromo-multi``` or link
 
 
 Classes for alternitive layouts<br>
-add class ```videogame33```  for 33% with no border<br>
-add class ```videogame33b``` for 33% with border<br>
-add class ```videogame66```  for 66% with no border<br>
-add class ```videogame66b``` for 66% with border<br>
+Add class ```videogame33```  to end of class string for 33% with no border<br>
+Add class ```videogame33b``` to end of class string for 33% with border<br>
+Add class ```videogame66```  to end of class string for 66% with no border<br>
+Add class ```videogame66b``` to end of class string for 66% with border<br>
 
 ```
     <div class="promo_box singlepromo singlepromo-multi videogame" data="FB502SBKL" data2="/browse?Ntt=FB502S*" style="background-image:url(/images/promos/flyer-12-31-17-pg21-hero18.jpg)">
