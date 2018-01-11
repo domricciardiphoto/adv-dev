@@ -102,18 +102,18 @@ icon-icon_vacuum
 
 <strong>Default element structure</strong>
 
-.promo_box_940    100% element<br> 
-.promo_box_66     66% element<br> 
-.promo_box_50     50% element<br> 
-.promo_box_33     33% element<br> 
+```.promo_box_940```    100% element<br> 
+```.promo_box_66```     66% element<br> 
+```.promo_box_50```     50% element<br> 
+```.promo_box_33```     33% element<br> 
 
 
-```
-<div class="promo_box_940"></div> 
-<div class="promo_box_66"></div>
-<div class="promo_box_50"></div>
-<div class="promo_box_33"></div>
-```
+
+```<div class="promo_box_940"></div> ```
+```<div class="promo_box_66"></div>```
+```<div class="promo_box_50"></div>```
+```<div class="promo_box_33"></div>```
+
 
 
 
