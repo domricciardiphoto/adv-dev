@@ -188,7 +188,7 @@ Requires a 33% element to fill the hole on desktop
 Element takes up a 50% slot on desktop and 100% on mobile<br> 
 ```data``` = where the pricing is coming from<br> 
 ```data2``` = used whem there the link needs to go to MORE THEN ONE PRODUCT OR LANDING PAGE<br> 
-style="background-image shows the background image for product, logo , etc
+```style="background-image"``` shows the background image for product, logo , etc
 <br><br> 
 MUST HAVE CLASS ```.singlepromo-multi``` to use data2 <br> <br> 
 
