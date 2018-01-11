@@ -14,7 +14,24 @@ Place at the end of document:
 <script type="text/javascript" src="/images/promos/FSI-01-02-2018.min.js"></script>
 ```
 
-<h1>Paper Flyer</h1>
+<strong>Core system</strong><br>
+<strong>Pages written in</strong>
+```
+    <div class="fsi" id="pg0" data2="Appliances"></div>
+    <div class="fsi" id="pg1" data2="Recliners"></div>
+    <div class="fsi" id="pg2" data2="Fitness"></div>
+ ```
+
+
+<strong>Pages var written in</strong><br>
+ ```fo``` is where the content for the page goes<br>
+ all content must inside tje internalflyer class
+
+```
+    var content_page0 = '<div class=internalflyer> fo </div>';
+    var content_page1 = '<div class=internalflyer> fo </div>';
+    var content_page3 = '<div class=internalflyer> fo </div>';
+```
 
 
 <h1>Digital FSI</h1>
@@ -125,10 +142,15 @@ add class ```videogame66b``` for 66% with border<br>
 
  
  
+<h1>Paper Flyer</h1>
+The paper flyer is the digital flyer without all of the dynamic pricing but still retains all the functionality of the digital.
+Adding dynamic elements and classes to IMGs used in the Digital version will work the same in the paper one.
 
 
 
-<strong>Menu written in</strong>
+
+
+<h1>Menu</h1>
 ```
 <div id="submenu">
     <div id="ae4" class="submenu_overflow">
@@ -180,18 +202,3 @@ icon-icon_vacuum
 ```
 
 
-<strong>Pages written in</strong>
-```
-    <div class="fsi" id="pg0" data2="Appliances"></div>
-    <div class="fsi" id="pg1" data2="Recliners"></div>
-    <div class="fsi" id="pg2" data2="Fitness"></div>
- ```
-
-
-<strong>Pages var written in</strong>
-
-```
-    var content_page0 = '<div class=internalflyer> fo </div>';
-    var content_page1 = '<div class=internalflyer> fo </div>';
-    var content_page3 = '<div class=internalflyer> fo </div>';
-```
