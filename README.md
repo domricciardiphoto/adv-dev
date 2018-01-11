@@ -5,8 +5,10 @@ Unlimited paper pages<br>
 
 Current Development info<br>
 -------------------------------------------------
+<h6>
 CSS is in progress of being updated with additional layout options<br>
-<h6>01-11-18 Dominick Ricciardi</h6>
+01-11-18 Dominick Ricciardi
+</h6>
 <br><br>
 
 
