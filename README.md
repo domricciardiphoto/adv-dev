@@ -109,10 +109,10 @@ icon-icon_vacuum
 
 
 
-```<div class="promo_box_940"></div> ```
-```<div class="promo_box_66"></div>```
-```<div class="promo_box_50"></div>```
-```<div class="promo_box_33"></div>```
+```<div class="promo_box_940"></div> ```<br>
+```<div class="promo_box_66"></div>```<br>
+```<div class="promo_box_50"></div>```<br>
+```<div class="promo_box_33"></div>```<br>
 
 
 
