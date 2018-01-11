@@ -7,11 +7,11 @@ Current stable build 01-01-18<br>
 
 Place at the beginning of document:
 ```
-<link href="/images/promos/FSI-01-02-2018.min.css" rel="stylesheet" type="text/css">
+<link href="FSI-01-02-2018.min.css" rel="stylesheet" type="text/css">
 ```
 Place at the end of document:
 ```
-<script type="text/javascript" src="/images/promos/FSI-01-02-2018.min.js"></script>
+<script type="text/javascript" src="FSI-01-02-2018.min.js"></script>
 ```
 
 <strong>Core system</strong><br><br>
@@ -35,7 +35,7 @@ Place at the end of document:
 
 
 
-<h1>Menu</h1>
+<h2>Menu</h2>
 ```
 <div id="submenu">
     <div id="ae4" class="submenu_overflow">
@@ -200,7 +200,10 @@ add class ```videogame66b``` for 66% with border<br>
  
 <h2>Paper Flyer</h2>
 The paper flyer is the digital flyer without all of the dynamic pricing but still retains all the functionality of the digital.
-Adding dynamic elements and classes to IMGs used in the Digital version will work the same in the paper one.
+Adding dynamic elements and classes to IMGs used in the Digital version will work the same in the paper one.<br><br>
+
+---info coming soon---
+
 
 
 
