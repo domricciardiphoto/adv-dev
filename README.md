@@ -22,9 +22,9 @@ Place at the end of document:
 <h2>Core system</h2><br><br>
 <h3>Pages written in</h3>
 
-   ``` <div class="fsi" id="pg0" data2="Appliances"></div>```
-   ``` <div class="fsi" id="pg1" data2="Recliners"></div>```
-   ``` <div class="fsi" id="pg2" data2="Fitness"></div>```
+   ``` <div class="fsi" id="pg0" data2="Appliances"></div>```<br>
+   ``` <div class="fsi" id="pg1" data2="Recliners"></div>```<br>
+   ``` <div class="fsi" id="pg2" data2="Fitness"></div>```<br>
  
 
 
