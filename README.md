@@ -30,7 +30,7 @@ data2 = what icon will light up when page is displayed<br><br>
  
 
 
-<h3>Pages var written in</h3><br>
+<h3>Pages var written in</h3>
  ```fo``` is where the content for the page goes<br>
  all content must inside tje internalflyer class
 
@@ -68,8 +68,7 @@ data2 = what icon will light up when page is displayed<br><br>
             <div class="undermenu">Heaters &amp; Humidifers</div>
         </div>
 ```
-
-<strong>Icons</strong>  
+<h2>Icons</h2>  
 ```
 <i class="icon-icon_heater"></i>
 ```
