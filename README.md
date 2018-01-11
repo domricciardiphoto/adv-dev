@@ -7,6 +7,8 @@ Current Development info<br>
 -------------------------------------------------
 <h6>
 CSS is in progress of being updated with additional layout options<br>
+Additional CSS classes and updates being pushed to main file soon as
+proven fully stable
 01-11-18 Dominick Ricciardi
 </h6>
 <br><br>
