@@ -31,7 +31,7 @@ data2 = what icon will light up when page is displayed<br><br>
 
 
 <h3>Pages var written in</h3>
- ```fo``` is where the content for the page goes<br>
+"fo" is where the content for the page goes<br>
  all content must inside tje internalflyer class
 
 ```
@@ -53,9 +53,9 @@ data2 = what icon will light up when page is displayed<br><br>
 </div>
  ```  
  Menu icons are pulled from the website CSS and are baked in.
- ```data``` is the page number that the icon is going to (starting from 0)<br>
- ```i``` class determins icon<br>
-``` undermenu``` text displays text under icon
+"data" is the page number that the icon is going to (starting from 0)<br>
+"i" class determins icon<br>
+"undermenu" text displays text under icon
 
  ```
         <div class="submenu_button" data="9">
