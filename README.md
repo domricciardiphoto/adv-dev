@@ -212,8 +212,9 @@ Adding dynamic elements and classes to IMGs used in the Digital version will wor
 
 Paper flyers are constructed by Photoshop sliced .html file.<br>
 From ``<table> </table>``<br>
-Removing head,html,Doctype,etc tags<br>
-NO NEED TO REMOVE ANY TABLE ELEMENTS IE  ```<table id="Table_01" width="1000" height="952" border="0" cellpadding="0" cellspacing="0">```
+Removing head,html,Doctype,etc tags<br><br>
+NO NEED TO REMOVE ANY TABLE ELEMENTS IE<br>
+```<table id="Table_01" width="1000" height="952" border="0" cellpadding="0" cellspacing="0">```
 
 Each img needs a data tag added<br>
 
