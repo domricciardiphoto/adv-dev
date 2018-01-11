@@ -192,8 +192,9 @@ IF ONLY ONE PRODUCT IS BEING TARGETED --- remove ```singlepromo-multi``` or link
 
 Classes for alternitive layouts<br>
 Add class ```videogame33```  to end of class string for 33% with no border<br>
-Add class ```videogame33b``` to end of class string for 33% with border<br>
 Add class ```videogame66```  to end of class string for 66% with no border<br>
+<br>
+Add class ```videogame33b``` to end of class string for 33% with border<br>
 Add class ```videogame66b``` to end of class string for 66% with border<br>
 
 ```
