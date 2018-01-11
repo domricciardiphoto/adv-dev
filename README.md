@@ -3,8 +3,7 @@ Current stable build 01-01-18<br>
 
 Current Development info<br>
 -------------------------------------------------
-CSS is in progress in being updated for additional
-layout options<br>
+CSS is in progress of being updated with additional layout options<br>
 01-11-18 Dominick Ricciardi
 <br><br>
 
@@ -20,7 +19,7 @@ Place at the end of document:
 <script type="text/javascript" src="FSI-01-02-2018.min.js"></script>
 ```
 
-<strong>Core system</strong><br><br>
+<h2>Core system</h2><br><br>
 <strong>Pages written in</strong>
 ```
     <div class="fsi" id="pg0" data2="Appliances"></div>
