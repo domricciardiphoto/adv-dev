@@ -1,4 +1,4 @@
-<strong>Digital / Paper FSI DEV 1.0</strong><br>
+<h1>Digital / Paper FSI DEV 1.0</h1><br>
 Current stable build 01-01-18<br>
 
 
@@ -90,7 +90,7 @@ icon-icon_vacuum
 
 
 
-<h1>Digital FSI</h1>
+<h2>Digital FSI</h2>
 
 <strong>Default element structure</strong>
 
@@ -198,7 +198,7 @@ add class ```videogame66b``` for 66% with border<br>
 
  
  
-<h1>Paper Flyer</h1>
+<h2>Paper Flyer</h2>
 The paper flyer is the digital flyer without all of the dynamic pricing but still retains all the functionality of the digital.
 Adding dynamic elements and classes to IMGs used in the Digital version will work the same in the paper one.
 
