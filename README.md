@@ -8,7 +8,7 @@ Current Development info<br>
 <h6>
 CSS is in progress of being updated with additional layout options<br>
 Additional CSS classes and updates being pushed to main file soon as
-proven fully stable
+proven fully stable<br>
 01-11-18 Dominick Ricciardi
 </h6>
 <br><br>
@@ -166,18 +166,18 @@ Products are brought in via a search link
 
 3 Products across 100%
 ```
-    <div class="promo_box" data="/browse/_/N-d3zn94?Ns=sku.sortPrice%7C0&Ntt=UN75MU8000+UN75MU9000+UN82MU8000&Ntx=mode+matchany"></div>
+<div class="promo_box" data="/browse?Ntt=UN75MU8000+UN75MU9000+UN82MU8000"></div>
 ```
 
 2 Products across 66% <br>
 Requires a 33% element to fill the hole on desktop
 ```
-    <div class="promo_box show only two" data="/browse/_/N-d3zn94?Ns=sku.sortPrice%7C0&Ntt=UN75MU8000+UN75MU9000+UN82MU8000&Ntx=mode+matchany"></div>
+<div class="promo_box show only two" data="/browse?Ntt=UN75MU8000+UN75MU9000"></div>
 ```
 
-2 Products across 100% (large)
+2 Products across 100% (large) (two accross)
 ```
-    <div class="promo_box show get large" data="/browse/_/N-d3zn94?Ns=sku.sortPrice%7C0&Ntt=UN75MU8000+UN75MU9000+UN82MU8000&Ntx=mode+matchany"></div>
+<div class="promo_box show get large" data="/browse?Ntt=UN75MU8000+UN75MU9000"></div>
 ```
 
 
@@ -201,9 +201,9 @@ Add class ```videogame33b``` to end of class string for 33% with border<br>
 Add class ```videogame66b``` to end of class string for 66% with border<br>
 
 ```
-    <div class="promo_box singlepromo singlepromo-multi videogame" data="FB502SBKL" data2="/browse?Ntt=FB502S*" style="background-image:url(/images/promos/flyer-12-31-17-pg21-hero18.jpg)">
-        <div class="promo_des_price"></div>
-    </div>
+<div class="promo_box singlepromo singlepromo-multi videogame" data="FB502SBKL" data2="/browse?Ntt=FB502S*" style="background-image:url(/images/promos/flyer-12-31-17-pg21-hero18.jpg)">
+<div class="promo_des_price"></div>
+</div>
  ```
 
  
