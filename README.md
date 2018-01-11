@@ -218,17 +218,15 @@ Each img needs a data tag added<br>
 
 Full URL<br>
 ```
-	<td colspan="2">
-			<img data="/browse?Ntt=fgss2635tf+fggf3036tf+fgmv176ntf+fgid2466qf" src="/images/promos/01-14-18-PG2_N_06.jpg" width="513"
-			    height="352" alt="">
-	</td>
+<td colspan="2">
+<img data="/browse?Ntt=fgss2635tf+fggf3036tf+fgmv176ntf+fgid2466qf" src="/images/promos/01-14-18-PG2_N_06.jpg" width="513"height="352" alt="">
+</td>
 ```
 Only One Model<br>
 ```
-    <td colspan="2">
-			<img data="FE140" src="/images/promos/01-14-18-PG2_N_06.jpg" width="513"
-			    height="352" alt="">
-	</td>
+<td colspan="2">
+<img data="FE140" src="/images/promos/01-14-18-PG2_N_06.jpg" width="513"height="352" alt="">
+</td>
 ```
 
 
