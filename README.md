@@ -169,13 +169,13 @@ Products are brought in via a search link
 <div class="promo_box" data="/browse?Ntt=UN75MU8000+UN75MU9000+UN82MU8000"></div>
 ```
 
-2 Products across 66% <br>
+2 Products across 66%  (small) (Two across)<br>
 Requires a 33% element to fill the hole on desktop
 ```
 <div class="promo_box show only two" data="/browse?Ntt=UN75MU8000+UN75MU9000"></div>
 ```
 
-2 Products across 100% (large) (two accross)
+2 Products across 100% (large) (Two across)
 ```
 <div class="promo_box show get large" data="/browse?Ntt=UN75MU8000+UN75MU9000"></div>
 ```
