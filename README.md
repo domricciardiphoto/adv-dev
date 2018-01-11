@@ -36,7 +36,7 @@ URL added by adding data="foo" atrribute on .promo_box"940,50.,33" classed div.<
 <div class="promo_box_940" data="/content/PCTECH"></div> or <div class="promo_box_940" data="FE140"></div>
 ```
 
-if data attribute is missing child IMG or element will not be wrapped in<br> 
+if data attribute is not used, the child IMG (typical) or child element will not be wrapped in a<br> 
 ```
 <a href="{url in data tag or URL to Model #}" title="{model # or url in data tag}"></a>
 ```
@@ -70,8 +70,8 @@ Your browser does not support this video
 </video>
 ```
 
-This will show a video on click.<br> 
-The video module is 100% on desktop and mobile<br> 
+This will show a video on click and will expand to fill the area at 100% on desktop and mobile<br> 
+
 
 <strong>Dynamic Products</strong><br>
 Products are brought in via a search link
@@ -81,7 +81,8 @@ Products are brought in via a search link
     <div class="promo_box" data="/browse/_/N-d3zn94?Ns=sku.sortPrice%7C0&Ntt=UN75MU8000+UN75MU9000+UN82MU8000&Ntx=mode+matchany"></div>
 ```
 
-2 Products across 66%
+2 Products across 66% <br>
+Requires a 33% element to fill the hole on desktop
 ```
     <div class="promo_box show only two" data="/browse/_/N-d3zn94?Ns=sku.sortPrice%7C0&Ntt=UN75MU8000+UN75MU9000+UN82MU8000&Ntx=mode+matchany"></div>
 ```
@@ -96,11 +97,11 @@ Products are brought in via a search link
 
 <strong>Graphical element with dynamic pricing</strong>
 
-Element takes up a 50% slot and 100% on mobile<br> 
-data = where the pricing is coming from<br> 
-data2 = used whem there the link needs to go to MORE THEN ONE PRODUCT OR LANDING PAGE<br> 
-(MUST HAVE CLASS "singlepromo-multi" TO USE DATA2)<br> 
-IF ONLY ONE PRODUCT IS BEING USED REMOVE "singlepromo-multi" or link will come up "unknown"<br> 
+Element takes up a 50% slot on desktop and 100% on mobile<br> 
+```data``` = where the pricing is coming from<br> 
+```data2``` = used whem there the link needs to go to MORE THEN ONE PRODUCT OR LANDING PAGE<br> 
+(MUST HAVE CLASS ```singlepromo-multi``` TO USE ```data2```<br> 
+IF ONLY ONE PRODUCT IS BEING USED REMOVE ```singlepromo-multi``` or link will direct to "unknown"<br> 
 
 
 add class ```videogame33```  for 33% with no border<br>
@@ -124,11 +125,16 @@ add class ```videogame66b``` for 66% with border<br>
 <div id="submenu">
     <div id="ae4" class="submenu_overflow">
     
-menu goes here
+---menu goes here---
 
    </div>
 </div>
- ```       
+ ```  
+ Menu icons are pulled from the website CSS and are baked in.
+ ```data``` is the page number that the icon is going to (starting from 0)<br>
+ ```i``` class determins icon<br>
+``` undermenu``` text displays text under icon
+
  ```
         <div class="submenu_button" data="9">
             <i class="icon-icon_healthBeauty"></i>
@@ -146,7 +152,7 @@ menu goes here
 <i class="icon-icon_heater"></i>
 ```
 
-Each class displays a relative icon
+Each class displays an icon
 ```
 icon-icon_appliances     
 icon-icon_bed
