@@ -1,12 +1,12 @@
 <h1>Digital / Paper FSI DEV 1.0 &amp; Feature Set</h1><br>
 Current stable build 01-01-18<br>
-40 digital pages<br>
-unlimited paper pages<br>
+Up to 40 digital pages<br>
+Unlimited paper pages<br>
 
 Current Development info<br>
 -------------------------------------------------
 CSS is in progress of being updated with additional layout options<br>
-01-11-18 Dominick Ricciardi
+<small>01-11-18 Dominick Ricciardi<smal>
 <br><br>
 
 
@@ -210,7 +210,11 @@ add class ```videogame66b``` for 66% with border<br>
 The paper flyer is the digital flyer without all of the dynamic pricing but still retains all the functionality of the digital.
 Adding dynamic elements and classes to IMGs used in the Digital version will work the same in the paper one.<br><br>
 
----info coming soon---
+Paper flyers are constructed by Photoshop sliced .html file.<br>
+From ``<table> </table>``<br>
+Removing head,html,Doctype,etc tags<br>
+
+---Full info coming soon---
 
 
 
