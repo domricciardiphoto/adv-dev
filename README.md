@@ -100,10 +100,13 @@ Requires a 33% element to fill the hole on desktop
 Element takes up a 50% slot on desktop and 100% on mobile<br> 
 ```data``` = where the pricing is coming from<br> 
 ```data2``` = used whem there the link needs to go to MORE THEN ONE PRODUCT OR LANDING PAGE<br> 
-(MUST HAVE CLASS ```singlepromo-multi``` TO USE ```data2```<br> 
-IF ONLY ONE PRODUCT IS BEING USED REMOVE ```singlepromo-multi``` or link will direct to "unknown"<br> 
+``style="background-image``` shows the background image for product, logo , etc<br><br> 
+MUST HAVE CLASS ```singlepromo-multi``` to use ```data2```<br> <br> 
+
+IF ONLY ONE PRODUCT IS BEING TARGETED --- remove ```singlepromo-multi``` or link will direct to "UNKNOWN"<br> 
 
 
+Classes for alternitive layouts<br>
 add class ```videogame33```  for 33% with no border<br>
 add class ```videogame33b``` for 33% with border<br>
 add class ```videogame66```  for 66% with no border<br>
