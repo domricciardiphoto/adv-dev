@@ -76,9 +76,9 @@ data2 = what icon will light up when page is displayed<br><br>
         </div>
 ```
 <h2>Icons</h2>  
-```
-<i class="icon-icon_heater"></i>
-```
+
+```<i class="icon-icon_heater"></i>```
+
 
 Each class displays an icon
 ```
