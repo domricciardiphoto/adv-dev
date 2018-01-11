@@ -14,7 +14,7 @@ Place at the end of document:
 <script type="text/javascript" src="/images/promos/FSI-01-02-2018.min.js"></script>
 ```
 
-<strong>Core system</strong><br>
+<strong>Core system</strong><br><br>
 <strong>Pages written in</strong>
 ```
     <div class="fsi" id="pg0" data2="Appliances"></div>
@@ -32,6 +32,62 @@ Place at the end of document:
     var content_page1 = '<div class=internalflyer> fo </div>';
     var content_page3 = '<div class=internalflyer> fo </div>';
 ```
+
+
+
+<h1>Menu</h1>
+```
+<div id="submenu">
+    <div id="ae4" class="submenu_overflow">
+    
+---menu goes here---
+
+   </div>
+</div>
+ ```  
+ Menu icons are pulled from the website CSS and are baked in.
+ ```data``` is the page number that the icon is going to (starting from 0)<br>
+ ```i``` class determins icon<br>
+``` undermenu``` text displays text under icon
+
+ ```
+        <div class="submenu_button" data="9">
+            <i class="icon-icon_healthBeauty"></i>
+            <div class="undermenu">Fitness</div>
+        </div>
+
+        <div class="submenu_button" data="10">
+            <i class="icon-icon_heater"></i>
+            <div class="undermenu">Heaters &amp; Humidifers</div>
+        </div>
+```
+
+<strong>Icons</strong>  
+```
+<i class="icon-icon_heater"></i>
+```
+
+Each class displays an icon
+```
+icon-icon_appliances     
+icon-icon_bed
+icon-icon_healthBeauty   
+icon-icon_heater
+icon-icon_homeAutomation  
+icon-icon_tv  
+icon-icon_laptop  
+icon-icon_headphone  
+icon-icon_camera  
+icon-caraudio   
+icon-icon_grill   
+icon-icon_officeDesk  
+icon-icon_bed  
+icon-icon_game
+icon-icon_vacuum  
+```
+
+
+
 
 
 <h1>Digital FSI</h1>
@@ -150,55 +206,5 @@ Adding dynamic elements and classes to IMGs used in the Digital version will wor
 
 
 
-<h1>Menu</h1>
-```
-<div id="submenu">
-    <div id="ae4" class="submenu_overflow">
-    
----menu goes here---
-
-   </div>
-</div>
- ```  
- Menu icons are pulled from the website CSS and are baked in.
- ```data``` is the page number that the icon is going to (starting from 0)<br>
- ```i``` class determins icon<br>
-``` undermenu``` text displays text under icon
-
- ```
-        <div class="submenu_button" data="9">
-            <i class="icon-icon_healthBeauty"></i>
-            <div class="undermenu">Fitness</div>
-        </div>
-
-        <div class="submenu_button" data="10">
-            <i class="icon-icon_heater"></i>
-            <div class="undermenu">Heaters &amp; Humidifers</div>
-        </div>
-```
-
-<strong>Icons</strong>  
-```
-<i class="icon-icon_heater"></i>
-```
-
-Each class displays an icon
-```
-icon-icon_appliances     
-icon-icon_bed
-icon-icon_healthBeauty   
-icon-icon_heater
-icon-icon_homeAutomation  
-icon-icon_tv  
-icon-icon_laptop  
-icon-icon_headphone  
-icon-icon_camera  
-icon-caraudio   
-icon-icon_grill   
-icon-icon_officeDesk  
-icon-icon_bed  
-icon-icon_game
-icon-icon_vacuum  
-```
 
 
