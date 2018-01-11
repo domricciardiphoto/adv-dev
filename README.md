@@ -190,7 +190,7 @@ Element takes up a 50% slot on desktop and 100% on mobile<br>
 ```data2``` = used whem there the link needs to go to MORE THEN ONE PRODUCT OR LANDING PAGE<br> 
 ```style="background-image"``` shows the background image for product, logo , etc
 <br><br> 
-<strong>MUST HAVE CLASS<strong>  ```.singlepromo-multi``` to use data2 <br> <br> 
+<strong>MUST HAVE CLASS</strong>  ```.singlepromo-multi``` to use data2 <br> <br> 
 
 IF ONLY ONE PRODUCT IS BEING TARGETED --- remove ```singlepromo-multi``` or link will direct to "UNKNOWN"<br> 
 
