@@ -1,7 +1,11 @@
 <h1>Digital / Paper FSI DEV 1.0</h1><br>
 Current stable build 01-01-18<br>
 
-
+-------------------------------------------------
+<strong>Current Development info</strong><br>
+CSS is in progress in being updated for additional
+layout options<br>
+-------------------------------------------------
 
 <strong>Include file</strong><br>
 
@@ -137,7 +141,7 @@ or
 ```
 
 (MODEL NUMBER MUST BE IN CAPS)    (ALL "/" AND "." NEED TO BE CONVERT TO "-")  <br> 
-Example CP.PT.003.000 becomes--- CP-PT-0003-000<br> 
+Example - CP.PT.003.000 becomes CP-PT-0003-000<br> 
 
 
 <strong>Video Module</strong>
