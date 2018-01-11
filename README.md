@@ -2,7 +2,7 @@
 Current stable build 01-01-18<br>
 
 Current Development info<br>
--------------------------------------------------
+
 CSS is in progress in being updated for additional
 layout options<br>
 -------------------------------------------------
