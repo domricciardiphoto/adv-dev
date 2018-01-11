@@ -1,4 +1,4 @@
-<h1>Digital / Paper FSI DEV 1.0</h1><br>
+<h1>Digital / Paper FSI DEV 1.0 &amp; Feature Set</h1><br>
 Current stable build 01-01-18<br>
 
 Current Development info<br>
@@ -21,7 +21,7 @@ Place at the end of document:
 
 <h2>Core system</h2>
 <h3>Pages written in</h3>
-id = refrence to page
+id = reference to page<br>
 data2 = what icon will light up when page is displayed<br><br>
 
    ``` <div class="fsi" id="pg0" data2="Appliances"></div>```<br>
@@ -32,7 +32,7 @@ data2 = what icon will light up when page is displayed<br><br>
 
 <h3>Pages var written in</h3>
 "fo" is where the content for the page goes<br>
- all content must inside tje internalflyer class
+ all content must inside the internalflyer class
 
 ```
     var content_page0 = '<div class=internalflyer> fo </div>';
@@ -54,7 +54,7 @@ data2 = what icon will light up when page is displayed<br><br>
  ```  
  Menu icons are pulled from the website CSS and are baked in.
 "data" is the page number that the icon is going to (starting from 0)<br>
-"i" class determins icon<br>
+"i" class determines icon<br>
 "undermenu" text displays text under icon
 
  ```
