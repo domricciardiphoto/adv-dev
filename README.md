@@ -1,4 +1,4 @@
-<strong>FSI DEV 1.0</strong><br>
+<strong>Digital / Paper FSI DEV 1.0</strong><br>
 Current stable build 01-01-18<br>
 
 
@@ -13,6 +13,11 @@ Place at the end of document:
 ```
 <script type="text/javascript" src="/images/promos/FSI-01-02-2018.min.js"></script>
 ```
+
+<h1>Paper Flyer</h1>
+
+
+<h1>Digital FSI</h1>
 
 <strong>Default element structure</strong>
 
