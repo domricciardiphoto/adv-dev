@@ -1,5 +1,7 @@
 <h1>Digital / Paper FSI DEV 1.0 &amp; Feature Set</h1><br>
 Current stable build 01-01-18<br>
+40 digital pages<br>
+unlimited paper pages<br>
 
 Current Development info<br>
 -------------------------------------------------
