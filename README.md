@@ -19,8 +19,10 @@ Place at the end of document:
 <script type="text/javascript" src="FSI-01-02-2018.min.js"></script>
 ```
 
-<h2>Core system</h2><br><br>
+<h2>Core system</h2>
 <h3>Pages written in</h3>
+id = refrence to page
+data2 = what icon will light up when page is displayed<br><br>
 
    ``` <div class="fsi" id="pg0" data2="Appliances"></div>```<br>
    ``` <div class="fsi" id="pg1" data2="Recliners"></div>```<br>
@@ -28,7 +30,7 @@ Place at the end of document:
  
 
 
-<strong>Pages var written in</strong><br>
+<h3>Pages var written in</h3><br>
  ```fo``` is where the content for the page goes<br>
  all content must inside tje internalflyer class
 
