@@ -6,7 +6,7 @@ Unlimited paper pages<br>
 Current Development info<br>
 -------------------------------------------------
 CSS is in progress of being updated with additional layout options<br>
-<small>01-11-18 Dominick Ricciardi<smal>
+<small>01-11-18 Dominick Ricciardi</small>
 <br><br>
 
 
@@ -193,7 +193,6 @@ IF ONLY ONE PRODUCT IS BEING TARGETED --- remove ```singlepromo-multi``` or link
 Classes for alternitive layouts<br>
 Add class ```videogame33```  to end of class string for 33% with no border<br>
 Add class ```videogame66```  to end of class string for 66% with no border<br>
-<br>
 Add class ```videogame33b``` to end of class string for 33% with border<br>
 Add class ```videogame66b``` to end of class string for 66% with border<br>
 
@@ -229,12 +228,3 @@ Only One Model<br>
 <img data="FE140" src="/images/promos/01-14-18-PG2_N_06.jpg" width="513"height="352" alt="">
 </td>
 ```
-
-
-
-
-
-
-
-
-
