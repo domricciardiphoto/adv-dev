@@ -7,7 +7,7 @@ Unlimited paper pages
 ### Current Development info ###
 ---
 ###### 01-11-18 Dominick Ricciardi ######
-###### CSS is in progress of being updated with additional layout options Additional CSS classes and updates being pushed to main file soon as proven fully stable ######
+###### CSS is in progress of being updated with additional layout options. Additional CSS classes and updates being pushed to main file soon as proven fully stable ######
 
 ### Include file ###
 
@@ -52,12 +52,9 @@ var content_page3 = '<div class=internalflyer> fo </div>';
 </div>
 ```
 
- Menu icons are pulled from the website CSS and are baked in.
-"data" is the page number that the icon is going to (starting from 0)
-
-\
-"i" class determines icon
-
+ Menu icons are pulled from the website CSS and are baked in.\
+"data" is the page number that the icon is going to (starting from 0)\
+"i" class determines icon\
 "undermenu" text displays text under icon
 
 ```
@@ -157,6 +154,7 @@ Your browser does not support this video
 This will show a video on click and will expand to fill the area at 100% on desktop and mobile
 
 ### Dynamic Products ###
+
 Products are brought in via a search link
 
 3 Products across 100%
@@ -184,7 +182,7 @@ Element takes up a 50% slot on desktop and 100% on mobile\
 
 IF ONLY ONE PRODUCT IS BEING TARGETED --- remove ```singlepromo-multi``` or link will direct to "UNKNOWN"
 
-#### Classes for alternitive layouts ####
+**Classes for alternitive layouts**
 Add class `videogame33`  to end of class string for 33% with no border\
 Add class `videogame66`  to end of class string for 66% with no border\
 Add class `videogame33b` to end of class string for 33% with border\
