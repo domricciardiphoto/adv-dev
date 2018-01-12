@@ -130,7 +130,7 @@ if data attribute is not used, the child IMG (typical) or child element will not
 if only one model number  data="FE140"\
 if multiple model numbers or a Landing Page data="/content/landingpage.html"<br>
 
-(MODEL NUMBER MUST BE IN CAPS)    (ALL "/" AND "." NEED TO BE CONVERT TO "-")
+(MODEL NUMBER MUST BE IN CAPS)    (ALL "/" AND "." NEED TO BE CONVERT TO "-")\
 **Example - CP.PT.003.000 becomes CP-PT-0003-000**
 
 ```
