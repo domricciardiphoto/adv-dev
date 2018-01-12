@@ -220,7 +220,7 @@ NO NEED TO REMOVE ANY TABLE ELEMENTS JS removes unnessasry code
 
 Each img needs a data tag added\
 
-** Full URL **
+#### Full URL ####
 
 ```
 <td colspan="2">
@@ -229,7 +229,7 @@ src="/images/promos/01-14-18-PG2_N_06.jpg" width="513"height="352" alt="">
 </td>
 ```
 
-** Only One Model **
+#### Only One Model ####
 
 ```
 <td colspan="2">
