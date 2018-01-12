@@ -201,7 +201,7 @@ The paper flyer is the digital flyer without all of the dynamic pricing but stil
 Adding dynamic elements and classes to IMGs used in the Digital version will work the same in the paper one.\
 
 
-Paper flyers are constructed by Photoshop sliced .html file.\
+**Paper flyers are constructed by Photoshop sliced .html file.**\
 From `<table> </table>`\
 Removing head,html,Doctype,etc tags\
 NO NEED TO REMOVE ANY TABLE ELEMENTS JS removes unnessasry code
