@@ -28,7 +28,7 @@ Place at the end of document:
 ## Core system  ##
 ### Pages written in ###
 id = reference to page\
-data2 = what icon will light up when page is displayed\
+data2 = what icon will light up when page is displayed
 
 ```
  <div class="fsi" id="pg0" data2="Appliances"></div>
@@ -175,7 +175,7 @@ Your browser does not support this video
 </video>
 ```
 
-This will show a video on click and will expand to fill the area at 100% on desktop and mobile<br> 
+This will show a video on click and will expand to fill the area at 100% on desktop and mobile
 
 ### Dynamic Products ###
 Products are brought in via a search link
