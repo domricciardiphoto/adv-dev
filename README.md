@@ -202,7 +202,7 @@ Adding dynamic elements and classes to IMGs used in the Digital version will wor
 
 
 **Paper flyers are constructed by Photoshop sliced .html file.**\
-From `<table> </table>`\
+From `<table>` to `</table>`\
 Removing head,html,Doctype,etc tags\
 NO NEED TO REMOVE ANY TABLE ELEMENTS JS removes unnessasry code
 
