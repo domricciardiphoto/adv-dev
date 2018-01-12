@@ -13,11 +13,16 @@ Unlimited paper pages <br>
 
 Place at the beginning of document:
 
-```<link href="FSI-01-02-2018.min.css" rel="stylesheet" type="text/css">```
+```<link href="FSI-01-02-2018.min.css" rel="stylesheet" type="text/css">
+```
 
 <br>
 Place at the end of document:
-```<script type="text/javascript" src="FSI-01-02-2018.min.js"></script>```
+
+```<script type="text/javascript" src="FSI-01-02-2018.min.js"></script>
+```
+
+
 
 ## Core system  ##
 ### Pages written in  ###
@@ -27,14 +32,18 @@ data2 = what icon will light up when page is displayed<br><br>
    ```<div class="fsi" id="pg0" data2="Appliances"></div>```<br>
    ```<div class="fsi" id="pg1" data2="Recliners"></div>```<br>
    ```<div class="fsi" id="pg2" data2="Fitness"></div>```<br><br>
-### Pages var written in  ###
+### Pages var written in ###
 "fo" is where the content for the page goes<br>
  all content must inside the internalflyer class
 
+```var content_page0 = '<div class=internalflyer> fo </div>';
+```
 
-```var content_page0 = '<div class=internalflyer> fo </div>';```
-```var content_page1 = '<div class=internalflyer> fo </div>';```
-```var content_page3 = '<div class=internalflyer> fo </div>';```
+```var content_page1 = '<div class=internalflyer> fo </div>';
+```
+
+```var content_page3 = '<div class=internalflyer> fo </div>';
+```
 
 
 
@@ -49,6 +58,7 @@ data2 = what icon will light up when page is displayed<br><br>
    </div>
 </div>
  ```  
+
  Menu icons are pulled from the website CSS and are baked in.
 "data" is the page number that the icon is going to (starting from 0)
 <br>
@@ -70,7 +80,8 @@ data2 = what icon will light up when page is displayed<br><br>
 
 ## Icons ##
 
-```<i class="icon-icon_heater"></i>```
+```<i class="icon-icon_heater"></i>
+```
 
 Each class displays an icon
 
@@ -96,17 +107,29 @@ icon-icon_vacuum
 
 **Default element structure**
 
+```.promo_box_940    100% element
 ```
- .promo_box_940    100% element<br>
- .promo_box_66      66% element <br>
- .promo_box_50      50% element<br>
- .promo_box_33      33% element<br>
- ```
 
-```<div class="promo_box_940"> fo </div> ```<br>
-```<div class="promo_box_66"> fo </div>```<br>
-```<div class="promo_box_50"> fo </div>```<br>
-```<div class="promo_box_33"> fo </div>```<br>
+```.promo_box_66      66% element
+```
+
+```.promo_box_50      50% element
+```
+
+```.promo_box_33      33% element
+```
+
+```<div class="promo_box_940"> fo </div> 
+```
+
+```<div class="promo_box_66"> fo </div>
+```
+
+```<div class="promo_box_50"> fo </div>
+```
+
+```<div class="promo_box_33"> fo </div>
+```
 
 URL added by adding data="foo" atrribute on .promo_box"940,50.,33" classed div.<br> 
 
