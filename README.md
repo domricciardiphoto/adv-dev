@@ -4,9 +4,7 @@ Current stable build 01-01-18 <br>
 Up to 40 digital pages <br>
 Unlimited paper pages <br>
 
-Current Development info<br>
--------------------------------------------------
-
+### Current Development info ###
 
 ###### 01-11-18 Dominick Ricciardi ######
 ###### CSS is in progress of being updated with additional layout options Additional CSS classes and updates being pushed to main file soon as proven fully stable ######
