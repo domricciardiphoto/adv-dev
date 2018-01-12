@@ -203,10 +203,10 @@ Element takes up a 50% slot on desktop and 100% on mobile\
 IF ONLY ONE PRODUCT IS BEING TARGETED --- remove ```singlepromo-multi``` or link will direct to "UNKNOWN"<br>
 
 #### Classes for alternitive layouts ####
-Add class `videogame33`  to end of class string for 33% with no border<br>
-Add class `videogame66`  to end of class string for 66% with no border<br>
-Add class `videogame33b` to end of class string for 33% with border<br>
-Add class `videogame66b` to end of class string for 66% with border<br>
+Add class `videogame33`  to end of class string for 33% with no border\
+Add class `videogame66`  to end of class string for 66% with no border\
+Add class `videogame33b` to end of class string for 33% with border\
+Add class `videogame66b` to end of class string for 66% with border
 
 ```
 <div class="promo_box singlepromo singlepromo-multi videogame" data="FB502SBKL" data2="/browse?Ntt=FB502S*" 
@@ -220,7 +220,7 @@ style="background-image:url(/images/promos/flyer-12-31-17-pg21-hero18.jpg)">
 The paper flyer is the digital flyer without all of the dynamic pricing but still retains all the functionality of the digital.
 Adding dynamic elements and classes to IMGs used in the Digital version will work the same in the paper one.<br><br>
 
-Paper flyers are constructed by Photoshop sliced .html file.<br>
+Paper flyers are constructed by Photoshop sliced .html file.\
 From `<table> </table>`<br>
 Removing head,html,Doctype,etc tags\
 NO NEED TO REMOVE ANY TABLE ELEMENTS JS removes unnessasry code
@@ -229,7 +229,8 @@ NO NEED TO REMOVE ANY TABLE ELEMENTS JS removes unnessasry code
 <table id="Table_01" width="1000" height="952" border="0" cellpadding="0" cellspacing="0">
 ```
 
-Each img needs a data tag added\
+Each img needs a data tag added
+
 
 #### Full URL ####
 
