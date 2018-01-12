@@ -11,11 +11,9 @@ Unlimited paper pages
 
 ### Include file ###
 
-Place at the beginning of document:
+Place at the beginning of document:\
 
-```
-<link href="FSI-01-02-2018.min.css" rel="stylesheet" type="text/css">
-```
+`<link href="FSI-01-02-2018.min.css" rel="stylesheet" type="text/css">`
 
 Place at the end of document:
 
