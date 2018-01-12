@@ -14,7 +14,7 @@ proven fully stable<br>
 </h6>
 <br><br>
 
-*Include file*<br>
+**Include file**<br>
 
 Place at the beginning of document:
 ```
@@ -102,7 +102,7 @@ icon-icon_vacuum
 
 <h2>Digital FSI</h2>
 
-*Default element structure*
+**Default element structure**
 
 ```.promo_box_940```    100% element<br>
 ```.promo_box_66```     66% element<br> 
@@ -150,7 +150,7 @@ or
 Example - CP.PT.003.000 becomes CP-PT-0003-000<br> 
 
 
-*Video Module*
+**Video Module**
 ```
 <video poster="/images/promos/flyer-4-30-17-pg3-hero2.jpg">
 <source src="/images/promos/pureWash_Pro-HIW.mp4" type="video/mp4">
@@ -161,7 +161,7 @@ Your browser does not support this video
 This will show a video on click and will expand to fill the area at 100% on desktop and mobile<br> 
 
 
-*Dynamic Products*<br>
+**Dynamic Products**<br>
 Products are brought in via a search link
 
 3 Products across 100%
