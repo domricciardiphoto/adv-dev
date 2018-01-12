@@ -8,7 +8,7 @@ Place at the beginning of document:\
 Place at the end of document:\
 `<script type="text/javascript" src="FSI-01-02-2018.min.js"></script>`
 
-Current stable build 01-01-18\
+**Current stable build 01-01-18**\
 Up to 40 digital pages\
 Unlimited paper pages
 
