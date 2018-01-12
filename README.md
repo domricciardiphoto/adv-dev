@@ -2,7 +2,7 @@
 
 Current stable build 01-01-18\
 Up to 40 digital pages\
-Unlimited paper pages\
+Unlimited paper pages
 
 ### Current Development info ###
 ---
