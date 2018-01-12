@@ -20,8 +20,6 @@ Place at the end of document:
 
 `<script type="text/javascript" src="FSI-01-02-2018.min.js"></script>`
 
-
-
 ## Core system  ##
 ### Pages written in ###
 id = reference to page\
@@ -89,23 +87,23 @@ var content_page3 = '<div class=internalflyer> fo </div>';
 
 Each class displays an icon
 
-
-'icon-icon_appliances'
-'icon-icon_bed'
-'icon-icon_healthBeauty'
-'icon-icon_heater'
-'icon-icon_homeAutomation'
-'icon-icon_tv'
-'icon-icon_laptop'
-'icon-icon_headphone'
-'icon-icon_camera'
-'icon-caraudio'
-'icon-icon_grill'
-'icon-icon_officeDesk'
-'icon-icon_bed'
-'icon-icon_game'
-'icon-icon_vacuum'
-
+```
+icon-icon_appliances
+icon-icon_bed
+icon-icon_healthBeauty
+icon-icon_heater
+icon-icon_homeAutomation
+icon-icon_tv
+icon-icon_laptop
+icon-icon_headphone
+icon-icon_camera
+icon-caraudio
+icon-icon_grill
+icon-icon_officeDesk
+icon-icon_bed
+icon-icon_game
+icon-icon_vacuum
+```
 
 ## Digital FSI ##
 
@@ -113,9 +111,9 @@ Each class displays an icon
 
 ```
 .promo_box_940    100% element
-.promo_box_66      66% element
-.promo_box_50      50% element
-.promo_box_33      33% element
+.promo_box_66     66% element
+.promo_box_50     50% element
+.promo_box_33     33% element
 ```
 
 ```
@@ -224,14 +222,14 @@ Adding dynamic elements and classes to IMGs used in the Digital version will wor
 
 Paper flyers are constructed by Photoshop sliced .html file.<br>
 From `<table> </table>`<br>
-Removing head,html,Doctype,etc tags<br><br>
-NO NEED TO REMOVE ANY TABLE ELEMENTS JS removes unnessasry code<br>
+Removing head,html,Doctype,etc tags\
+NO NEED TO REMOVE ANY TABLE ELEMENTS JS removes unnessasry code
 
 ```
 <table id="Table_01" width="1000" height="952" border="0" cellpadding="0" cellspacing="0">
 ```
 
-Each img needs a data tag added<br>
+Each img needs a data tag added\
 
 #### Full URL ####
 
