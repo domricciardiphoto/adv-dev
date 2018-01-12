@@ -21,7 +21,7 @@ Place at the beginning of document:
 
 ```<link href="FSI-01-02-2018.min.css" rel="stylesheet" type="text/css">```
 
-
+<br>
 Place at the end of document:
 ```<script type="text/javascript" src="FSI-01-02-2018.min.js"></script>```
 
@@ -56,8 +56,10 @@ data2 = what icon will light up when page is displayed<br><br>
 </div>
  ```  
  Menu icons are pulled from the website CSS and are baked in.
-"data" is the page number that the icon is going to (starting from 0)<br>
-"i" class determines icon<br>
+"data" is the page number that the icon is going to (starting from 0)
+<br>
+"i" class determines icon
+<br>
 "undermenu" text displays text under icon
 
  ```
@@ -99,10 +101,10 @@ icon-icon_vacuum
 
 **Default element structure**
 
-```.promo_box_940```    100% element<br>
-```.promo_box_66```     66% element<br> 
-```.promo_box_50```     50% element<br> 
-```.promo_box_33```     33% element<br> 
+``` .promo_box_940 ```    100% element<br>
+``` .promo_box_66 ```     66% element<br> 
+``` .promo_box_50 ```     50% element<br> 
+``` .promo_box_33 ```     33% element<br> 
 
 ```<div class="promo_box_940"> fo </div> ```<br>
 ```<div class="promo_box_66"> fo </div>```<br>
@@ -205,11 +207,11 @@ Each img needs a data tag added<br>
 
 Full URL<br>
 
-```
-<td colspan="2">
+
+```<td colspan="2">
 <img data="/browse?Ntt=fgss2635tf+fggf3036tf+fgmv176ntf+fgid2466qf" src="/images/promos/01-14-18-PG2_N_06.jpg" width="513"height="352" alt="">
-</td>
-```
+</td>```
+
 
 Only One Model<br>
 
