@@ -89,7 +89,7 @@ var content_page3 = '<div class=internalflyer> fo </div>';
 
 Each class displays an icon
 
-```
+`
 icon-icon_appliances
 icon-icon_bed
 icon-icon_healthBeauty
@@ -105,7 +105,7 @@ icon-icon_officeDesk
 icon-icon_bed
 icon-icon_game
 icon-icon_vacuum
-```
+`
 
 ## Digital FSI ##
 
