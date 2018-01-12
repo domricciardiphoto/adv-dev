@@ -15,7 +15,7 @@ proven fully stable<br>
 </h6>
 <br><br>
 
-** Include file **<br>
+### Include file ### <br>
 
 Place at the beginning of document:
 
@@ -33,7 +33,7 @@ data2 = what icon will light up when page is displayed<br><br>
    ```<div class="fsi" id="pg0" data2="Appliances"></div>```<br>
    ```<div class="fsi" id="pg1" data2="Recliners"></div>```<br>
    ```<div class="fsi" id="pg2" data2="Fitness"></div>```<br><br>
-### Pages var written in
+### Pages var written in  ###
 "fo" is where the content for the page goes<br>
  all content must inside the internalflyer class
 
@@ -186,8 +186,8 @@ Add class ```videogame66```  to end of class string for 66% with no border<br>
 Add class ```videogame33b``` to end of class string for 33% with border<br>
 Add class ```videogame66b``` to end of class string for 66% with border<br>
 
-
-```<div class="promo_box singlepromo singlepromo-multi videogame" data="FB502SBKL" data2="/browse?Ntt=FB502S*" style="background-image:url(/images/promos/flyer-12-31-17-pg21-hero18.jpg)">
+```
+<div class="promo_box singlepromo singlepromo-multi videogame" data="FB502SBKL" data2="/browse?Ntt=FB502S*" style="background-image:url(/images/promos/flyer-12-31-17-pg21-hero18.jpg)">
 <div class="promo_des_price"></div>
 </div>```
 
