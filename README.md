@@ -7,8 +7,7 @@ Unlimited paper pages
 ### Current Development info ###
 ---
 ###### 01-11-18 Dominick Ricciardi ######
-###### CSS is in progress of being updated with additional layout options
-###### Additional CSS classes and updates being pushed to main file soon as proven fully stable ######
+###### CSS is in progress of being updated with additional layout options Additional CSS classes and updates being pushed to main file soon as proven fully stable ######
 
 ### Include file ###
 
@@ -37,13 +36,7 @@ data2 = what icon will light up when page is displayed
 
 ```
 var content_page0 = '<div class=internalflyer> fo </div>';
-```
-
-```
 var content_page1 = '<div class=internalflyer> fo </div>';
-```
-
-```
 var content_page3 = '<div class=internalflyer> fo </div>';
 ```
 
@@ -57,7 +50,7 @@ var content_page3 = '<div class=internalflyer> fo </div>';
 
    </div>
 </div>
- ```
+```
 
  Menu icons are pulled from the website CSS and are baked in.
 "data" is the page number that the icon is going to (starting from 0)
@@ -123,7 +116,7 @@ icon-icon_vacuum
 <div class="promo_box_33"> fo </div>
 ```
 
-URL added by adding data="foo" atrribute on .promo_box"940,50.,33" classed div.<br> 
+URL added by adding data="foo" atrribute on .promo_box"940,50.,33" classed div.
 
 ```
 <div class="promo_box_940" data="/content/PCTECH"></div> or <div class="promo_box_940" data="FE140"></div>
@@ -137,7 +130,7 @@ if data attribute is not used, the child IMG (typical) or child element will not
 if only one model number  data="FE140"\
 if multiple model numbers or a Landing Page data="/content/landingpage.html"<br>
 
-(MODEL NUMBER MUST BE IN CAPS)    (ALL "/" AND "." NEED TO BE CONVERT TO "-")  <br> 
+(MODEL NUMBER MUST BE IN CAPS)    (ALL "/" AND "." NEED TO BE CONVERT TO "-")
 **Example - CP.PT.003.000 becomes CP-PT-0003-000**
 
 ```
@@ -194,13 +187,13 @@ Requires a 33% element to fill the hole on desktop
 
 Element takes up a 50% slot on desktop and 100% on mobile\
 `data` = where the pricing is coming from\
-`data2` = used whem there the link needs to go to MORE THEN ONE PRODUCT OR LANDING PAGE\ 
+`data2` = used whem there the link needs to go to MORE THEN ONE PRODUCT OR LANDING PAGE\
 `style="background-image"` shows the background image for product, logo , etc
 <br><br>
 
 **MUST HAVE CLASS**  `.singlepromo-multi` to use data2\
 
-IF ONLY ONE PRODUCT IS BEING TARGETED --- remove ```singlepromo-multi``` or link will direct to "UNKNOWN"<br>
+IF ONLY ONE PRODUCT IS BEING TARGETED --- remove ```singlepromo-multi``` or link will direct to "UNKNOWN"
 
 #### Classes for alternitive layouts ####
 Add class `videogame33`  to end of class string for 33% with no border\
@@ -209,7 +202,7 @@ Add class `videogame33b` to end of class string for 33% with border\
 Add class `videogame66b` to end of class string for 66% with border
 
 ```
-<div class="promo_box singlepromo singlepromo-multi videogame" data="FB502SBKL" data2="/browse?Ntt=FB502S*" 
+<div class="promo_box singlepromo singlepromo-multi videogame" data="FB502SBKL" data2="/browse?Ntt=FB502S*"
 style="background-image:url(/images/promos/flyer-12-31-17-pg21-hero18.jpg)">
 <div class="promo_des_price"></div>
 </div>
@@ -221,7 +214,7 @@ The paper flyer is the digital flyer without all of the dynamic pricing but stil
 Adding dynamic elements and classes to IMGs used in the Digital version will work the same in the paper one.<br><br>
 
 Paper flyers are constructed by Photoshop sliced .html file.\
-From `<table> </table>`<br>
+From `<table> </table>`\
 Removing head,html,Doctype,etc tags\
 NO NEED TO REMOVE ANY TABLE ELEMENTS JS removes unnessasry code
 
@@ -236,7 +229,8 @@ Each img needs a data tag added
 
 ```
 <td colspan="2">
-<img data="/browse?Ntt=fgss2635tf+fggf3036tf+fgmv176ntf+fgid2466qf" src="/images/promos/01-14-18-PG2_N_06.jpg" width="513"height="352" alt="">
+<img data="/browse?Ntt=fgss2635tf+fggf3036tf+fgmv176ntf+fgid2466qf"
+src="/images/promos/01-14-18-PG2_N_06.jpg" width="513"height="352" alt="">
 </td>
 ```
 
