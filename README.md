@@ -95,7 +95,7 @@ icon-icon_game
 icon-icon_vacuum
 ```
 
-##Digital FSI##
+## Digital FSI ##
 
 **Default element structure**
 
