@@ -125,13 +125,13 @@ URL added by adding data="foo" atrribute on .promo_box"940,50.,33" classed div.
 if data attribute is not used, the child IMG (typical) or child element will not be wrapped in a \
 `<a href="{url in data tag or URL to Model #}" title="{model # or url in data tag}"></a>`
 
--- (This part is automated by the JS) and be unclickable.
+-- (This part is automated by the **JS**) and be unclickable.
 
 if only one model number  data="FE140"\
 if multiple model numbers or a Landing Page data="/content/landingpage.html"<br>
 
 (MODEL NUMBER MUST BE IN CAPS)    (ALL "/" AND "." NEED TO BE CONVERT TO "-")\
-**Example - CP.PT.003.000 becomes CP-PT-0003-000**
+**Example** - **CP.PT.003.000** needs to become **CP-PT-0003-000**
 
 ```
 <div class="promo_box_940" data="/category/Home-Furnishings/Headboards-Upholstered-Beds/Headboards/_/N-1gl4z5q">
@@ -166,22 +166,16 @@ Products are brought in via a search link
 
 3 Products across 100%
 
-```
-<div class="promo_box" data="/browse?Ntt=UN75MU8000+UN75MU9000+UN82MU8000"></div>
-```
+`<div class="promo_box" data="/browse?Ntt=UN75MU8000+UN75MU9000+UN82MU8000"></div>`
 
 2 Products across 66%  (small) (Two across) \
 Requires a 33% element to fill the hole on desktop
 
-```
-<div class="promo_box show only two" data="/browse?Ntt=UN75MU8000+UN75MU9000"></div>
-```
+`<div class="promo_box show only two" data="/browse?Ntt=UN75MU8000+UN75MU9000"></div>`
 
 2 Products across 100% (large) (Two across)
 
-```
-<div class="promo_box show get large" data="/browse?Ntt=UN75MU8000+UN75MU9000"></div>
-```
+`<div class="promo_box show get large" data="/browse?Ntt=UN75MU8000+UN75MU9000"></div>`
 
 ### Graphical element with dynamic pricing ###
 
@@ -223,7 +217,6 @@ NO NEED TO REMOVE ANY TABLE ELEMENTS JS removes unnessasry code
 ```
 
 Each img needs a data tag added
-
 
 #### Full URL ####
 
