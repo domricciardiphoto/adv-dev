@@ -205,8 +205,7 @@ Element takes up a 50% slot on desktop and 100% on mobile\
 <br><br>
 
 **MUST HAVE CLASS**  `.singlepromo-multi` to use data2
-\
-\
+\\
 
 IF ONLY ONE PRODUCT IS BEING TARGETED --- remove ```singlepromo-multi``` or link will direct to "UNKNOWN"<br> 
 
