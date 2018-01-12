@@ -1,8 +1,8 @@
 # Digital &amp; Paper FSI ver 2018 &amp; Feature Set #
 
-Current stable build 01-01-18 <br>
-Up to 40 digital pages <br>
-Unlimited paper pages <br>
+Current stable build 01-01-18\
+Up to 40 digital pages\
+Unlimited paper pages\
 
 ### Current Development info ###
 ---
@@ -17,7 +17,6 @@ Place at the beginning of document:
 <link href="FSI-01-02-2018.min.css" rel="stylesheet" type="text/css">
 ```
 
-
 Place at the end of document:
 
 ```
@@ -27,7 +26,7 @@ Place at the end of document:
 
 
 ## Core system  ##
-### Pages written in  ###
+### Pages written in ###
 id = reference to page<br>
 data2 = what icon will light up when page is displayed<br><br>
 
@@ -41,7 +40,7 @@ data2 = what icon will light up when page is displayed<br><br>
 "fo" is where the content for the page goes<br>
  all content must inside the internalflyer class
 
-``` 
+```
 var content_page0 = '<div class=internalflyer> fo </div>';
 ```
 
@@ -132,11 +131,15 @@ icon-icon_vacuum
 
 URL added by adding data="foo" atrribute on .promo_box"940,50.,33" classed div.<br> 
 
-```<div class="promo_box_940" data="/content/PCTECH"></div> or <div class="promo_box_940" data="FE140"></div>```
+```
+<div class="promo_box_940" data="/content/PCTECH"></div> or <div class="promo_box_940" data="FE140"></div>
+```
 
 if data attribute is not used, the child IMG (typical) or child element will not be wrapped in a <br>
 
-```<a href="{url in data tag or URL to Model #}" title="{model # or url in data tag}"></a>```
+```
+<a href="{url in data tag or URL to Model #}" title="{model # or url in data tag}"></a>
+```
 
 -- (This part is automated by the JS) and be unclickable.
 
@@ -144,7 +147,7 @@ if only one model number  data="FE140"<br>
 if multiple model numbers or a Landing Page data="/content/landingpage.html"<br>
 
 (MODEL NUMBER MUST BE IN CAPS)    (ALL "/" AND "." NEED TO BE CONVERT TO "-")  <br> 
-**Example - CP.PT.003.000 becomes CP-PT-0003-000** <br>
+**Example - CP.PT.003.000 becomes CP-PT-0003-000**
 
 ```
 <div class="promo_box_940" data="/category/Home-Furnishings/Headboards-Upholstered-Beds/Headboards/_/N-1gl4z5q">
@@ -174,7 +177,7 @@ Your browser does not support this video
 
 This will show a video on click and will expand to fill the area at 100% on desktop and mobile<br> 
 
-### Dynamic Products** ### 
+### Dynamic Products ###
 Products are brought in via a search link
 
 3 Products across 100%
@@ -208,14 +211,15 @@ Element takes up a 50% slot on desktop and 100% on mobile<br>
 
 IF ONLY ONE PRODUCT IS BEING TARGETED --- remove ```singlepromo-multi``` or link will direct to "UNKNOWN"<br> 
 
-Classes for alternitive layouts<br>
+#### Classes for alternitive layouts ####
 Add class `videogame33`  to end of class string for 33% with no border<br>
 Add class `videogame66`  to end of class string for 66% with no border<br>
 Add class `videogame33b` to end of class string for 33% with border<br>
 Add class `videogame66b` to end of class string for 66% with border<br>
 
 ```
-<div class="promo_box singlepromo singlepromo-multi videogame" data="FB502SBKL" data2="/browse?Ntt=FB502S*" style="background-image:url(/images/promos/flyer-12-31-17-pg21-hero18.jpg)">
+<div class="promo_box singlepromo singlepromo-multi videogame" data="FB502SBKL" data2="/browse?Ntt=FB502S*" 
+style="background-image:url(/images/promos/flyer-12-31-17-pg21-hero18.jpg)">
 <div class="promo_des_price"></div>
 </div>
 ```
@@ -226,7 +230,7 @@ The paper flyer is the digital flyer without all of the dynamic pricing but stil
 Adding dynamic elements and classes to IMGs used in the Digital version will work the same in the paper one.<br><br>
 
 Paper flyers are constructed by Photoshop sliced .html file.<br>
-From ``<table> </table>``<br>
+From `<table> </table>`<br>
 Removing head,html,Doctype,etc tags<br><br>
 NO NEED TO REMOVE ANY TABLE ELEMENTS JS removes unnessasry code<br>
 
