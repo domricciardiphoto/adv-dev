@@ -176,7 +176,7 @@ Element takes up a 50% slot on desktop and 100% on mobile<br>
 ```data2``` = used whem there the link needs to go to MORE THEN ONE PRODUCT OR LANDING PAGE<br> 
 ```style="background-image"``` shows the background image for product, logo , etc
 <br><br> 
-*MUST HAVE CLASS*  ```.singlepromo-multi``` to use data2 <br> <br> 
+**MUST HAVE CLASS**  ```.singlepromo-multi``` to use data2 <br> <br> 
 
 IF ONLY ONE PRODUCT IS BEING TARGETED --- remove ```singlepromo-multi``` or link will direct to "UNKNOWN"<br> 
 
@@ -190,9 +190,10 @@ Add class ```videogame66b``` to end of class string for 66% with border<br>
 ```
 <div class="promo_box singlepromo singlepromo-multi videogame" data="FB502SBKL" data2="/browse?Ntt=FB502S*" style="background-image:url(/images/promos/flyer-12-31-17-pg21-hero18.jpg)">
 <div class="promo_des_price"></div>
-</div>```
+</div>
+```
 
-## Paper Flyer
+## Paper Flyer ##
 
 The paper flyer is the digital flyer without all of the dynamic pricing but still retains all the functionality of the digital.
 Adding dynamic elements and classes to IMGs used in the Digital version will work the same in the paper one.<br><br>
