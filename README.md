@@ -199,7 +199,7 @@ style="background-image:url(/images/promos/flyer-12-31-17-pg21-hero18.jpg)">
 
 The paper flyer is the digital flyer without all of the dynamic pricing but still retains all the functionality of the digital.
 Adding dynamic elements and classes to IMGs used in the Digital version will work the same in the paper one.\
-\
+
 
 Paper flyers are constructed by Photoshop sliced .html file.\
 From `<table> </table>`\
