@@ -1,28 +1,29 @@
 # Digital &amp; Paper FSI v2018 &amp; Current Feature Set #
 
+### Include file ###
+
+Place at the beginning of document:
+`<link href="FSI-01-02-2018.min.css" rel="stylesheet" type="text/css">`
+
+Place at the end of document:
+`<script type="text/javascript" src="FSI-01-02-2018.min.js"></script>`
+
 Current stable build 01-01-18\
 Up to 40 digital pages\
 Unlimited paper pages
----
 
 ### Current Development info ###
+
 ###### 01-11-18 Dominick Ricciardi ######
+
 ###### CSS is in progress of being updated with additional layout options. Additional CSS classes and updates being pushed to main file soon as proven fully stable ######
 
 ---
 
-### Include file ###
+## Core system ##
 
-Place at the beginning of document:
-
-`<link href="FSI-01-02-2018.min.css" rel="stylesheet" type="text/css">`
-
-Place at the end of document:
-
-`<script type="text/javascript" src="FSI-01-02-2018.min.js"></script>`
-
-## Core system  ##
 ### Pages written in ###
+
 id = reference to page\
 data2 = what icon will light up when page is displayed
 
@@ -33,6 +34,7 @@ data2 = what icon will light up when page is displayed
 ```
 
 ### Pages var written in ###
+
 "fo" is where the content for the page goes\
  all content must inside the internalflyer class
 
@@ -94,6 +96,7 @@ icon-icon_bed
 icon-icon_game
 icon-icon_vacuum
 ```
+
 ---
 ## Digital FSI ##
 
@@ -203,7 +206,6 @@ Add class `videogame66b` to end of class string for 66% with border
 
 The paper flyer is the digital flyer without all of the dynamic pricing but still retains all the functionality of the digital.
 Adding dynamic elements and classes to IMGs used in the Digital version will work the same in the paper one.\
-
 
 **Paper flyers are constructed by Photoshop sliced .html file.**\
 From `<table>` to `</table>`\
