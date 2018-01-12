@@ -13,13 +13,13 @@ Unlimited paper pages <br>
 
 Place at the beginning of document:
 
-```<link href="FSI-01-02-2018.min.css" rel="stylesheet" type="text/css">
+``` <link href="FSI-01-02-2018.min.css" rel="stylesheet" type="text/css">
 ```
 
 <br>
 Place at the end of document:
 
-```<script type="text/javascript" src="FSI-01-02-2018.min.js"></script>
+``` <script type="text/javascript" src="FSI-01-02-2018.min.js"></script>
 ```
 
 
@@ -36,7 +36,7 @@ data2 = what icon will light up when page is displayed<br><br>
 "fo" is where the content for the page goes<br>
  all content must inside the internalflyer class
 
-```var content_page0 = '<div class=internalflyer> fo </div>';
+``` var content_page0 = '<div class=internalflyer> fo </div>';
 ```
 
 ```var content_page1 = '<div class=internalflyer> fo </div>';
@@ -119,7 +119,7 @@ icon-icon_vacuum
 ```.promo_box_33      33% element
 ```
 
-```<div class="promo_box_940"> fo </div> 
+```<div class="promo_box_940"> fo </div>
 ```
 
 ```<div class="promo_box_66"> fo </div>
