@@ -74,9 +74,7 @@ var content_page3 = '<div class=internalflyer> fo </div>';
 
 ## Icons ##
 
-```
-<i class="icon-icon_heater"></i>
-```
+`<i class="icon-icon_heater"></i>`
 
 Each class displays an icon
 
@@ -118,19 +116,19 @@ icon-icon_vacuum
 
 URL added by adding data="foo" atrribute on .promo_box"940,50.,33" classed div.
 
-```
-<div class="promo_box_940" data="/content/PCTECH"></div> or <div class="promo_box_940" data="FE140"></div>
-```
+`<div class="promo_box_940" data="/content/PCTECH"></div> or <div class="promo_box_940" data="FE140"></div>`
 
 if data attribute is not used, the child IMG (typical) or child element will not be wrapped in a \
 `<a href="{url in data tag or URL to Model #}" title="{model # or url in data tag}"></a>`
 
 -- (This part is automated by the **JS**) and be unclickable.
 
-if only one model number  data="FE140"\
+if only one model number  data="FE140"
+\
 if multiple model numbers or a Landing Page data="/content/landingpage.html"<br>
 
-(MODEL NUMBER MUST BE IN CAPS)    (ALL "/" AND "." NEED TO BE CONVERT TO "-")\
+(MODEL NUMBER MUST BE IN CAPS)    (ALL "/" AND "." NEED TO BE CONVERT TO "-")
+\
 **Example** - **CP.PT.003.000** needs to become **CP-PT-0003-000**
 
 ```
@@ -146,9 +144,6 @@ or
     <img src="/images/promos/flyer-12-31-17-pg8-hero1.jpg" alt="Headboards">
 </div>
 ```
-
-
-
 
 ### Video Module ###
 
@@ -212,9 +207,7 @@ From `<table> </table>`\
 Removing head,html,Doctype,etc tags\
 NO NEED TO REMOVE ANY TABLE ELEMENTS JS removes unnessasry code
 
-```
-<table id="Table_01" width="1000" height="952" border="0" cellpadding="0" cellspacing="0">
-```
+`<table id="Table_01" width="1000" height="952" border="0" cellpadding="0" cellspacing="0">`
 
 Each img needs a data tag added
 
