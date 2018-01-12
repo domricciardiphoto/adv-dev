@@ -206,7 +206,7 @@ NO NEED TO REMOVE ANY TABLE ELEMENTS JS removes unnessasry code<br>
 
 Each img needs a data tag added<br>
 
-Full URL<br>
+### Full URL ###
 
 
 ```
@@ -216,7 +216,7 @@ Full URL<br>
 ```
 
 
-Only One Model<br>
+###  Only One Model ###
 
 ```
 <td colspan="2">
