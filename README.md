@@ -25,7 +25,7 @@ Place at the beginning of document:
 Place at the end of document:
 ```<script type="text/javascript" src="FSI-01-02-2018.min.js"></script>```
 
-<h2>Core system</h2>
+##Core system
 <h3>Pages written in</h3>
 id = reference to page<br>
 data2 = what icon will light up when page is displayed<br><br>
@@ -45,7 +45,7 @@ data2 = what icon will light up when page is displayed<br><br>
 
 
 
-<h2>Menu</h2>
+##Menu
 ```
 <div id="submenu">
     <div id="ae4" class="submenu_overflow">
@@ -71,7 +71,7 @@ data2 = what icon will light up when page is displayed<br><br>
             <div class="undermenu">Heaters &amp; Humidifers</div>
         </div>
 ```
-<h2>Icons</h2>
+##Icons
 
 ```<i class="icon-icon_heater"></i>```
 
@@ -96,7 +96,7 @@ icon-icon_game
 icon-icon_vacuum
 ```
 
-<h2>Digital FSI</h2>
+##Digital FSI
 
 **Default element structure**
 
@@ -105,15 +105,10 @@ icon-icon_vacuum
 ```.promo_box_50```     50% element<br> 
 ```.promo_box_33```     33% element<br> 
 
-
-
 ```<div class="promo_box_940"> fo </div> ```<br>
 ```<div class="promo_box_66"> fo </div>```<br>
 ```<div class="promo_box_50"> fo </div>```<br>
 ```<div class="promo_box_33"> fo </div>```<br>
-
-
-
 
 URL added by adding data="foo" atrribute on .promo_box"940,50.,33" classed div.<br> 
 ```
@@ -146,7 +141,7 @@ or
 Example - CP.PT.003.000 becomes CP-PT-0003-000<br> 
 
 
-**Video Module**
+**Video Module
 ```
 <video poster="/images/promos/flyer-4-30-17-pg3-hero2.jpg">
 <source src="/images/promos/pureWash_Pro-HIW.mp4" type="video/mp4">
