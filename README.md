@@ -141,6 +141,9 @@ if data attribute is not used, the child IMG (typical) or child element will not
 if only one model number  data="FE140"<br> 
 if multiple model numbers or a Landing Page data="/content/landingpage.html"<br> 
 
+(MODEL NUMBER MUST BE IN CAPS)    (ALL "/" AND "." NEED TO BE CONVERT TO "-")  <br> 
+**Example - CP.PT.003.000 becomes CP-PT-0003-000**<br> 
+
 ```
 <div class="promo_box_940" data="/category/Home-Furnishings/Headboards-Upholstered-Beds/Headboards/_/N-1gl4z5q">
     <img src="/images/promos/flyer-12-31-17-pg8-hero1.jpg" alt="Headboards">
@@ -155,11 +158,10 @@ or
 </div>
 ```
 
-(MODEL NUMBER MUST BE IN CAPS)    (ALL "/" AND "." NEED TO BE CONVERT TO "-")  <br> 
-Example - CP.PT.003.000 becomes CP-PT-0003-000<br> 
 
 
-**Video Module**
+
+**Video Module**<br>
 
 ```
 <video poster="/images/promos/flyer-4-30-17-pg3-hero2.jpg">
@@ -170,7 +172,7 @@ Your browser does not support this video
 
 This will show a video on click and will expand to fill the area at 100% on desktop and mobile<br> 
 
-**Dynamic Products**
+**Dynamic Products**<br>
 Products are brought in via a search link
 
 3 Products across 100%
@@ -187,7 +189,7 @@ Requires a 33% element to fill the hole on desktop
 
 ```<div class="promo_box show get large" data="/browse?Ntt=UN75MU8000+UN75MU9000"></div>```
 
-**Graphical element with dynamic pricing**
+_Graphical element with dynamic pricing_
 
 Element takes up a 50% slot on desktop and 100% on mobile<br> 
 ```data``` = where the pricing is coming from<br> 
