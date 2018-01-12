@@ -9,11 +9,9 @@ Current Development info<br>
 
 
 ###### 01-11-18 Dominick Ricciardi ######
-###### CSS is in progress of being updated with additional layout options ######
-###### Additional CSS classes and updates being pushed to main file soon as ######
-###### proven fully stable ######
+###### CSS is in progress of being updated with additional layout options Additional CSS classes and updates being pushed to main file soon as proven fully stable ######
 
-</h6>
+
 <br><br>
 
 ### Include file ### <br>
@@ -74,6 +72,7 @@ data2 = what icon will light up when page is displayed<br><br>
             <div class="undermenu">Heaters &amp; Humidifers</div>
         </div>
 ```
+
 ## Icons ##
 
 ```<i class="icon-icon_heater"></i>```
@@ -210,9 +209,11 @@ Each img needs a data tag added<br>
 Full URL<br>
 
 
-```<td colspan="2">
+```
+<td colspan="2">
 <img data="/browse?Ntt=fgss2635tf+fggf3036tf+fgmv176ntf+fgid2466qf" src="/images/promos/01-14-18-PG2_N_06.jpg" width="513"height="352" alt="">
-</td>```
+</td>
+```
 
 
 Only One Model<br>
