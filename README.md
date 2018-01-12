@@ -178,11 +178,11 @@ Element takes up a 50% slot on desktop and 100% on mobile\
 `style="background-image"` shows the background image for product, logo , etc
 <br><br>
 
-**MUST HAVE CLASS**  `.singlepromo-multi` to use data2\
+**MUST HAVE CLASS**  `.singlepromo-multi` to use data2
 
 IF ONLY ONE PRODUCT IS BEING TARGETED --- remove ```singlepromo-multi``` or link will direct to "UNKNOWN"
 
-**Classes for alternitive layouts**
+**Classes for alternitive layouts**\
 Add class `videogame33`  to end of class string for 33% with no border\
 Add class `videogame66`  to end of class string for 66% with no border\
 Add class `videogame33b` to end of class string for 33% with border\
