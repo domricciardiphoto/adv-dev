@@ -25,8 +25,8 @@ Place at the beginning of document:
 Place at the end of document:
 ```<script type="text/javascript" src="FSI-01-02-2018.min.js"></script>```
 
-## Core system
-<h3>Pages written in</h3>
+## Core system  ##
+### Pages written in  ###
 id = reference to page<br>
 data2 = what icon will light up when page is displayed<br><br>
 
@@ -45,7 +45,7 @@ data2 = what icon will light up when page is displayed<br><br>
 
 
 
-##Menu
+## Menu ##
 ```
 <div id="submenu">
     <div id="ae4" class="submenu_overflow">
@@ -71,7 +71,7 @@ data2 = what icon will light up when page is displayed<br><br>
             <div class="undermenu">Heaters &amp; Humidifers</div>
         </div>
 ```
-##Icons
+## Icons ##
 
 ```<i class="icon-icon_heater"></i>```
 
