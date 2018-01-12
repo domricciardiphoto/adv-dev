@@ -170,7 +170,14 @@ Requires a 33% element to fill the hole on desktop
 
 `<div class="promo_box show get large" data="/browse?Ntt=UN75MU8000+UN75MU9000"></div>`
 
-### Graphical element with dynamic pricing ###
+### Dynamic Graphical element with dynamic pricing ###
+
+```
+<div class="promo_box singlepromo singlepromo-multi videogame" data="FB502SBKL" data2="/browse?Ntt=FB502S*"
+style="background-image:url(/images/promos/flyer-12-31-17-pg21-hero18.jpg)">
+<div class="promo_des_price"></div>
+</div>
+```
 
 Element takes up a 50% slot on desktop and 100% on mobile\
 `data` = where the pricing is coming from\
@@ -187,13 +194,6 @@ Add class `videogame33`  to end of class string for 33% with no border\
 Add class `videogame66`  to end of class string for 66% with no border\
 Add class `videogame33b` to end of class string for 33% with border\
 Add class `videogame66b` to end of class string for 66% with border
-
-```
-<div class="promo_box singlepromo singlepromo-multi videogame" data="FB502SBKL" data2="/browse?Ntt=FB502S*"
-style="background-image:url(/images/promos/flyer-12-31-17-pg21-hero18.jpg)">
-<div class="promo_des_price"></div>
-</div>
-```
 
 ## Paper Flyer ##
 
