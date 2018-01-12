@@ -67,9 +67,9 @@ var content_page3 = '<div class=internalflyer> fo </div>';
  Menu icons are pulled from the website CSS and are baked in.
 "data" is the page number that the icon is going to (starting from 0)
 
-<br>
+\
 "i" class determines icon
-<br>
+\
 
 "undermenu" text displays text under icon
 
@@ -204,10 +204,9 @@ Element takes up a 50% slot on desktop and 100% on mobile\
 `style="background-image"` shows the background image for product, logo , etc
 <br><br>
 
-**MUST HAVE CLASS**  `.singlepromo-multi` to use data2
-\\
+**MUST HAVE CLASS**  `.singlepromo-multi` to use data2\
 
-IF ONLY ONE PRODUCT IS BEING TARGETED --- remove ```singlepromo-multi``` or link will direct to "UNKNOWN"<br> 
+IF ONLY ONE PRODUCT IS BEING TARGETED --- remove ```singlepromo-multi``` or link will direct to "UNKNOWN"<br>
 
 #### Classes for alternitive layouts ####
 Add class `videogame33`  to end of class string for 33% with no border<br>
