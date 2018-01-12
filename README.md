@@ -1,6 +1,6 @@
 # Digital &amp; Paper FSI v2018 &amp; Current Feature Set #
 
-### Include file ###
+**Include files**\
 
 Place at the beginning of document:\
 `<link href="FSI-01-02-2018.min.css" rel="stylesheet" type="text/css">`
@@ -97,9 +97,28 @@ icon-icon_vacuum
 ```
 
 ---
+
 ## Digital FSI ##
 
 ### Default element structure ###
+
+### Full URL or Landing Page ###
+
+```
+<div class="promo_box_940" data="/category/Home-Furnishings/Headboards-Upholstered-Beds/Headboards/_/N-1gl4z5q">
+    <img src="/images/promos/flyer-12-31-17-pg8-hero1.jpg" alt="Headboards">
+</div>
+```
+
+### Going to Single Model Number ###
+
+```
+<div class="promo_box_940" data="FE140">
+    <img src="/images/promos/flyer-12-31-17-pg8-hero1.jpg" alt="Headboards">
+</div>
+```
+
+### Different Sizes Available for Layout ###
 
 ```
 .promo_box_940    100% element
@@ -131,21 +150,6 @@ if multiple model numbers or a Landing Page data="/content/landingpage.html"<br>
 (MODEL NUMBER MUST BE IN CAPS)    (ALL "/" AND "." NEED TO BE CONVERT TO "-")
 \
 **Example** - **CP.PT.003.000** needs to become **CP-PT-0003-000**
-
-**Full URL or Landing Page**
-```
-<div class="promo_box_940" data="/category/Home-Furnishings/Headboards-Upholstered-Beds/Headboards/_/N-1gl4z5q">
-    <img src="/images/promos/flyer-12-31-17-pg8-hero1.jpg" alt="Headboards">
-</div>
-```
-
-**Going to Single Model Number**
-
-```
-<div class="promo_box_940" data="FE140">
-    <img src="/images/promos/flyer-12-31-17-pg8-hero1.jpg" alt="Headboards">
-</div>
-```
 
 ### Video Module ###
 
@@ -187,8 +191,7 @@ style="background-image:url(/images/promos/flyer-12-31-17-pg21-hero18.jpg)">
 Element takes up a 50% slot on desktop and 100% on mobile\
 `data` = where the pricing is coming from\
 `data2` = used whem there the link needs to go to MORE THEN ONE PRODUCT OR LANDING PAGE\
-`style="background-image"` shows the background image for product, logo , etc
-<br><br>
+`style="background-image"` shows the background image for product, logo , etc\
 
 **MUST HAVE CLASS**  `.singlepromo-multi` to use data2\
 IF ONLY ONE PRODUCT IS BEING TARGETED ---\
@@ -214,9 +217,9 @@ NO NEED TO REMOVE ANY TABLE ELEMENTS JS removes unnessasry code
 
 `<table id="Table_01" width="1000" height="952" border="0" cellpadding="0" cellspacing="0">`
 
-Each img needs a data tag added
+Each img needs a data tag added\
 
-#### Full URL ####
+** Full URL **
 
 ```
 <td colspan="2">
@@ -225,7 +228,7 @@ src="/images/promos/01-14-18-PG2_N_06.jpg" width="513"height="352" alt="">
 </td>
 ```
 
-#### Only One Model ####
+** Only One Model **
 
 ```
 <td colspan="2">
