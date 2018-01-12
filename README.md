@@ -1,4 +1,4 @@
-# Digital &amp; Paper FSI ver 2018 &amp; Feature Set #
+# Digital &amp; Paper FSI # ver# 2018 &amp; Feature Set #
 
 Current stable build 01-01-18\
 Up to 40 digital pages\
