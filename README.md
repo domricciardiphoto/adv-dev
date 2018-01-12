@@ -14,8 +14,7 @@ proven fully stable<br>
 </h6>
 <br><br>
 
-
-<strong>Include file</strong><br>
+*Include file*<br>
 
 Place at the beginning of document:
 ```
@@ -75,37 +74,37 @@ data2 = what icon will light up when page is displayed<br><br>
             <div class="undermenu">Heaters &amp; Humidifers</div>
         </div>
 ```
-<h2>Icons</h2>  
+<h2>Icons</h2>
 
 ```<i class="icon-icon_heater"></i>```
 
 
 Each class displays an icon
 ```
-icon-icon_appliances     
+icon-icon_appliances
 icon-icon_bed
-icon-icon_healthBeauty   
+icon-icon_healthBeauty
 icon-icon_heater
-icon-icon_homeAutomation  
-icon-icon_tv  
-icon-icon_laptop  
-icon-icon_headphone  
-icon-icon_camera  
-icon-caraudio   
-icon-icon_grill   
-icon-icon_officeDesk  
-icon-icon_bed  
+icon-icon_homeAutomation
+icon-icon_tv
+icon-icon_laptop
+icon-icon_headphone
+icon-icon_camera
+icon-caraudio
+icon-icon_grill
+icon-icon_officeDesk
+icon-icon_bed
 icon-icon_game
-icon-icon_vacuum  
+icon-icon_vacuum
 ```
 
 
 
 <h2>Digital FSI</h2>
 
-<strong>Default element structure</strong>
+*Default element structure*
 
-```.promo_box_940```    100% element<br> 
+```.promo_box_940```    100% element<br>
 ```.promo_box_66```     66% element<br> 
 ```.promo_box_50```     50% element<br> 
 ```.promo_box_33```     33% element<br> 
@@ -125,7 +124,7 @@ URL added by adding data="foo" atrribute on .promo_box"940,50.,33" classed div.<
 <div class="promo_box_940" data="/content/PCTECH"></div> or <div class="promo_box_940" data="FE140"></div>
 ```
 
-if data attribute is not used, the child IMG (typical) or child element will not be wrapped in a<br> 
+if data attribute is not used, the child IMG (typical) or child element will not be wrapped in a <br>
 ```
 <a href="{url in data tag or URL to Model #}" title="{model # or url in data tag}"></a>
 ```
@@ -151,7 +150,7 @@ or
 Example - CP.PT.003.000 becomes CP-PT-0003-000<br> 
 
 
-<strong>Video Module</strong>
+*Video Module*
 ```
 <video poster="/images/promos/flyer-4-30-17-pg3-hero2.jpg">
 <source src="/images/promos/pureWash_Pro-HIW.mp4" type="video/mp4">
@@ -162,7 +161,7 @@ Your browser does not support this video
 This will show a video on click and will expand to fill the area at 100% on desktop and mobile<br> 
 
 
-<strong>Dynamic Products</strong><br>
+*Dynamic Products*<br>
 Products are brought in via a search link
 
 3 Products across 100%
@@ -191,7 +190,7 @@ Element takes up a 50% slot on desktop and 100% on mobile<br>
 ```data2``` = used whem there the link needs to go to MORE THEN ONE PRODUCT OR LANDING PAGE<br> 
 ```style="background-image"``` shows the background image for product, logo , etc
 <br><br> 
-<strong>MUST HAVE CLASS</strong>  ```.singlepromo-multi``` to use data2 <br> <br> 
+*MUST HAVE CLASS*  ```.singlepromo-multi``` to use data2 <br> <br> 
 
 IF ONLY ONE PRODUCT IS BEING TARGETED --- remove ```singlepromo-multi``` or link will direct to "UNKNOWN"<br> 
 
