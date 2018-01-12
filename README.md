@@ -31,9 +31,12 @@ Place at the end of document:
 id = reference to page<br>
 data2 = what icon will light up when page is displayed<br><br>
 
-   ```<div class="fsi" id="pg0" data2="Appliances"></div>```<br>
-   ```<div class="fsi" id="pg1" data2="Recliners"></div>```<br>
-   ```<div class="fsi" id="pg2" data2="Fitness"></div>```<br><br>
+```
+ <div class="fsi" id="pg0" data2="Appliances"></div>
+ <div class="fsi" id="pg1" data2="Recliners"></div>
+ <div class="fsi" id="pg2" data2="Fitness"></div>
+```
+
 ### Pages var written in ###
 "fo" is where the content for the page goes<br>
  all content must inside the internalflyer class
@@ -50,8 +53,8 @@ var content_page1 = '<div class=internalflyer> fo </div>';
 var content_page3 = '<div class=internalflyer> fo </div>';
 ```
 
-
 ## Menu ##
+
 ```
 <div id="submenu">
     <div id="ae4" class="submenu_overflow">
@@ -60,7 +63,7 @@ var content_page3 = '<div class=internalflyer> fo </div>';
 
    </div>
 </div>
- ```  
+ ```
 
  Menu icons are pulled from the website CSS and are baked in.
 "data" is the page number that the icon is going to (starting from 0)
@@ -69,7 +72,7 @@ var content_page3 = '<div class=internalflyer> fo </div>';
 <br>
 "undermenu" text displays text under icon
 
- ```
+```
         <div class="submenu_button" data="9">
             <i class="icon-icon_healthBeauty"></i>
             <div class="undermenu">Fitness</div>
@@ -129,7 +132,6 @@ URL added by adding data="foo" atrribute on .promo_box"940,50.,33" classed div.<
 
 ```<div class="promo_box_940" data="/content/PCTECH"></div> or <div class="promo_box_940" data="FE140"></div>```
 
-
 if data attribute is not used, the child IMG (typical) or child element will not be wrapped in a <br>
 
 ```<a href="{url in data tag or URL to Model #}" title="{model # or url in data tag}"></a>```
@@ -157,7 +159,8 @@ or
 Example - CP.PT.003.000 becomes CP-PT-0003-000<br> 
 
 
-**Video Module**<br>
+**Video Module**
+
 ```
 <video poster="/images/promos/flyer-4-30-17-pg3-hero2.jpg">
 <source src="/images/promos/pureWash_Pro-HIW.mp4" type="video/mp4">
@@ -167,7 +170,7 @@ Your browser does not support this video
 
 This will show a video on click and will expand to fill the area at 100% on desktop and mobile<br> 
 
-**Dynamic Products**<br>
+**Dynamic Products**
 Products are brought in via a search link
 
 3 Products across 100%
