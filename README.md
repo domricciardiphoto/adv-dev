@@ -195,6 +195,8 @@ Add class `videogame66`  to end of class string for 66% with no border\
 Add class `videogame33b` to end of class string for 33% with border\
 Add class `videogame66b` to end of class string for 66% with border
 
+---
+
 ## Paper Flyer ##
 
 The paper flyer is the digital flyer without all of the dynamic pricing but still retains all the functionality of the digital.
