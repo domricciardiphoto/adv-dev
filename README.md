@@ -69,7 +69,6 @@ var content_page3 = '<div class=internalflyer> fo </div>';
 
 \
 "i" class determines icon
-\
 
 "undermenu" text displays text under icon
 
