@@ -1,6 +1,6 @@
 # Digital &amp; Paper FSI v2018 &amp; Current Feature Set #
 
-**Include files**\
+## Include files ##
 
 Place at the beginning of document:\
 `<link href="FSI-01-02-2018.min.css" rel="stylesheet" type="text/css">`
