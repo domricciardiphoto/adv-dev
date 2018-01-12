@@ -135,11 +135,8 @@ URL added by adding data="foo" atrribute on .promo_box"940,50.,33" classed div.<
 <div class="promo_box_940" data="/content/PCTECH"></div> or <div class="promo_box_940" data="FE140"></div>
 ```
 
-if data attribute is not used, the child IMG (typical) or child element will not be wrapped in a <br>
-
-```
-<a href="{url in data tag or URL to Model #}" title="{model # or url in data tag}"></a>
-```
+if data attribute is not used, the child IMG (typical) or child element will not be wrapped in a \
+`<a href="{url in data tag or URL to Model #}" title="{model # or url in data tag}"></a>`
 
 -- (This part is automated by the JS) and be unclickable.
 
