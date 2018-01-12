@@ -27,8 +27,8 @@ Place at the end of document:
 
 ## Core system  ##
 ### Pages written in ###
-id = reference to page<br>
-data2 = what icon will light up when page is displayed<br><br>
+id = reference to page\
+data2 = what icon will light up when page is displayed\
 
 ```
  <div class="fsi" id="pg0" data2="Appliances"></div>
@@ -37,7 +37,7 @@ data2 = what icon will light up when page is displayed<br><br>
 ```
 
 ### Pages var written in ###
-"fo" is where the content for the page goes<br>
+"fo" is where the content for the page goes\
  all content must inside the internalflyer class
 
 ```
