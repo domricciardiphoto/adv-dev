@@ -1,21 +1,22 @@
-# Digital &amp; Paper FSI ver 2018 &amp; Feature Set
+# Digital &amp; Paper FSI ver 2018 &amp; Feature Set #
 
-Current stable build 01-01-18<br>
-Up to 40 digital pages<br>
-Unlimited paper pages<br>
+Current stable build 01-01-18 <br>
+Up to 40 digital pages <br>
+Unlimited paper pages <br>
 
 Current Development info<br>
 -------------------------------------------------
-<h6>
-01-11-18 Dominick Ricciardi<br>
-CSS is in progress of being updated with additional layout options<br>
-Additional CSS classes and updates being pushed to main file soon as
-proven fully stable<br>
+
+
+######01-11-18 Dominick Ricciardi######
+######CSS is in progress of being updated with additional layout options######
+######Additional CSS classes and updates being pushed to main file soon as######
+######proven fully stable######
 
 </h6>
 <br><br>
 
-### Include file  <br>
+### Include file ### <br>
 
 Place at the beginning of document:
 
