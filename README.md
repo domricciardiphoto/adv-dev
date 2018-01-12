@@ -188,7 +188,7 @@ style="background-image:url(/images/promos/flyer-12-31-17-pg21-hero18.jpg)">
 </div>
 ```
 
-**Element takes up a 50% slot on desktop and 100% on mobile**\
+
 `data` = where the pricing is coming from\
 `data2` = used whem there the link needs to go to MORE THEN ONE PRODUCT OR LANDING PAGE\
 `style="background-image"` shows the background image for product, logo , etc\
@@ -201,7 +201,9 @@ remove ```singlepromo-multi``` or link will direct to "UNKNOWN"
 Add class `videogame33`  to end of class string for 33% with no border\
 Add class `videogame66`  to end of class string for 66% with no border\
 Add class `videogame33b` to end of class string for 33% with border\
-Add class `videogame66b` to end of class string for 66% with border
+Add class `videogame66b` to end of class string for 66% with border\
+
+**Element takes up a 50% slot on desktop and 100% on mobile**
 
 ---
 
