@@ -193,9 +193,9 @@ style="background-image:url(/images/promos/flyer-12-31-17-pg21-hero18.jpg)">
 `data2` = used whem there the link needs to go to MORE THEN ONE PRODUCT OR LANDING PAGE\
 `style="background-image"` shows the background image for product, logo , etc\
 
-**MUST HAVE CLASS**  `.singlepromo-multi` to use data2\
-IF ONLY ONE PRODUCT IS BEING TARGETED ---\
-remove ```singlepromo-multi``` or link will direct to "UNKNOWN"
+**MUST HAVE CLASS**  `.singlepromo-multi` to use **data2**\
+IF ONLY **ONE** PRODUCT IS BEING TARGETED ---\
+remove `singlepromo-multi` or link will direct to "UNKNOWN"
 
 **Classes for alternitive layouts**\
 Add class `videogame33`  to end of class string for 33% with no border\
