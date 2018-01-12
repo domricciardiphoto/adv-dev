@@ -15,7 +15,7 @@ proven fully stable<br>
 </h6>
 <br><br>
 
-### Include file ### <br>
+### Include file  <br>
 
 Place at the beginning of document:
 
@@ -154,21 +154,20 @@ This will show a video on click and will expand to fill the area at 100% on desk
 Products are brought in via a search link
 
 3 Products across 100%
-```
-<div class="promo_box" data="/browse?Ntt=UN75MU8000+UN75MU9000+UN82MU8000"></div>
-```
+
+```<div class="promo_box" data="/browse?Ntt=UN75MU8000+UN75MU9000+UN82MU8000"></div>```
+
 
 2 Products across 66%  (small) (Two across) <br>
 Requires a 33% element to fill the hole on desktop
 
 ```<div class="promo_box show only two" data="/browse?Ntt=UN75MU8000+UN75MU9000"></div>```
 
-
 2 Products across 100% (large) (Two across)
 
 ```<div class="promo_box show get large" data="/browse?Ntt=UN75MU8000+UN75MU9000"></div>```
 
-<strong>Graphical element with dynamic pricing</strong>
+**Graphical element with dynamic pricing**
 
 Element takes up a 50% slot on desktop and 100% on mobile<br> 
 ```data``` = where the pricing is coming from<br> 
@@ -205,12 +204,15 @@ NO NEED TO REMOVE ANY TABLE ELEMENTS JS removes unnessasry code<br>
 Each img needs a data tag added<br>
 
 Full URL<br>
+
 ```
 <td colspan="2">
 <img data="/browse?Ntt=fgss2635tf+fggf3036tf+fgmv176ntf+fgid2466qf" src="/images/promos/01-14-18-PG2_N_06.jpg" width="513"height="352" alt="">
 </td>
 ```
+
 Only One Model<br>
+
 ```
 <td colspan="2">
 <img data="FE140" src="/images/promos/01-14-18-PG2_N_06.jpg" width="513"height="352" alt="">
