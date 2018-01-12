@@ -132,13 +132,14 @@ if multiple model numbers or a Landing Page data="/content/landingpage.html"<br>
 \
 **Example** - **CP.PT.003.000** needs to become **CP-PT-0003-000**
 
+**Full URL or Landing Page**
 ```
 <div class="promo_box_940" data="/category/Home-Furnishings/Headboards-Upholstered-Beds/Headboards/_/N-1gl4z5q">
     <img src="/images/promos/flyer-12-31-17-pg8-hero1.jpg" alt="Headboards">
 </div>
 ```
 
-or
+**Going to Single Model Number**
 
 ```
 <div class="promo_box_940" data="FE140">
