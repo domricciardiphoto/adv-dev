@@ -33,7 +33,7 @@ data2 = what icon will light up when page is displayed<br><br>
    ```<div class="fsi" id="pg0" data2="Appliances"></div>```<br>
    ```<div class="fsi" id="pg1" data2="Recliners"></div>```<br>
    ```<div class="fsi" id="pg2" data2="Fitness"></div>```<br><br>
-<h3>Pages var written in</h3>
+### Pages var written in
 "fo" is where the content for the page goes<br>
  all content must inside the internalflyer class
 
@@ -49,7 +49,7 @@ data2 = what icon will light up when page is displayed<br><br>
 ```
 <div id="submenu">
     <div id="ae4" class="submenu_overflow">
-    
+
 ---menu goes here---
 
    </div>
@@ -75,7 +75,6 @@ data2 = what icon will light up when page is displayed<br><br>
 
 ```<i class="icon-icon_heater"></i>```
 
-
 Each class displays an icon
 
 ```
@@ -96,7 +95,7 @@ icon-icon_game
 icon-icon_vacuum
 ```
 
-##Digital FSI
+##Digital FSI##
 
 **Default element structure**
 
@@ -111,14 +110,14 @@ icon-icon_vacuum
 ```<div class="promo_box_33"> fo </div>```<br>
 
 URL added by adding data="foo" atrribute on .promo_box"940,50.,33" classed div.<br> 
-```
-<div class="promo_box_940" data="/content/PCTECH"></div> or <div class="promo_box_940" data="FE140"></div>
-```
+
+```<div class="promo_box_940" data="/content/PCTECH"></div> or <div class="promo_box_940" data="FE140"></div>```
+
 
 if data attribute is not used, the child IMG (typical) or child element will not be wrapped in a <br>
-```
-<a href="{url in data tag or URL to Model #}" title="{model # or url in data tag}"></a>
-```
+
+```<a href="{url in data tag or URL to Model #}" title="{model # or url in data tag}"></a>```
+
 -- (This part is automated by the JS) and be unclickable.
 
 
@@ -141,7 +140,7 @@ or
 Example - CP.PT.003.000 becomes CP-PT-0003-000<br> 
 
 
-** Video Module **
+**Video Module**<br>
 ```
 <video poster="/images/promos/flyer-4-30-17-pg3-hero2.jpg">
 <source src="/images/promos/pureWash_Pro-HIW.mp4" type="video/mp4">
@@ -151,7 +150,7 @@ Your browser does not support this video
 
 This will show a video on click and will expand to fill the area at 100% on desktop and mobile<br> 
 
-** Dynamic Products **
+**Dynamic Products**<br>
 Products are brought in via a search link
 
 3 Products across 100%
@@ -159,7 +158,7 @@ Products are brought in via a search link
 <div class="promo_box" data="/browse?Ntt=UN75MU8000+UN75MU9000+UN82MU8000"></div>
 ```
 
-2 Products across 66%  (small) (Two across)<br>
+2 Products across 66%  (small) (Two across) <br>
 Requires a 33% element to fill the hole on desktop
 
 ```<div class="promo_box show only two" data="/browse?Ntt=UN75MU8000+UN75MU9000"></div>```
