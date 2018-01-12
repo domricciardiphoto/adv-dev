@@ -2,23 +2,23 @@
 
 ### Include file ###
 
-Place at the beginning of document:
+Place at the beginning of document:\
 `<link href="FSI-01-02-2018.min.css" rel="stylesheet" type="text/css">`
 
-Place at the end of document:
+Place at the end of document:\
 `<script type="text/javascript" src="FSI-01-02-2018.min.js"></script>`
 
 Current stable build 01-01-18\
 Up to 40 digital pages\
 Unlimited paper pages
 
+---
+
 ### Current Development info ###
 
 ###### 01-11-18 Dominick Ricciardi ######
 
 ###### CSS is in progress of being updated with additional layout options. Additional CSS classes and updates being pushed to main file soon as proven fully stable ######
-
----
 
 ## Core system ##
 
