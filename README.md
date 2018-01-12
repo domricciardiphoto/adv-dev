@@ -96,10 +96,12 @@ icon-icon_vacuum
 
 **Default element structure**
 
-``` .promo_box_940 ```    100% element<br>
-``` .promo_box_66 ```     66% element<br> 
-``` .promo_box_50 ```     50% element<br> 
-``` .promo_box_33 ```     33% element<br> 
+```
+ .promo_box_940    100% element<br>
+ .promo_box_66      66% element <br>
+ .promo_box_50      50% element<br>
+ .promo_box_33      33% element<br>
+ ```
 
 ```<div class="promo_box_940"> fo </div> ```<br>
 ```<div class="promo_box_66"> fo </div>```<br>
@@ -117,7 +119,6 @@ if data attribute is not used, the child IMG (typical) or child element will not
 
 -- (This part is automated by the JS) and be unclickable.
 
-
 if only one model number  data="FE140"<br> 
 if multiple model numbers or a Landing Page data="/content/landingpage.html"<br> 
 
@@ -126,7 +127,9 @@ if multiple model numbers or a Landing Page data="/content/landingpage.html"<br>
     <img src="/images/promos/flyer-12-31-17-pg8-hero1.jpg" alt="Headboards">
 </div>
 ```
+
 or
+
 ```
 <div class="promo_box_940" data="FE140">
     <img src="/images/promos/flyer-12-31-17-pg8-hero1.jpg" alt="Headboards">
@@ -170,11 +173,10 @@ Element takes up a 50% slot on desktop and 100% on mobile<br>
 ```data``` = where the pricing is coming from<br> 
 ```data2``` = used whem there the link needs to go to MORE THEN ONE PRODUCT OR LANDING PAGE<br> 
 ```style="background-image"``` shows the background image for product, logo , etc
-<br><br> 
+<br><br>
 **MUST HAVE CLASS**  ```.singlepromo-multi``` to use data2 <br> <br> 
 
 IF ONLY ONE PRODUCT IS BEING TARGETED --- remove ```singlepromo-multi``` or link will direct to "UNKNOWN"<br> 
-
 
 Classes for alternitive layouts<br>
 Add class ```videogame33```  to end of class string for 33% with no border<br>
@@ -197,12 +199,14 @@ Paper flyers are constructed by Photoshop sliced .html file.<br>
 From ``<table> </table>``<br>
 Removing head,html,Doctype,etc tags<br><br>
 NO NEED TO REMOVE ANY TABLE ELEMENTS JS removes unnessasry code<br>
-```<table id="Table_01" width="1000" height="952" border="0" cellpadding="0" cellspacing="0">```
+
+```
+<table id="Table_01" width="1000" height="952" border="0" cellpadding="0" cellspacing="0">
+```
 
 Each img needs a data tag added<br>
 
 #### Full URL ####
-
 
 ```
 <td colspan="2">
@@ -210,8 +214,7 @@ Each img needs a data tag added<br>
 </td>
 ```
 
-
-####  Only One Model ####
+#### Only One Model ####
 
 ```
 <td colspan="2">
