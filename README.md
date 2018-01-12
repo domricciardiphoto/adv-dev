@@ -1,4 +1,4 @@
-<h1>Digital &amp; Paper FSI ver 2018 &amp; Feature Set</h1><br>
+#Digital &amp; Paper FSI ver 2018 &amp; Feature Set</h1>
 Current stable build 01-01-18<br>
 Up to 40 digital pages<br>
 Unlimited paper pages<br>
@@ -17,34 +17,30 @@ proven fully stable<br>
 **Include file**<br>
 
 Place at the beginning of document:
-```
-<link href="FSI-01-02-2018.min.css" rel="stylesheet" type="text/css">
-```
+
+```<link href="FSI-01-02-2018.min.css" rel="stylesheet" type="text/css">```
+
+
 Place at the end of document:
-```
-<script type="text/javascript" src="FSI-01-02-2018.min.js"></script>
-```
+```<script type="text/javascript" src="FSI-01-02-2018.min.js"></script>```
 
 <h2>Core system</h2>
 <h3>Pages written in</h3>
 id = reference to page<br>
 data2 = what icon will light up when page is displayed<br><br>
 
-   ``` <div class="fsi" id="pg0" data2="Appliances"></div>```<br>
-   ``` <div class="fsi" id="pg1" data2="Recliners"></div>```<br>
-   ``` <div class="fsi" id="pg2" data2="Fitness"></div>```<br>
- 
-
-
+   ```<div class="fsi" id="pg0" data2="Appliances"></div>```<br>
+   ```<div class="fsi" id="pg1" data2="Recliners"></div>```<br>
+   ```<div class="fsi" id="pg2" data2="Fitness"></div>```<br><br>
 <h3>Pages var written in</h3>
 "fo" is where the content for the page goes<br>
  all content must inside the internalflyer class
 
-```
-    var content_page0 = '<div class=internalflyer> fo </div>';
-    var content_page1 = '<div class=internalflyer> fo </div>';
-    var content_page3 = '<div class=internalflyer> fo </div>';
-```
+
+```var content_page0 = '<div class=internalflyer> fo </div>';```
+```var content_page1 = '<div class=internalflyer> fo </div>';```
+```var content_page3 = '<div class=internalflyer> fo </div>';```
+
 
 
 
@@ -80,6 +76,7 @@ data2 = what icon will light up when page is displayed<br><br>
 
 
 Each class displays an icon
+
 ```
 icon-icon_appliances
 icon-icon_bed
@@ -97,8 +94,6 @@ icon-icon_bed
 icon-icon_game
 icon-icon_vacuum
 ```
-
-
 
 <h2>Digital FSI</h2>
 
