@@ -140,7 +140,7 @@ if data attribute is not used, the child IMG (typical) or child element will not
 
 -- (This part is automated by the JS) and be unclickable.
 
-if only one model number  data="FE140"<br> 
+if only one model number  data="FE140"\
 if multiple model numbers or a Landing Page data="/content/landingpage.html"<br>
 
 (MODEL NUMBER MUST BE IN CAPS)    (ALL "/" AND "." NEED TO BE CONVERT TO "-")  <br> 
@@ -183,7 +183,7 @@ Products are brought in via a search link
 <div class="promo_box" data="/browse?Ntt=UN75MU8000+UN75MU9000+UN82MU8000"></div>
 ```
 
-2 Products across 66%  (small) (Two across) <br>
+2 Products across 66%  (small) (Two across) \
 Requires a 33% element to fill the hole on desktop
 
 ```
@@ -198,13 +198,15 @@ Requires a 33% element to fill the hole on desktop
 
 ### Graphical element with dynamic pricing ###
 
-Element takes up a 50% slot on desktop and 100% on mobile<br>
-`data` = where the pricing is coming from<br> 
-`data2` = used whem there the link needs to go to MORE THEN ONE PRODUCT OR LANDING PAGE<br> 
+Element takes up a 50% slot on desktop and 100% on mobile\
+`data` = where the pricing is coming from\
+`data2` = used whem there the link needs to go to MORE THEN ONE PRODUCT OR LANDING PAGE\ 
 `style="background-image"` shows the background image for product, logo , etc
 <br><br>
 
-**MUST HAVE CLASS**  `.singlepromo-multi` to use data2 <br> <br>
+**MUST HAVE CLASS**  `.singlepromo-multi` to use data2
+\
+\
 
 IF ONLY ONE PRODUCT IS BEING TARGETED --- remove ```singlepromo-multi``` or link will direct to "UNKNOWN"<br> 
 
