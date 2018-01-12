@@ -90,21 +90,21 @@ var content_page3 = '<div class=internalflyer> fo </div>';
 Each class displays an icon
 
 `
-icon-icon_appliances
-icon-icon_bed
-icon-icon_healthBeauty
-icon-icon_heater
-icon-icon_homeAutomation
-icon-icon_tv
-icon-icon_laptop
-icon-icon_headphone
-icon-icon_camera
-icon-caraudio
-icon-icon_grill
-icon-icon_officeDesk
-icon-icon_bed
-icon-icon_game
-icon-icon_vacuum
+icon-icon_appliances\
+icon-icon_bed\
+icon-icon_healthBeauty\
+icon-icon_heater\
+icon-icon_homeAutomation\
+icon-icon_tv\
+icon-icon_laptop\
+icon-icon_headphone\
+icon-icon_camera\
+icon-caraudio\
+icon-icon_grill\
+icon-icon_officeDesk\
+icon-icon_bed\
+icon-icon_game\
+icon-icon_vacuum\
 `
 
 ## Digital FSI ##
