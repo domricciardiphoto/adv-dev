@@ -16,9 +16,8 @@ Unlimited paper pages
 
 ### Current Development info ###
 
-###### 01-11-18 Dominick Ricciardi ######
-
-###### CSS is in progress of being updated with additional layout options. Additional CSS classes and updates being pushed to main file soon as proven fully stable ######
+**01-11-18 Dominick Ricciardi**
+**CSS is in progress of being updated with additional layout options. Additional CSS classes and updates being pushed to main file soon as proven fully stable**
 
 ## Core system ##
 
@@ -57,9 +56,9 @@ var content_page3 = '<div class=internalflyer> fo </div>';
 ```
 
 **Menu icons are pulled from the website CSS and are baked in.**\
-"data" is the page number that the icon is going to (starting from 0)\
-"i" class determines icon\
-"undermenu" text displays text under icon
+**"data"** is the page number that the icon is going to (starting from 0)\
+**"i"** class determines icon\
+**"undermenu"** text displays text under icon
 
 ```
         <div class="submenu_button" data="9">
