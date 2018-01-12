@@ -194,7 +194,7 @@ style="background-image:url(/images/promos/flyer-12-31-17-pg21-hero18.jpg)">
 `style="background-image"` shows the background image for product, logo , etc\
 
 **MUST HAVE CLASS**  `.singlepromo-multi` to use **data2**\
-IF ONLY **ONE** PRODUCT IS BEING TARGETED ---\
+If only **ONE** product is being targeted ---\
 remove `singlepromo-multi` or link will direct to **"UNKNOWN"**
 
 **Classes for alternitive layouts**\
@@ -203,7 +203,7 @@ Add class `videogame66`  to end of class string for 66% with no border\
 Add class `videogame33b` to end of class string for 33% with border\
 Add class `videogame66b` to end of class string for 66% with border\
 
-**Element takes up a 50% slot on desktop and 100% on mobile**
+### Element takes up a 50% slot on desktop and 100% on mobile ###
 
 ---
 
