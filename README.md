@@ -174,7 +174,7 @@ Your browser does not support this video
 
 This will show a video on click and will expand to fill the area at 100% on desktop and mobile<br> 
 
-###Dynamic Products**###
+### Dynamic Products** ### 
 Products are brought in via a search link
 
 3 Products across 100%
@@ -196,15 +196,15 @@ Requires a 33% element to fill the hole on desktop
 <div class="promo_box show get large" data="/browse?Ntt=UN75MU8000+UN75MU9000"></div>
 ```
 
-###Graphical element with dynamic pricing###
+### Graphical element with dynamic pricing ###
 
-Element takes up a 50% slot on desktop and 100% on mobile<br> 
+Element takes up a 50% slot on desktop and 100% on mobile<br>
 `data` = where the pricing is coming from<br> 
 `data2` = used whem there the link needs to go to MORE THEN ONE PRODUCT OR LANDING PAGE<br> 
 `style="background-image"` shows the background image for product, logo , etc
 <br><br>
 
-**MUST HAVE CLASS**  ```.singlepromo-multi``` to use data2 <br> <br>
+**MUST HAVE CLASS**  `.singlepromo-multi` to use data2 <br> <br>
 
 IF ONLY ONE PRODUCT IS BEING TARGETED --- remove ```singlepromo-multi``` or link will direct to "UNKNOWN"<br> 
 
