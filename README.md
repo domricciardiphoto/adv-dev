@@ -17,7 +17,7 @@ Place at the beginning of document:
 <link href="FSI-01-02-2018.min.css" rel="stylesheet" type="text/css">
 ```
 
-<br>
+
 Place at the end of document:
 
 ```
@@ -67,9 +67,11 @@ var content_page3 = '<div class=internalflyer> fo </div>';
 
  Menu icons are pulled from the website CSS and are baked in.
 "data" is the page number that the icon is going to (starting from 0)
+
 <br>
 "i" class determines icon
 <br>
+
 "undermenu" text displays text under icon
 
 ```
@@ -112,7 +114,7 @@ icon-icon_vacuum
 
 ## Digital FSI ##
 
-**Default element structure**
+### Default element structure ###
 
 ```
 .promo_box_940    100% element
@@ -139,10 +141,10 @@ if data attribute is not used, the child IMG (typical) or child element will not
 -- (This part is automated by the JS) and be unclickable.
 
 if only one model number  data="FE140"<br> 
-if multiple model numbers or a Landing Page data="/content/landingpage.html"<br> 
+if multiple model numbers or a Landing Page data="/content/landingpage.html"<br>
 
 (MODEL NUMBER MUST BE IN CAPS)    (ALL "/" AND "." NEED TO BE CONVERT TO "-")  <br> 
-**Example - CP.PT.003.000 becomes CP-PT-0003-000**<br> 
+**Example - CP.PT.003.000 becomes CP-PT-0003-000** <br>
 
 ```
 <div class="promo_box_940" data="/category/Home-Furnishings/Headboards-Upholstered-Beds/Headboards/_/N-1gl4z5q">
@@ -161,7 +163,7 @@ or
 
 
 
-**Video Module**<br>
+### Video Module ###
 
 ```
 <video poster="/images/promos/flyer-4-30-17-pg3-hero2.jpg">
@@ -172,39 +174,45 @@ Your browser does not support this video
 
 This will show a video on click and will expand to fill the area at 100% on desktop and mobile<br> 
 
-**Dynamic Products**<br>
+###Dynamic Products**###
 Products are brought in via a search link
 
 3 Products across 100%
 
-```<div class="promo_box" data="/browse?Ntt=UN75MU8000+UN75MU9000+UN82MU8000"></div>```
-
+```
+<div class="promo_box" data="/browse?Ntt=UN75MU8000+UN75MU9000+UN82MU8000"></div>
+```
 
 2 Products across 66%  (small) (Two across) <br>
 Requires a 33% element to fill the hole on desktop
 
-```<div class="promo_box show only two" data="/browse?Ntt=UN75MU8000+UN75MU9000"></div>```
+```
+<div class="promo_box show only two" data="/browse?Ntt=UN75MU8000+UN75MU9000"></div>
+```
 
 2 Products across 100% (large) (Two across)
 
-```<div class="promo_box show get large" data="/browse?Ntt=UN75MU8000+UN75MU9000"></div>```
+```
+<div class="promo_box show get large" data="/browse?Ntt=UN75MU8000+UN75MU9000"></div>
+```
 
-_Graphical element with dynamic pricing_
+###Graphical element with dynamic pricing###
 
 Element takes up a 50% slot on desktop and 100% on mobile<br> 
-```data``` = where the pricing is coming from<br> 
-```data2``` = used whem there the link needs to go to MORE THEN ONE PRODUCT OR LANDING PAGE<br> 
-```style="background-image"``` shows the background image for product, logo , etc
+`data` = where the pricing is coming from<br> 
+`data2` = used whem there the link needs to go to MORE THEN ONE PRODUCT OR LANDING PAGE<br> 
+`style="background-image"` shows the background image for product, logo , etc
 <br><br>
-**MUST HAVE CLASS**  ```.singlepromo-multi``` to use data2 <br> <br> 
+
+**MUST HAVE CLASS**  ```.singlepromo-multi``` to use data2 <br> <br>
 
 IF ONLY ONE PRODUCT IS BEING TARGETED --- remove ```singlepromo-multi``` or link will direct to "UNKNOWN"<br> 
 
 Classes for alternitive layouts<br>
-Add class ```videogame33```  to end of class string for 33% with no border<br>
-Add class ```videogame66```  to end of class string for 66% with no border<br>
-Add class ```videogame33b``` to end of class string for 33% with border<br>
-Add class ```videogame66b``` to end of class string for 66% with border<br>
+Add class `videogame33`  to end of class string for 33% with no border<br>
+Add class `videogame66`  to end of class string for 66% with no border<br>
+Add class `videogame33b` to end of class string for 33% with border<br>
+Add class `videogame66b` to end of class string for 66% with border<br>
 
 ```
 <div class="promo_box singlepromo singlepromo-multi videogame" data="FB502SBKL" data2="/browse?Ntt=FB502S*" style="background-image:url(/images/promos/flyer-12-31-17-pg21-hero18.jpg)">
