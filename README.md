@@ -52,7 +52,7 @@ var content_page3 = '<div class=internalflyer> fo </div>';
 </div>
 ```
 
-**Menu icons are pulled from the website CSS and are baked in.**
+**Menu icons are pulled from the website CSS and are baked in.**\
 "data" is the page number that the icon is going to (starting from 0)\
 "i" class determines icon\
 "undermenu" text displays text under icon
