@@ -1,6 +1,6 @@
-# Digital &amp; Paper FSI v2018 &amp; Current Feature Set #
+# Digital &amp; Paper FSI v2018 &amp; Current Feature Set
 
-## Include files ##
+## Include files
 
 Place at the beginning of document:\
 `<link href="FSI-01-02-2018.min.css" rel="stylesheet" type="text/css">`
@@ -14,14 +14,14 @@ Unlimited paper pages
 
 ---
 
-### Current Development info ###
+### Current Development info
 
 **01-11-18 Dominick Ricciardi**
 **CSS is in progress of being updated with additional layout options. Additional CSS classes and updates being pushed to main file soon as proven fully stable**
 
-## Core system ##
+## Core system
 
-### Pages written in ###
+### Pages written in
 
 id = reference to page\
 data2 = what icon will light up when page is displayed
@@ -32,7 +32,7 @@ data2 = what icon will light up when page is displayed
  <div class="fsi" id="pg2" data2="Fitness"></div>
 ```
 
-### Pages var written in ###
+### Pages var written in
 
 "fo" is where the content for the page goes\
  all content must inside the internalflyer class
@@ -43,7 +43,7 @@ var content_page1 = '<div class=internalflyer> fo </div>';
 var content_page3 = '<div class=internalflyer> fo </div>';
 ```
 
-## Menu ##
+## Menu
 
 ```
 <div id="submenu">
@@ -72,7 +72,7 @@ var content_page3 = '<div class=internalflyer> fo </div>';
         </div>
 ```
 
-## Icons ##
+## Icons
 
 `<i class="icon-icon_heater"></i>`
 
@@ -98,11 +98,11 @@ icon-icon_vacuum
 
 ---
 
-## Digital FSI ##
+## Digital FSI
 
-### Default element structure ###
+### Default element structure
 
-### Full URL or Landing Page ###
+### Full URL or Landing Page
 
 ```
 <div class="promo_box_940" data="/category/Home-Furnishings/Headboards-Upholstered-Beds/Headboards/_/N-1gl4z5q">
@@ -110,7 +110,7 @@ icon-icon_vacuum
 </div>
 ```
 
-### Going to Single Model Number ###
+### Going to Single Model Number
 
 ```
 <div class="promo_box_940" data="FE140">
@@ -118,7 +118,7 @@ icon-icon_vacuum
 </div>
 ```
 
-### Different Sizes Available for Layout ###
+### Different Sizes Available for Layout
 
 ```
 .promo_box_940    100% element
@@ -151,7 +151,7 @@ if multiple model numbers or a Landing Page data="/content/landingpage.html"<br>
 \
 **Example** - **CP.PT.003.000** needs to become **CP-PT-0003-000**
 
-### Video Module ###
+### Video Module
 
 ```
 <video poster="/images/promos/flyer-4-30-17-pg3-hero2.jpg">
@@ -162,7 +162,7 @@ Your browser does not support this video
 
 This will show a video on click and will expand to fill the area at 100% on desktop and mobile
 
-### Dynamic Products ###
+### Dynamic Products
 
 Products are brought in via a search link
 
@@ -179,7 +179,7 @@ Requires a 33% element to fill the hole on desktop
 
 `<div class="promo_box show get large" data="/browse?Ntt=UN75MU8000+UN75MU9000"></div>`
 
-### Dynamic Graphical element with dynamic pricing ###
+### Dynamic Graphical element with dynamic pricing
 
 ```
 <div class="promo_box singlepromo singlepromo-multi videogame" data="FB502SBKL" data2="/browse?Ntt=FB502S*"
@@ -202,11 +202,11 @@ Add class `videogame66`  to end of class string for 66% with no border\
 Add class `videogame33b` to end of class string for 33% with border\
 Add class `videogame66b` to end of class string for 66% with border\
 
-#### Element takes up a 50% slot on desktop and 100% on mobile ####
+#### Element takes up a 50% slot on desktop and 100% on mobile
 
 ---
 
-## Paper Flyer ##
+## Paper Flyer
 
 The paper flyer is the digital flyer without all of the dynamic pricing but still retains all the functionality of the digital.
 Adding dynamic elements and classes to IMGs used in the Digital version will work the same in the paper one.\
@@ -220,7 +220,7 @@ NO NEED TO REMOVE ANY TABLE ELEMENTS JS removes unnessasry code
 
 Each img needs a data tag added\
 
-#### Full URL ####
+#### Full URL
 
 ```
 <td colspan="2">
@@ -229,7 +229,7 @@ src="/images/promos/01-14-18-PG2_N_06.jpg" width="513"height="352" alt="">
 </td>
 ```
 
-#### Only One Model ####
+#### Only One Model
 
 ```
 <td colspan="2">
