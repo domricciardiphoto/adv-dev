@@ -1,5 +1,5 @@
-# Digital &amp; Paper FSI v2018 &amp; Current Feature Set
-
+# Digital &amp; Paper FSI
+### v2018 &amp; Current Feature Set
 ## Include files
 
 Place at the beginning of document:\
@@ -120,12 +120,10 @@ icon-icon_vacuum
 
 ### Different Sizes Available for Layout
 
-
 * .promo_box_940    100% element
 * .promo_box_66     66% element
 * .promo_box_50     50% element
 * .promo_box_33     33% element
-
 
 ```
 <div class="promo_box_940"> fo </div>
