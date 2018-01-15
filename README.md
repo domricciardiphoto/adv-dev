@@ -26,7 +26,7 @@ Unlimited paper pages
 id = reference to page\
 data2 = what icon will light up when page is displayed
 
-```
+```HTML
  <div class="fsi" id="pg0" data2="Appliances"></div>
  <div class="fsi" id="pg1" data2="Recliners"></div>
  <div class="fsi" id="pg2" data2="Fitness"></div>
@@ -60,7 +60,7 @@ var content_page3 = '<div class=internalflyer> fo </div>';
 **"i"** class determines icon\
 **"undermenu"** text displays text under icon
 
-```
+```HTML
         <div class="submenu_button" data="9">
             <i class="icon-icon_healthBeauty"></i>
             <div class="undermenu">Fitness</div>
@@ -78,7 +78,7 @@ var content_page3 = '<div class=internalflyer> fo </div>';
 
 Each class displays an icon
 
-```
+```HTML
 icon-icon_appliances
 icon-icon_bed
 icon-icon_healthBeauty
@@ -104,7 +104,7 @@ icon-icon_vacuum
 
 ### Full URL or Landing Page
 
-```
+```HTML
 <div class="promo_box_940" data="/category/Home-Furnishings/Headboards-Upholstered-Beds/Headboards/_/N-1gl4z5q">
     <img src="/images/promos/flyer-12-31-17-pg8-hero1.jpg" alt="Headboards">
 </div>
@@ -112,7 +112,7 @@ icon-icon_vacuum
 
 ### Going to Single Model Number
 
-```
+```HTML
 <div class="promo_box_940" data="FE140">
     <img src="/images/promos/flyer-12-31-17-pg8-hero1.jpg" alt="Headboards">
 </div>
@@ -125,7 +125,7 @@ icon-icon_vacuum
 * .promo_box_50     50% element
 * .promo_box_33     33% element
 
-```
+```HTML
 <div class="promo_box_940"> fo </div>
 <div class="promo_box_66"> fo </div>
 <div class="promo_box_50"> fo </div>
@@ -151,7 +151,7 @@ if multiple model numbers or a Landing Page data="/content/landingpage.html"<br>
 
 ### Video Module
 
-```
+```HTML
 <video poster="/images/promos/flyer-4-30-17-pg3-hero2.jpg">
 <source src="/images/promos/pureWash_Pro-HIW.mp4" type="video/mp4">
 Your browser does not support this video
@@ -179,13 +179,12 @@ Requires a 33% element to fill the hole on desktop
 
 ### Dynamic Graphical element with dynamic pricing
 
-```
+```HTML
 <div class="promo_box singlepromo singlepromo-multi videogame" data="FB502SBKL" data2="/browse?Ntt=FB502S*"
 style="background-image:url(/images/promos/flyer-12-31-17-pg21-hero18.jpg)">
 <div class="promo_des_price"></div>
 </div>
 ```
-
 
 `data` = where the pricing is coming from\
 `data2` = used whem there the link needs to go to MORE THEN ONE PRODUCT OR LANDING PAGE\
@@ -220,7 +219,7 @@ Each img needs a data tag added\
 
 ### Full URL
 
-```
+```HTML
 <td colspan="2">
 <img data="/browse?Ntt=fgss2635tf+fggf3036tf+fgmv176ntf+fgid2466qf"
 src="/images/promos/01-14-18-PG2_N_06.jpg" width="513"height="352" alt="">
@@ -229,7 +228,7 @@ src="/images/promos/01-14-18-PG2_N_06.jpg" width="513"height="352" alt="">
 
 ### Only One Model
 
-```
+```HTML
 <td colspan="2">
 <img data="FE140" src="/images/promos/01-14-18-PG2_N_06.jpg" width="513"height="352" alt="">
 </td>
