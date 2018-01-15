@@ -12,7 +12,8 @@
 Up to 40 digital pages\
 Unlimited paper pages
 
-##### CSS is in progress of being updated with additional layout options. Additional CSS classes and updates being pushed to main file soon as proven fully stable
+##### CSS is in progress of being updated with additional layout options. Additional CSS classes and updates being pushed to main file soon as proven fully stable \
+Looking to increase speed on the Dynamic image used pages. The load is sequencial and not immediate. This has to change
 
 ---
 
