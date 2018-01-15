@@ -16,13 +16,13 @@ Place at the end of document:
 <script type="text/javascript" src="FSI-01-02-2018.min.js"></script>
 ```
 
+### Current Development info
+
 **Current stable build 01-01-18**\
 Up to 40 digital pages\
 Unlimited paper pages
 
 ---
-
-### Current Development info
 
 #### 01-11-18 Dominick Ricciardi
 
