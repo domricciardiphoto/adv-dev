@@ -1,5 +1,7 @@
 # Digital &amp; Paper FSI
-### v2018 &amp; Current Feature Set
+
+## v2018 &amp; Current Feature Set
+
 ## Include files
 
 Place at the beginning of document:\
@@ -16,8 +18,9 @@ Unlimited paper pages
 
 ### Current Development info
 
-###### 01-11-18 Dominick Ricciardi
-###### CSS is in progress of being updated with additional layout options. Additional CSS classes and updates being pushed to main file soon as proven fully stable
+#### 01-11-18 Dominick Ricciardi
+
+##### CSS is in progress of being updated with additional layout options. Additional CSS classes and updates being pushed to main file soon as proven fully stable
 
 ## Core system
 
@@ -45,7 +48,7 @@ var content_page3 = '<div class=internalflyer> fo </div>';
 
 ## Menu
 
-```
+```HTML
 <div id="submenu">
     <div id="ae4" class="submenu_overflow">
 
