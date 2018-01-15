@@ -37,7 +37,7 @@ data2 = what icon will light up when page is displayed
 "fo" is where the content for the page goes\
  all content must inside the internalflyer class
 
-```
+```javascript
 var content_page0 = '<div class=internalflyer> fo </div>';
 var content_page1 = '<div class=internalflyer> fo </div>';
 var content_page3 = '<div class=internalflyer> fo </div>';
@@ -218,7 +218,7 @@ NO NEED TO REMOVE ANY TABLE ELEMENTS JS removes unnessasry code
 
 Each img needs a data tag added\
 
-#### Full URL
+### Full URL
 
 ```
 <td colspan="2">
@@ -227,7 +227,7 @@ src="/images/promos/01-14-18-PG2_N_06.jpg" width="513"height="352" alt="">
 </td>
 ```
 
-#### Only One Model
+### Only One Model
 
 ```
 <td colspan="2">
