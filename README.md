@@ -28,6 +28,8 @@ Unlimited paper pages
 
 ##### CSS is in progress of being updated with additional layout options. Additional CSS classes and updates being pushed to main file soon as proven fully stable
 
+---
+
 ## Core system
 
 ### Pages written in
