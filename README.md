@@ -2,7 +2,7 @@
 
 ## v2018 &amp; Current Feature Set
 
-## Include files
+### Include files
 
 Place at the beginning of document:\
 `<link href="FSI-01-02-2018.min.css" rel="stylesheet" type="text/css">`
@@ -20,7 +20,7 @@ Unlimited paper pages
 
 #### 01-11-18 Dominick Ricciardi
 
-##### CSS is in progress of being updated with additional layout options. Additional CSS classes and updates being pushed to main file soon as proven fully stable
+##### CSS is in progress of being updated with additional layout options.\ Additional CSS classes and updates being pushed to main file soon as proven fully stable
 
 ## Core system
 
