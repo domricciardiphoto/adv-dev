@@ -4,13 +4,13 @@
 
 ### Include files
 
-Place at the beginning of document:\
+Place at the beginning of document:
 
 ```HTML
 <link href="FSI-01-02-2018.min.css" rel="stylesheet" type="text/css">
 ```
 
-Place at the end of document:\
+Place at the end of document:
 
 ```HTML
 <script type="text/javascript" src="FSI-01-02-2018.min.js"></script>
