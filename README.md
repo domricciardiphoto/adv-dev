@@ -146,7 +146,7 @@ if data attribute is not used, the child IMG (typical) or child element will not
 
 if only one model number  data="FE140"
 \
-if multiple model numbers or a Landing Page data="/content/landingpage.html"\
+if multiple model numbers or a Landing Page data="/content/landingpage.html" \
 
 (MODEL NUMBER MUST BE IN CAPS)    (ALL "/" AND "." NEED TO BE CONVERT TO "-")
 \
