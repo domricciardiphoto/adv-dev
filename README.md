@@ -18,13 +18,13 @@ Place at the end of document:
 
 ### Current Development info
 
+---
+
+#### 01-11-18 By: Dominick Ricciardi
+
 **Current stable build 01-01-18**\
 Up to 40 digital pages\
 Unlimited paper pages
-
----
-
-#### 01-11-18 Dominick Ricciardi
 
 ##### CSS is in progress of being updated with additional layout options. Additional CSS classes and updates being pushed to main file soon as proven fully stable
 
