@@ -2,20 +2,6 @@
 
 ## v2018 &amp; Current Feature Set
 
-### Include files
-
-Place at the beginning of document:
-
-```HTML
-<link href="FSI-01-02-2018.min.css" rel="stylesheet" type="text/css">
-```
-
-Place at the end of document:
-
-```HTML
-<script type="text/javascript" src="FSI-01-02-2018.min.js"></script>
-```
-
 ### Current Development info
 
 ---
@@ -29,6 +15,20 @@ Unlimited paper pages
 ##### CSS is in progress of being updated with additional layout options. Additional CSS classes and updates being pushed to main file soon as proven fully stable
 
 ---
+
+### Include files
+
+Place at the beginning of document:
+
+```HTML
+<link href="FSI-01-02-2018.min.css" rel="stylesheet" type="text/css">
+```
+
+Place at the end of document:
+
+```HTML
+<script type="text/javascript" src="FSI-01-02-2018.min.js"></script>
+```
 
 ## Core system
 
