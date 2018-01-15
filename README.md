@@ -20,7 +20,7 @@ Unlimited paper pages
 
 #### 01-11-18 Dominick Ricciardi
 
-##### CSS is in progress of being updated with additional layout options.\ Additional CSS classes and updates being pushed to main file soon as proven fully stable
+##### CSS is in progress of being updated with additional layout options. Additional CSS classes and updates being pushed to main file soon as proven fully stable
 
 ## Core system
 
@@ -146,7 +146,7 @@ if data attribute is not used, the child IMG (typical) or child element will not
 
 if only one model number  data="FE140"
 \
-if multiple model numbers or a Landing Page data="/content/landingpage.html"<br>
+if multiple model numbers or a Landing Page data="/content/landingpage.html"\
 
 (MODEL NUMBER MUST BE IN CAPS)    (ALL "/" AND "." NEED TO BE CONVERT TO "-")
 \
