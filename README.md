@@ -31,7 +31,7 @@ Unlimited paper pages
         ca2 = $(ca1).attr('data2');
         $('.menu_item[data2="' + ca2 + '"]').show();
     });
-    ````
+```
 
 ---
 
