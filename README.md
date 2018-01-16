@@ -246,7 +246,7 @@ NO NEED TO REMOVE ANY TABLE ELEMENTS JS removes unnessasry code
 
 `<table id="Table_01" width="1000" height="952" border="0" cellpadding="0" cellspacing="0">`
 
-Each img needs a data tag added\
+Each img needs a data tag added
 
 ### Full URL
 
