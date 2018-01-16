@@ -228,7 +228,7 @@ If only **ONE** product is being targeted remove `singlepromo-multi` or link wil
 Add class `videogame33`  to end of class string for 33% with no border\
 Add class `videogame66`  to end of class string for 66% with no border\
 Add class `videogame33b` to end of class string for 33% with border\
-Add class `videogame66b` to end of class string for 66% with border\
+Add class `videogame66b` to end of class string for 66% with border
 
 #### Element takes up a 50% slot on desktop and 100% on mobile
 
