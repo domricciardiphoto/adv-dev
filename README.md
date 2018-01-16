@@ -18,6 +18,21 @@ Unlimited paper pages
 
 ##### 3: Revising the menu UI to accomidate 30+ pages (Beta 1)
 
+```Javascript
+  $(document).ready(function () {
+        $('.menu_item').hide();
+        ca1 = '#pg' + location.hash.replace('#', '');
+        ca2 = $(ca1).attr('data2');
+        $('.menu_item[data2="' + ca2 + '"]').show();
+    });
+    $(window).on('hashchange', function () {
+        $('.menu_item').hide();
+        ca1 = '#pg' + location.hash.replace('#', '');
+        ca2 = $(ca1).attr('data2');
+        $('.menu_item[data2="' + ca2 + '"]').show();
+    });
+    ````
+
 ---
 
 ### Include files
