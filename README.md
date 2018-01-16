@@ -219,7 +219,7 @@ style="background-image:url(/images/promos/flyer-12-31-17-pg21-hero18.jpg)">
 
 `data` = where the pricing is coming from\
 `data2` = used whem there the link needs to go to MORE THEN ONE PRODUCT OR LANDING PAGE\
-`style="background-image"` shows the background image for product, logo , etc\
+`style="background-image"` shows the background image for product, logo , etc
 
 **MUST HAVE CLASS**  `.singlepromo-multi` to use **data2**\
 If only **ONE** product is being targeted remove `singlepromo-multi` or link will direct to **"UNKNOWN"**
@@ -237,7 +237,7 @@ Add class `videogame66b` to end of class string for 66% with border
 ## Paper Flyer
 
 The paper flyer is the digital flyer without all of the dynamic pricing but still retains all the functionality of the digital.
-Adding dynamic elements and classes to IMGs used in the Digital version will work the same in the paper one.\
+Adding dynamic elements and classes to IMGs used in the Digital version will work the same in the paper one.
 
 **Paper flyers are constructed by Photoshop sliced .html file.**\
 From `<table>` to `</table>`\
