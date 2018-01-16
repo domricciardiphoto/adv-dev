@@ -16,20 +16,21 @@ Unlimited paper pages
 
 ##### 2: Looking to increase speed on the Dynamic image used pages. The load is sequencial and not immediate. This has to change
 
-##### 3: Revising the menu UI to accomidate 30+ pages (Beta 1)
+##### 3: Revising the menu UI to accomidate 30+ pages (Beta 2)
 
 ```Javascript
-  $(document).ready(function () {
+  function catagoryclick() {
         $('.menu_item').hide();
         ca1 = '#pg' + location.hash.replace('#', '');
         ca2 = $(ca1).attr('data2');
         $('.menu_item[data2="' + ca2 + '"]').show();
+    }
+
+    $(document).ready(function () {
+        catagoryclick();
     });
     $(window).on('hashchange', function () {
-        $('.menu_item').hide();
-        ca1 = '#pg' + location.hash.replace('#', '');
-        ca2 = $(ca1).attr('data2');
-        $('.menu_item[data2="' + ca2 + '"]').show();
+        catagoryclick();
     });
 ```
 
