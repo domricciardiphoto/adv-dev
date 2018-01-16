@@ -17,6 +17,7 @@ Unlimited paper pages
 ##### 2: Looking to increase speed on the Dynamic image used pages. The load is sequencial and not immediate. This has to change
 
 ##### 3: Revising the menu UI to accomidate 30+ pages
+
 ---
 
 ### Include files
