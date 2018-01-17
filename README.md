@@ -47,12 +47,12 @@ Place at the beginning of document:
 Place at the end of document:
 
 
-Stable
+Stable :
 ```HTML
 <script type="text/javascript" src="FSI-01-02-2018.min.js"></script>
 ```
 
-Beta RC
+Catagory Menu Beta RC :
 ```HTML
 <script type="text/javascript" src="FSI-01-17-2018.min.js"></script>
 ```
