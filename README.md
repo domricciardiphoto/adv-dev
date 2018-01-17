@@ -8,7 +8,7 @@
 
 #### 01-11-18 By: Dominick Ricciardi
 
-**Current stable build 01-01-18**\
+**Current stable build 01-17-18**\
 Up to 40 digital pages\
 Unlimited paper pages
 
@@ -47,7 +47,7 @@ Place at the beginning of document:
 Place at the end of document:
 
 ```HTML
-<script type="text/javascript" src="FSI-01-02-2018.min.js"></script>
+<script type="text/javascript" src="FSI-01-17-2018.min.js"></script>
 ```
 
 ## Core system

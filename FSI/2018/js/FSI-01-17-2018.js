@@ -23,6 +23,13 @@ function marketing() {
         "UA-38154392-1", "auto"), ga("send", "pageview", r), ga("send", "event", e, i, r)
 }
 
+function catagoryclick() {
+    $('.menu_item').hide();
+    ca1 = '#pg' + location.hash.replace('#', '');
+    ca2 = $(ca1).attr('data2');
+    $('.menu_item[data2="' + ca2 + '"]').show();
+}
+
 function runajaxcontent() {
     if (urlname = "#pg" + location.hash.replace("#", ""), $(".submenu_button").css("color", "#333"), $(
             ".undermenu:contains('" + $(urlname).attr("data2") + "')").parent("div").css("color", "#cf171f"), $(
@@ -3105,3 +3112,12 @@ $(document).ready(function () {
     }).then(function (t) {
     console.log("Service worker has been registered for scope:" + t.scope)
 })
+
+
+
+$(document).ready(function () {
+    catagoryclick()
+});
+$(window).on('hashchange', function () {
+    catagoryclick()
+});
