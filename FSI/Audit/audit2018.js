@@ -120,5 +120,4 @@
         var regex1 = new RegExp(word1, "gi");
         $('#installation').text($('body').text().match(regex1).length);
 
-
     });
