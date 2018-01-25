@@ -43,8 +43,11 @@
         $('.gb').fadeOut();
     }
 
+
+
+
     function livefunc() {
-        $("#pg0 .promo_box").each(function () {
+        $(".promo_box").each(function () {
             myaudit = $(this).attr('data').replace(
                 '/browse/_/N-d3zn94?Ns=sku.sortPrice%7C0&Ntt=', '').replace(
                 '&Ntx=mode+matchany', '').replace('/browse?Ntt=', '').replace(
@@ -66,18 +69,20 @@
             window.open(modellink2, '_blank');
         });
 
-        linkloaderFX('#pg0 .promo_box_66');
-        linkloaderFX('#pg0 .promo_box_33');
-        linkloaderFX('#pg0 .promo_box_50');
-        if ($("#pg0 video").length > 0) {
-            $("#pg0 video").children('source').each(function () {
-                myaudit3 = $(this).attr('src').replace('/images/promos/', '');
-                $('#pg4').append('<a target="_blank" href=https://www.pcrichard.com/images/promos/' + myaudit3 + '>' + myaudit3 + '</a>' + '<br/>');
-            });
+        linkloaderFX('.promo_box_66');
+        linkloaderFX('.promo_box_33');
+        linkloaderFX('.promo_box_50');
+        linkloaderFX('.promo_box_940');
 
-        }
-        linkloaderFX('#pg0 .promo_box_940');
 
+        //  if ($("video").length > 0) {
+        //  $("video").children('source').each(function () {
+        //    myaudit3 = $(this).attr('src').replace('/images/promos/', '');
+        //  $('#pg4').append('<a target="_blank" href=https://www.pcrichard.com/images/promos/' + myaudit3 + '>' + myaudit3 + '</a>' + '<br/>');
+
+        //  } else {
+        //      alert('hi');
+        //   }
 
 
     }
