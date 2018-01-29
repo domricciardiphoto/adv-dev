@@ -85,12 +85,12 @@ Place at the end of document:
 
 Stable :
 ```HTML
-<script type="text/javascript" src="FSI-01-02-2018.min.js"></script>
+<script type="text/javascript" src="FSI-01-17-2018.min.js"></script>
 ```
 
-Catagory Menu Beta RC :
+Former :
 ```HTML
-<script type="text/javascript" src="FSI-01-17-2018.min.js"></script>
+<script type="text/javascript" src="FSI-01-02-2018.min.js"></script>
 ```
 
 ## Core system
