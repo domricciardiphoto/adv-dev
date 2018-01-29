@@ -34,6 +34,42 @@ Unlimited paper pages
     });
 ```
 
+###### 4: Adding Mobile creative accross 940 elements (Beta 1)
+
+```CSS
+ @media (max-width:1023px) {
+
+.promo_box_940 img.desktop {
+    display: none;
+}
+.promo_box_940 img.mobile {
+    display: block;
+}
+
+}
+
+
+ @media (min-width:1024px) {
+
+.promo_box_940 img.desktop {
+    display: block;
+}
+.promo_box_940 img.mobile {
+    display: none;
+}
+
+}
+
+```
+
+
+```HTML
+ <div class="promo_box_940" data="/help-center/shipping-info">
+        <img class="desktop" src=".jpg" alt="FPO">
+        <img class="mobile" src="-m.jpg" alt="FPO">
+    </div>
+```
+
 ---
 
 ### Include files
@@ -186,6 +222,8 @@ if multiple model numbers or a Landing Page data="/content/landingpage.html"
 (MODEL NUMBER MUST BE IN CAPS)    (ALL "/" AND "." NEED TO BE CONVERT TO "-")
 \
 **Example** - **CP.PT.003.000** needs to become **CP-PT-0003-000**
+
+
 
 ### Video Module
 
