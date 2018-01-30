@@ -42,7 +42,7 @@ function linkloaderFX(t) {
     $(t).each(function () {
         myaudit0 = $(this).attr('data');
         if (myaudit0.indexOf('/browse?Ntt=') != -1) {
-            browselite = myaudit0.replace('/browse?Ntt=', '').replace(/\+/g, ' ')
+            browselite = myaudit0.replace('/browse?Ntt=', '').replace(/\+/g, ' ');
             browselite1 = '<a target="_blank" href="https://www.pcrichard.com/browse?Ntt=' + browselite + '">' + browselite.toUpperCase() + '</a>' + '<br>';
             $('#pg1').append(browselite1);
         } else {

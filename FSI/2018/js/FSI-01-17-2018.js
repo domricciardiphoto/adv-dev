@@ -4,7 +4,7 @@ function doOnOrientationChange() {
             $(".productdrilldown .promo_box_20").css("width", "20%");
             break;
         default:
-            $(".productdrilldown .promo_box_20").css("width", "50%")
+            $(".productdrilldown .promo_box_20").css("width", "50%");
     }
 }
 
@@ -16,11 +16,11 @@ function marketing() {
         r = t + "/" + i + "/" + a;
     (function (t, a, e, i, r, p, d) {
         t.GoogleAnalyticsObject = r, t[r] = t[r] || function () {
-                (t[r].q = t[r].q || []).push(arguments)
-            }, t[r].l = 1 * new Date, p = a.createElement(e), d = a.getElementsByTagName(e)[0], p.async = 1, p.src =
-            i, d.parentNode.insertBefore(p, d)
+                (t[r].q = t[r].q || []).push(arguments);
+            }, t[r].l = 1 * new Date(), p = a.createElement(e), d = a.getElementsByTagName(e)[0], p.async = 1, p.src =
+            i, d.parentNode.insertBefore(p, d);
     })(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga"), ga("create",
-        "UA-38154392-1", "auto"), ga("send", "pageview", r), ga("send", "event", e, i, r)
+        "UA-38154392-1", "auto"), ga("send", "pageview", r), ga("send", "event", e, i, r);
 }
 
 function catagoryclick() {
@@ -272,108 +272,108 @@ function runajaxcontent() {
             pg39first = parseInt($("#pg" + location.hash.replace("#", "")).children(".internalflyer").children(
                 ".promo_box").first().attr("id").replace("p", "")), pg39last = parseInt($("#pg" + location.hash
                 .replace("#", "")).children(".internalflyer").children(".promo_box").last().attr("id").replace(
-                "p", "")), ajaxcomplete39()
+                "p", "")), ajaxcomplete39();
     }
 }
 
 function ajaxcomplete0() {
     myjax5 <= myjax6 && (myjax7 = "#p" + myjax5.toString(), tableurl = $(myjax7).attr("data"), tableurl.indexOf("/") >
-        -1 ? page0() : page0a())
+        -1 ? page0() : page0a());
 }
 
 function ajaxcomplete1() {
     pg1first <= pg1last && (page1id = "#p" + pg1first.toString(), ajaxtype1 = $(page1id).attr("data"), ajaxtype1.indexOf(
-        "/") > -1 ? page1() : page1a())
+        "/") > -1 ? page1() : page1a());
 }
 
 function ajaxcomplete2() {
     pg2first <= pg2last && (page2id = "#p" + pg2first.toString(), ajaxtype2 = $(page2id).attr("data"), ajaxtype2.indexOf(
-        "/") > -1 ? page2() : page2a())
+        "/") > -1 ? page2() : page2a());
 }
 
 function ajaxcomplete3() {
     pg3first <= pg3last && (page3id = "#p" + pg3first.toString(), ajaxtype3 = $(page3id).attr("data"), ajaxtype3.indexOf(
-        "/") > -1 ? page3() : page3a())
+        "/") > -1 ? page3() : page3a());
 }
 
 function ajaxcomplete4() {
     pg4first <= pg4last && (page4id = "#p" + pg4first.toString(), ajaxtype4 = $(page4id).attr("data"), ajaxtype4.indexOf(
-        "/") > -1 ? page4() : page4a())
+        "/") > -1 ? page4() : page4a());
 }
 
 function ajaxcomplete5() {
     pg5first <= pg5last && (page5id = "#p" + pg5first.toString(), ajaxtype5 = $(page5id).attr("data"), ajaxtype5.indexOf(
-        "/") > -1 ? page5() : page5a())
+        "/") > -1 ? page5() : page5a());
 }
 
 function ajaxcomplete6() {
     pg6first <= pg6last && (page6id = "#p" + pg6first.toString(), ajaxtype6 = $(page6id).attr("data"), ajaxtype6.indexOf(
-        "/") > -1 ? page6() : page6a())
+        "/") > -1 ? page6() : page6a());
 }
 
 function ajaxcomplete7() {
     pg7first <= pg7last && (page7id = "#p" + pg7first.toString(), ajaxtype7 = $(page7id).attr("data"), ajaxtype7.indexOf(
-        "/") > -1 ? page7() : page7a())
+        "/") > -1 ? page7() : page7a());
 }
 
 function ajaxcomplete8() {
     pg8first <= pg8last && (page8id = "#p" + pg8first.toString(), ajaxtype8 = $(page8id).attr("data"), ajaxtype8.indexOf(
-        "/") > -1 ? page8() : page8a())
+        "/") > -1 ? page8() : page8a());
 }
 
 function ajaxcomplete9() {
     pg9first <= pg9last && (page9id = "#p" + pg9first.toString(), ajaxtype9 = $(page9id).attr("data"), ajaxtype9.indexOf(
-        "/") > -1 ? page9() : page9a())
+        "/") > -1 ? page9() : page9a());
 }
 
 function ajaxcomplete10() {
     pg10first <= pg10last && (page10id = "#p" + pg10first.toString(), ajaxtype10 = $(page10id).attr("data"),
-        ajaxtype10.indexOf("/") > -1 ? page10() : page10a())
+        ajaxtype10.indexOf("/") > -1 ? page10() : page10a());
 }
 
 function ajaxcomplete11() {
     pg11first <= pg11last && (page11id = "#p" + pg11first.toString(), ajaxtype11 = $(page11id).attr("data"),
-        ajaxtype11.indexOf("/") > -1 ? page11() : page11a())
+        ajaxtype11.indexOf("/") > -1 ? page11() : page11a());
 }
 
 function ajaxcomplete12() {
     pg12first <= pg12last && (page12id = "#p" + pg12first.toString(), ajaxtype12 = $(page12id).attr("data"),
-        ajaxtype12.indexOf("/") > -1 ? page12() : page12a())
+        ajaxtype12.indexOf("/") > -1 ? page12() : page12a());
 }
 
 function ajaxcomplete13() {
     pg13first <= pg13last && (page13id = "#p" + pg13first.toString(), ajaxtype13 = $(page13id).attr("data"),
-        ajaxtype13.indexOf("/") > -1 ? page13() : page13a())
+        ajaxtype13.indexOf("/") > -1 ? page13() : page13a());
 }
 
 function ajaxcomplete14() {
     pg14first <= pg14last && (page14id = "#p" + pg14first.toString(), ajaxtype14 = $(page14id).attr("data"),
-        ajaxtype14.indexOf("/") > -1 ? page14() : page14a())
+        ajaxtype14.indexOf("/") > -1 ? page14() : page14a());
 }
 
 function ajaxcomplete15() {
     pg15first <= pg15last && (page15id = "#p" + pg15first.toString(), ajaxtype15 = $(page15id).attr("data"),
-        ajaxtype15.indexOf("/") > -1 ? page15() : page15a())
+        ajaxtype15.indexOf("/") > -1 ? page15() : page15a());
 }
 
 function ajaxcomplete16() {
     pg16first <= pg16last && (page16id = "#p" + pg16first.toString(), ajaxtype16 = $(page16id).attr("data"),
-        ajaxtype16.indexOf("/") > -1 ? page16() : page16a())
+        ajaxtype16.indexOf("/") > -1 ? page16() : page16a());
 }
 
 function ajaxcomplete17() {
     pg17first <= pg17last && (page17id = "#p" + pg17first.toString(), ajaxtype17 = $(page17id).attr("data"),
-        ajaxtype17.indexOf("/") > -1 ? page17() : page17a())
+        ajaxtype17.indexOf("/") > -1 ? page17() : page17a());
 }
 
 function ajaxcomplete18() {
     pg18first <= pg18last && (page18id = "#p" + pg18first.toString(), ajaxtype18 = $(page18id).attr("data"),
-        ajaxtype18.indexOf("/") > -1 ? page18() : page18a())
+        ajaxtype18.indexOf("/") > -1 ? page18() : page18a());
 }
 
 function ajaxcomplete19() {
     pg19first <= pg19last && (page19id = "#p" + pg19first.toString(), ajaxtype19 = $(page19id).attr("data"),
-        ajaxtype19.indexOf("/") > -1 ? page19() : page19a())
+        ajaxtype19.indexOf("/") > -1 ? page19() : page19a());
 }
 
 function ajaxcomplete20() {
