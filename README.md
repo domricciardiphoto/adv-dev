@@ -62,7 +62,6 @@ Unlimited paper pages
 
 ```
 
-
 ```HTML
  <div class="promo_box_940" data="/help-center/shipping-info">
         <img class="desktop" src=".jpg" alt="FPO">
@@ -82,13 +81,14 @@ Place at the beginning of document:
 
 Place at the end of document:
 
-
 Stable :
+
 ```HTML
 <script type="text/javascript" src="FSI-01-17-2018.min.js"></script>
 ```
 
 Former :
+
 ```HTML
 <script type="text/javascript" src="FSI-01-02-2018.min.js"></script>
 ```
@@ -222,8 +222,6 @@ if multiple model numbers or a Landing Page data="/content/landingpage.html"
 (MODEL NUMBER MUST BE IN CAPS)    (ALL "/" AND "." NEED TO BE CONVERT TO "-")
 \
 **Example** - **CP.PT.003.000** needs to become **CP-PT-0003-000**
-
-
 
 ### Video Module
 
