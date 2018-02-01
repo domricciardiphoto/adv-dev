@@ -77,7 +77,7 @@ Unlimited paper pages
 Place at the beginning of document:
 
 ```HTML
-<link href="FSI-01-02-2018.min.css" rel="stylesheet" type="text/css">
+<link href="FSI-01-30-2018.min.css" rel="stylesheet" type="text/css">
 ```
 
 Place at the end of document:
@@ -249,9 +249,13 @@ Requires a 33% element to fill the hole on desktop
 
 `<div class="promo_box showonlytwo" data="/browse?Ntt=UN75MU8000+UN75MU9000"></div>`
 
-2 Products across 100% (large) (Two across)
+2 Products across 100% (large) (Two across) Very Large
 
 `<div class="promo_box getlarge" data="/browse?Ntt=UN75MU8000+UN75MU9000"></div>`
+
+2 Products across 100% (large) (Two across) Mid Size
+
+`<div class="promo_box getlarge2" data="/browse?Ntt=UN75MU8000+UN75MU9000"></div>`
 
 ### Dynamic Graphical element with dynamic pricing
 
