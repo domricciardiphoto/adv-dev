@@ -281,7 +281,8 @@ Add class `videogame66b` to end of class string for 66% with border
 #### Element takes up a 50% slot on desktop and 100% on mobile
 
 #### To make Element 100% with dynamic content
-Add class ```dynamic_large```  in format  ``` promo_box dynamic_large singlepromo videogame ```\
+Add class ```dynamic_large``` \
+in format  ```  promo_box dynamic_large singlepromo videogame ```\
 block will have a max height of 400px
 
 ---
