@@ -1,0 +1,141 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="apple-touch-icon" sizes="57x57" href="./images/fav/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./images/fav/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./images/fav/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./images/fav/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./images/fav/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./images/fav/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./images/fav/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./images/fav/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/fav/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./images/fav/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./images/fav/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/fav/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>Product Audit: </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    <link href="./css/csv_audit2018.css" type="text/css" rel="stylesheet">
+    <style type="text/css">
+
+        #catagories_buttons {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 100px;
+            min-height: 500px;
+            background-color: #fff;
+            position: relative;
+        }
+
+        .cat_buttons {
+            width: 10%;
+            min-height: 70px;
+            text-align: center;
+            line-height: 70px;
+            color: #FFF;
+            background-color: gray;
+            float: left;
+            MARGIN: 0.2%;
+            CURSOR: POINTER;
+        }
+    </style>
+
+
+
+</head>
+
+
+<body>
+
+
+
+
+
+
+    <div class="headerim">
+        <span></span>
+    </div>
+
+
+    <div class="domcel"></div>
+
+    <div id="catagories_buttons"></div>
+
+
+</body>
+
+</html>
+
+<script type="text/babel">
+
+
+
+    $('.domcel').delay(800).fadeOut();
+
+
+
+    class Mybutt extends React.Component {
+    constructor(props) {
+    super(props)
+    this.gottopage = this.gottopage.bind(this)
+
+    }
+
+
+    gottopage() {
+    var main_url = 'http://10.4.6.20/webtest/audit/processed_files/'
+    alert(main_url)
+    alert(this.newText.value)
+    }
+
+
+    render () {
+    return (
+    <div className="buttons_wrapper">
+        <div id="Bu1" onClick={this.gottopage} ref={this.newText ="All%20Products%20With%20Variance%20Linear%20Report%20(02-27-2018%2002-01%20PM)_Microwaves.csv" } className="cat_buttons">Microwaves</div>
+        <div onClick={this.gottopage} ref={this.newText ="All%20Products%20With%20Variance%20Linear%20Report%20(02-27-2018%2002-01%20PM)_Ranges.csv" } className="cat_buttons">Ranges</div>
+        <div onClick={this.gottopage} ref={this.newText ="All%20Products%20With%20Variance%20Linear%20Report%20(02-27-2018%2002-01%20PM)_Refrigerators.csv" } className="cat_buttons">Refrigerators</div>
+    </div>
+
+    )
+    }
+    }
+
+
+
+    const HeaderInfo = () => (
+    <span>Pick Your Catagory To See Your Chart {'\u00A0'}{'\u00A0'}</span>
+
+    )
+
+
+    ReactDOM.render(
+    <HeaderInfo />,
+    document.getElementsByClassName('headerim')[0]
+    )
+
+
+
+
+
+
+    ReactDOM.render(
+    <Mybutt />,
+    document.getElementById('catagories_buttons')
+    );
+
+
+
+
+</script>
