@@ -154,6 +154,7 @@ Each class displays an icon
 
 ```HTML
 icon-icon_appliances
+icon-icon_washer
 icon-icon_bed
 icon-icon_healthBeauty
 icon-icon_heater
@@ -168,6 +169,7 @@ icon-icon_officeDesk
 icon-icon_bed
 icon-icon_game
 icon-icon_vacuum
+icon-icon_washer
 ```
 
 ---
@@ -198,6 +200,8 @@ icon-icon_vacuum
 * .promo_box_66     66% element
 * .promo_box_50     50% element
 * .promo_box_33     33% element
+
+.laundry  -- to release from 500px max-height on promo_box_33
 
 ```HTML
 <div class="promo_box_940"> fo </div>
