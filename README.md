@@ -84,13 +84,13 @@ Place at the end of document:
 Stable :
 
 ```HTML
-<script type="text/javascript" src="FSI-01-17-2018.min.js"></script>
+<script type="text/javascript" src="FSI-03-26-2018.min.js"></script>
 ```
 
 Former :
 
 ```HTML
-<script type="text/javascript" src="FSI-01-02-2018.min.js"></script>
+<script type="text/javascript" src="FSI-03-26-2018.min.js"></script>
 ```
 
 ## Core system
@@ -282,6 +282,12 @@ Add class `videogame33b` to end of class string for 33% with border\
 Add class `videogame66b` to end of class string for 66% with border
 
 #### Element takes up a 50% slot on desktop and 100% on mobile
+
+#### To make Element 100% with dynamic content
+
+Add class ```dynamic_large``` \
+in format  ```promo_box dynamic_large singlepromo videogame```\
+block will have a max height of 400px
 
 ---
 

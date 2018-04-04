@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "task-Untitled-1",
+      "appliesTo": "FSI/2018/Untitled-1.html",
+      "type": "launch"
+    }
+  ]
+}
