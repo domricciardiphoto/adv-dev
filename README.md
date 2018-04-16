@@ -172,6 +172,14 @@ icon-icon_vacuum
 icon-icon_washer
 ```
 
+Custom Icons
+
+```HTML
+<img src="/images/promos/patiofurn4-19-17-1a.jpg" alt="Patio Furniture" width="30" height="30">
+<img src="/images/promos/patiofurn4-19-17a.jpg" alt="Patio Furniture Covers" width="30" height="30">
+<img src="/images/promos/umbrella4-19-17a.jpg" alt="Umbrellas" width="30" height="30">
+```
+
 ---
 
 ## Digital FSI
