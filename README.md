@@ -8,9 +8,10 @@
 
 #### 01-11-18 By: Dominick Ricciardi
 
-**Current stable build 01-17-18**\
+**Current stable build 04-16-18**\
 Up to 40 digital pages\
-Unlimited paper pages
+Unlimited (non dynamic) pages\
+Icons are catagory sectioned
 
 ##### 1: CSS is in progress of being updated with additional layout options. Additional CSS classes and updates being pushed to main file soon as proven fully stable
 
@@ -25,21 +26,13 @@ Unlimited paper pages
 Place at the beginning of document:
 
 ```HTML
-<link href="FSI-01-30-2018.min.css" rel="stylesheet" type="text/css">
+<link href="FSI-03-26-2018.min.css" rel="stylesheet" type="text/css">
 ```
 
 Place at the end of document:
 
-Stable :
-
 ```HTML
-<script type="text/javascript" src="FSI-03-26-2018.min.js"></script>
-```
-
-Former :
-
-```HTML
-<script type="text/javascript" src="FSI-03-26-2018.min.js"></script>
+<script type="text/javascript" src="FSI-03-26-2018.js"></script>
 ```
 
 ## Core system
