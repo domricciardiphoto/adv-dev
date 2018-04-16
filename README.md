@@ -16,58 +16,7 @@ Unlimited paper pages
 
 ##### 2: Looking to increase speed on the Dynamic image used pages. The load is sequencial and not immediate. This has to change
 
-##### 3: Revising the menu UI to accomidate 30+ pages (Beta 3)
-
-```Javascript
-  function catagoryclick() {
-        $('.menu_item').hide();
-        ca1 = '#pg' + location.hash.replace('#', '');
-        ca2 = $(ca1).attr('data2');
-        $('.menu_item[data2="' + ca2 + '"]').show();
-    }
-
-    $(document).ready(function () {
-        catagoryclick();
-    });
-    $(window).on('hashchange', function () {
-        catagoryclick();
-    });
-```
-
-###### 4: Adding Mobile creative accross 940 elements (Beta 1)
-
-```CSS
- @media (max-width:1023px) {
-
-.promo_box_940 img.desktop {
-    display: none;
-}
-.promo_box_940 img.mobile {
-    display: block;
-}
-
-}
-
-
- @media (min-width:1024px) {
-
-.promo_box_940 img.desktop {
-    display: block;
-}
-.promo_box_940 img.mobile {
-    display: none;
-}
-
-}
-
-```
-
-```HTML
- <div class="promo_box_940" data="/help-center/shipping-info">
-        <img class="desktop" src=".jpg" alt="FPO">
-        <img class="mobile" src="-m.jpg" alt="FPO">
-    </div>
-```
+##### 3: Revising the menu UI to accomidate 30+ pages
 
 ---
 
@@ -328,4 +277,13 @@ src="/images/promos/01-14-18-PG2_N_06.jpg" width="513"height="352" alt="">
 <td colspan="2">
 <img data="FE140" src="/images/promos/01-14-18-PG2_N_06.jpg" width="513"height="352" alt="">
 </td>
+```
+
+### Adding Mobile creative accross 940 elements
+
+```HTML
+ <div class="promo_box_940" data="/help-center/shipping-info">
+        <img class="desktop" src=".jpg" alt="FPO">
+        <img class="mobile" src="-m.jpg" alt="FPO">
+    </div>
 ```
