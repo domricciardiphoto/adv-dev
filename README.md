@@ -97,20 +97,18 @@ Each class displays an icon
 
 ```HTML
 icon-icon_appliances
-icon-icon_washer
 icon-icon_bed
+icon-caraudio
+icon-icon_camera
+icon-icon_game
+icon-icon_grill
 icon-icon_healthBeauty
 icon-icon_heater
 icon-icon_homeAutomation
-icon-icon_tv
-icon-icon_laptop
 icon-icon_headphone
-icon-icon_camera
-icon-caraudio
-icon-icon_grill
+icon-icon_laptop
 icon-icon_officeDesk
-icon-icon_bed
-icon-icon_game
+icon-icon_tv
 icon-icon_vacuum
 icon-icon_washer
 ```
