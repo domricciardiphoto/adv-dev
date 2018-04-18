@@ -6,12 +6,13 @@
 
 ---
 
-#### 01-11-18 By: Dominick Ricciardi
+#### 04-16-18 By: Dominick Ricciardi
 
 **Current stable build 04-16-18**\
 Up to 40 digital pages\
 Unlimited (non dynamic) pages\
-Icons are catagory sectioned
+Icons are catagory sectioned\
+Custom Icons can be used\
 
 ##### 1: CSS is in progress of being updated with additional layout options. Additional CSS classes and updates being pushed to main file soon as proven fully stable
 
