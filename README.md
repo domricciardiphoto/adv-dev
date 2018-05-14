@@ -105,7 +105,7 @@ icon-icon_grill
 icon-icon_healthBeauty
 icon-icon_heater
 icon-icon_homeAutomation
-icon-icon_headphone
+icon-icon_headphones
 icon-icon_laptop
 icon-icon_officeDesk
 icon-icon_tv
