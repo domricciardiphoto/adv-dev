@@ -12,13 +12,11 @@
 Up to 40 digital pages\
 Unlimited (non dynamic) pages\
 Icons are catagory sectioned\
-Custom Icons can be used\
+Custom Icons can be used
 
-##### 1: CSS is in progress of being updated with additional layout options. Additional CSS classes and updates being pushed to main file soon as proven fully stable
+##### 1: Looking to increase speed on the Dynamic image used pages. The load is sequencial and not immediate. This has to change
 
-##### 2: Looking to increase speed on the Dynamic image used pages. The load is sequencial and not immediate. This has to change
-
-##### 3: Revising the menu UI to accomidate 30+ pages
+##### 2: Revising the menu UI to accomidate 30+ pages
 
 ---
 
@@ -92,6 +90,27 @@ var content_page3 = '<div class=internalflyer> fo </div>';
 ## Icons
 
 `<i class="icon-icon_heater"></i>`
+
+## 2018 Menu icons are now 'product image custom icons'
+
+```HTML
+<img src="/images/product/small/S_C1CENTENNIAL.jpg" alt="Vacuums" >
+<img src="/images/product/small/S_GL503VD-DB71.jpg" alt="Computers" >
+<img src="/images/product/small/S_ME18H704SFS.jpg" alt="Small Appliances" >
+ <img src="/images/product/small/S_MK8D2LL-A.jpg" alt="Apple" >
+<img src="/images/product/small/S_YUNTYHBRUS.jpg" alt="Electronics" >
+<img src="/images/product/small/S_301VB.jpg" alt="Home Audio" >
+<img src="/images/product/small/S_UN55MU6290.jpg" alt="HDTVs" >
+<img src="/images/product/small/S_HDA10P-882.jpg" alt="Home Automation" >
+<img src="/images/product/small/S_LFXS24623S.jpg" alt="Appliances" >
+<img src="/images/product/small/S_234-00324.jpg" alt="Video Games" >
+ <img src="/images/product/small/S_512270-51Q.jpg" alt="Mattresses" >
+ <img src="/images/product/small/S_42342211215.jpg" alt="Recliners" >
+ <img src="/images/product/small/S_CP18G30B.jpg" alt="Air Conditioners" >
+<img src="/images/product/small/S_ION16LM.jpg" alt="Lawn &amp; Garden" >
+```
+
+## 2017 Menu icons
 
 Each class displays an icon
 
