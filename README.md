@@ -18,9 +18,7 @@ Custom Icons can be used
 
 ##### 2: 2018 Refresh of Design in Alpha and Menu rebuild in development
 
-##### 3: Looking to increase speed on the Dynamic image used pages. The load is sequencial and not immediate. This has to change
-
-##### 4: Revising the menu UI to accomidate 30+ pages
+##### 3: Revising the menu UI to accomidate 30+ pages
 
 ---
 
