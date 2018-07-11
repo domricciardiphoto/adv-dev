@@ -31,13 +31,11 @@ Place at the beginning of document:
 ```
 
 
-### Minor Update
+##### Minor Update
 
 ```HTML
 <link href="FSI-07-12-2018.min.css" rel="stylesheet" type="text/css">
 ```
-
-
 
 Place at the end of document:
 
