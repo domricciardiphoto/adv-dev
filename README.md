@@ -292,7 +292,7 @@ src="/images/promos/01-14-18-PG2_N_06.jpg" width="513"height="352" alt="">
 </td>
 ```
 
-### Adding Mobile creative accross 940 elements
+### Adding Mobile creative across 100% elements
 
 ```HTML
  <div class="promo_box_940" data="/help-center/shipping-info">
