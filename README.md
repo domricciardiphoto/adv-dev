@@ -30,6 +30,15 @@ Place at the beginning of document:
 <link href="FSI-03-26-2018.min.css" rel="stylesheet" type="text/css">
 ```
 
+
+### Minor Update
+
+```HTML
+<link href="FSI-07-12-2018.min.css" rel="stylesheet" type="text/css">
+```
+
+
+
 Place at the end of document:
 
 ```HTML
@@ -292,7 +301,7 @@ src="/images/promos/01-14-18-PG2_N_06.jpg" width="513"height="352" alt="">
 </td>
 ```
 
-### Adding Mobile creative across 100% elements
+### Adding Mobile creative across 100%
 
 ```HTML
  <div class="promo_box_940" data="/help-center/shipping-info">
