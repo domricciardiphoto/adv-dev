@@ -97,16 +97,16 @@ var content_page3 = '<div class=internalflyer> fo </div>';
 <img src="/images/product/small/S_C1CENTENNIAL.jpg" alt="Vacuums" >
 <img src="/images/product/small/S_GL503VD-DB71.jpg" alt="Computers" >
 <img src="/images/product/small/S_ME18H704SFS.jpg" alt="Small Appliances" >
- <img src="/images/product/small/S_MK8D2LL-A.jpg" alt="Apple" >
+<img src="/images/product/small/S_MK8D2LL-A.jpg" alt="Apple" >
 <img src="/images/product/small/S_YUNTYHBRUS.jpg" alt="Electronics" >
 <img src="/images/product/small/S_301VB.jpg" alt="Home Audio" >
 <img src="/images/product/small/S_UN55MU6290.jpg" alt="HDTVs" >
 <img src="/images/product/small/S_HDA10P-882.jpg" alt="Home Automation" >
 <img src="/images/product/small/S_LFXS24623S.jpg" alt="Appliances" >
 <img src="/images/product/small/S_234-00324.jpg" alt="Video Games" >
- <img src="/images/product/small/S_512270-51Q.jpg" alt="Mattresses" >
- <img src="/images/product/small/S_42342211215.jpg" alt="Recliners" >
- <img src="/images/product/small/S_CP18G30B.jpg" alt="Air Conditioners" >
+<img src="/images/product/small/S_512270-51Q.jpg" alt="Mattresses" >
+<img src="/images/product/small/S_42342211215.jpg" alt="Recliners" >
+<img src="/images/product/small/S_CP18G30B.jpg" alt="Air Conditioners" >
 <img src="/images/product/small/S_ION16LM.jpg" alt="Lawn &amp; Garden" >
 ```
 
