@@ -14,9 +14,13 @@ Unlimited (non dynamic) pages\
 Icons are catagory sectioned\
 Custom Icons can be used
 
-##### 1: Looking to increase speed on the Dynamic image used pages. The load is sequencial and not immediate. This has to change
+##### 1: Automatic Flyer Builder currently in development
 
-##### 2: Revising the menu UI to accomidate 30+ pages
+##### 2: 2018 Refresh of Design in Alpha
+
+##### 3: Looking to increase speed on the Dynamic image used pages. The load is sequencial and not immediate. This has to change
+
+##### 4: Revising the menu UI to accomidate 30+ pages
 
 ---
 
