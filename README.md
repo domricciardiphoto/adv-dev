@@ -16,7 +16,7 @@ Custom Icons can be used
 
 ##### 1: Automatic Flyer Builder currently in development
 
-##### 2: 2018 Refresh of Design in Alpha
+##### 2: 2018 Refresh of Design in Alpha and Menu rebuild in development
 
 ##### 3: Looking to increase speed on the Dynamic image used pages. The load is sequencial and not immediate. This has to change
 
