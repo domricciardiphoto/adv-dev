@@ -27,13 +27,7 @@ Custom Icons can be used
 Place at the beginning of document:
 
 ```HTML
-<link href="FSI-03-26-2018.min.css" rel="stylesheet" type="text/css">
-```
 
-
-##### Minor Update
-
-```HTML
 <link href="FSI-07-12-2018.min.css" rel="stylesheet" type="text/css">
 ```
 
@@ -187,7 +181,7 @@ Custom Icons
 <div class="promo_box_33"> fo </div>
 ```
 
-URL added by adding data="foo" atrribute on .promo_box"940,50.,33" classed div.
+URL added by adding data="foo" atrribute on .promo_box "940,50,33" classed div.
 
 `<div class="promo_box_940" data="/content/PCTECH"></div> or <div class="promo_box_940" data="FE140"></div>`
 
