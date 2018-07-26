@@ -1,0 +1,1036 @@
+<script src="https://apps.bazaarvoice.com/deployments/pcrichardson-stores/main_site/production/en_US/bv.js"></script>
+<style type="text/css">
+    .wrapper-d {
+        width: 100%;
+        position: relative;
+        float: left;
+        padding-bottom: 10px;
+    }
+
+    .structure-d {
+        width: 100%;
+        float: left;
+    }
+
+    .titlelist {
+        background-color: transparent;
+        margin-bottom: 15px;
+    }
+
+
+    .store_list {
+        padding-top: 35px
+    }
+
+
+    .store_list ul li {
+        width: 30%;
+        height: 70px;
+        border-radius: 2px;
+        background-color: #EFEFEF;
+        float: left;
+        margin-left: 2%;
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+        margin-bottom: 15px;
+        font-size: 1.3em;
+        line-height: 70px;
+        padding-left: 2%;
+        font-weight: 500;
+        position: relative;
+        cursor: pointer;
+
+    }
+
+    .store_list ul> :first-child {
+        border-bottom: 1px solid #ccc !important;
+        font-size: 2em !important;
+        padding-left: 2%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-color: transparent !important;
+        width: 100% !important;
+        height: auto !important;
+        box-shadow: none !important;
+        margin-bottom: 20px;
+        cursor: default
+    }
+
+
+    .new-york {
+        padding-top: 0px !important;
+    }
+
+    .store_amount {
+        position: absolute;
+        top: 0px;
+        right: 20px;
+        font-size: 0.850em;
+    }
+
+    #findastore-d {
+        width: 80%;
+        margin-left: 10%;
+        min-height: 42px;
+        font-size: 0.875em;
+        padding-left: 2%;
+        border-radius: 2px;
+        border: 1px solid #ccc;
+    }
+
+    .pg-name {
+        text-align: center;
+        width: 100%;
+        font-size: 1.8em;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        line-height: 55px
+    }
+
+    .google_map {
+        width: 96%;
+        min-height: 185px;
+        float: left;
+        margin-left: 2%;
+        display: none;
+        overflow: hidden
+    }
+
+    .region_explainantion {
+        width: 96%;
+        float: left;
+        margin-left: 2%;
+        margin-top: 10px;
+        display: none;
+    }
+
+    .filterby-d {
+        width: 100%;
+        font-size: 1.4em;
+        font-weight: 600;
+        float: left;
+        padding-left: 2%;
+        display: none;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .store_list-small {
+        width: 98%;
+        float: left;
+        margin-left: 1.5%;
+    }
+
+    .store_list-small ul li {
+        width: 32%;
+        float: left;
+        min-height: 105px;
+        border: 1px solid #ccc;
+        margin: 0.5%;
+    }
+
+    .actual_stores {
+        display: none;
+        cursor: pointer;
+    }
+
+    .store_addresss {
+        width: 60%;
+        font-size: 0.875em;
+        padding-left: 2%;
+        color: #034694;
+    }
+
+    .store_name {
+        float: left;
+        padding-left: 2%;
+        width: 100%;
+        padding-top: 3%;
+        padding-bottom: 0.5%;
+        font-weight: 600;
+        color: #333;
+    }
+
+    .see_details {
+        float: right;
+        position: absolute;
+        right: 20px;
+        top: 28px;
+        text-align: left;
+        line-height: 18px;
+        font-size: 0.875em;
+        color: #034694;
+    }
+
+    .openuntil {
+        position: absolute;
+        right: 110px;
+        top: 28px;
+        line-height: 20px;
+        text-align: left;
+        color: #333;
+    }
+
+    .actual_stores {
+        position: relative;
+    }
+
+    .green-d {
+        color: green;
+        font-weight: 600
+    }
+
+    .store_rat {
+        width: 100%;
+        position: absolute;
+        left: 0.5%;
+        bottom: 10px;
+        zoom: 0.65;
+    }
+
+    .factors-d {
+        width: 100%;
+        float: left;
+    }
+
+
+    .facets-d {
+        width: auto;
+        margin-left: 5px;
+        margin-right: 5px;
+        text-align: center;
+        padding: 0.5%;
+        float: left;
+        border-radius: 3px;
+        border: 2px solid #034694;
+        font-size: 0.675em;
+        color: #034694;
+        margin-top: 10px;
+        zoom: 0.85;
+        cursor: pointer;
+    }
+
+    .factors-d :first-child {
+        margin-left: 0px !important;
+    }
+
+    .google_map img {
+        width: 100%;
+        min-height: 185px;
+    }
+
+
+        @media (max-width:1023px) {
+            .store_list-small ul li {
+    width: 49%;
+    float: left;
+    min-height: 105px;
+    border: 1px solid #ccc;
+    margin: 0.5%;
+}
+
+}
+      @media (max-width:767px) {
+            .store_list-small ul li {
+    width: 98%;
+    float: left;
+    min-height: 105px;
+    border: 1px solid #ccc;
+    margin: 0.5%;
+}
+
+.facets-d {
+    width: 48%;
+    margin-left: 0px !important;
+    margin-right: 5px;
+    text-align: center;
+    padding: 0.5%;
+    float: left;
+    border-radius: 3px;
+    border: 2px solid #034694;
+    font-size: 0.675em;
+    color: #034694;
+    margin-top: 10px;
+    zoom: 1;
+    cursor: pointer;
+}
+
+.store_list ul li {
+    width: 48% !important;
+    height: 60px;
+    border-radius: 2px;
+    background-color: #EFEFEF;
+    float: left;
+    margin-left: 1%;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+    font-size: 1em;
+    line-height: 65px !IMPORTANT;
+    padding-left: 2%;
+    font-weight: 500;
+    position: relative;
+    cursor: pointer;
+}
+
+.rc {
+    font-size: 0.87em;
+}
+
+.store_amount { 
+    right: 6px;
+    font-size: 0.80em;
+    font-weight: bold;
+    }
+
+
+.mobile_large {
+    width: 96% !important;
+    margin-left: 2% !important;
+}
+
+}
+
+</style>
+
+
+<div class="wrapper-d">
+    <div class="structure-d titlelist">
+        <div class="title-d">
+            <div class="pg-name">
+                <h1>Find a Store</h1>
+            </div>
+            <form>
+                <input type="text" id="findastore-d" placeholder="Zip, City or State">
+
+            </form>
+        </div>
+    </div>
+
+    <div class="structure-d store_list new-york">
+        <ul>
+            <li class="live-region">
+                New York
+            </li>
+
+            <li data="0" data2="Nassau">
+                <span class="rc">Nassau</span>
+                <div class="store_amount">9 Stores</div>
+            </li>
+
+            <li data="0" data2="Suffolk">
+                <span class="rc">Suffolk</span>
+                <div class="store_amount">9 Stores</div>
+            </li>
+            <li data="0" data2="Staten_Island">
+                <span class="rc">Staten Island</span>
+                <div class="store_amount">1 Stores</div>
+            </li>
+
+            <li data="0" data2="Westchester">
+                <span class="rc">Westchester</span>
+                <div class="store_amount">1 Store</div>
+            </li>
+            <li data="0" data2="Manhattan">
+                <span class="rc">Manhattan</span>
+                <div class="store_amount">4 Stores</div>
+            </li>
+            <li data="0" data2="Bronx">
+                <span class="rc">Bronx</span>
+                <div class="store_amount">2 Stores</div>
+            </li>
+
+            <li data="0" data2="Brooklyn">
+                <span class="rc">Brooklyn</span>
+                <div class="store_amount">7 Stores</div>
+            </li>
+            <li data="0" data2="Queens">
+                <span class="rc">Queens</span>
+                <div class="store_amount">7 Stores</div>
+            </li>
+            <li data="0" data2="Rockland">
+                <span class="rc">Rockland</span>
+                <div class="store_amount">1 Store</div>
+            </li>
+        </ul>
+        <div class="google_map">
+            <img src="/images/promos/store-locations-new-york-2018.png" />
+        </div>
+        <div class="region_explainantion">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehender
+        </div>
+
+    </div>
+
+
+    <div class="structure-d store_list new-jersey">
+        <ul>
+            <li class="live-region">New Jersey</li>
+            <li data="0" data2="North_Jersey">
+                <span class="rc">Northern Jersey</span>
+                <div class="store_amount">7 Stores</div>
+            </li>
+            <li data="0" data2="Central_Jersey">
+                <span class="rc">Central Jersey</span>
+                <div class="store_amount">6 Stores</div>
+            </li>
+            <li data="0" data2="South_Jersey">
+                <span class="rc">Southern Jersey</span>
+                <div class="store_amount">4 Stores</div>
+            </li>
+        </ul>
+        <div class="google_map">
+            <img src="/images/promos/store-locations-new-jersey-2018.png" />
+        </div>
+        <div class="region_explainantion">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehender</div>
+    </div>
+
+
+    <div class="structure-d store_list connecticut">
+        <ul>
+            <li class="live-region">Connecticut</li>
+            <li data="0" data2="Fairfeild">
+                <span class="rc">Fairfeild County</span>
+                <div class="store_amount">2 Stores</div>
+            </li>
+            <li data="0" data2="Hartford">
+                <span class="rc">Hartford County</span>
+                <div class="store_amount">2 Stores</div>
+            </li>
+            <li data="0" data2="New_Haven">
+                <span class="rc">New Haven County</span>
+                <div class="store_amount">1 Stores</div>
+            </li>
+        </ul>
+        <div class="google_map">
+            <img src="/images/promos/store-locations-connecticut-2018.png" />
+        </div>
+        <div class="region_explainantion">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehender</div>
+    </div>
+
+
+    <div class="structure-d store_list pennsylvania">
+        <ul>
+            <li class="live-region">Pennsylvania</li>
+            <li data="0" data2="Philadelphia">
+                <span class="rc">Northeast Pennsylvania</span>
+                <div class="store_amount">1 Store</div>
+            </li>
+        </ul>
+        <div class="google_map">
+            <img src="/images/promos/store-locations-penn-2018.png" />
+
+        </div>
+        <div class="region_explainantion">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehender</div>
+    </div>
+
+    <div class="filterby-d">
+        Filter stores by Service
+        <div class="factors-d">
+            <div id="f1" on='0' class="facets-d">Car Audio Installation</div>
+            <div id="f2" on='0' class="facets-d">Apple Computers</div>
+            <div id="f3" on='0' class="facets-d">Mattress Center</div>
+            <div id="f4" on='0' class="facets-d">Designer Appliances</div>
+        </div>
+    </div>
+
+
+    <div class="store_list-small">
+        <ul>
+            <li id="4" class="actual_stores" data="Nassau">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR004"></div>
+                </div>
+            </li>
+
+            <li id="16" class="actual_stores" data="Nassau">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR016"></div>
+                </div>
+            </li>
+
+            <li id="2" class="actual_stores" data="Nassau">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR002"></div>
+                </div>
+            </li>
+
+            <li id="30" class="actual_stores" data="Nassau">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR030"></div>
+                </div>
+            </li>
+
+            <li id="15" class="actual_stores" data="Nassau">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR015"></div>
+                </div>
+            </li>
+
+            <li id="55" class="actual_stores" data="Nassau">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR055"></div>
+                </div>
+            </li>
+
+            <li id="3" class="actual_stores" data="Nassau">
+
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR003"></div>
+                </div>
+            </li>
+            <li id="5" class="actual_stores" data="Nassau">
+
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR005"></div>
+                </div>
+            </li>
+
+            <li id="37" class="actual_stores" data="Nassau">
+
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR037"></div>
+                </div>
+            </li>
+
+            <li id="63" class="actual_stores" data="Suffolk">
+
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR063"></div>
+                </div>
+            </li>
+
+            <li id="28" class="actual_stores" data="Suffolk">
+
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR028"></div>
+                </div>
+            </li>
+            <li id="7" class="actual_stores" data="Suffolk">
+
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR007"></div>
+                </div>
+            </li>
+            <li id="8" class="actual_stores" data="Suffolk">
+
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR008"></div>
+                </div>
+            </li>
+            <li id="9" class="actual_stores" data="Suffolk">
+
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR009"></div>
+                </div>
+            </li>
+            <li id="14" class="actual_stores" data="Suffolk">
+
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR014"></div>
+                </div>
+            </li>
+
+
+            <li id="27" class="actual_stores" data="Suffolk">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR027"></div>
+                </div>
+            </li>
+
+
+            <li id="54" class="actual_stores" data="Suffolk">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR054"></div>
+                </div>
+            </li>
+
+            <li id="6" class="actual_stores" data="Suffolk">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR006"></div>
+                </div>
+            </li>
+
+            <li id="66" class="actual_stores" data="Staten_Island">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR066"></div>
+                </div>
+            </li>
+
+            <li id="46" class="actual_stores" data="Westchester">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR046"></div>
+                </div>
+            </li>
+
+            <li id="65" class="actual_stores" data="Manhattan">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR065"></div>
+                </div>
+            </li>
+
+            <li id="60" class="actual_stores" data="Manhattan">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR060"></div>
+                </div>
+            </li>
+
+            <li id="57" class="actual_stores" data="Manhattan">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR057"></div>
+                </div>
+            </li>
+
+            <li id="64" class="actual_stores" data="Manhattan">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR064"></div>
+                </div>
+            </li>
+
+            <li id="56" class="actual_stores" data="Bronx">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR056"></div>
+                </div>
+            </li>
+
+            <li id="50" class="actual_stores" data="Bronx">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR050"></div>
+                </div>
+            </li>
+
+            <li id="51" class="actual_stores" data="Brooklyn">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR051"></div>
+                </div>
+            </li>
+
+            <li id="33" class="actual_stores" data="Brooklyn">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR033"></div>
+                </div>
+            </li>
+            <li id="34" class="actual_stores" data="Brooklyn">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR034"></div>
+                </div>
+            </li>
+
+            <li id="32" class="actual_stores" data="Brooklyn">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR032"></div>
+                </div>
+            </li>
+
+            <li id="38" class="actual_stores" data="Brooklyn">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR038"></div>
+                </div>
+            </li>
+
+            <li id="31" class="actual_stores" data="Brooklyn">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR031"></div>
+                </div>
+            </li>
+
+            <li id="35" class="actual_stores" data="Brooklyn">
+
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR035"></div>
+                </div>
+            </li>
+
+            <li id="29" class="actual_stores" data="Queens">
+
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR029"></div>
+                </div>
+            </li>
+
+            <li id="17" class="actual_stores" data="Queens">
+
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR017"></div>
+                </div>
+            </li>
+
+            <li id="39" class="actual_stores" data="Queens">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR039"></div>
+                </div>
+            </li>
+
+            <li id="26" class="actual_stores" data="Queens">
+
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR026"></div>
+                </div>
+            </li>
+
+            <li id="1" class="actual_stores" data="Queens">
+
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR001"></div>
+                </div>
+            </li>
+            <li id="18" class="actual_stores" data="Queens">
+
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR018"></div>
+                </div>
+            </li>
+            <li id="61" class="actual_stores" data="Queens">
+
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR061"></div>
+                </div>
+            </li>
+            <li id="67" class="actual_stores" data="Rockland">
+
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR067"></div>
+                </div>
+            </li>
+
+            <li id="69" class="actual_stores" data="South_Jersey">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR069"></div>
+                </div>
+            </li>
+
+            <li id="45" class="actual_stores" data="Central_Jersey">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR045"></div>
+                </div>
+            </li>
+
+            <li id="68" class="actual_stores" data="Central_Jersey">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR068"></div>
+                </div>
+            </li>
+
+            <li id="43" class="actual_stores" data="North_Jersey">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR043"></div>
+                </div>
+            </li>
+
+            <li id="58" class="actual_stores" data="North_Jersey">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR058"></div>
+                </div>
+            </li>
+
+            <li id="71" class="actual_stores" data="South_Jersey">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR071"></div>
+                </div>
+            </li>
+
+            <li id="72" class="actual_stores" data="South_Jersey">
+
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR072"></div>
+                </div>
+            </li>
+
+            <li id="70" class="actual_stores" data="South_Jersey">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR070"></div>
+                </div>
+            </li>
+
+            <li id="42" class="actual_stores" data="North_Jersey">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR042"></div>
+                </div>
+            </li>
+
+            <li id="52" class="actual_stores" data="Central_Jersey">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR052"></div>
+                </div>
+            </li>
+
+            <li id="44" class="actual_stores" data="North_Jersey">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR044"></div>
+                </div>
+            </li>
+
+            <li id="62" class="actual_stores" data="Central_Jersey">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR062"></div>
+                </div>
+            </li>
+
+            <li id="47" class="actual_stores" data="Central_Jersey">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR047"></div>
+                </div>
+            </li>
+
+            <li id="41" class="actual_stores" data="North_Jersey">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR041"></div>
+                </div>
+            </li>
+
+            <li id="75" class="actual_stores" data="North_Jersey">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR075"></div>
+                </div>
+            </li>
+
+            <li id="48" class="actual_stores" data="North_Jersey">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR048"></div>
+                </div>
+            </li>
+
+            <li id="59" class="actual_stores" data="Central_Jersey">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR059"></div>
+                </div>
+            </li>
+
+            <li id="83" class="actual_stores" data="Fairfeild">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR083"></div>
+                </div>
+            </li>
+
+            <li id="89" class="actual_stores" data="Hartford">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR089"></div>
+                </div>
+            </li>
+
+            <li id="87" class="actual_stores" data="Hartford">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR087"></div>
+                </div>
+            </li>
+
+            <li id="81" class="actual_stores" data="New-Haven">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR081"></div>
+                </div>
+            </li>
+            
+            <li id="86" class="actual_stores" data="Hartford">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR086"></div>
+                </div>
+            </li>
+
+            <li id="82" class="actual_stores" data="New_Haven">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR082"></div>
+                </div>
+            </li>
+
+            <li id="80" class="actual_stores" data="Fairfeild">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR080"></div>
+                </div>
+            </li>
+
+            <li id="90" class="actual_stores" data="Philadelphia">
+                <div class="store_rat">
+                    <div data-bv-show="rating_summary" data-bv-productId="PCR090"></div>
+                </div>
+            </li>
+
+
+
+
+
+        </ul>
+    </div>
+
+
+
+
+
+
+
+</div>
+
+
+<script type="text/javascript">
+    $('.actual_stores').prepend(
+        '<div class=store_name></div><div class=openuntil><span class=green-d>Open</span><br>until<span class=closetime></span></div><div class=store_addresss><span class=ap1></span><br><span class=ap2></span> <span class=ap3></span> <span class=ap4></span></div><div class=see_details>See<br>Details</div>'
+    )
+
+    region_stores_load = '';
+    store_list = '/images/promos/pcr_stores_20180507_153427.xml';
+    mydate21 = new Date().getDay();
+    $.ajax({
+        type: "GET",
+        url: store_list,
+        dataType: "xml",
+        success: xmlParser,
+        error: function () {
+            $.ajax({
+                url: store_list,
+                dataType: "xml",
+                success: xmlParser
+            });
+        }
+    });
+
+    function xmlParser(xml) {
+
+        $('.actual_stores').each(function () {
+            $(this).wrap('<a href="'+$(xml).find('#' + $(this).attr('id')).children('storePageURL').text()+'" alt="'+$(xml).find('#' + $(this).attr('id')).children('name').text()+'"></a>')
+            $(this).children('.store_name').text($(xml).find('#' + $(this).attr('id')).children('name').text());
+            $(this).children('.store_addresss').children('.ap1').text($(xml).find('#' + $(this).attr('id')).children(
+                'address1').text());
+            $(this).children('.store_addresss').children('.ap2').text($(xml).find('#' + $(this).attr('id')).children(
+                'city').text());
+            $(this).children('.store_addresss').children('.ap3').text($(xml).find('#' + $(this).attr('id')).children(
+                'state').text());
+            $(this).children('.store_addresss').children('.ap4').text($(xml).find('#' + $(this).attr('id')).children(
+                'zip').text());
+            finder = ' ' + $(xml).find('#' + $(this).attr('id')).children('next7Days').children(
+                'day:nth-child(3n)').children('close').text().slice(0, -2) + 'pm';
+            if (finder === ' 090009pm') {
+                finder = ' 9pm'
+            }
+            if (finder === ' 080008pm') {
+                finder = ' 8pm'
+            }
+            if (finder === ' 060006pm') {
+                finder = ' 6pm'
+            }
+            $(this).children('.openuntil').children('.closetime').text(finder);
+            $(this).attr('car-install', $(xml).find('#' + $(this).attr('id')).children('hasCarInstall').text());
+            $(this).attr('design-center', $(xml).find('#' + $(this).attr('id')).children('hasDesignCenter').text());
+            $(this).attr('Mac-store', $(xml).find('#' + $(this).attr('id')).children('macStore').text());
+            $(this).attr('Mattress', $(xml).find('#' + $(this).attr('id')).children('macStore').text());
+        });
+    }
+
+
+    $('#f1').on('click', function () {
+
+        if ($(this).attr('on') === '0') {
+            $('.facets-d').not(this).attr('on', '0');
+            $("[data=" + region_stores_load + "]").show();
+            $('.facets-d').css('color', '#034694').css('background-color', 'transparent');
+            $(this).css('color', '#fff').css('background-color', '#034694');
+            $(".actual_stores[car-install='N']:visible").hide();
+            $(this).attr('on', '1');
+        } else {
+            $("[data=" + region_stores_load + "]").show();
+            $('.facets-d').css('color', '#034694').css('background-color', 'transparent');
+            $(this).attr('on', '0');
+        }
+
+    });
+
+    $('#f2').on('click', function () {
+
+        if ($(this).attr('on') === '0') {
+            $('.facets-d').not(this).attr('on', '0');
+            $("[data=" + region_stores_load + "]").show();
+            $('.facets-d').css('color', '#034694').css('background-color', 'transparent');
+            $(this).css('color', '#fff').css('background-color', '#034694');
+            $(".actual_stores[design-center='N']:visible").hide();
+            $(this).attr('on', '1');
+        } else {
+            $("[data=" + region_stores_load + "]").show();
+            $('.facets-d').css('color', '#034694').css('background-color', 'transparent');
+            $(this).attr('on', '0');
+        }
+
+    });
+
+
+    $('#f3').on('click', function () {
+
+        if ($(this).attr('on') === '0') {
+            $('.facets-d').not(this).attr('on', '0');
+            $("[data=" + region_stores_load + "]").show();
+            $('.facets-d').css('color', '#034694').css('background-color', 'transparent');
+            $(this).css('color', '#fff').css('background-color', '#034694');
+            $(".actual_stores[Mac-store='N']:visible").hide();
+            $(this).attr('on', '1');
+        } else {
+            $("[data=" + region_stores_load + "]").show();
+            $('.facets-d').css('color', '#034694').css('background-color', 'transparent');
+            $(this).attr('on', '0');
+        }
+
+    });
+
+    $('#f4').on('click', function () {
+
+        if ($(this).attr('on') === '0') {
+            $('.facets-d').not(this).attr('on', '0');
+            $("[data=" + region_stores_load + "]").show();
+            $('.facets-d').css('color', '#034694').css('background-color', 'transparent');
+            $(this).css('color', '#fff').css('background-color', '#034694');
+            $(".actual_stores[Mattress='N']:visible").hide();
+            $(this).attr('on', '1');
+        } else {
+            $("[data=" + region_stores_load + "]").show();
+            $('.facets-d').css('color', '#034694').css('background-color', 'transparent');
+            $(this).attr('on', '0');
+        }
+
+    });
+
+
+
+
+    $('.store_list ul li').not('.live-region').on('click', function () {
+        $('.facets-d').css('color', '#034694').css('background-color', 'transparent').attr('on', '0');
+        if ($(this).attr('data') === '0') {
+            $(this).attr('data', '1');
+            $(this).not('.opened-d').animate({
+                width: '96%'
+            });
+            $('.filterby-d').show();
+            $('.actual_stores').hide();
+            $(this).css('background-color', 'transparent').css('border', '1px solid #333').css('text-align',
+                'center').css('line-height', '45px').css('font-weight', 'bold');
+            $(this).children('.store_amount').css('right', 'auto').css('line-height', '10px').css('font-weight',
+                'normal').css('position', 'relative').css('top', '0px');
+            $(this).addClass('opened-d');
+            $(this).parent('ul').parent('div').children('.google_map').show()
+            $(this).parent('ul').parent('div').children('.region_explainantion').fadeIn();
+            $('.store_list').css('padding-top', '0px');
+            $('.store_list ul li').not(this).hide();
+            region_stores_load = $(this).attr('data2');
+            $("[data=" + region_stores_load + "]").show();
+
+        } else {
+            $(this).animate({
+                width: '30%'
+            });
+            $(this).removeClass('opened-d');
+            $(this).attr('data', '0');
+            $('.actual_stores').hide();
+            $('.filterby-d').hide();
+            $('.store_list').css('padding-top', '35px');
+            $(this).parent('ul').parent('div').children('.google_map').hide();
+            $(this).parent('ul').parent('div').children('.region_explainantion').hide();
+            $(this).css('background-color', '#EFEFEF').css('border', 'none').css('text-align', 'left')
+                .css('line-height', '65px').css('font-weight', 'normal');
+            $(this).children('.store_amount').css('right', '20px').css('line-height', '28px').css('font-weight',
+                'normal').css('position', 'absolute').css('top', '20px');
+            $('.store_list ul li').not(this).show();
+        }
+
+    });
+</script>
