@@ -149,58 +149,58 @@ $('.store_mystore').html('<form id="store" action="/storelocator/store-landing.j
 
 
         if (appliance_block0 === '1') {
-            $('#store_features').append('<a class="noblue" itemprop="Appliances &amp; Housewares" title="Shop All Appliances &amp; Housewares" href="'+appliance_block0_link+'"><div id="appliances" class="feature_box"><div id="icons2018-4"  class="feature_image"></div><div class="feature_description"><div class="description_title">Appliances &amp; Housewares</div><div class="description_info">' + appliances_text  +'</div></div><div class="cfmi">Shop All Appliances &amp; Housewares</div></div></a>');
+            $('#store_features').append('<a class="noblue" itemprop="Appliances &amp; Housewares" title="Shop All Appliances &amp; Housewares" href="'+appliance_block0_link+'"><div id="appliances" class="feature_box"><div id="icons2018-4"  class="feature_image"></div><div class="feature_description"><div class="description_title">Appliances &amp; Housewares</div><div class="description_info"><h3>' + appliances_text  +'</h3></div></div><div class="cfmi">Shop All Appliances &amp; Housewares</div></div></a>');
         }
 
 
         if (tv_block0 === '1') {
-            $('#store_features').append('<a class="noblue" itemprop="HDTVs" title="Shop All HDTVs"  href="'+tv_block0_link+'"><div id="HDTVs" class="feature_box"><div  id="icons2018-7"  class="feature_image"></div><div class="feature_description"><div class="description_title">HDTVs</div><div class="description_info">' + TV_text +'</div></div><div class="cfmi">Shop All HDTVs</div></div></a>');
+            $('#store_features').append('<a class="noblue" itemprop="HDTVs" title="Shop All HDTVs"  href="'+tv_block0_link+'"><div id="HDTVs" class="feature_box"><div  id="icons2018-7"  class="feature_image"></div><div class="feature_description"><div class="description_title">HDTVs</div><div class="description_info"><h3>' + TV_text +'</h3></div></div><div class="cfmi">Shop All HDTVs</div></div></a>');
         }    
 
         if (mattress_block0 === '1') {
-            $('#store_features').append('<a class="noblue" itemprop="Mattresses"  title="Shop All Mattresses"  href="'+mattress_block0_link+'"><div id="mattress" class="feature_box"><div id="icons2018-3"  class="feature_image"></div><div class="feature_description"><div class="description_title">Mattress</div><div class="description_info">' + mattress_text +'</div></div><div class="cfmi">Shop All Mattresses</div></div></a>');
+            $('#store_features').append('<a class="noblue" itemprop="Mattresses"  title="Shop All Mattresses"  href="'+mattress_block0_link+'"><div id="mattress" class="feature_box"><div id="icons2018-3"  class="feature_image"></div><div class="feature_description"><div class="description_title">Mattress</div><div class="description_info"><h3>' + mattress_text +'</h3></div></div><div class="cfmi">Shop All Mattresses</div></div></a>');
         }
 
         
         if (apple_block0 === '1') {
-            $('#store_features').append('<a class="noblue" itemprop="Apple" title="Shop All Apple"  href="'+apple_block0_link+'"><div id="apple" class="feature_box"><div id="icons2018-1" class="feature_image"></div><div class="feature_description"><div class="description_title">Apple</div><div class="description_info">' + apple_text+'</div></div><div class="cfmi">Shop All Apple</div></div></a>');
+            $('#store_features').append('<a class="noblue" itemprop="Apple" title="Shop All Apple"  href="'+apple_block0_link+'"><div id="apple" class="feature_box"><div id="icons2018-1" class="feature_image"></div><div class="feature_description"><div class="description_title">Apple</div><div class="description_info"><h3>' + apple_text+'</h3></div></div><div class="cfmi">Shop All Apple</div></div></a>');
         }
 
         if (car_block0  === '1') {
-            $('#store_features').append('<a class="noblue" itemprop="Car Audio" title="Shop All Car Audio"  href="'+car_block0_link+'"><div id="car_audio" class="feature_box"><div id="icons2018-2"  class="feature_image"></div><div class="feature_description"><div class="description_title">Car Audio Sales &amp; Installation</div><div class="description_info">' + car_audio_text +'</div></div><div class="cfmi">Shop All Car Audio</div></div></a>');
+            $('#store_features').append('<a class="noblue" itemprop="Car Audio" title="Shop All Car Audio"  href="'+car_block0_link+'"><div id="car_audio" class="feature_box"><div id="icons2018-2"  class="feature_image"></div><div class="feature_description"><div class="description_title">Car Audio Sales &amp; Installation</div><div class="description_info"><h3>' + car_audio_text +'</h3></div></div><div class="cfmi">Shop All Car Audio</div></div></a>');
         }
 
         
         if (designer_block0 === '1') {
-            $('#store_features').append('<a class="noblue" itemprop="Designer Appliances"  title="Shop All Designer Appliances"  href="'+designer_block0_link+'"><div id="Designer" class="feature_box"><div  id="icons2018-8"  class="feature_image"></div><div class="feature_description"><div class="description_title">Designer Appliance Center</div><div class="description_info">' + Designer_text +'</div></div><div class="cfmi">Shop All Designer Appliances</div></div></a>');
+            $('#store_features').append('<a class="noblue" itemprop="Designer Appliances"  title="Shop All Designer Appliances"  href="'+designer_block0_link+'"><div id="Designer" class="feature_box"><div  id="icons2018-8"  class="feature_image"></div><div class="feature_description"><div class="description_title">Designer Appliance Center</div><div class="description_info"><h3>' + Designer_text +'</h3></div></div><div class="cfmi">Shop All Designer Appliances</div></div></a>');
         }
 
     
         if (elec_block0 === '1') {
-            $('#store_features').append('<a class="noblue" itemprop="Electronics" title="Shop All Electronics"  href="'+elec_block0_link+'"><div id="electronics" class="feature_box"><div id="icons2018-5"  class="feature_image"></div><div class="feature_description"><div class="description_title">Electronics</div><div class="description_info">'+electronics_text+'</div></div><div class="cfmi">Shop All Electronics</div></div></a>');
+            $('#store_features').append('<a class="noblue" itemprop="Electronics" title="Shop All Electronics"  href="'+elec_block0_link+'"><div id="electronics" class="feature_box"><div id="icons2018-5"  class="feature_image"></div><div class="feature_description"><div class="description_title">Electronics</div><div class="description_info"><h3>'+electronics_text+'</h3></div></div><div class="cfmi">Shop All Electronics</div></div></a>');
         }
 
       if (furniture_block0=== '1') {
-            $('#store_features').append('<a class="noblue" itemprop="Recliners &amp; Furniture" title="Shop All Recliners &amp; Furniture"  href="'+furniture_block0_link+'"><div id="furniture" class="feature_box"><div  id="icons2018-11"  class="feature_image"></div><div class="feature_description"><div class="description_title">Recliners &amp; Furniture</div><div class="description_info">' + Furniture_text +'</div></div><div class="cfmi">Shop All Recliners &amp; Furniture</div></div></a>');
+            $('#store_features').append('<a class="noblue" itemprop="Recliners &amp; Furniture" title="Shop All Recliners &amp; Furniture"  href="'+furniture_block0_link+'"><div id="furniture" class="feature_box"><div  id="icons2018-11"  class="feature_image"></div><div class="feature_description"><div class="description_title">Recliners &amp; Furniture</div><div class="description_info"><h3>' + Furniture_text +'</h3></div></div><div class="cfmi">Shop All Recliners &amp; Furniture</div></div></a>');
         }
            
       
         if (home_audio_block0 === '1') {
-            $('#store_features').append('<a class="noblue"  itemprop="Home Audio"  title="Shop All Home Audio"  href="'+home_audio_block0_link+'"><div id="Home_Audio" style="margin-top:0px" class="feature_box"><div  id="icons2018-9"  class="feature_image"></div><div class="feature_description"><div class="description_title">Home Audio</div><div class="description_info">' + Home_Audio_text +'</div></div><div class="cfmi">Shop All Home Audio</div></div></a>');
+            $('#store_features').append('<a class="noblue"  itemprop="Home Audio"  title="Shop All Home Audio"  href="'+home_audio_block0_link+'"><div id="Home_Audio" style="margin-top:0px" class="feature_box"><div  id="icons2018-9"  class="feature_image"></div><div class="feature_description"><div class="description_title">Home Audio</div><div class="description_info"><h3>' + Home_Audio_text +'</h3></div></div><div class="cfmi">Shop All Home Audio</div></div></a>');
         }
 
         if (smart_home_block0=== '1') {
-            $('#store_features').append('<a class="noblue"  itemprop="Smart Home" title="Shop All Smart Home"  href="'+smart_home_block0_link+'"><div id="Smart_Home" style="margin-top:0px" class="feature_box"><div  id="icons2018-10"  class="feature_image"></div><div class="feature_description"><div class="description_title">Smart Home</div><div class="description_info">' + Smart_Home_text +'</div></div><div class="cfmi">Shop All Smart Home</div></div></a>');
+            $('#store_features').append('<a class="noblue"  itemprop="Smart Home" title="Shop All Smart Home"  href="'+smart_home_block0_link+'"><div id="Smart_Home" style="margin-top:0px" class="feature_box"><div  id="icons2018-10"  class="feature_image"></div><div class="feature_description"><div class="description_title">Smart Home</div><div class="description_info"><h3>' + Smart_Home_text +'</h3></div></div><div class="cfmi">Shop All Smart Home</div></div></a>');
         }
   
 
         if (surface_block0 === '1') {
-            $('#store_features').append('<a class="noblue"  itemprop="Microsoft Surface" title="Shop All Microsoft Surface"  href="'+surface_block0_link+'"><div id="surface" style="margin-top:0px" class="feature_box"><div  id="icons2018-6"  class="feature_image"></div><div class="feature_description"><div class="description_title">Surface</div><div class="description_info">' + surface_text +'</div></div><div class="cfmi">Shop All Microsoft Surface</div></div></a>');
+            $('#store_features').append('<a class="noblue"  itemprop="Microsoft Surface" title="Shop All Microsoft Surface"  href="'+surface_block0_link+'"><div id="surface" style="margin-top:0px" class="feature_box"><div  id="icons2018-6"  class="feature_image"></div><div class="feature_description"><div class="description_title">Surface</div><div class="description_info"><h3>' + surface_text +'</h3></div></div><div class="cfmi">Shop All Microsoft Surface</div></div></a>');
         }
 
 
         if (yeti_block0 === '1') {
-            $('#store_features').append('<a class="noblue" itemprop="Yeti" title="Shop All Yeti"  href="'+yeti_block0_link+'"><div id="yeti" class="feature_box"><div  id="icons2018-12"  class="feature_image"></div><div class="feature_description"><div class="description_title">Yeti</div><div class="description_info">' + Yeti_text+'</div></div><div class="cfmi">Shop All Yeti</div></div></a>');
+            $('#store_features').append('<a class="noblue" itemprop="Yeti" title="Shop All Yeti"  href="'+yeti_block0_link+'"><div id="yeti" class="feature_box"><div  id="icons2018-12"  class="feature_image"></div><div class="feature_description"><div class="description_title">Yeti</div><div class="description_info"><h3>' + Yeti_text+'</h3></div></div><div class="cfmi">Shop All Yeti</div></div></a>');
         }
 
 
