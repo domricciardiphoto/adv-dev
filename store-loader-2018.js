@@ -247,8 +247,6 @@ switch (this_is_the_day) {
      $('.fri').append('<br>'+'<span class="heresthedate">'+fifth_n+'</span>');
      $('.sat').append('<br>'+'<span class="heresthedate">'+sixth_n+'</span>');
      $('.sun').append('<br>'+'<span class="heresthedate">'+seventh_n+'</span>');
-
-
 }
 
 
@@ -344,7 +342,6 @@ switch (this_is_the_day) {
     $('.store_hrs').append('<div itemprop="openingHours" class="store_hrs_block">'+$('.fri').parent('div').html()+'</div>').parent('div').css('display' , 'block');
     $('.store_hrs').append('<div itemprop="openingHours" class="store_hrs_block">'+$('.sat').parent('div').html()+'</div>').parent('div').css('display' , 'block');
     $('.rev-m').remove();
-
 }
 
 
