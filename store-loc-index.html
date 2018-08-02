@@ -67,7 +67,7 @@
         font-size: 0.850em;
     }
 
-    #findastore-d {
+    .findastore-d {
         width: 80%;
         margin-left: 10%;
         min-height: 42px;
@@ -218,6 +218,10 @@
         min-height: 185px;
     }
 
+    .opened-d {
+        width: 96% !important;
+    }
+
 
         @media (max-width:1023px) {
             .store_list-small ul li {
@@ -227,6 +231,9 @@
     border: 1px solid #ccc;
     margin: 0.5%;
 }
+.opened-d {
+        width: 96% !important;
+    }
 
 }
       @media (max-width:767px) {
@@ -287,21 +294,26 @@
     margin-left: 2% !important;
 }
 
+  .opened-d {
+        width: 96% !important;
+    }
+
 }
 
 </style>
+
+
 
 
 <div class="wrapper-d">
     <div class="structure-d titlelist">
         <div class="title-d">
             <div class="pg-name">
-                <h1>Find a Store</h1>
+                <h1 itemprop="name">Find a Store</h1>
             </div>
-            <form>
-                <input type="text" id="findastore-d" placeholder="Zip, City or State">
-
-            </form>
+                <form id="storeLocator" action="/index.jsp?_DARGS=/global/gadgets/header-stores.jsp.storeLocator" method="post"><div style="display:none"><input name="_dyncharset" value="UTF-8" type="hidden"> </div><div style="display:none"><input id="_dynSessConf_key21" name="_dynSessConf" value="#" type="hidden"> </div><label class="sr-only" for="storeZip"><span>Enter Zip Code to Find Stores</span></label>
+                    <input id="storeZip" class="findastore-d" maxlength="5" placeholder="Enter Zip Code" name="/atg/userprofiling/ProfileFormHandler.findStoreZip" value="" type="text" autocomplete="off"><input name="_D:/atg/userprofiling/ProfileFormHandler.findStoreZip" value=" " type="hidden"><input name="/atg/userprofiling/ProfileFormHandler.storeLocatorSuccessURL" value="/storelocator/store-landing.jsp?near=true" type="hidden"><input name="_D:/atg/userprofiling/ProfileFormHandler.storeLocatorSuccessURL" value=" " type="hidden"><input name="/atg/userprofiling/ProfileFormHandler.storeLocatorErrorURL" value="/storelocator/store-landing.jsp" type="hidden"><input name="_D:/atg/userprofiling/ProfileFormHandler.storeLocatorErrorURL" value=" " type="hidden">
+                    &nbsp;<input name="/atg/userprofiling/ProfileFormHandler.storeLocator" value="Find Stores" style="display:none" class="pcr-btn simple gray gradient find-store-button" type="submit"><input name="_D:/atg/userprofiling/ProfileFormHandler.storeLocator" value=" " type="hidden"><div style="display:none"><input name="_DARGS" value="/global/gadgets/header-stores.jsp.storeLocator" type="hidden"> </div></form>
         </div>
     </div>
 
@@ -310,12 +322,10 @@
             <li class="live-region">
                 New York
             </li>
-
             <li data="0" data2="Nassau">
                 <span class="rc">Nassau</span>
                 <div class="store_amount">9 Stores</div>
             </li>
-
             <li data="0" data2="Suffolk">
                 <span class="rc">Suffolk</span>
                 <div class="store_amount">9 Stores</div>
@@ -324,7 +334,6 @@
                 <span class="rc">Staten Island</span>
                 <div class="store_amount">1 Stores</div>
             </li>
-
             <li data="0" data2="Westchester">
                 <span class="rc">Westchester</span>
                 <div class="store_amount">1 Store</div>
@@ -337,7 +346,6 @@
                 <span class="rc">Bronx</span>
                 <div class="store_amount">2 Stores</div>
             </li>
-
             <li data="0" data2="Brooklyn">
                 <span class="rc">Brooklyn</span>
                 <div class="store_amount">7 Stores</div>
@@ -352,14 +360,13 @@
             </li>
         </ul>
         <div class="google_map">
-            <img src="/images/promos/store-locations-new-york-2018.png" />
+            <img itemprop="image photo" src="/images/promos/store-locations-new-york-2018.png" />
         </div>
         <div class="region_explainantion">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
             aute irure dolor in reprehender
         </div>
-
     </div>
 
 
@@ -380,7 +387,7 @@
             </li>
         </ul>
         <div class="google_map">
-            <img src="/images/promos/store-locations-new-jersey-2018.png" />
+            <img itemprop="image photo" src="/images/promos/store-locations-new-jersey-2018.png" />
         </div>
         <div class="region_explainantion">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
             aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -405,7 +412,7 @@
             </li>
         </ul>
         <div class="google_map">
-            <img src="/images/promos/store-locations-connecticut-2018.png" />
+            <img itemprop="image photo" src="/images/promos/store-locations-connecticut-2018.png" />
         </div>
         <div class="region_explainantion">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
             aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -422,7 +429,7 @@
             </li>
         </ul>
         <div class="google_map">
-            <img src="/images/promos/store-locations-penn-2018.png" />
+            <img itemprop="image photo" src="/images/promos/store-locations-penn-2018.png" />
 
         </div>
         <div class="region_explainantion">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -857,19 +864,16 @@
         </ul>
     </div>
 
-
-
-
-
-
-
 </div>
 
 
 <script type="text/javascript">
-    $('.actual_stores').prepend(
-        '<div class=store_name></div><div class=openuntil><span class=green-d>Open</span><br>until<span class=closetime></span></div><div class=store_addresss><span class=ap1></span><br><span class=ap2></span> <span class=ap3></span> <span class=ap4></span></div><div class=see_details>See<br>Details</div>'
-    )
+key21 = $( "input[name='_dynSessConf']" ).val();
+$('#_dynSessConf_key21').attr('value' , key21);
+
+$('.by-region').children('.page-title').remove();
+
+$('.actual_stores').prepend('<div class=store_name></div><div class=openuntil><span class=green-d>Open</span><br>until<span class=closetime></span></div><div class=store_addresss><span class=ap1></span><br><span class=ap2></span> <span class=ap3></span> <span class=ap4></span></div><div class=see_details>See<br>Details</div>');
 
     region_stores_load = '';
     store_list = '/images/promos/pcr_stores_20180507_153427.xml';
@@ -889,7 +893,6 @@
     });
 
     function xmlParser(xml) {
-
         $('.actual_stores').each(function () {
             $(this).wrap('<a href="'+$(xml).find('#' + $(this).attr('id')).children('storePageURL').text()+'" alt="'+$(xml).find('#' + $(this).attr('id')).children('name').text()+'"></a>')
             $(this).children('.store_name').text($(xml).find('#' + $(this).attr('id')).children('name').text());
@@ -903,15 +906,9 @@
                 'zip').text());
             finder = ' ' + $(xml).find('#' + $(this).attr('id')).children('next7Days').children(
                 'day:nth-child(3n)').children('close').text().slice(0, -2) + 'pm';
-            if (finder === ' 090009pm') {
-                finder = ' 9pm'
-            }
-            if (finder === ' 080008pm') {
-                finder = ' 8pm'
-            }
-            if (finder === ' 060006pm') {
-                finder = ' 6pm'
-            }
+            if (finder === ' 090009pm') { finder = ' 9pm'}
+            if (finder === ' 080008pm') { finder = ' 8pm'}
+            if (finder === ' 060006pm') { finder = ' 6pm'}
             $(this).children('.openuntil').children('.closetime').text(finder);
             $(this).attr('car-install', $(xml).find('#' + $(this).attr('id')).children('hasCarInstall').text());
             $(this).attr('design-center', $(xml).find('#' + $(this).attr('id')).children('hasDesignCenter').text());
@@ -922,7 +919,6 @@
 
 
     $('#f1').on('click', function () {
-
         if ($(this).attr('on') === '0') {
             $('.facets-d').not(this).attr('on', '0');
             $("[data=" + region_stores_load + "]").show();
@@ -939,7 +935,6 @@
     });
 
     $('#f2').on('click', function () {
-
         if ($(this).attr('on') === '0') {
             $('.facets-d').not(this).attr('on', '0');
             $("[data=" + region_stores_load + "]").show();
@@ -957,7 +952,6 @@
 
 
     $('#f3').on('click', function () {
-
         if ($(this).attr('on') === '0') {
             $('.facets-d').not(this).attr('on', '0');
             $("[data=" + region_stores_load + "]").show();
@@ -974,7 +968,6 @@
     });
 
     $('#f4').on('click', function () {
-
         if ($(this).attr('on') === '0') {
             $('.facets-d').not(this).attr('on', '0');
             $("[data=" + region_stores_load + "]").show();
@@ -998,7 +991,7 @@
         if ($(this).attr('data') === '0') {
             $(this).attr('data', '1');
             $(this).not('.opened-d').animate({
-                width: '96%'
+                width: '96% !important'
             });
             $('.filterby-d').show();
             $('.actual_stores').hide();
