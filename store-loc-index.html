@@ -1489,11 +1489,11 @@ function toggleBounce() {
 }
 
 
-var Suffolk = '<a class="stbreakcrumb" href="/Stores/New-York/Suffolk/Bayshore"><li id="63" class="actual_stores" data="Suffolk"><div class="store_rat"><div data-bv-show="rating_summary" data-bv-productid="PCR063"></div></div></li></a><a class="stbreakcrumb" href="/Stores/New-York/Suffolk/Deer-Park"><li id="28" class="actual_stores" data="Suffolk"><div class="store_rat"><div data-bv-show="rating_summary" data-bv-productid="PCR028"></div></div></li></a><a class="stbreakcrumb" href="/Stores/New-York/Suffolk/Elwood"><li id="7" class="actual_stores" data="Suffolk"><div class="store_rat"><div data-bv-show="rating_summary" data-bv-productid="PCR007"></div></div></li></a><a class="stbreakcrumb" href="/Stores/New-York/Suffolk/Hauppauge"><li id="8" class="actual_stores" data="Suffolk"><div class="store_rat"><div data-bv-show="rating_summary" data-bv-productid="PCR008"></div></div></li></a><a class="stbreakcrumb" href="/Stores/New-York/Suffolk/Patchogue"><li id="9" class="actual_stores" data="Suffolk"><div class="store_rat"><div data-bv-show="rating_summary" data-bv-productid="PCR009"></div></div></li></a><a class="stbreakcrumb" href="/Stores/New-York/Suffolk/Riverhead"><li id="14" class="actual_stores" data="Suffolk"><div class="store_rat"><div data-bv-show="rating_summary" data-bv-productid="PCR014"></div></div></li></a><a class="stbreakcrumb" href="/Stores/New-York/Suffolk/Southampton"><li id="27" class="actual_stores" data="Suffolk"><div class="store_rat"><div data-bv-show="rating_summary" data-bv-productid="PCR027"></div></div></li></a><a class="stbreakcrumb" href="/Stores/New-York/Suffolk/Stony-Brook"><li id="54" class="actual_stores" data="Suffolk"><div class="store_rat"><div data-bv-show="rating_summary" data-bv-productid="PCR054"></div></div></li></a><a class="stbreakcrumb" href="/Stores/New-York/Suffolk/West-Bablyon"><li id="6" class="actual_stores" data="Suffolk"><div class="store_rat"><div data-bv-show="rating_summary" data-bv-productid="PCR006"></div></div></li></a>';
+var Suffolk = '<li id="63" class="actual_stores" data="Suffolk"><div class="store_rat"><div data-bv-show="rating_summary" data-bv-productid="PCR063"></div></div></li><li id="28" class="actual_stores" data="Suffolk"><div class="store_rat"><div data-bv-show="rating_summary" data-bv-productid="PCR028"></div></div></li><li id="7" class="actual_stores" data="Suffolk"><div class="store_rat"><div data-bv-show="rating_summary" data-bv-productid="PCR007"></div></div></li><li id="8" class="actual_stores" data="Suffolk"><div class="store_rat"><div data-bv-show="rating_summary" data-bv-productid="PCR008"></div></div></li><li id="9" class="actual_stores" data="Suffolk"><div class="store_rat"><div data-bv-show="rating_summary" data-bv-productid="PCR009"></div></div></li><li id="14" class="actual_stores" data="Suffolk"><div class="store_rat"><div data-bv-show="rating_summary" data-bv-productid="PCR014"></div></div></li><li id="27" class="actual_stores" data="Suffolk"><div class="store_rat"><div data-bv-show="rating_summary" data-bv-productid="PCR027"></div></div></li><li id="54" class="actual_stores" data="Suffolk"><div class="store_rat"><div data-bv-show="rating_summary" data-bv-productid="PCR054"></div></div></li><li id="6" class="actual_stores" data="Suffolk"><div class="store_rat"><div data-bv-show="rating_summary" data-bv-productid="PCR006"></div></div></li>';
 
 var Suffolk_m = "<span class='heightlight-d'><h2>Get Long Island's Lowest Prices on Appliances and Electronics</span></h2><br>Make P.C. Richard & Son your source for home appliances, entertainment gear, and mattresses on Long Island. We have nine convenient locations throughout Suffolk County, from Elwood to Southampton, with an excellent selection, friendly staff, and unbeatable values.<br><br>Stop by our appliance and electronics sections for name brand must-haves at guaranteed low prices. Don't leave without exploring our premium mattresses and furnishings to make your home as comfortable and stylish as it is functional. Visit your nearest Suffolk County P.C. Richard & Son store today!";
 
-var Suffolk_t ='Suffolk County Appliance, TV, Electronics & Mattress Stores| P.C. Richard & Son';
+var Suffolk_t ='Suffolk County Appliance, TV, Electronics & Mattress Stores | P.C. Richard & Son';
 
 var Suffolk_h1 = 'P.C. Richard & Son Stores in Suffolk County, NY';
 
@@ -1782,7 +1782,7 @@ $('.by-region').children('.page-title').remove();
     });
 
 
- $('.store_list ul li').not('.live-region').on('click', function () {
+    $('.store_list ul li').not('.live-region').on('click', function () {
 
  $('html, body').delay(300).animate({
    scrollTop: ('.pg-name')
@@ -1854,82 +1854,91 @@ switch(region_stores_load) {
  case  'Nassau':
  setTimeout(Nassau_gm, 600)
  $('ul.breadcrumbs>li:nth-child(2)').after('<li><a class="ico stbreakcrumb" href="New York" title="State">New York</a></li><li><a class="ico stbreakcrumb" href="/storelocator/store-landing.jsp?location=Nassau" title="Nassau Stores">Nassau</a></li>');
- aftereffect();
+ aftereffect()
         break;
  case  'Suffolk':
  setTimeout(Suffolk_gm, 600)
  $('ul.breadcrumbs>li:nth-child(2)').after('<li><a class="ico stbreakcrumb" href="New York" title="State">New York</a></li><li><a class="ico stbreakcrumb" href="/storelocator/store-landing.jsp?location=Suffolk" title="Suffolk Stores">Suffolk</a></li>');
- aftereffect();
+ aftereffect()
         break;
  case  'Staten_Island':
  setTimeout(Staten_Island_gm, 600)
  $('ul.breadcrumbs>li:nth-child(2)').after('<li><a class="ico stbreakcrumb" href="New York" title="State">New York</a></li><li><a class="ico stbreakcrumb" href="/storelocator/store-landing.jsp?location=Staten_Island" title="Staten Island Stores">Staten Island</a></li>');
- aftereffect();
+ aftereffect()
         break;
  case  'Westchester':
  setTimeout(Westchester_gm, 600)
  $('ul.breadcrumbs>li:nth-child(2)').after('<li><a class="ico stbreakcrumb" href="New York" title="State">New York</a></li><li><a class="ico stbreakcrumb" href="/storelocator/store-landing.jsp?location=Westchester" title="Westchester Stores">Westchester</a></li>');
- aftereffect();
+ aftereffect()
         break;
  case  'Manhattan':
  setTimeout(Manhattan_gm, 600)
  $('ul.breadcrumbs>li:nth-child(2)').after('<li><a class="ico stbreakcrumb" href="New York" title="State">New York</a></li><li><a class="ico stbreakcrumb" href="/store-landing.jsp?location=Manhattan" title="Manhattan Stores">Manhattan</a></li>');
- aftereffect();
+ aftereffect()
         break;
  case  'Bronx':
  setTimeout(Bronx_gm, 600)
  $('ul.breadcrumbs>li:nth-child(2)').after('<li><a class="ico stbreakcrumb" href="New York" title="State">New York</a></li><li><a class="ico stbreakcrumb" href="/storelocator/store-landing.jsp?location=Bronx" title="Bronx Stores">Bronx</a></li>');
- aftereffect();
+ aftereffect()
         break;
  case  'Brooklyn':
  setTimeout(Brooklyn_gm, 600)
  $('ul.breadcrumbs>li:nth-child(2)').after('<li><a class="ico stbreakcrumb" href="New York" title="State">New York</a></li><li><a class="ico stbreakcrumb" href="/storelocator/store-landing.jsp?location=Brooklyn" title="Brooklyn Stores">Brooklyn</a></li>');
- aftereffect();
+ aftereffect()
+
         break;
  case  'Queens':
  setTimeout(Queens_gm, 600)
  $('ul.breadcrumbs>li:nth-child(2)').after('<li><a class="ico stbreakcrumb" href="New York title="State">New York</a></li><li><a class="ico stbreakcrumb" href="/storelocator/store-landing.jsp?location=Queens" title="Queens Stores">Queens</a></li>');
- aftereffect();
+ aftereffect()
+
         break;
  case  'Rockland':
  setTimeout(Rockland_gm, 600)
  $('ul.breadcrumbs>li:nth-child(2)').after('<li><a class="ico stbreakcrumb" href="New York" title="State">New York</a></li><li><a class="ico stbreakcrumb" href="/storelocator/store-landing.jsp?location=Rockland" title="Rockland Stores">Rockland</a></li>');
- aftereffect();
+ aftereffect()
+
         break;
   case 'Northern_Jersey':
 setTimeout(Northern_Jersey_gm, 600)
 $('ul.breadcrumbs>li:nth-child(2)').after('<li><a class="ico stbreakcrumb" href="New Jersey" title="State">New Jersey</a></li><li><a class="ico stbreakcrumb" href="/storelocator/store-landing.jsp?location=Northern_Jersey" title="Northern Jersey Stores">Northern Jersey</a></li>');
-aftereffect();
+aftereffect()
+
         break;
   case 'Central_Jersey':
 setTimeout(Central_Jersey_gm, 600)
 $('ul.breadcrumbs>li:nth-child(2)').after('<li><a class="ico stbreakcrumb" href="New Jersey" title="State">New Jersey</a></li><li><a class="ico stbreakcrumb" href="/storelocator/store-landing.jsp?location=Central_Jersey" title="Central Jersey Stores">Central Jersey</a></li>');
-aftereffect();
+aftereffect()
+
         break;
   case 'Southern_Jersey':
   setTimeout(Southern_Jersey_gm, 600)
 $('ul.breadcrumbs>li:nth-child(2)').after('<li><a class="ico stbreakcrumb" href="New Jersey" title="State">New Jersey</a></li><li><a class="ico stbreakcrumb" href="/storelocator/store-landing.jsp?location=Southern_Jersey" title="Southern Jersey Stores">Southern Jersey</a></li>');
-aftereffect();
+aftereffect()
+
         break;
   case 'Fairfield':
   setTimeout(Fairfield_gm, 600)
   $('ul.breadcrumbs>li:nth-child(2)').after('<li><a class="ico stbreakcrumb" href="Connecticut" title="State">Connecticut</a></li><li><a class="ico stbreakcrumb" href="/storelocator/store-landing.jsp?location=Fairfield" title="Fairfield Stores">Fairfield</a></li>');
- aftereffect();
+ aftereffect()
+
         break;
   case 'Hartford':
   setTimeout(Hartford_gm, 600)
 $('ul.breadcrumbs>li:nth-child(2)').after('<li><a class="ico stbreakcrumb" href="Connecticut" title="State">Connecticut</a></li><li><a class="ico stbreakcrumb" href="/storelocator/store-landing.jsp?location=Hartford" title="Hartford Stores">Hartford</a></li>');
-aftereffect();
+aftereffect()
+
         break;
   case 'New_Haven':
   setTimeout(New_Haven_gm, 600)
 $('ul.breadcrumbs>li:nth-child(2)').after('<li><a class="ico stbreakcrumb" href="Connecticut" title="State">Connecticut</a></li><li><a class="ico stbreakcrumb" href="/storelocator/store-landing.jsp?location=New_Haven" title="New Haven Stores">New Haven</a></li>');
-aftereffect();
+aftereffect()
+
         break;
   case 'Philadelphia':
 setTimeout(Philadelphia_gm, 600)
 $('ul.breadcrumbs>li:nth-child(2)').after('<li><a class="ico stbreakcrumb" href="Pennsylvania" title="State">Pennsylvania</a></li><li><a class="ico stbreakcrumb" href="/storelocator/store-landing.jsp?location=Philadelphia" title="Philadelphia Stores">Philadelphia</a></li>');
-aftereffect();        
+aftereffect()        
 break;
     default:
 }
