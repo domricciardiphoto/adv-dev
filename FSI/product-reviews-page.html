@@ -1,0 +1,177 @@
+
+<script async src="https://apps.bazaarvoice.com/deployments/pcrichardson/main_site/production/en_US/bv.js"></script>
+
+
+<style type="text/css">
+	
+	#wrap_jkl {
+		width: 100%;
+		position: relative;
+		min-height: auto;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top:1%;
+		text-align: center;
+}
+	.promo_title {
+		font-size: 22px;
+		width: 99%;
+		margin-left: 1%;
+		font-weight: bold
+}
+	.promo_title span {
+		font-size: 22px;
+		width: 99%;
+		margin-left: 1%;
+		font-weight: bold;
+		color: #E31C00;
+}
+	.promo_title_minor {
+		font-size: 18px;
+		font-weight: bold;
+		margin-left: 1%;
+		margin-top: 15px;
+}
+	.promo_title_minor_w {
+		font-size: 14px;
+		margin-left: 7%;
+		font-weight: bold;
+		margin-top: 15px;
+		color: #0A4596;
+}
+	.promo_content {
+		font-size: 16px;
+		width: 98%;
+		margin-top: 5px;
+		margin-left: 2%
+}
+	.promo_content_w {
+		font-size: 12px;
+		margin-top: 7px;
+		margin-left: 10%;
+		color: #0A4596;
+		
+}
+	.promo_content span {
+		font-weight: bold;
+		font-size: 9px;
+}
+	#search input {
+		border: 7px solid #ccc;
+		width: 255px;
+		height: 58px;
+		font-size: 16px;
+		color: #333;
+		text-indent: 5px;
+		padding-right: 40px;
+	}
+	#search button {
+		background: 0 0;
+		margin: 0;
+		border: none;
+		color: #E31B00;
+		font-size: 30px;
+		position: relative;
+		line-height: 40px;
+	}
+	.prod_wrap {
+		width: 100%;
+		float: left;
+		position: relative;
+	}
+	.prod_left {
+		width: 48%;
+		margin-right: 1%;
+		float: left;
+		position: relative;
+	}
+	.prod_left img {
+		width: 100%;
+		max-width: 600px;
+		float: left;
+		position: relative;
+	}
+	.prod_right {
+		width: 48%;
+		margin-right: 1%;
+		float: left;
+		position: relative;
+	}
+	.secondinput {
+		
+	}
+	.secondclicker {
+		
+	}
+	
+@media (max-width:767px) {
+	.prod_left {
+		width: 98%;
+		margin-right: 1%;
+		margin-left: 1%;
+		float: left;
+		position: relative;
+	}
+	.prod_left img {
+		width: 100%;
+		max-width: 800px;
+		float: left;
+		position: relative;
+	}
+	.prod_right {
+		width: 98%;
+		margin-right: 1%;
+		margin-top: 2%;
+		float: left;
+		position: relative;
+	}	
+	}
+</style>
+
+
+
+
+<div id="wrap_jkl">
+	<div class="prod_wrap">
+	<div class="prod_left">
+		<div class="promo_title"><span>P. C. Richard & Son Product Reviews</span></div><br>
+		<img src="http://www.pcrichard.com/images/promos/product-review-idea_01.jpg" alt="Samsung QLED TV New for 2017." title="Samsung QLED TV New for 2017.">
+	</div>
+	<div class="prod_right">
+	<div class="promo_title_minor">Tell Us What You Think & You Can Win A $1000</div>
+	<div class="promo_content">Everyone needs a little help when making a decision on what to buy. Share your opinion and experiences with others by completing a verified online product review. If you do you will automatically be entered into a drawing to win $1000. <a href="http://www.powerreviews.com/powerreviews-sweepstakes/">See our sweepstakes rules</a> for more information.</div><br>
+	
+<img src="http://www.pcrichard.com/images/promos/PR_5_rated_stars.png" alt="Learn More." title="Learn More.">
+	
+	<div class="promo_title_minor">It's Quick & Easy!</div><br>
+	
+<div class="promo_content">1- Browse any product page and click the "write a review" text link.<br>
+  <br>
+	2- Fill out the review, rate the product and preview it for accuracy.<br><br>
+	
+			<div class="nav-container">
+				<form action="/browse" id="search" role="form">
+						<label class="sr-only" for="header-search-term"><span>Search Terms</span></label>
+						<input type="text" id="header-search-term" class="secondinput"  name="Ntt" placeholder="Search for a Product" autocomplete="off">
+						<button onclick="return doSearch('search');" onkeypress="return doSearch('search');">
+							<i class="icon-icon_search secondclicker"></i>
+						</button>
+						<input type="hidden" id="autosug_minLength" value="2">
+						<input type="hidden" id="autosug_context" value="">
+				</form></div><br>
+	
+<a href="https://www.bazaarvoice.com/legal/privacy-policy/">Read our privacy policy</a> and <label class="bv-fieldset-label-checkbox" for="bv-checkbox-reviews-termsAndConditions"> <span class="bv-fieldset-label-text"> <a href="#" class="bv-text-link bv-focusable" tabindex="0">terms &amp; conditions</a></span>  <span aria-hidden="false" class="bv-off-screen bv-field-aria-validation"></span> </label> for more information about the review process.</div><br>
+</div>	
+</div>
+</div>
+
+
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.secondclicker').click( function() {
+		$('#header-search-term').val($('.secondinput').val())
+	})
+})
+</script>
