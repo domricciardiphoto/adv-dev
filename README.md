@@ -1,5 +1,5 @@
 # Digital &amp; Paper FSI
-## This version is deprecated
+## This version is deprecated -- New Verison in Beta
 ## v2018 &amp; Current Feature Set
 
 ### Current Development info
