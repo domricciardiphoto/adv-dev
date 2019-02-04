@@ -1,0 +1,477 @@
+<script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+<link href="/images/promos/FSI-01-30-2018.min.css" rel="stylesheet" type="text/css">
+
+
+
+<style type="text/css">
+    .flyer_header {
+        width: 100%;
+        height: 20px;
+        text-align: left;
+        float: left;
+        padding-left: .5%;
+        line-height: 16px;
+        background-color: #cf171f;
+        color: #fff;
+        font-size: 10px;
+        margin-bottom: 15px;
+        padding-top: 5px;
+    }
+
+
+    @media (min-width:320px) {
+
+        .videogame33 {
+            min-height: 275px !important;
+        }
+
+
+        .fsi .videogame .dynamic .sidebar-price-list .price-row {
+            text-align: right;
+            padding-right: 2%;
+            zoom: 0.8;
+        }
+
+        .fsi .videogame33 .dynamic {
+            position: absolute;
+            bottom: 18px;
+            right: 35px;
+            width: 81%;
+            margin-right: 1%;
+            zoom: 0.7;
+        }
+
+
+        .promo_box_50 {
+            width: 100%;
+        }
+
+
+    }
+
+    @media (min-width:360px) {
+
+
+        .videogame33 {
+            min-height: 310px !important;
+        }
+
+
+        .fsi .videogame .dynamic {
+            position: absolute;
+            bottom: 18px;
+            right: 20px;
+            width: 90%;
+            margin-right: 1%;
+            zoom: .8;
+        }
+
+
+    }
+
+
+    @media (min-width:375px) {
+
+        .videogame33 {
+            min-height: 322px !important;
+        }
+
+        .fsi .videogame .dynamic {
+            position: absolute;
+            bottom: 18px;
+            right: 10px;
+            width: 85%;
+            margin-right: 1%;
+            zoom: .8;
+        }
+
+
+    }
+
+
+    @media (width:375px) {
+
+        .videogame {
+            width: 100%;
+            min-height: 216px !important;
+        }
+
+
+
+    }
+
+    @media (min-width:411px) {
+        .videogame33 {
+            min-height: 353px !important;
+        }
+
+    }
+
+
+    @media (width:414px) {
+        .videogame {
+            width: 50%;
+            min-height: 120px !important;
+        }
+
+        .fsi .videogame .dynamic .sidebar-price-list .price-row {
+            text-align: right;
+            padding-right: 6%;
+            zoom: 0.7;
+            width: 120%;
+            margin-left: -45px;
+            min-height: 20px;
+            margin-bottom: -28px !important;
+            line-height: 45px;
+        }
+
+
+        .promo_box_50 {
+            width: 50% !important;
+        }
+
+    }
+
+    @media (min-width:415px) {
+
+        .videogame33 {
+            width: 100%;
+            min-height: 325px !important;
+        }
+
+
+
+
+    }
+
+
+    @media (width:568px) {
+
+        .videogame {
+            width: 100%;
+            min-height: 163px !important;
+        }
+
+        .videogame33 {
+            width: 33% !important;
+            min-height: 225px !important;
+        }
+
+        .fsi .videogame33 .dynamic .sidebar-price-list .price-row {
+            text-align: right;
+            zoom: 0.7;
+            padding-right: 18%;
+            margin-bottom: -5px !important;
+        }
+
+        .promo_box_33 {
+            width: 33%;
+        }
+
+
+    }
+
+
+
+    @media (width:640px) {
+        .videogame33 {
+            width: 33% !important;
+            min-height: 210px !important;
+        }
+
+        .fsi .videogame33 .dynamic {
+            position: absolute;
+            bottom: 18px;
+            right: 10px;
+            width: 85%;
+            margin-right: 1%;
+            zoom: .6;
+        }
+
+        .promo_box_33 {
+            width: 33%;
+        }
+
+        .promo_box_50 {
+            width: 49%;
+        }
+
+        .videogame {
+            min-height: 185px !important;
+        }
+
+    }
+
+
+
+
+    @media (width:667px) {
+        .videogame33 {
+            width: 33% !important;
+            min-height: 240px !important;
+        }
+
+        .videogame {
+            width: 50%;
+            min-height: 193px !important;
+        }
+
+        .fsi .videogame33 .dynamic .sidebar-price-list .price-row {
+            text-align: right !important;
+            margin-left: 0px;
+            zoom: 0.5 !important;
+            padding-right: 8% !important;
+            margin-bottom: -10px !important;
+        }
+        .promo_box_33 {
+            width: 33% !important;
+        }
+
+    }
+
+
+
+    @media (width:731px) {
+        .videogame33 {
+            width: 33% !important;
+            min-height: 210px !important;
+        }
+
+        .fsi .videogame33 .dynamic {
+            position: absolute;
+            bottom: 18px;
+            right: 10px;
+            width: 85%;
+            margin-right: 1%;
+            zoom: .6;
+        }
+
+        .promo_box_33 {
+            width: 33%;
+        }
+
+    }
+
+
+    @media (width:736px) {
+        .videogame33 {
+            width: 33% !important;
+            min-height: 210px !important;
+        }
+
+        .fsi .videogame33 .dynamic {
+            position: absolute;
+            bottom: 18px;
+            right: 10px;
+            width: 85%;
+            margin-right: 1%;
+            zoom: .6;
+        }
+
+        .promo_box_33 {
+            width: 33% !important;
+        }
+
+    }
+
+
+    @media (min-width:768px) {
+
+        #menu_box_desktop_name {
+            width: 19.9% !important;
+            text-align: left;
+            padding-left: 1%;
+            padding-top: 10px;
+        }
+
+
+        .videogame33 {
+            width: 33% !important;
+            min-height: 235px !important;
+        }
+
+        .fsi .videogame33 .dynamic {
+            bottom: 6% !important;
+            zoom: .7;
+            left: 0;
+            width: 90%;
+        }
+
+        .promo_box_50 {
+            width: 50%;
+        }
+
+
+    }
+
+    @media (width:812px) {
+
+        .promo_box_50 {
+            width: 50%;
+        }
+        .videogame {
+            min-height: 233px !important;
+        }
+    }
+
+    @media (width:823px) {
+        .videogame {
+            min-height: 237px !important;
+        }
+    }
+
+
+    @media (min-width:1024px) {
+        .videogame33 {
+            min-height: 300px !important;
+        }
+
+
+
+    }
+
+    @media (min-width:1025px) {
+
+        .videogame33 {
+            min-height: 350px !important;
+        }
+
+
+        .fsi .videogame33 .dynamic .sidebar-price-list .price-row,
+        .fsi .videogame33b .dynamic .sidebar-price-list .price-row {
+            text-align: right;
+        }
+
+        .fsi .videogame33 .dynamic {
+            bottom: 6% !important;
+            zoom: .8;
+            right: 0px;
+            width: 90%;
+        }
+
+        #menu_box_desktop_name {
+            width: 16.9% !important;
+            padding-top: 9px;
+        }
+
+
+    }
+</style>
+
+
+<div class="flyer_header">
+    <h1>P.C. Richard &amp; Son :
+        <span id="ae6">Weekly Circular</span>
+    </h1>
+</div>
+<div class="swipe_cats_info">Swipe Left On Categories For More!</div>
+<div id="submenu">
+    <div id="ae4" class="submenu_overflow">
+
+        <div class="submenu_button" data="0">
+            <i class="icon-icon_appliances"></i>
+            <div class="undermenu">Appliances</div>
+        </div>
+
+
+        <div class="submenu_button" data="7">
+            <i class="icon-icon_grill"></i>
+            <div class="undermenu">BBQs</div>
+        </div>
+
+
+        <div class="submenu_button" data="8">
+            <i class="icon-icon_tv"></i>
+            <div class="undermenu">HDTVs</div>
+        </div>
+
+
+
+        <div class="submenu_button" data="13">
+            <i class="icon-icon_heater"></i>
+            <div class="undermenu">Home Audio</div>
+        </div>
+
+
+        <div class="submenu_button" data="14">
+            <i class="icon-icon_bed"></i>
+            <div class="undermenu">Mattresses &amp; Recliners</div>
+        </div>
+
+
+        <div class="submenu_button" data="16">
+            <i class="icon-icon_headphones"></i>
+            <div class="undermenu">Portable Audio</div>
+        </div>
+
+
+        <div class="submenu_button" data="17">
+            <i class="icon-icon_homeAutomation"></i>
+            <div class="undermenu">Smart Home</div>
+        </div>
+
+    </div>
+</div>
+<div id="menu_box_desktop_name">
+    <h2>
+        <strong>Digital Circular</strong>
+    </h2>
+</div>
+<div id="menu_box_desktop">
+    <div class="page_num">
+        <div id="ae1">
+            <div id="ae2">PAGE&nbsp;</div>
+            <input id="pageof" aria-label="Type a page number to jump to and press Enter" alt="Type a page number to jump to and press Enter"
+                role="textbox" maxlength="2">&nbsp;OF&nbsp;&nbsp;
+            <span id="pages_total"></span>
+        </div>
+    </div>
+    <div class="menu_number_overflow"></div>
+</div>
+<div id="fsi_wrapper">
+        <div class="fsi" id="pg0" data2="Appliances"></div>
+
+
+</div>
+
+
+
+<script type="text/babel">
+
+ const Page1 = () => (
+    <div class="internalflyer">
+    <div class="promo_box_940" data="/help-center/shipping-info">
+        <img src="/images/promos/flyer-3-8-18-pg1-hero1.jpg" alt="Next Day Shipping"/>
+    </div>
+    <div class="promo_box_940" data="/category/Appliances-Housewares/Kitchen-Appliances/Refrigerators/_/N-1fdz1nb">
+        <img src="/images/promos/flyer-3-8-18-pg1-hero2.jpg" alt="Refrigerators"/>
+    </div>
+    <div class="promo_box_940" data="/our-company/history">
+        <img src="/images/promos/flyer-3-8-18-pg1-hero3.jpg" alt="About PCR"/>
+    </div>1
+    <div class="promo_box" data="/browse/_/N-d3zn94?Ns=sku.sortPrice%7C0&Ntt=ra7306wt+wwtr1821tw+ftmd18p4ts&Ntx=mode+matchany"></div>
+    <div class="promo_box_940" data="/library/videoArticle/Refrigerators-Buying-Guide/400713.pcrv">
+        <img src="/images/promos/flyer-3-8-18-pg1-hero4.jpg" alt="Refrigerator Buying Guide"/>
+    </div>
+    <div class="promo_box" data="/browse/_/N-d3zn94?Ns=sku.sortPrice%7C0&Ntt=ffss2615ts+WRS571CIDM+rh22h9010sr&Ntx=mode+matchany"></div>
+    <div class="promo_box_940" data="/content/employee-pricing-more">
+        <img src="/images/promos/flyer-3-8-18-pg1-hero5.jpg" alt="Employee Pricing"/>
+    </div>
+    <div class="promo_box" data="/browse/_/N-d3zn94?Ns=sku.sortPrice%7C0&Ntt=GNE25JSKSS+RF263bEAESR+LFXC247965&Ntx=mode+matchany"></div>
+</div>
+  )
+
+        ReactDOM.render(
+        <Page1/>,
+         document.getElementById('pg0') 
+        );
+
+
+$('.promo_box_940').each(function() {
+    $(this).wrap('<a href="http://www.google.com"></a>')
+})
+
+</script>
+
