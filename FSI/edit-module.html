@@ -1,27 +1,591 @@
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,700italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto:700,900,400,300,100' rel='stylesheet' type='text/css' />
+<style>
+
+    #lp-wrapper {
+        float: left;
+        position: relative;
+        width: 98%;
+        height: auto;
+        word-wrap: normal;
+        margin: 20px 0px 0px 1%;
+    }
+
+        #lp-wrapper img {
+            max-width: 100%;
+            width: 100%;
+            display: block;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        #lp-wrapper sup {
+            font-size: 10px;
+            color: #0078d7;
+        }
+
+    .gray-rule {
+        width: 100%;
+        height: 1px;
+        float: left;
+        background-color: #cccccc;
+        margin: 3% 0% 3% 0%
+    }
+
+    .font-type-1 {
+        font-family: 'Roboto:', sans-serif;
+        font-weight: 100;
+        color: #333333;
+    }
+
+    .font-type-2 {
+        font-family: 'Roboto:', sans-serif;
+        font-weight: 300;
+        color: #333333;
+    }
+
+    .font-type-3 {
+        font-family: 'Roboto:', sans-serif;
+        font-weight: 400;
+        color: #333333;
+    }
+
+    .font-type-4 {
+        font-family: 'Roboto:', sans-serif;
+        font-weight: 700;
+        color: #333333;
+    }
+
+    .font-type-5 {
+        font-family: 'Roboto:', sans-serif;
+        font-weight: 900;
+        color: #333333;
+    }
+
+    .header-text h1 {
+        font-family: 'Roboto:', sans-serif;
+        font-weight: 700;
+        font-size: 1.6em;
+        line-height: 36px;
+        color: #e9bb2d;
+        text-align: left;
+        padding: 0% 0% 0% 3%;
+    }
+
+    .sub-header-text p {
+        font-family: 'Roboto:', sans-serif;
+        font-weight: 300;
+        font-size: 1.4em;
+        line-height: 30px;
+        width: 100%;
+        height: auto;
+        text-align: left;
+        color: #000000;
+        padding: 0% 0% 0% 4%;
+    }
+
+    .plain-text p {
+        font-family: 'Roboto:', sans-serif;
+        font-weight: 300;
+        font-size: 0.875em;
+        line-height: 20px;
+        width: 100%;
+        height: auto;
+        text-align: left;
+        padding: 0% 4% 4% 4%;
+        color: #000000;
+    }
+
+    .plain-text ul li {
+        font-family: 'Roboto:', sans-serif;
+        font-weight: 300;
+        font-size: 0.875em;
+        line-height: 14px;
+        width: 100%;
+        height: auto;
+        text-align: left;
+        list-style-type: disc;
+        color: #000000;
+        padding: 1% 1% 1% 2%;
+    }
+
+    .promo-header-text p {
+        font-family: 'Roboto:', sans-serif;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 28px;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 4% 4% 0% 4%;
+    }
+
+    .promo-plain-text p {
+        font-family: 'Roboto:', sans-serif;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 18px;
+        width: 100%;
+        height: auto;
+        text-align: left;
+        color: #FFFFFF;
+        padding: 0% 0% 4% 0%;
+    }
+
+
+    .lg-button-box {
+        float: left;
+        position: relative;
+        width: 50%;
+        height: auto;
+        margin: 4% 0% 0% 4%
+    }
+
+    .sm-button-box {
+        float: left;
+        position: relative;
+        width: 25%;
+        height: auto;
+        margin: 2% 0% 0% 5%
+    }
+
+    .button {
+        width: 100%;
+        height: 30px;
+        float: left;
+        background-color: #CC0000;
+        moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border: 1px solid #CC0000;
+        text-align: center;
+        position: relative;
+    }
+
+        .button:hover {
+            background-color: #666666;
+        }
+
+    .buynow {
+        margin-top: 0px;
+        text-align: center;
+    }
+
+        .buynow a {
+            color: #FFF;
+            text-decoration: none;
+            font-family: 'Roboto:',sans-serif;
+            font-weight: 100;
+            font-size: 14px;
+            line-height: 30px;
+        }
+
+    .header-container {
+        float: left;
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding-bottom: 2%;
+        margin-bottom: 2%;
+        background-color: #FFFFFF
+    }
+
+    .header-text-box {
+        float: left;
+        position: relative;
+        width: 100%;
+        height: auto
+    }
+
+    .hero-lg-img-box {
+        float: left;
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin-bottom: 2%
+    }
+
+    #carousel-1 {
+        width: 100%;
+        height: auto;
+        float: left;
+        position: relative;
+    }
+
+    .container-monetate {
+        float: left;
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin: 0% 0% 5% 0%;
+        padding: 0% 0% 0% 0%
+    }
+
+    .container-row {
+        float: left;
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin: 0% 0% 5% 0%;
+        padding: 0% 0% 0% 0%
+    }
+
+    .container-100 {
+        float: left;
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin: 0% 0% 0% 0%;
+        padding: 0% 0% 0% 0%
+    }
+
+    .container-75 {
+        float: left;
+        position: relative;
+        width: 75%;
+        height: auto;
+        margin: 0% 0% 0% 0%;
+        padding: 0% 0% 0% 0%
+    }
+
+    .container-50 {
+        float: left;
+        position: relative;
+        width: 50%;
+        height: auto;
+        margin: 0% 0% 0% 0%;
+        padding: 0% 0% 0% 0%
+    }
+
+    .container-25 {
+        float: left;
+        position: relative;
+        width: 25%;
+        height: auto;
+        margin: 0% 0% 0% 0%;
+        padding: 0% 0% 0% 0%
+    }
+
+    .video-box {
+        float: left;
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    .lg-img-box {
+        float: left;
+        position: relative;
+        width: 80%;
+        height: auto;
+        padding: 0% 0% 0% 0%;
+    }
+
+    .sm-img-box {
+        float: left;
+        position: relative;
+        width: 98%;
+        height: auto;
+        border: 1px solid #000000;
+        padding: 1%;
+        margin: 0% 1% 4% 1%
+    }
+
+    .plain-text-box {
+        float: left;
+        position: relative;
+        width: 90%;
+        height: auto;
+        margin: 0% 10% 0% 0%;
+    }
+
+    .ordered-list-box {
+        float: left;
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 0% 0% 0% 8%
+    }
+
+    #lcVideoWrapper {
+        width: 100%;
+        padding-bottom: 56.25%;
+        height: 0px;
+    }
 
 
 
+    @media (max-width: 1024px) {
+        .promo-text-box-1 {
+            width: 83%;
+            padding: 0% 0% 1% 0%;
+        }
+
+        .promo-text-box-2 {
+            width: 100%;
+            padding: 0% 0% 0% 0%;
+            margin: 0% 0% 0% 0%;
+        }
+
+        .promo-cc-box {
+            width: 15%;
+            margin: 5% 0% 0% 0%;
+        }
+
+        .promo-header-text p {
+            font-size: 18px;
+            line-height: 24px;
+            padding: 4% 4% 0% 4%;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .container-50 {
+            width: 100%;
+            margin: 0% 0% 5% 0%;
+        }
+
+        .container-25 {
+            width: 50%;
+            margin: 0% 0% 5% 0%;
+        }
+
+        .lg-img-box {
+            width: 95%;
+            padding: 0% 0% 0% 0%;
+            margin: 0% 0% 0% 0%;
+        }
+
+        .promo-text-box-1 {
+            width: 100%;
+        }
+
+        .promo-text-box-2 {
+            width: 100%;
+            padding: 3.5% 5% 6% 5%;
+            margin: 0% 0% 0% 0%;
+        }
+
+        .promo-cc-box {
+            width: 20%;
+            margin: 0% 40% 2% 40%;
+        }
+
+        .promo-header-text p {
+            font-size: 18px;
+            line-height: 28px;
+            padding: 4% 4% 0% 4%;
+        }
+    }
 
 
+    @media (max-width: 414px) {
+        .header-text h1 {
+            font-size: 22px;
+            line-height: 30px;
+            font-weight: 400;
+            text-align: center
+        }
 
+        .container-50 {
+            width: 100%;
+            margin: 0% 0% 5% 0%;
+        }
 
+        .container-25 {
+            width: 100%;
+            margin: 0% 0% 5% 0%;
+        }
 
+        .lg-img-box {
+            width: 100%;
+            padding: 0% 0% 0% 0%;
+            margin: 0% 0% 0% 0%;
+        }
 
+        .promo-text-box-1 {
+            width: 90%;
+            padding: 0% 0% 0% 10%;
+        }
 
-<div class="internalflyer">
-        <div class="promo_box_940" data="/customer-service/pcr-credit-card"><img src="/images/promos/flyer-2-7-19-pg13-hero1.jpg"
-                        alt="Financing"></div>
-        <div class="promo_box_940" data="/browse/_/N-d3zn94Z1wlwdfj?Ntt=S1PRO+PARTYSYSTEMX+ST6000++PK7&Ntx=mode+matchany&nofollow=1"><img
-                        src="/images/promos/flyer-2-7-19-pg13-hero2.jpg" alt="Bluetooth Party Speakers"></div>
-        <div class="promo_box_940" data="/browse/_/N-d3zn94Z1wlwdfj?Ntt=S1PRO+PARTYSYSTEMX+ST6000++PK7&Ntx=mode+matchany&nofollow=1"><img
-                        src="/images/promos/flyer-2-7-19-pg13-hero3.jpg" alt="In Store Displays"></div>
-        <div class="promo_box" data="/browse?Ntt=ep360+st6000+partyrockerx"></div>
-        <div class="promo_box_940" data="/category/Home-Portable-Audio/Home-Audio/Turntables/_/N-y41x8u"><img src="/images/promos/flyer-2-7-19-pg13-hero4.jpg"
-                        alt="Turntables"></div>
-        <div class="promo_box getlarge" data="/browse/_/N-d3zn94Zrxro7dZ9f3uo8?Ns=sku.sortPrice%7C0&Ntt=atlp60+atlp60bkbt+atlp120usb&Ntx=mode+matchany&_=1549310060787&nofollow=1"></div>
-        <div class="promo_box_940" data="/browse/_/N-d3zn94?Ns=sku.sortPrice%7C0&Ntt=rn303bl+sa5amp+ampg1us1blk&Ntx=mode+matchany"><img
-                        src="/images/promos/flyer-2-7-19-pg13-hero5.jpg" alt="Yamaha Bose Sonos"></div>
-        <div class="promo_box" data="/browse/_/N-d3zn94?Ns=sku.sortPrice%7C0&Ntt=rn303bl+sa5amp+ampg1us1blk&Ntx=mode+matchany"></div>
-        <div class="promo_box_940" data="/help-center/in-store-pickup"><img src="/images/promos/flyer-2-7-19-pg13-hero6.jpg"
-                        alt="In Store Pickup"></div>
+        .promo-text-box-2 {
+            width: 100%;
+            padding: 0% 2% 0% 2%;
+            margin: 0% 0% 0% 0%;
+        }
+
+        .promo-cc-box {
+            width: 20%;
+            margin: 0% 40% 2% 40%;
+        }
+
+        .promo-header-text p {
+            font-size: 16px;
+            line-height: 22px;
+            padding: 4% 4% 0% 4%;
+        }
+    }
+</style>
+<div id="lp-wrapper">
+    <div class="header-container">
+        <div class="hero-lg-img-box "><img src="/images/promos/SunBrite-hero-img-ver2.jpg" width="auto" height="auto" alt="SunBrite The Original Outdoor Television" /></div>
+    </div>
+    <div class="container-row">
+        <div class="container-50">
+            <div class="header-text-box">
+                <div class="header-text">
+                    <h1>SunBriteTV All-Weather Outdoor TVs</h1>
+                </div>
+            </div>
+            <div class="plain-text-box">
+                <div class="plain-text"><p>Turn your backyard into a luxurious year-round retreat with SunBriteTV All-Weather TVs. Built for permanent outdoor installations, SunBrite outdoor televisions feature a weather-proof housing to protect it from the seasons, and an extra-bright LED screen for a vividly clear picture day or night.</p></div>
+
+                <div class="plain-text">
+                    <p>
+                        <bold>SunBrite TVs</bold>
+                        come in 3 distinct series; each uniquely designed for specific outdoor locations, light conditions, and  outdoor activities. Choose the
+                        <bold>Veranda Series</bold> if you’re using in low activity, fully-shaded locations such as a covered patio or screened porch. For higher activity areas with partial sun such as a canopied deck or under a pergola, the <bold>Signature Series</bold> is the ideal choice. For areas that are most active and receive direct sunlight, such as poolside or bar side, select the <bold>Pro Series</bold> for its extremely bright screen and commercial-grade durability.
+                    </p>
+                </div>
+            </div>
+            <div class="lg-button-box">
+                <div class="button">
+                    <div class="buynow"><a href="/category/Shop-by-Brand/SunBrite-TV/SunBrite-TV-Outdoor-TVs/_/N-1on668z">Shop All SunBrite Outdoor TVs</a></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container-50">
+
+            <div id="lcVideoWrapper">
+                <script type="text/javascript" src="//sc.liveclicker.net/service/getEmbed?client_id=7106&widget_id=1543214296&player_custom_id=3699&amp;div_id=lcVideoWrapper"></script>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-row">
+        <div class="container-25">
+            <div class="sm-img-box"> <img src="/images/promos/SunBrite-product-safety-img.jpg" alt="SunBrite TV product safety record" title="safety" /> </div>
+            <div class="plain-text"><p style="text-align:center">With a product safety record of over 10 years, SunBrite TVs are completely safe</p></div>
+        </div>
+        <div class="container-25">
+            <div class="sm-img-box"><img src="/images/promos/SunBrite-bright-led-display-img.jpg" alt="SunBrite TV Extra bright LED displays and anti-reflective screens" title="anti-reflective" /></div>
+            <div class="plain-text">
+                <p style="text-align:center">Extra bright LED displays and anti-reflective screens provide for <br />exceptional viewing</p>
+            </div>
+        </div>
+        <div class="container-25">
+            <div class="sm-img-box"><img src="/images/promos/SunBrite-lock-out-moisture-img.jpg" alt="SunBrite TV lock out moisture" title="lock out moisture" /></div>
+            <div class="plain-text">
+                <p style="text-align:center">Specially designed to lock out moisture of all kinds-fog, rain, sleet or snow</p>
+            </div>
+        </div>
+        <div class="container-25">
+            <div class="sm-img-box"><img src="/images/promos/SunBrite-water-tight-cable-img.jpg" alt="SunBrite TV water-tight door" title="protect cables with a water-tight door" /></div>
+            <div class="plain-text">
+                <p style="text-align:center">Seal out moisture and protect cables with a water-tight door</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-row">
+        <div class="container-50">
+            <div class="lg-img-box "><img src="/images/promos/SunBrite-veranoa-series-lifestyle-img.jpg" alt="SunBrite TV Signature Series " title="SunBriteTV Veranda Series - Full Shade / Low Activity" /></div>
+        </div>
+        <div class="container-50">
+            <div class="sub-header-text">
+                <p>SunBriteTV Veranda Series - Full Shade / Low Activity</p>
+                <span class="plain-text"><p>The perfect choice for full-shade applications, delivers up to 30% brighter images than standard TVs, 4K Ultra HD resolution and a durable all-weather design.</p></span>
+            </div>
+            <div class="ordered-list-box">
+                <div class="plain-text">
+                    <ul>
+                        <li>Weather-Resistant Aluminum Exterior protects against rain, snow, salt air & more</li>
+                        <li>Operates in Temperatures from -24° to 104°F</li>
+                        <li>Weather-tight cable entry system seals out moisture and allows for easy cable connections</li>
+                        <li>Built-in 20 watt Down-firing All-Weather Speaker System</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sm-button-box">
+                <div class="button">
+                    <div class="buynow"><a href="/browse?Ntt=SunBriteTV+Veranda+Series">Shop Now</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-row">
+        <div class="container-50">
+            <div class="lg-img-box "><img src="/images/promos/SunBrite-signature-series-lifestyle-img.jpg" alt="SunBrite TV Signature Series " title="SunBriteTV Signature Series - Partial Sun / Mild Activity" /></div>
+        </div>
+        <div class="container-50">
+            <div class="sub-header-text">
+                <p>SunBriteTV Signature Series - Partial Sun / Mild Activity</p>
+                <span class="plain-text"><p>Ideal for partial sun locations, provides up to 3 times the brightness of standard TVs, anti-glare technology and 4K Ultra HD resolution.</p></span>
+            </div>
+            <div class="ordered-list-box">
+                <div class="plain-text">
+                    <ul>
+                        <li>Weather-Resistant Aluminum Exterior protects against rain, snow, salt air & more</li>
+                        <li>Operates in Temperatures from -24° to 122°F</li>
+                        <li>OptiView 1-touch Settings optimize picture quality for day/night viewing</li>
+                        <li>Anti-Reflective Glass provides a clearer image </li>
+                        <li>Weather-tight cable entry system seals out moisture and allows for easy cable connections</li>
+                        <li>Optional Detachable 20 watt All-Weather Sound Bar Speaker System</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sm-button-box">
+                <div class="button">
+                    <div class="buynow"><a href="/browse/_/N-d3zn94Z13kvlh2?Ntt=Signature+Series+Outdoor+TV&nofollow=1">Shop Now</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-row">
+        <div class="container-50">
+            <div class="lg-img-box "> <img src="/images/promos/SunBrite-pro-series-lifestyle-img.jpg" alt="SunBrite TV Pro Series " title="SunBriteTV Pro Series - Direct Sun / High Activity " /></div>
+        </div>
+        <div class="container-50">
+            <div class="sub-header-text">
+                <p>SunBriteTV Pro Series - Direct Sun / High Activity </p>
+                <span class="plain-text"><p>Designed for full sun installations, it’s capable of producing stunningly vibrant images in the harshest light conditions. Tempered glass protects the LED screen and EST Technology guards against screen-damaging solar spots (Isotropic Blackout).  </p></span>
+            </div>
+            <div class="ordered-list-box">
+                <div class="plain-text">
+                    <ul>
+                        <li>Weather-Resistant Aluminum Exterior protects against rain, snow, salt air & more</li>
+                        <li>Operates in Temperatures from -40° to 122°F</li>
+                        <li>Anti-Reflective Tempered Glass protects against outdoor elements and activities</li>
+                        <li>Weather-tight cable entry system seals out moisture and allows for easy cable connections</li>
+                        <li>Detachable 20 watt All-Weather Sound Bar Speaker System Included</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sm-button-box">
+                <div class="button">
+                    <div class="buynow"><a href="/browse/_/N-d3zn94Z13kvlh2?Ntt=Pro+Series+Outdoor+TV&nofollow=1">Shop Now</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-monetate">
+        <div class="sub-header-text"><p>Shop All SunBriteTV Outdoor Televisions</p></div>
+        <div id="carousel-1"></div>
+    </div>
 </div>
+<!--<script>
+
+$(window).load(function() {
+    $("#Liveclicker_video_1543214296").delay(600).css('width' , '100%')
+    $("#Liveclicker_outer_1543214296").delay(600).css('width' , '100%')
+    $('#Liveclicker_thumbnail_1543214296').delay(600).css('width', '100%')
+    $("#Liveclicker_thumbnail_1543214296").children('img').css('width' , '100%')
+    $('#Liveclicker_video_1543214296').children('embed').css('width' , '100%')
+})
+
+
+</script>-->
