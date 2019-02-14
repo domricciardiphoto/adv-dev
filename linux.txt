@@ -10,4 +10,9 @@ this is additonal test
 this is from main machine   ---ttt mac ---
 
 
+nano info success!!!
+
+
+vim info suceess!!!1
+
  
