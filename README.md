@@ -231,11 +231,11 @@ Requires a 33% element to fill the hole on desktop
 `<div class="promo_box getlarge2" data="/browse?Ntt=UN75MU8000+UN75MU9000"></div>`
 
 ### Dynamic Graphical element with dynamic pricing
-1: singlepromo       -- one product with price image on background go to product with link \
-2: singlepromo-multi -- one product with price image on background go to LINK with data2 attribute \
-3: package           -- show four products no pricing image on top \
-4: powerpair         -- show two products no pricing image on top \
-5: lp_package-d      -- show pricing on package or powerpair
+1: `singlepromo`       -- one product with price image on background go to product with link \
+2: `singlepromo-multi` -- one product with price image on background go to LINK with data2 attribute \
+3: `package`           -- show four products no pricing image on top \
+4: `powerpair`         -- show two products no pricing image on top \
+5: `lp_package-d `     -- show pricing on package or powerpair
 
 ```HTML
 <div class="promo_box singlepromo singlepromo-multi videogame" data="FB502SBKL" data2="/browse?Ntt=FB502S*"
