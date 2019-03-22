@@ -238,14 +238,13 @@ style="background-image:url(/images/promos/flyer-12-31-17-pg21-hero18.jpg)">
 <div class="promo_des_price"></div>
 </div>
 
+<div class="promo_box package" data="/browse?Ntt=wtw5000dw+wed5000dw">
+<a href="/browse?Ntt=wtw5000dw+wed5000dw"><img class="package_image_d" src="/images/promos/flyer-3-24-19-pg20-hero2.jpg" alt="Frigidaire Package"></a>
+</div>
 
-      <div class="promo_box package powerpair lp_package-d"
-        data="/browse/_/N-d3zn94?Ns=sku.sortPrice%7C0&Ntt=wtw5000dw+wed5000dw&Ntx=mode+matchany">
-        <a href="/browse/_/N-d3zn94?Ns=sku.sortPrice%7C0&Ntt=wtw5000dw+wed5000dw&Ntx=mode+matchany"><img
-        class="package_image_d" src="/images/promos/flyer-3-24-19-pg20-hero2.jpg" alt="Frigidaire Package"></a>
-    </div>
-
-
+<div class="promo_box package powerpair lp_package-d" data="/browse?Ntt=wtw5000dw+wed5000dw">
+<a href="/browse?Ntt=wtw5000dw+wed5000dw"><img class="package_image_d" src="/images/promos/flyer-3-24-19-pg20-hero2.jpg" alt="Frigidaire Package"></a>
+</div>
 
 ```
 
