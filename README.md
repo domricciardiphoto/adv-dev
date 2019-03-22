@@ -232,6 +232,10 @@ Requires a 33% element to fill the hole on desktop
 
 ### Dynamic Graphical element with dynamic pricing
 
+1: package    (default) \
+2: powerpair  (show only two) \
+3: lp_package-d (show pricing)
+
 ```HTML
 <div class="promo_box singlepromo singlepromo-multi videogame" data="FB502SBKL" data2="/browse?Ntt=FB502S*"
 style="background-image:url(/images/promos/flyer-12-31-17-pg21-hero18.jpg)">
