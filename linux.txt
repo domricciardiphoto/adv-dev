@@ -13,6 +13,8 @@ this is from main machine   ---ttt mac ---
 nano info success!!!
 
 
-vim info suceess!!!1
+vim info suceess!!!
+
+ttt mobile update
 
  
