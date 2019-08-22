@@ -1,0 +1,62 @@
+{
+  "dir": "auto",
+  "lang": "en-US",
+  "name": "P.C. Richard & Son",
+  "short_name": "P.C.Richard & Son",
+  "scope": "/",
+  "start_url": "https://apps.pcrichard.com:8082/golf/index.php",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#0054a6",
+  "description": "P.C. Richard and Son",
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/images/app-images/pcrwebapp1922017.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/app-images/pcrwebapp5122017.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/app-images/pcrwebapp3842017.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/app-images/pcrwebapp2562017.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/app-images/pcrwebapp1522017.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/app-images/pcrwebapp1442017.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/app-images/pcrwebapp1442017.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/app-images/pcrwebapp962017.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/app-images/pcrwebapp482017.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#0054a6"
+}

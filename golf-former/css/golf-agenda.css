@@ -1,0 +1,89 @@
+.content .day:first-of-type {
+    margin-top:20px;
+} 
+    
+    .day {
+        width: 76%;
+        float: left;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 12%;
+    }
+    
+        .day_name {
+            width: 100%;
+            font-size: 1.9em;
+            font-weight: 500;
+            padding-bottom: 5px;
+            float: left
+        }
+    
+        .day_date {
+        width: 100%;
+        color: #D71920;
+        border-bottom: 1px solid #ccc;
+        font-size: 1.2em;
+        padding-bottom: 13px;
+        float: left;
+    }
+    
+    .day_info {
+        width: 100%;
+        float: left;
+        line-height: 20px;
+        color:rgba(0,0,0,0.6);
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+        
+    .day_time {
+        width: 20%;
+        float: left;
+        text-align: center;
+      
+        max-width: 90px;
+        font-size: 0.875em;
+        color: rgba(0,0,0,0.6);
+    
+    }
+    
+        .day_description {
+         width: 75%;
+         float: left;
+         padding-left: 15px;
+         padding-top: 3px;
+         border-left: 3px solid #D71920;
+         min-height: 50px;
+        }
+    
+        .day_description a {
+            color: #5b86b8;
+        }
+        
+    
+        .dark_small {
+            font-size: 0.8em;
+            color: rgba(0,0,0,0.6);
+        }
+        @media (max-width: 767px) {
+            .day {
+        width: 96%;
+        margin-left: 2%;
+    }
+    .day_description {
+        width: 74%;
+        float: left;
+        padding-left: 15px;
+        padding-top: 0px;
+        font-size: 0.875em;
+    }
+    .day_time {
+        width: 18%;
+        font-size: 0.8em;
+    
+    
+    }
+    
+    
+        }
+        

@@ -1,0 +1,165 @@
+#rsvpInitial {
+    width: auto;
+        border: 1px solid #ccc;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 400px;
+        line-height: 20px;
+    }
+    
+    input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+        border: none;
+        font-size: 1.2em;
+        cursor:pointer;
+    }
+    
+    .including {
+        width:80%;
+        min-height:350px;
+        margin-bottom:20px;
+        margin-left:10%;
+       
+    
+    }
+    
+    .including .including-fac {
+        width:100%;
+        border-bottom:1px solid #ccc;
+        line-height: 40px;
+        font-size: 1em;
+    
+    }
+    
+    
+    
+    .including .including-fac:last-of-type {
+        font-size: 0.75em;
+    }
+    
+    .kindly {
+        width: 100%;
+        border: 1px solid #ccc;
+        font-size: 1.8em;
+        line-height: 50px;
+        text-align: center;
+        margin-bottom: 10px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+        float: left;
+        margin-top: 20px;
+        color:#333;
+    }
+    .including ul {
+        list-style: none;
+    }
+    
+    .including ul li {
+        border-bottom: 1px solid #ccc;
+        font-size: 1em;
+        line-height: 20px;
+        background-image: url(../images/tick-mark-symbol-red.png);
+        background-repeat: no-repeat;
+        background-size: 20px;
+        padding-left: 35px;
+        background-position: 4px 14px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+    }
+    
+    .including ul li:first-of-type {
+        font-weight: 600;
+        font-size: 1.3em;
+        background-image: none;
+        padding-left: 0px;
+        color:#333;
+    }
+    
+    .including ul li:last-of-type {
+        font-size: 0.75em;
+        background-image: none;
+        padding-left: 0px;
+    }
+    
+    #submitRSVP {
+        text-align: center;
+        border: 1px solid #ccc;
+        padding: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    #content2 {
+        margin-bottom:50px;
+   min-height: 272px; 
+    }
+   
+    #rsvp1 {
+    background-image: url(../images/box-button.png);
+    background-size: 5%;
+    background-repeat: no-repeat;
+    background-position: 75px 3px;
+    width: 100%;
+    background-color: transparent;
+    }
+
+    #rsvp2 {
+        background-image: url(../images/box-button.png);
+        background-size: 5%;
+        background-repeat: no-repeat;
+        background-position: 98px 3px;
+        width: 100%;
+        background-color: transparent;
+    }
+
+    #attendingInformation {
+        display: none;
+    }
+
+    legend {
+        color:#333;
+    }
+
+    @media (max-width: 767px) {
+
+
+        .including {
+            width: 94%;
+            min-height: 350px;
+            margin-bottom: 20px;
+            margin-left: 3%;
+        }
+
+        #rsvp1 {
+            background-image: url(../images/box-button.png);
+            background-size: 5%;
+            background-repeat: no-repeat;
+            background-position: 75px 3px;
+            width: 100%;
+            background-color: transparent;
+        }
+        #rsvp2 {
+            background-image: url(../images/box-button.png);
+            background-size: 5%;
+            background-repeat: no-repeat;
+            background-position: 93px 3px;
+            width: 100%;
+            background-color: transparent;
+        }
+        .including ul {
+            list-style: none;
+            width: 100%;
+            margin-left: -10%;
+        }
+
+
+    }
+
+    .content-wrapper {
+        position: absolute;
+        float: none;
+    }
+    
+    .footer {
+        position: fixed;
+        float: none;
+    }

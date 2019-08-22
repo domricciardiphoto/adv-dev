@@ -1,0 +1,288 @@
+
+
+.email_100 {
+    width: 100%;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.email_1002 {
+    width: 80%;
+    margin-left: 8%;
+    border: 1px solid rgb(216, 216, 216);
+    -webkit-border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px;
+    float: left;
+    margin-top: 30px;
+    padding: 15px;
+    margin-bottom: 132px;
+}
+
+        .email_50:nth-child(2) {
+            padding-left: 1%;
+            float: right
+        }
+
+
+        .email_50 {
+            width: 48%;
+            float: left;
+            padding-bottom: 15px;
+            padding-top: 15px;
+            margin-bottom: 15px;
+            padding-left: 1%;
+            margin-top:20px;
+        }
+
+        .email_50:first-of-type {
+            border-right: 1px solid rgb(216, 216, 216);
+            
+        }
+
+        .email_50:first-of-type {
+            border-right: 1px solid rgb(216, 216, 216);
+        }
+
+        .contact_title {
+            color: rgba(0, 0, 0, 0.6);
+            font-family: "Helvetica Neue";
+            font-size: 13.26px;
+            letter-spacing: 2px;
+            line-height: 16px;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+        }
+
+
+        .contact_name {
+            color: rgba(0, 0, 0, 0.87);
+            font-family: "Helvetica Neue";
+            font-size: 24.53px;
+            font-weight: 500;
+            line-height: 30px;
+        }
+
+        .contact_contact {
+            width: 100%;
+            float: left;
+        }
+
+        .contact_contact a {
+            color: #333;
+        }
+
+        .contact_email, .contact_phone {
+    width: 40%;
+    float: left;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: "Helvetica Neue";
+    font-size: 12.26px;
+    letter-spacing: 0.4px;
+    line-height: 16px;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    background-size: 15px;
+    background-position: 0px;
+}
+
+        .contact_email {
+            background-image: url('../images/icon-email-24.png');
+            padding-left: 0px;\
+        }
+
+        .contact_phone {
+    background-image: url(../images/icon-phone-24.png);
+    margin-left: 0%;
+    border-left: 1px solid rgb(216, 216, 216);
+    background-position: 10px;
+    padding-left: 38px;
+    text-align: right;
+    float: left;
+    width: 20%;
+    margin-left: 15%;
+}
+
+
+        .contact_form_title {
+            width: 100%;
+            color: rgba(0, 0, 0, 0.87);
+            font-family: "Helvetica Neue";
+            font-size: 20.44px;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        .email_1002 form input {
+            width: 97.6%;
+            height: 56px;
+            border: 1px solid rgba(0, 0, 0, 0.32);
+            border-radius: 4px;
+            margin-bottom: 20px;
+            padding-left: 2%;
+            font-size: 1em;
+        }
+
+        .email_1002 form textarea {
+            height: 133px;
+            width: 97.5%;
+            border: 1px solid rgba(0, 0, 0, 0.32);
+            border-radius: 4px;
+            padding-left: 2%;
+            font-size: 1em;
+            padding-top: 15px;
+        }
+
+        input[type=button],
+        input[type=submit],
+        input[type=reset] {
+            background-color: #D71920;
+            border: none !important;
+            color: #fff;
+            padding-top: 0px;
+            text-decoration: none;
+            cursor: pointer;
+            width: 150px !important;
+            float: right;
+            font-size: 1em;
+            padding-bottom: 0px;
+            height: 40px !important;
+            margin-top: 10px;
+            background-image: url(../images/icon-email-24.png);
+            background-repeat: no-repeat;
+            background-position: 35px 14px;
+            background-size: 12%;
+            padding-left: 25px;
+        }
+
+
+        input[type=submit]:hover {
+            opacity: 0.8;
+            zoom: 1.05;
+        }
+
+        @media (width: 768px) {
+
+            .contact_title {
+    color: rgba(0, 0, 0, 0.6);
+    font-family: "Helvetica Neue";
+    font-size: 0.675em;
+    letter-spacing: 2px;
+    line-height: 16px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.email_1002 {
+    margin-bottom: 175px;
+}
+
+.email_50 {
+    padding-left: 0%;
+}
+
+.contact_email {
+
+    padding-left: 0px;
+
+}
+
+
+
+        }
+
+
+
+        @media (max-width: 767px) {
+
+            .email_50 {
+                width: 100%;
+                border: none;
+            }
+
+            .email_1002 {
+                width: 89%;
+                margin-left: 1%;
+                border: 1px solid rgb(216, 216, 216);
+                -webkit-border-radius: 3px 3px 3px 3px;
+                border-radius: 3px 3px 3px 3px;
+                min-height: 500px;
+                float: left;
+                margin-top: 30px;
+                padding: 15px;
+            }
+
+            .email_100 {
+                width: 98%;
+                margin-left: 2%;
+                float: left;
+                border-bottom: none;
+            }
+
+            .contact_email,
+            .contact_phone {
+                width: 44%;
+                float: left;
+                color: rgba(0, 0, 0, 0.6);
+                font-family: "Helvetica Neue";
+                font-size: 9px;
+                letter-spacing: 0.4px;
+                line-height: 16px;
+                margin-top: 10px;
+                background-repeat: no-repeat;
+                overflow: hidden;
+                padding-left: 16px;
+                background-size: 13px;
+                background-position: 0 3px;
+            }
+
+            .contact_phone {
+    margin-left: 0% !important;
+    background-position: 10px;
+    padding-left: 30px;
+    font-size: 0.85em;
+    width: 30%;
+    float: right;
+    margin-right: 5%;
+}
+
+            .email_50 {
+                padding-bottom: 0px;
+                padding-top: 15px;
+                margin-bottom: 0px;
+                margin-top: 15px;
+            }
+
+            .email_1002 form textarea {
+                height: 133px;
+                width: 97.5%;
+                border: 1px solid rgba(0, 0, 0, 0.32);
+                border-radius: 4px;
+                padding-left: 2%;
+                font-size: 1em;
+                padding-top: 15px;
+                line-height: 25px;
+            }
+
+            .contact_title {
+                font-size: 67%;
+
+            }
+
+            .email_50:first-of-type {
+    border-right: none;
+}
+
+input[type=submit] {
+    width: 100% !important;
+    text-align:center;
+    background-position: 105px 13px;
+    background-size: 6%;
+}
+
+
+        }
